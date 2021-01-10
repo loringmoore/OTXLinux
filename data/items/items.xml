@@ -11140,7 +11140,7 @@
 		<attribute key="duration" value="900"/>
 		<attribute key="corpseType" value="venom"/>
 	</item>
-	<item id="5724" article="a" name="dead TEST jungle spider">
+	<item id="5724" article="a" name="dead jungle spider">
 		<attribute key="decayTo" value="0"/>
 		<attribute key="duration" value="900"/>
 		<attribute key="corpseType" value="venom"/>
