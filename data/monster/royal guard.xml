@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Royal Guard" nameDescription="a royal guard" race="blood" experience="1500" speed="350" manacost="0">
+	<health now="1700" max="1700"/>
+	<look type="196" head="75" body="75" legs="75" feet="114" corpse="3058"/>
+	<targetchange interval="5000" chance="3"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="98" attack="80"/>
+		<attack name="physical" interval="500" chance="12" range="7" min="-150" max="-225">
+			<attribute key="shootEffect" value="infernalbolt"/>
+		</attack>
+		<attack name="melee" interval="500" chance="7" range="7" radius="5" target="0" min="-127" max="-195">
+			<attribute key="areaEffect" value="groundshaker"/>
+		</attack>
+	</attacks>
+	<defenses armor="42" defense="60">
+		<defense name="healing" interval="500" chance="5" min="220" max="280">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity invisible="1"/>
+		<immunity fire="1"/>
+		<immunity poison="1"/>
+		<immunity energy="1"/>
+		<immunity paralyze="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="INTRUDER!" yell="1"/>
+		<voice sentence="I will end this now!" />
+		<voice sentence="GIVE UP!" yell="1"/>
+		<voice sentence="Stand and fight!"/>
+		<voice sentence="You think you can win?"/>
+		<voice sentence="You'll make a fine trophy!" />
+	</voices>
+	<loot>
+		<item id="2152" countmax="3" chance="16000"/><!-- platinum coin -->
+		<item id="2696" chance="40000"/><!-- cheese -->
+		<item id="2690" countmax="3" chance="40000"/><!-- roll -->
+		<item id="2148" countmax="60" chance="66600"/><!-- gold coin -->
+		<item id="2148" countmax="90" chance="44400"/><!-- gold coin -->
+		<item id="5422" countmax="13" chance="60000"/><!-- power bolt -->
+		<item name="health potion" countmax="4" chance="5000"/>
+		<item id="2430" chance="3000"/><!-- knight axe -->
+		<item id="2457" chance="20000"/><!-- steel helmet -->
+		<item id="2463" chance="20000"/><!-- plate armor -->
+		<item id="2377" chance="20000"/><!-- two handed sword -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<item id="2487" chance="310" />	<!-- Crown Armor -->
+			<item id="2392" chance="210" />	<!-- Fire Sword -->
+			<item id="2491" chance="310" />	<!-- Crown Helmet -->
+			<item id="2519" chance="210" />	<!-- Crown Shield -->
+			<item id="2488" chance="110" />	<!-- Crown Legs -->			
+			<item id="2171" chance="210" />	<!-- Platinum Amulet  -->
+			<item id="2498" chance="300"/><!-- royal helmet -->
+			<item id="2207" chance="600"/><!-- sword ring -->
+		</item>
+	</loot>
+</monster>

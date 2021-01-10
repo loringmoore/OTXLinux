@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Eternal Guardian" nameDescription="an eternal guardian" race="undead" experience="1800" speed="180">
+	<health now="2500" max="2500" />
+	<look type="179" corpse="5347" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-450" />
+		<attack name="guardian bleed" interval="750" chance="7" />
+	</attacks>
+	<defenses armor="40" defense="40" />
+	<elements>
+		<element lifedrainPercent="20" />
+		<element firePercent="70" />
+		<element energyPercent="10" />
+		<element drownPercent="10" />
+		<element physicalPercent="20" />
+	</elements>
+	<immunities>
+		<immunity earth="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Zzrkrrch!" />
+		<voice sentence="<crackle>" />
+	</voices>
+	<loot>
+		<item name="small stone" countmax="10" chance="30230" />
+		<item name="gold coin" countmax="100" chance="99930" />
+		<item name="platinum coin" countmax="4" chance="99540" />
+		<item name="iron ore" countmax="3" chance="1700" />
+		<item name="health potion" countmax="2"/>
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="guardian halberd" chance="560" />
+			<item name="tower shield" chance="820" />
+			<item name="samurai sword" chance="100" />
+			<item name="crystal mace" chance="860" />
+		</item>
+	</loot>
+</monster>

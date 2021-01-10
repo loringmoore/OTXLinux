@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elf Centurion" namedescription="an elf centurion" race="blood" experience="325" speed="280" manacost="250">
+	<health now="330" max="330"/>
+	<look type="144" head="3" body="86" legs="87" feet="76" corpse="5623"/>
+	<targetchange interval="2000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="3"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="56" attack="50"/>
+		<attack name="physical" interval="500" chance="10" range="7" min="-45" max="-93">
+			<attribute key="shootEffect" value="crystalarrow"/>
+			<attribute key="areaEffect" value="bluefirework"/>
+		</attack>
+		<attack name="physical" interval="500" chance="10" range="7" min="-40" max="-77">
+			<attribute key="shootEffect" value="throwingknife"/>
+			<attribute key="areaEffect" value="blackspark"/>
+		</attack>
+	</attacks>
+	<defenses armor="1" defense="6"/>
+	<voices interval="5000" chance="10">
+		<voice sentence="Your blood will quench the soil's thirst!"/>
+		<voice sentence="I will cut you down!"/>
+		<voice sentence="Tha'shi Cenath!"/>
+	</voices>
+	<loot>
+		<item name="gold coin" countmax="95" chance="97000" />
+		<item name="gold coin" countmax="75" chance="97000" />
+		<item id="2050" chance="5270" /><!-- torch -->
+		<item name="throwing knife" countmax="3" chance="10000" />
+		<item name="arrow" countmax="10" chance="10000" />
+		<item id="5287" chance="550" />
+		<item name="holy orchid" chance="550" />
+		<item name="health potion" countmax="2" chance="10120" />
+		<item name="mana potion" countmax="1" chance="10000" />
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="small sapphire" chance="1400" />
+			<item name="spike sword" chance="1000" />
+			<item name="elven mail" chance="450" />
+			<item name="elven legs" chance="400" />
+			<item name="guardian shield" chance="100" />
+		</item>
+	</loot>
+</monster>

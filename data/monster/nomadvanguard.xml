@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Nomad Vanguard" nameDescription="a nomad vanguard" race="blood" experience="490" speed="210" manacost="0">
+	<health now="700" max="700" />
+	<look type="238" head="114" body="106" legs="1" feet="86" corpse="3065" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="15" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-140" />
+		<attack name="poison" interval="500" chance="10" target="0" length="5" spread="3" min="-50" max="-100">
+			<attribute key="areaEffect" value="greenbubble" />
+		</attack>
+		<attack name="lifedrain" interval="500" chance="15" target="1" radius="4" min="-40" max="-70">
+			<attribute key="areaEffect" value="mortarea" />
+		</attack>
+	</attacks>
+	<defenses armor="20" defense="20">
+	</defenses>
+	<elements>
+		<element firePercent="20" />
+		<element holyPercent="20" />
+		<element physicalPercent="-10" />
+		<element drownPercent="-10" />
+		<element lifedrainPercent="-10" />
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="You will never make it out of here alive!" />
+		<voice sentence="The desert will consume your soul!" />
+		<voice sentence="Hexana exa mort!" />
+	</voices>
+	<loot>
+		<item name="gold coin" countmax="100" chance="56250" />
+		<item name="gold coin" countmax="100" chance="56250" />
+		<item name="battle axe" chance="9120" />
+		<item name="plate armor" chance="5350" />
+		<item name="dark shield" chance="2920" />
+		<item name="black pearl" chance="2500" />
+		<item name="blue piece of cloth" chance="270" />
+		<item name="health potion" countmax="1" chance="7100" />
+		<item name="mana potion"  countmax="3" chance="8180" />
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="diamond sceptre" chance="540" />
+			<item name="guardian shield" chance="340" />
+			<item name="grey tome" chance="300" />
+			<item name="venom boots" chance="900" />
+			<item name="crown helmet" chance="1650" />
+		</item>
+	</loot>
+</monster>

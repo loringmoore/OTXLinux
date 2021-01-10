@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Captain Seral" script="travel_gravenport.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="239" head="116" body="0" legs="87" feet="115" addons="0"/>
+    <parameters>
+		<parameter key="keywords" value="name" />
+		<parameter key="keyword_reply1" value="My name is Captain Seral." />
+    </parameters>
+</npc>

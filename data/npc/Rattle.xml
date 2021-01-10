@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Rattle" script="default.lua" walkinterval="2000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="33"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Hello, |PLAYERNAME|. What is it you need?" /> 
+		<parameter key="message_placedinqueue" value="|PLAYERNAME|, Patience!" />
+		<parameter key="message_farewell" value="Good bye, |PLAYERNAME|." /> 
+		<parameter key="message_walkaway" value="Good bye, |PLAYERNAME|." /> 
+		<parameter key="message_idletimeout" value="Good bye, |PLAYERNAME|." />		
+		
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="how are you;job;tomb;boat;vocation;madrissa;name;help;hint;people;nomads;mountain;scarab;shop;" />
+		
+        <parameter key="keyword_reply1" value="The existence of the living dead is unchanging." />
+        <parameter key="keyword_reply2" value="I am bound protect to this small temple." />
+        <parameter key="keyword_reply3" value="There is a massive tomb buried underneath the city. It is no place for the living!" />
+        <parameter key="keyword_reply4" value="The boat is at the docks, at the south end of the city." />
+        <parameter key="keyword_reply5" value="I was quite the warrior when I was alive! I'm afraid what's left of me isn't too great in battle." />
+        <parameter key="keyword_reply6" value="Madrissa is a metropolis in the middle of the desert! The legacy of the town is founded in the mystery that surrounds the labrynth of tombs beneath the sands." />
+		<parameter key="keyword_reply7" value="My name is Rattle." />
+		<parameter key="keyword_reply8" value="Below me is the citizenship portal, and the depot is to the east." />
+		<parameter key="keyword_reply9" value="Now what fun is that?" />
+		<parameter key="keyword_reply10" value="The living are always in such a hurry to accomplish their tasks. It's all too distract them from the fear of death." />
+		<parameter key="keyword_reply11" value="Nomads are the sons and daughters of the desert. The roam the sands, taking what they want. Rumor has it they have an underground fortress somewhere to the south." />
+		<parameter key="keyword_reply12" value="The mountains to the east aren't much safer than the desert floor. An impenetrable stronghold lies at the heart of the tallest peak." />
+		<parameter key="keyword_reply13" value="Scarabs have long smyolised the strength of the desert. They live deep underground, rarely venturing into the sunlight." />
+		<parameter key="keyword_reply14" value="This is a city of commerce; go out and explore, you'll find all that Madrissa has to offer." />
+    </parameters>
+</npc>

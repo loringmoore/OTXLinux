@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gorug" nameDescription="Gorug" race="blood" experience="320" speed="242" manacost="0">
+	<health now="1000" max="1000"/>
+	<look type="15" corpse="2806"/>
+	<targetchange interval="2000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="150"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="15 " attack="15"/>
+		<attack name="physical" interval="300" chance="40" range="7" min="-5" max="-16">
+			<attribute key="shootEffect" value="spear"/>
+		</attack>
+		<attack name="gvulnerable" interval="500" chance="10"/>
+		<attack name="poison" interval="500" chance="9" radius="3" target="0" min="-5" max="-30">
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+	</attacks>
+	<defenses armor="16" defense="18"/>
+	<voices interval="5000" chance="10">
+		<voice sentence="Grrrr"/>
+		<voice sentence="Groar"/>
+		<voice sentence="Gruntz!"/>
+		<voice sentence="Hmmm, bugs."/>
+		<voice sentence="Hmmm, dogs."/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="100" chance="60000"/><!-- gold coin -->
+		<item id="2647" chance="9000"/><!-- plate legs -->
+		<item id="2643" chance="20000"/><!-- leather boots -->
+		<item id="2463" chance="3000"/><!-- plate armor -->
+		<item id="2457" chance="9500"/><!-- steel helmet -->
+		<item id="2666" countmax="6" chance="30000"/><!-- meat -->
+		<item id="2120" chance="16000"/><!-- rope -->
+		<item id="2389" countmax="10" chance="40000"/><!-- spear -->
+		<item id="2509" chance="30000"/><!-- steel shield -->
+		<item name="mana potion" countmax="2" chance="3000"/><!-- manafluid -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<item id="2170" chance="100"/><!-- silver amulet -->
+			<item id="2417" chance="10000"/><!-- battle hammer -->
+		</item>
+	</loot>
+</monster>

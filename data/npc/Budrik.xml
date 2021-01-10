@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Budrik" script="default.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+   <look type="160" head="94" body="95" legs="58" feet="114"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="What do you need, |PLAYERNAME|?"/>
+ 		<parameter key="message_farewell" value="Hmph!"/>
+
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;madrissa;" />
+        <parameter key="keyword_reply1" value="Name's Budrik." />
+        <parameter key="keyword_reply2" value="Can't you tell? I'm a baker." />
+        <parameter key="keyword_reply3" value="It's way too hot here, but the money is just so good." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="bread,2689,3;cookie,2687,2;soft cheese,5661,3;hard cheese,5662,3;" />
+    </parameters>
+</npc>

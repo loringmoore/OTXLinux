@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Purifier" nameDescription="a purifier" race="energy" experience="2100000" speed="270" manacost="0">
+	<health now="19000" max="19000"/>
+	<look type="72" corpse="5721"/>
+	<targetchange interval="5000" chance="5"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="300"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="125" attack="105"/>
+		<attack name="energy" interval="500" chance="10" range="7" radius="4" target="1" min="-60" max="-180">
+			<attribute key="shootEffect" value="energyball"/>
+			<attribute key="areaEffect" value="yellowenergy"/>
+		</attack>
+		<attack name="firecondition" interval="500" chance="10" radius="8" target="1" min="-600" max="-800">
+			<attribute key="areaEffect" value="poff"/>
+		</attack>
+		<attack name="energyfield" interval="500" chance="9" range="7" radius="3" target="1">
+			<attribute key="shootEffect" value="energy"/>
+		</attack>
+		<attack name="energy" interval="500" chance="9" length="8" spread="3" min="-170" max="-250">
+			<attribute key="areaEffect" value="teleport"/>
+		</attack>
+	</attacks>
+	<defenses armor="32" defense="48">
+		<defense name="healing" interval="500" chance="11" min="135" max="293">
+			<attribute key="areaEffect" value="yellowspark"/>
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity invisible="1"/>
+		<immunity fire="1"/>
+		<immunity poison="1"/>
+		<immunity energy="1"/>
+		<immunity paralyze="1"/>
+		<immunity lifedrain="1"/>
+	</immunities>
+	<elements>
+		<element physicalPercent="15" />
+		<element drownPercent="-5" />
+		<element holyPercent="5" />
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="Purification commencing!"/>
+		<voice sentence="<clonk clonk>"/>
+		<voice sentence="TARGET...ENGAGED"/>
+	</voices>
+	<loot>
+		<item name="plate armor" chance="11000" />
+		<item name="plate legs" chance="11000" />
+		<item name="crown legs" chance="2000" />
+		<item name="crown armor" chance="1000" />
+		<item id="2152" countmax="70" chance="80000"/><!-- gold coin -->
+		<item id="2148" countmax="100" chance="60000"/><!-- gold coin -->
+		<item id="2148" countmax="50" chance="80000"/><!-- gold coin -->
+		<item name="health potion" countmax="2" chance="950"/><!-- lifefluid -->
+		<item name="mana potion" countmax="2" chance="950"/>
+		<item name="iron ore" countmax="25" chance="2000" />
+		<item name="battle axe" chance="7000" />
+		<item name="club ring" chance="4500" />
+		<item name="dark shield" chance="9000" />
+		<item name="strange helmet" chance="8500" />
+		<item id="1987" chance="100000"><!-- bag -->
+			<item id="5205" chance="1040" /><!-- the ravenwing-->
+			<item name="blue tome" chance="180"/><!-- gemmed book -->
+			<item name="magic plate armor" chance="100"/><!-- mpa -->
+			<item id="2452" chance="600"/><!-- heavy mace -->
+			<item name="tempest rod" chance="600"/><!-- tempest rod -->
+			<item name="wand of cosmic energy" chance="800"/>
+			<item id="5427" chance="200"/><!-- energy wave -->
+			<item id="5230" chance="1200"/><!-- shiny blade -->
+			<item name="infernal bolt" countmax="7" chance="12000"/><!-- infernal bolt -->
+			<item name="winged helmet" chance="100"/><!-- winged helmet -->
+			<item name="blue gem" chance="900"/>
+			<item name="violet gem" chance="900"/>
+			<item name="tempest shield" chance="100"/><!-- tower shield -->
+		</item>
+	</loot>
+</monster>

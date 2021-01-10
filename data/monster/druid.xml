@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Druid" nameDescription="a druid" race="blood" experience="4000" speed="210" manacost="0">
+	<health now="3250" max="3250"/>
+	<look type="241" head ="116" body="118" legs="120" feet="115" corpse="3058"/>
+	<targetchange interval="5000" chance="50"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="4"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="100"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="20" attack="10"/>
+		<attack name="poison" interval="750" chance="12" range="7" min="-93" max="-163">
+			<attribute key="shootEffect" value="poison"/>
+		</attack>
+		<attack name="poison" interval="750" chance="11" range="9" radius="4" target="1" min="-150" max="-220">
+			<attribute key="shootEffect" value="poisonarrow"/>
+			<attribute key="areaEffect" value="greenbubble"/>
+		</attack>
+		<attack name="manadrain" interval="750" chance="8" range="8" target="1" min="-75" max="-131">
+			<attribute key="shootEffect" value="energy"/>
+			<attribute key="areaEffect" value="bluebubble"/>
+		</attack>
+		<attack name="poison" interval="750" chance="9" length="8" spread="0" min="-155" max="-280">
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+	</attacks>
+	<defenses armor="12" defense="15">
+		<defense name="healing" interval="500" chance="10" min="60" max="100">
+			<attribute key="areaEffect" value="greenshimmer"/>
+		</defense>
+	</defenses>
+	<summons maxSummons="2">
+		<summon name="carniphila" interval="2000" chance="10" max="2"/>
+	</summons>
+	<immunities>
+		<immunity invisible="1"/>
+		<immunity fire="1"/>
+		<immunity poison="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="The wrath of nature descends upon you!"/>
+		<voice sentence="Stay away from our secrets!"/>
+		<voice sentence="We are one with the Earth!"/>
+	</voices>
+	<loot>
+		<item id="2796" chance="3000"/><!-- green mushroom -->
+		<item id="2801" chance="4000"/><!-- fern -->
+		<item id="2799" chance="4000"/><!-- stone herb -->
+		<item id="2803" chance="4000"/><!-- powder herb -->
+		<item id="2685" countmax="5" chance="20000"/><!-- tomato -->
+		<item id="2148" countmax="90" chance="60000"/><!-- gold coin -->
+		<item id="2148" countmax="100" chance="60000"/><!-- gold coin -->
+		<item name="mana potion" countmax="4" chance="3000"/><!-- manafluid -->
+		<item id="1954" chance="6000"/><!-- inkwell -->
+		<item id="2285" chance="2000"/><!-- poison field rune -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<item id="5180" chance="600"/><!-- venom mantle -->
+			<item id="5183" chance="800"/><!-- venom mantle -->
+			<item id="2070" chance="1000"/><!-- wooden flute -->
+			<item id="2791" chance="5500"/><!-- wood mushroom -->
+			<item id="2205" chance="800"/><!-- life ring -->
+			<item id="5231" chance="1000"/><!-- mycelium rod -->
+			<item id="1986" chance="800"/><!-- red tome -->
+			<item id="2501" chance="600"/><!-- ceremonial mask -->
+		</item>
+	</loot>
+</monster>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Titan" nameDescription="a titan" race="blood" experience="7500" speed="210">
+	<health now="9000" max="9000"/>
+	<look type="246" corpse="5714"/>
+	<targetchange interval="4000" chance="10"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-600"/>
+		<attack name="poison" interval="500" chance="8" radius="2" min="-371" max="-500">
+			<attribute key="areaEffect" value="groundshaker"/>
+		</attack>
+		<attack name="fire" interval="500" chance="8" radius="3" min="-280" max="-377">
+			<attribute key="areaEffect" value="fireattack"/>
+		</attack>
+		<attack name="lifedrain" interval="500" chance="5" radius="7" min="-106" max="-220">
+			<attribute key="areaEffect" value="redfirework"/>
+		</attack>
+		<attack name="drown" interval="500" chance="7" length="4" spread="3" min="-200" max="-300">
+			<attribute key="areaEffect" value="teleport"/>
+		</attack>
+		<attack name="holy" interval="500" chance="7" length="5" spread="0" min="-290" max="-360">
+			<attribute key="areaEffect" value="holyarea"/>
+		</attack>
+		<attack name="energy" interval="500" chance="10" range="7" min="-193" max="-370">
+			<attribute key="shootEffect" value="energy" />
+		</attack>
+	</attacks>
+	<defenses armor="112" defense="112">
+		<defense name="healing" interval="500" chance="15" min="150" max="350">
+			<attribute key="areaEffect" value="greenshimmer" />
+		</defense>
+		<defense name="speed" interval="500" chance="15" speedchange="260" duration="5000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="30"/>
+		<element holyPercent="-5"/>
+		<element lifedrainPercent="55"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="You are insignificant!"/>
+		<voice sentence="I am the great equalizer!"/>
+	</voices>
+	<loot>
+		<item id="2671" countmax="8" chance="70080"/>
+		<item name="Soul orb" chance="35000"/>
+		<item name="Mana Potion" countmax="9" chance="33000"/>
+		<item name="Health Potion" countmax="9" chance="33000"/>
+		<item name="Small Amethyst" countmax="3" chance="24950"/>
+		<item name="Assassin Star" countmax="10" chance="24670"/>
+		<item name="Small Diamond" countmax="3" chance="15700"/>
+		<item name="Small Ruby" countmax="3" chance="15333"/>
+		<item name="Small Emerald" countmax="3" chance="15110"/>
+		<item name="infernal bolt" countmax="15" chance="14480"/>
+		<item name="Small Topaz" countmax="3" chance="4580"/>
+		<item name="crystalline Axe" chance="3000"/>
+		<item name="sapphire hammer" chance="2200"/>
+		<item name="Knight Armor" chance="1980"/>
+		<item name="demon helmet" chance="250"/>
+		<item name="pair of iron fists" chance="130"/>
+		<item name="Violet Gem" chance="1060"/>
+		<item name="magic plate armor" chance="190"/>
+		<item name="Green Gem" chance="880"/>
+		<item name="Golden legs" chance="840"/>
+		<item name="Mastermind Shield" chance="620"/>
+		<item name="Heavy Mace" chance="460"/>
+		<item id="2578" chance="370"/>
+		<item id="2136" chance="100"/><!-- demonbone amulet -->
+	</loot>
+</monster>

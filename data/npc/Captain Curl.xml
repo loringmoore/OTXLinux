@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Captain Curl" script="travel_crescent.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="132" head="38" body="113" legs="95" feet="115" addons="0"/>
+    <parameters>
+		<parameter key="keywords" value="name;city;cities;town;towns;madrissa;territh;rhymveil;gravenport;thunder cove;hammarstrom" />
+		<parameter key="keyword_reply1" value="My name is Captain Curl." />
+		<parameter key="keyword_reply2" value="There are six cities you can choose from to settle in; Madrissa, Territh, Rhymveil, Gravenport, Thunder Cove, and Hammarstrom. I can sail you anywhere except the latter." />
+		<parameter key="keyword_reply3" value="There are six cities you can choose from to settle in; Madrissa, Territh, Rhymveil, Gravenport, Thunder Cove, and Hammarstrom. I can sail you anywhere except the latter." />
+		<parameter key="keyword_reply4" value="There are six cities you can choose from to settle in; Madrissa, Territh, Rhymveil, Gravenport, Thunder Cove, and Hammarstrom. I can sail you anywhere except the latter." />
+		<parameter key="keyword_reply5" value="There are six cities you can choose from to settle in; Madrissa, Territh, Rhymveil, Gravenport, Thunder Cove, and Hammarstrom. I can sail you anywhere except the latter." />
+		<parameter key="keyword_reply6" value="Madrissa is a desert city built above the tarpits. It is a thriving center of commerce. The itself holds many secrets below its surface, as do the mountains to the east of the town." />
+		<parameter key="keyword_reply7" value="Territh is a quaint, peaceful city on the north-east shore of the main continent. It is a bit out of the way, but like all cities, is worth visiting if you want to truly discover all of the mysteries this land has to offer." />
+		<parameter key="keyword_reply8" value="Rhymveil is far to the north. The snow never melts there and it is winter all year long. The people who live there are understandably tough, as are the creatures who inhabit the harsh, frigid climate." />
+		<parameter key="keyword_reply9" value="Gravenport is just across the strait, you can almost see it from here. Due to its central location relative to other cities, it sees a lot of traffic. The city is quite wealthy overall, and is heavily fortified due to the monsters that roam the plains and swamps to the east." />
+		<parameter key="keyword_reply10" value="Thunder Cove has only been recently established on a tropical island far to the south. Its residents are a bit rough around the edges, but mean well. While the town itself is safe enough, the jungles on the island are extremely dangerous." />
+		<parameter key="keyword_reply11" value="Hammarstrom is a city built by dwarves, under the mountains. I've never been there myself, but I know it isn't very big. There is a labrynth of mines that can be accessed from the city." />
+    </parameters>
+</npc>

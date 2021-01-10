@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Jungle Spider" nameDescription="a jungle spider" race="venom" experience="1900" speed="380" manacost="0">
+	<health now="2300" max="2300"/>
+	<look type="77" corpse="5722"/>
+	<targetchange interval="5000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="100" attack="95"/>
+		<attack name="poisonfield" interval="500" chance="10" range="7" radius="4" target="1">
+			<attribute key="shootEffect" value="poison"/>
+		</attack>
+		<attack name="poison" interval="500" chance="9" range="7" radius="4" target="1" min="-145" max="-265">
+			<attribute key="shootEffect" value="poison"/>
+			<attribute key="areaEffect" value="yellowbubble"/>
+		</attack>
+		<attack name="poison" interval="500" chance="8" length="5" spread="0" min="-105" max="-195">
+			<attribute key="areaEffect" value="greennote"/>
+		</attack>
+	</attacks>
+	<defenses armor="30" defense="40">
+		<defense name="speed" interval="500" chance="6" speedchange="340" duration="20000">
+			<attribute key="areaEffect" value="greenshimmer"/>
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity invisible="1"/>
+		<immunity poison="1"/>
+		<immunity lifedrain="1"/>
+	</immunities>
+	<elements>
+		<element physicalPercent="5" />
+		<element drownPercent="5" />
+		<element firePercent="-15" />
+	</elements>
+	<loot>
+		<item name="plate legs" chance="16000"/>
+		<item name="poison arrow" countmax="22" chance="6000"/>
+		<item id="2148" countmax="100" chance="66600"/><!-- gold coin -->
+		<item id="2148" countmax="75" chance="66600"/><!-- gold coin -->
+		<item id="2148" countmax="50" chance="99900"/><!-- gold coin -->
+		<item id="2463" chance="20000"/><!-- plate armor -->
+		<item name="health potion" countmax="4" chance="3500"/><!-- lifefluid -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<item id="2476" chance="1000"/><!-- knight armor -->
+			<item id="2477" chance="1000"/><!-- knight legs -->
+			<item name="venom amulet" chance="150"/><!-- platinum amulet -->
+			<item id="5161" chance="250"/><!-- poison strike -->
+			<item id="5449" chance="50"/><!-- strong haste -->
+			<item name="warrior helmet" chance="2000"/><!-- steel helmet -->
+			<item name="boots of haste" chance="400"/><!-- boh -->
+			<item name="giant spider silk" countmax="3" chance="3500" />
+			<item name="venom hood" chance="720" />
+		</item>
+	</loot>
+</monster>

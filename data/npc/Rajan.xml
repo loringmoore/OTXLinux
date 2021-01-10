@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Captain Rajan" script="travel_madrissa.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="197" head="57" body="65" legs="122" feet="116" addons="0"/>
+    <parameters>
+		<parameter key="keywords" value="name" />
+		<parameter key="keyword_reply1" value="My name is Captain Rajan." />
+    </parameters>
+</npc>

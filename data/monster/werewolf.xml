@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Werewolf" nameDescription="a werewolf" experience="1900" speed="200" race="blood">
+	<health now="1955" max="1955" />
+	<targetchange interval="4000" chance="10" />
+	<look type="197" head="38" body="19" legs="30" feet="75" corpse="3058"/>
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="80" />
+		<flag runonhealth="300" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-350" />
+		<attack name="outfit" interval="500" chance="4" target="1" radius="1" monster="war wolf" duration="6000">
+			<attribute key="areaEffect" value="bluenote" />
+		</attack>
+		<attack name="lifedrain" interval="500" chance="7" length="1" spread="0" min="-128" max="-225">
+			<attribute key="areaEffect" value="yellownote" />
+		</attack>
+		<attack name="werewolf skill reducer" interval="500" range="1" chance="6" />
+	</attacks>
+	<defenses armor="40" defense="40">
+		<defense name="healing" interval="500" chance="9" min="120" max="225">
+			<attribute key="areaEffect" value="greenshimmer" />
+		</defense>
+		<defense name="werewolf summon" interval="500" chance="11"/>
+		<defense name="speed" interval="500" chance="15" range="7" speedchange="400" duration="5000">
+			<attribute key="areaEffect" value="purplenote" />
+		</defense>
+		<defense name="outfit" interval="500" chance="4" monster="war wolf" duration="6000">
+			<attribute key="areaEffect" value="greennote"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="10" />
+		<element energyPercent="5" />
+		<element earthPercent="65" />
+		<element firePercent="-5" />
+	</elements>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="GRRR"/>
+		<voice sentence="GRROARR"/>
+	</voices>
+	<loot>
+		<item name="gold coin" countmax="90" chance="35000" />
+		<item name="gold coin" countmax="90" chance="35000" />
+		<item name="gold coin" countmax="45" chance="35000" />
+		<item id="2169" chance="800" /><!-- time ring -->
+		<item name="health potion" countmax="2" chance="9500"/><!-- lifefluid -->
+		<item name="mana potion" countmax="2" chance="9500"/><!-- manafluid -->
+		<item name="stone skin amulet" chance="100" />
+		<item name="halberd" chance="3000" />
+		<item name="plate shield" chance="10340" />
+		<item name="plate legs" chance="6500" />
+		<item name="brown mushroom" chance="6940" />
+		<item name="wolf paw" countmax="3" chance="5200" />
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="relic sword" chance="480" />
+			<item name="dreaded cleaver" chance="160" />
+			<item name="jade hammer" chance="400" />
+			<item name="epee" chance="560" />
+			<item name="platinum amulet" chance="870" />
+			<item name="warrior helmet" chance="1470" />
+			<item name="rose shield" chance="680" />
+		</item>
+	</loot>
+</monster>

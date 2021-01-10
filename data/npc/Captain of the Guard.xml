@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Captain of the Guard" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="196" head="0" body="19" legs="19" feet="19"/>
+	<parameters>
+        
+        <parameter key="message_greet" value="Be greeted, |PLAYERNAME|. I'm a busy man, make it quick."/>
+ 		<parameter key="message_farewell" value="Yeah, bye |PLAYERNAME|."/>
+
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;help;citizens;" />
+        <parameter key="keyword_reply1" value="I serve the city as the captain of the guard." />
+        <parameter key="keyword_reply2" value="Hmm, you don't seem like a warrior, but looks can be deceiving. If you're really up to it, I suppose there is something you could do for me, a mission of sorts. If you succeed, I promise to reward you handsomly!" />
+        <parameter key="keyword_reply3" value="It is my duty to ensure the safety of the townsfolk." />
+    </parameters>	
+</npc>

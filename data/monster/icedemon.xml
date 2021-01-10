@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ice Demon" nameDescription="an ice demon" race="undead" experience="6700" speed="280" manacost="0">
+	<health now="9000" max="9000"/>
+	<look type="191" corpse="5373"/>
+	<targetchange interval="5000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="40"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="125" attack="85"/>
+		<attack name="manadrain" interval="750" chance="10" range="7" min="-97" max="-306">
+			<attribute key="shootEffect" value="energy"/>
+		</attack>
+		<attack name="drown" interval="750" chance="10" range="7" radius="7" target="1" min="-185" max="-404">
+			<attribute key="shootEffect" value="energyball"/>
+			<attribute key="areaEffect" value="iceattack"/>
+		</attack>
+		<attack name="drown" interval="750" chance="13" length="8" spread="0" min="-241" max="-499">
+			<attribute key="areaEffect" value="icearea"/>
+		</attack>
+	</attacks>
+	<defenses armor="40" defense="65">
+		<defense name="healing" interval="500" chance="15" min="90" max="200">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="speed" interval="500" chance="15" speedchange="200" duration="20000">
+			<attribute key="areaEffect" value="greenshimmer"/>
+		</defense>
+	</defenses>
+	<summons maxSummons="2">
+		<summon name="water elemental" interval="1000" chance="10" max="2"/>
+	</summons>
+	<immunities>
+		<immunity invisible="1"/>
+		<immunity fire="1"/>
+		<immunity poison="1"/>
+		<immunity drown="1"/>
+		<immunity paralyze="1"/>
+		<immunity lifedrain="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="MUHAHAHAHA!" yell="1"/>
+		<voice sentence="I SMELL FEEEEEAAAR!" yell="1"/>
+		<voice sentence="CHAMEK ATH UTHUL ARAK!" yell="1"/>
+		<voice sentence="Your resistance is futile!"/>
+		<voice sentence="Your soul will be mine!" yell="1"/>
+	</voices>
+	<loot>
+		<item id="2387" chance="40000"/><!-- double axe -->
+		<item name="fish" countmax="6" chance="40000"/>
+		<item id="2148" countmax="100" chance="70000"/><!-- gold coin -->
+		<item id="2148" countmax="100" chance="60000"/><!-- gold coin -->
+		<item id="2148" countmax="100" chance="50000"/><!-- gold coin -->
+		<item id="2148" countmax="100" chance="80000"/><!-- gold coin -->
+		<item id="2149" chance="22000"/><!-- small emerald -->
+		<item id="5425" chance="20000"/><!-- manafluid -->
+		<item id="5424" chance="20000"/><!-- lifefluid -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<item id="2520" chance="1400"/><!-- demon shield -->
+			<item name="glacier mask" chance="2400"/>
+			<item name="twin axe" chance="1000"/>
+			<item id="2393" chance="4000"/><!-- giant sword -->
+			<item id="2179" chance="2200"/><!-- gold ring -->
+			<item name="demon legs" chance="800"/>
+			<item id="2418" chance="3000"/><!-- golden sickle -->
+			<item id="2396" chance="1200"/><!-- ice rapier -->
+			<item name="the robe of the ice queen" chance="100"/>
+			<item id="2514" chance="1000"/><!-- mastermind shield -->
+			<item id="2164" chance="200"/><!-- might ring -->
+			<item id="2176" chance="6000"/><!-- orb -->
+			<item name="glacier amulet" chance="1400"/>
+			<item id="1982" chance="2600"/><!-- purple tome -->
+			<item id="2214" chance="1000"/><!-- ring of healing -->
+			<item id="2165" chance="2800"/><!-- stealth ring -->
+			<item id="2151" chance="7000"/><!-- talon -->
+		</item>
+	</loot>
+</monster>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Leviathan" nameDescription="Leviathan" race="blood" experience="50000" speed="500" manacost="0">
+	<health now="6000" max="6000" />
+	<look type="187" corpse="5362" />
+	<targetchange interval="2000" chance="50" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="0" />
+		<flag runonhealth="600" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-500" />
+		<attack name="drown" interval="500" chance="7" length="8" spread="3" min="-130" max="-460">
+			<attribute key="areaEffect" value="bubbles" />
+		</attack>
+		<attack name="drown" interval="500" chance="8" length="8" spread="3" min="-365" max="-491">
+			<attribute key="areaEffect" value="icearea" />
+		</attack>
+		<attack name="drown" interval="500" chance="8" radius="4" target="1" min ="-150" max="-320">
+			<attribute key="areaEffect" value="bluebubble" />
+		</attack>
+		<attack name="drown" interval="500" chance="8" radius="8" target="1" min ="-122" max="-266">
+			<attribute key="areaEffect" value="iceattack" />
+		</attack>
+	</attacks>
+	<defenses armor="20" defense="30">
+		<defense name="healing" interval="2000" chance="25" min="50" max="350">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity drown="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+		<immunity drown="1" />
+	</immunities>
+	<voices interval="3000" chance="200">
+		<voice sentence="CHHHRRRR" />
+		<voice sentence="HISSSS" />
+	</voices>
+	<elements>
+		<element firePercent="30" />
+		<element energyPercent="-10" />
+		<element physicalPercent="-15" />
+		<element lifedrainPercent="-10" />
+	</elements>
+	<loot>
+		<item name="gold coin" countmax="100" chance="87500" />
+		<item name="gold coin" countmax="100" chance="87500" />
+		<item name="platinum coin" countmax="10" chance="87500" />
+		<item name="small diamond" countmax="18" chance="7500" />
+		<item name="small sapphire" countmax="27" chance="7500" />
+		<item name="small amethyst" countmax="30" chance="7500" />
+		<item name="blue gem" chance="860" />
+		<item name="dragon shield" chance="1460" />
+		<item name="dragon lance" chance="3400" />
+		<item name="dragon ham" countmax="5" chance="5000" />
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="glacier amulet" chance="2000" />
+			<!-- <item name="glacier rod" chance="2000" /> -->
+			<item name="glacier kilt" chance="2300" />
+			<item name="dragon scale mail" chance="1400" />
+			<item name="nautilus shield" chance="400" />
+			<item name="obsidian truncheon" chance="1200" />
+			<item name="stonecutter axe" chance="850" />
+		</item>
+	</loot>
+</monster>

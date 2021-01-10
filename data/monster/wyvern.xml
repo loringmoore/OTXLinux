@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Wyvern" nameDescription="a wyvern" race="blood" experience="515" speed="200" manacost="0">
+	<health now="795" max="795"/>
+	<look type="156" corpse="5094"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="300"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="50" attack="40" poison="480"/>
+		<attack name="poisoncondition" interval="500" chance="12" length="8" spread="3" min="-260" max="-260">
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+		<attack name="wyvern drunk" interval="500" chance="10"/>
+	</attacks>
+	<defenses armor="25" defense="18">
+		<defense name="healing" interval="500" chance="9" min="45" max="65">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="speed" interval="500" chance="5" speedchange="120" duration="6000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element energyPercent="20"/>
+		<element drownPercent="10"/>
+	</elements>
+	<immunities>
+		<immunity poison="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Shriiiek" yell="1"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="75" chance="21500"/><!-- gold coin -->
+		<item id="2672" countmax="3" chance="22500"/><!-- dragon ham -->
+		<item id="2547" countmax="2" chance="3000"/><!-- power bolt -->
+		<item name="health potion" countmax="2" chance="3000"/><!-- lifefluid -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<item id="2146" chance="1000" /><!-- small sapphire -->
+			<item id="2187" chance="1000"/><!-- wand of inferno -->
+			<item id="1976" chance="5000"/><!-- gemmed book -->
+			<item id="2127" chance="300"/><!-- emerald bangle -->
+			<item name="wyvern fang" chance="410" />
+		</item>
+	</loot>
+</monster>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Frost Giant" nameDescription="a frost giant" race="blood" experience="900" speed="220">
+	<health now="1250" max="1250" />
+	<look type="178" corpse="5344" />
+	<targetchange interval="4000" chance="15" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag staticattack="80" />
+		<flag lightlevel="0" />
+		<flag lightcolor="0" />
+		<flag targetdistance="1" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-250"/>
+		<attack name="speed" interval="500" chance="6" range="7" radius="6" target="0" speedchange="-800" duration="15000">
+			<attribute key="areaEffect" value="iceattack" />
+		</attack>
+		<attack name="drowncondition" interval="500" chance="7" length="4" spread="0" min="-160" max="-230">
+			<attribute key="areaEffect" value="bluebubble" />
+		</attack>
+		<attack name="drown" interval="500" chance="7" range="7" target="1" min="-51" max="-121">
+			<attribute key="shootEffect" value="snowball" />
+			<attribute key="areaEffect" value="icearea" />
+		</attack>
+		<attack name="physical" interval="500" chance="7" range="7" target="1" min="-38" max="-99">
+			<attribute key="shootEffect" value="largerock" />
+		</attack>
+	</attacks>
+	<defenses armor="40" defense="40">
+		<defense name="speed" interval="500" chance="5" speedchange="250" duration="5000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element earthPercent="20" />
+		<element energyPercent="-20" />
+	</elements>
+	<immunities>
+		<immunity fire="1" />
+		<immunity drown="1" />
+		<immunity paralyze="1" />
+		<immunity outfit="1" />
+		<immunity drunk="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="I'll extinguish you warmbloods." />
+		<voice sentence="Brore Smode!" />
+		<voice sentence="Horre Sjan Flan!" />
+		<voice sentence="Forle Bramma!" />
+		<voice sentence="DISGUSTING WARMBLOODS!" />
+		<voice sentence="Revenge is sweetest when served cold." />
+	</voices>
+	<loot>
+		<item id="2124" chance="1560" /><!-- crystal ring -->
+		<item name="gold coin" countmax="100" chance="50000" />
+		<item name="gold coin" countmax="92" chance="50000" />
+		<item name="steel helmet" chance="4545" />
+		<item name="plate armor" chance="10000" />
+		<item name="plate armor" chance="5263" />
+		<item name="power bolt" countmax="6" chance="6250" />
+		<item name="health potion" countmax="2" chance="14810" />
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="glacier mask" chance="650" />
+			<item name="sapphire hammer" chance="130" />
+			<item name="crystal sword" chance="2564" />
+			<item name="glacier robe" chance="540" />
+			<item name="glacier kilt" chance="690" />
+			<item name="platinum amulet" chance="120" />
+			<item name="crystal necklace" chance="1730" />
+		</item>
+	</loot>
+</monster>

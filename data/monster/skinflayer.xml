@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Skinflayer" nameDescription="a skinflayer" race="blood" experience="800" speed="360" manacost="0">
+	<health now="800" max="800"/>
+	<look type="232" head="0" body="59" legs="94" feet="59" corpse="3058"/>
+	<targetchange interval="5000" chance="3"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="60" attack="60"/>
+		<attack name="physical" interval="500" chance="12" range="7" target="1" radius="1" min="0" max="-250">
+			<attribute key="shootEffect" value="throwingknife" />
+			<attribute key="areaEffect" value="redspark" />
+		</attack>
+		<attack name="drown" interval="500" chance="10" range="7" target="1" min="-55" max="-275">
+			<attribute key="shootEffect" value="spear" />
+			<attribute key="areaEffect" value="icearea" />
+		</attack>
+	</attacks>
+	<defenses armor="50" defense="60">
+		<defense name="healing" interval="500" chance="17" min="50" max="150">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+		<defense name="invisible" interval="500" chance="7" duration="5000">
+			<attribute key="areaEffect" value="bluebubble" />
+		</defense>
+	</defenses>
+	<elements>
+		<element earthPercent="-10" />
+		<element holyPercent="80" />
+		<element energyPercent="80" />
+		<element lifedrainPercent="-10" />
+		<element drownPercent="50" />
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+		<immunity paralyze="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="I'll skin you alive!'" />
+		<voice sentence="Let the bloodbath begin!" />
+		<voice sentence="Taste my blades!" />
+	</voices>
+	<loot>
+		<item id="2148" countmax="100" chance="60000"/><!-- gold coin -->
+		<item id="2148" countmax="90" chance="80000"/><!-- gold coin -->
+		<item name="platinum coin" chance="23500" />
+		<item name="small ruby" countmax="3" chance="2230" />
+		<item name="throwing knife" countmax="33" chance="25000" />
+		<item name="bone club" chance="60000"/><!-- bone club -->
+		<item name="health potion" countmax="3" chance="4600"/>
+		<item name="spear" countmax="9" chance="9000"/>
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="crown helmet" chance="200"/><!-- castle shield -->
+			<item id="2171" chance="100"/><!-- platinum amulet -->
+			<item name="glacier amulet" chance="350" />
+			<item name="crown legs" chance="490" />
+			<item name="infernal bolt" countmax="5" chance="1550" />
+			<item name="red piece of cloth" chance="350" />
+			<item name="boots of haste" chance="100" />
+		</item>
+	</loot>
+</monster>

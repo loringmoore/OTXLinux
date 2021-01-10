@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Minishabaal" nameDescription="Minishabaal" race="blood" experience="4000" speed="700">
+	<health now="3500" max="3500" />
+	<look type="154" corpse="5132" />
+	<targetchange interval="5000" chance="8" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="4" />
+		<flag staticattack="90" />
+		<flag runonhealth="350" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-380" />
+		<attack name="fire" interval="500" chance="10" range="7" radius="4" target="1" min="-80" max="-350">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="redfirework" />
+		</attack>
+		<attack name="fire" interval="500" chance="12" range="7" radius="2" target="1" min="-120" max="-500">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="bluefirework" />
+		</attack>
+		<attack name="outfit" interval="500" chance="4" range="7" target="1" radius="1" monster="chicken" duration="6000">
+			<attribute key="areaEffect" value="teleport" />
+			<attribute key="shootEffect" value="energy" />
+		</attack>
+	</attacks>
+	<defenses armor="25" defense="25">
+		<defense name="healing" interval="1000" chance="50" min="155" max="255">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+		<defense name="imperor summon" interval="500" chance="11"/>
+		<defense name="speed" interval="1000" chance="12" speedchange="320" duration="4000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+		<defense name="invisible" interval="1000" chance="50" duration="4000">
+			<attribute key="areaEffect" value="teleport" />
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity invisible="1" />
+		<immunity fire="1" />
+		<immunity lifedrain="1" />
+		<immunity poison="1" />
+		<immunity paralyze="1" />
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="I had Princess Lumelia as breakfast!" />
+		<voice sentence="Naaa-Nana-Naaa-Naaa!" />
+		<voice sentence="My brother will come and get you for this!" />
+		<!-- <voice sentence="Get them Fluffy!" /> -->
+		<voice sentence="He He He!" />
+		<!-- <voice sentence="Pftt, Ferumbras such an upstart!" /> -->
+		<!-- <voice sentence="My dragon is not that old, it's just second hand!" /> -->
+		<!-- <voice sentence="My other dragon is a red one!" /> -->
+		<voice sentence="When I am big I want to become the ruthless eighth!" />
+		<!-- <voice sentence="WHERE'S FLUFFY?" /> -->
+		<voice sentence="Muahaha!" />
+	</voices>
+	<loot>
+		<item name="gold coin" countmax="20" chance="100000" />
+		<item name="gold coin" countmax="20" chance="100000" />
+		<item name="small amethyst" countmax="2" chance="1428" />
+		<item name="demonic essence" countmax="2" chance="1000" />
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="fire axe" chance="666" />
+			<item name="golden legs" chance="180" />
+			<item name="crown legs" chance="800" />
+			<item name="guardian shield" chance="1333" />
+			<item name="demon shield" chance="200" />
+			<item name="tempest shield" chance="500" />
+			<item name="demon helmet" chance="700" />
+			<item name="soul orb" chance="909" />
+			<item id="2136" chance="909" /><!-- demonbone amulet -->
+			<item id="5312" chance="909" /><!-- death ring -->
+		</item>
+	</loot>
+</monster>

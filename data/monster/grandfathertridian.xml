@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Grandfather Tridian" nameDescription="Grandfather Tridian" race="blood" experience="37500" speed="210" manacost="0">
+	<health now="1800" max="1800" />
+	<look type="186" corpse="3058" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="50" />
+		<flag targetdistance="4" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-100" />
+		<attack name="lifedrain" interval="750" chance="11" range="7" radius="1" target="1" min="-138" max="-262">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="energy" interval="500" chance="8" length="8" spread="0" min="-193" max="-341">
+			<attribute key="areaEffect" value="bluefirework" />
+		</attack>
+		<attack name="drunk" interval="500" chance="8" radius="6" duration="18000">
+			<attribute key="areaEffect" value="yellowbubble"/>
+		</attack>
+	</attacks>
+	<defenses armor="25" defense="25">
+		<defense name="healing" interval="500" chance="15" min="60" max="290">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+		<defense name="invisible" interval="500" chance="10" duration="4000">
+			<attribute key="areaEffect" value="bluenote" />
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="35" />
+	</elements>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<summons maxSummons="2">
+		<summon name="Crypt Shambler" interval="2000" chance="10" />
+		<summon name="Ghost" interval="2000" chance="10" />
+	</summons>
+	<voices interval="2000" chance="7">
+		<voice sentence="I will bring peace to your misguided soul!" />
+		<voice sentence="Your intrusion won't be tolerated!" />
+	</voices>
+	<loot>
+		<item id="2148" countmax="80" chance="100000" /><!-- gold coin -->
+		<item id="2114" chance="100000" />				<!-- piggy bank -->
+		<item id="2789" chance="5000" />				<!-- brown mushroom -->
+		<item id="2436" chance="5000" />				<!-- skull staff -->
+		<item id="1962" chance="910" />					<!-- orange book -->
+		<item id="2200" chance="790" />					<!-- protection amulet -->
+		<item id="2146" chance="550" />					<!-- small sapphire -->
+		<item id="2167" chance="450" />					<!-- energy ring -->
+		<item id="2171" chance="200" />					<!-- platinum amulet -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="key ring" chance="100" />			<!-- key ring -->
+			<item id="2656" chance="400" />					<!-- blue robe -->
+			<item name="wand of inferno" chance="5000" />	<!-- wand of inferno -->
+			<item name="amber staff" chance="3000" />		<!-- amber staff -->
+			<item id="3955" chance="1000" />				<!-- voodoo doll -->
+			<item name="platinum amulet" chance="870" />
+		</item>
+	</loot>
+</monster>

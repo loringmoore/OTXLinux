@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Undead Dragon" nameDescription="a undead dragon" race="undead" experience="7200" speed="300" manacost="0">
+	<health now="8350" max="8350"/>
+	<look type="148" corpse="5097"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="150" attack="60"/>
+		<attack name="melee" interval="750" chance="12" range="7" radius="4" target="1" min="-300" max="-395">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="redspark"/>
+		</attack>
+		<attack name="physical" interval="750" chance="9" range="7" min="-0" max="-500">
+			<attribute key="shootEffect" value="suddendeath"/>
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<attack name="poison" interval="750" chance="11" range="7" radius="4" target="1" min="-120" max="-390">
+			<attribute key="shootEffect" value="poison"/>
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+		<attack name="poison" interval="750" chance="11" range="7" min="-50" max="-180">
+			<attribute key="shootEffect" value="poison"/>
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+		<attack name="fire" interval="750" chance="11" length="8" spread="3" min="-500" max="-600">
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="poison" interval="750" chance="11" length="8" spread="3" min="-200" max="-685">
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+		<attack name="lifedrain" interval="750" chance="11" length="8" spread="3" min="-300" max="-600">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+		<attack name="undead dragon electrify" interval="750" chance="10" />
+	</attacks>
+	<defenses armor="5" defense="35"/>
+	<elements>
+		<element poisonPercent="100"/>
+		<element firePercent="100"/>
+		<element physicalPercent="10"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="FEEEED MY ETERNAL HUNGER!" yell="1"/>
+		<voice sentence="I SENSE LIFE" yell="1"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="90" chance="35500"/><!-- gold coin -->
+		<item id="2148" countmax="80" chance="35500"/><!-- gold coin -->
+		<item id="2148" countmax="70" chance="35500"/><!-- gold coin -->
+		<item id="2148" countmax="60" chance="35500"/><!-- gold coin -->
+		<item name="mana potion" countmax="3" chance="10000"/><!-- manafluid -->
+		<item name="health potion" countmax="4" chance="10000"/><!-- lifefluid -->
+		<item id="2413" chance="26750"/><!-- broad sword -->
+		<item name="black pearl" countmax="2" chance="22780" />
+		<item name="small sapphire" countmax="2" chance="28370" />
+		<item name="demonic essence" chance="12460" />
+		<item name="power bolt" countmax="15" chance="15190" />
+		<item id="2236" chance="15000"/><!-- torn book -->
+		<item id="2152" countmax="5" chance="31000"/><!-- platinum coin -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="runed sword" chance="860" />
+			<item id="2033" chance="3333"/><!-- golden mug -->
+			<item name="war axe" chance="1290" />
+			<item id="2547" countmax="6" chance="3000"/><!-- power bolt -->
+			<item id="2476" chance="3500"/><!-- knight armor -->
+			<item id="2177" chance="2500"/><!-- life crystal -->
+			<item name="wand of perdition" chance="900" />
+			<item id="2498" chance="1750"/><!-- royal helmet -->
+			<item id="2492" chance="290"/><!-- dragon scale mail -->
+			<item id="2466" chance="860"/><!-- golden armor -->
+			<item id="paladin armor" chance="460"/><!-- golden armor -->
+			<item name="skull helmet" chance="1400" />
+			<item id="5236" chance="860"/><!-- dragon robe -->
+		</item>
+	</loot>
+</monster>

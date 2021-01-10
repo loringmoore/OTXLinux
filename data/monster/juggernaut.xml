@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Juggernaut" nameDescription="a juggernaut" race="blood" experience="14000" speed="280" manacost="0">
+	<health now="20000" max="20000"/>
+	<look type="162" corpse="5119"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="200" attack="140"/>
+		<attack name="physical" interval="500" chance="15" range="7" min="-280" max="-620">
+			<attribute key="shootEffect" value="largerock"/>
+		</attack>
+	</attacks>
+	<defenses armor="15" defense="15">
+		<defense name="speed" interval="500" chance="12" speedchange="480" duration="4000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="40"/>
+		<element firePercent="30"/>
+		<element poisonPercent="30"/>
+		<element energyPercent="-20"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="WAHHHH!"/>
+		<voice sentence="RAAARRR!"/>
+		<voice sentence="GRRRRRR!"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="100" chance="22000"/><!-- gold coin -->
+		<item id="2148" countmax="100" chance="22000"/><!-- gold coin -->
+		<item name="platinum coin" countmax="15" chance="9910" />
+		<item id="2671" countmax="8" chance="10750"/><!-- ham -->
+		<item id="2220" chance="10000"/><!-- dirty fur -->
+		<item id="2228" chance="12500"/><!-- broken pottery -->
+		<item name="mana potion" countmax="4" chance="15000"/><!-- manafluid -->
+		<item name="health potion" countmax="9" chance="15000"/><!-- lifefluid -->
+		<item name="soul orb" chance="23000" />
+		<item name="demonic essence" chance="40000" />
+		<item name="small ruby" countmax="4" chance="20000" />
+		<item name="small emerald" countmax="5" chance="20000" />
+		<item name="platinum coin" countmax="15" chance="10000" />
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="violet gem" chance="830" />
+			<item name="green gem" chance="869" />
+			<item name="red gem" chance="1850" />
+			<item id="2434" chance="7000"/><!-- dragon hammer -->
+			<item id="2136" chance="750"/><!-- demonbone amulet -->
+			<item id="2470" chance="500"/><!-- golden legs -->
+			<item id="2466" chance="650"/><!-- golden armor -->
+			<item id="2514" chance="450"/><!-- mastermand shield -->
+			<item id="2452" chance="250"/><!-- heavy mace -->
+			<item name="knight armor" chance="4990" />
+			<item name="glorious axe" chance="4000" />
+			<item name="silver mace" chance="7000" />
+			<item name="royal axe" chance="400" />
+		</item>
+	</loot>
+</monster>

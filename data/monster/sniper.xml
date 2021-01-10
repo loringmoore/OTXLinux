@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Sniper" nameDescription="a sniper" race="blood" experience="8000" speed="315" manacost="0">
+	<health now="7000" max="700"/>
+	<look type="194" head="95" body="116" legs="120" feet="115" corpse="3058"/>
+	<targetchange interval="5000" chance="50"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="4"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="10"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="18" attack="13"/>
+		<attack name="physical" interval="500" chance="23" range="12" min="-250" max="-500">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<defenses armor="8" defense="10"/>
+	<voices interval="5000" chance="10">
+		<voice sentence="Get sniped!"/>
+	</voices>
+	<loot>
+		<item id="2544" countmax="100" chance="70000"/><!-- arrow -->
+		<item id="2544" countmax="12" chance="80000"/><!-- arrow -->
+		<item id="2456" chance="60000"/><!-- bow -->
+		<item name="horseman helmet" chance="20000"/><!-- leather helmet -->
+		<item name="dwarven legs" chance="28000"/><!-- leather legs -->
+		<item name="soft cheese" countmax="2" chance="40000"/><!-- orange -->
+		<item name="meat" countmax="2" chance="22000"/><!-- roll -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<item id="2465" chance="10000"/><!-- brass armor -->
+			<item id="2460" chance="10000"/><!-- brass helmet -->
+			<item id="2546" countmax="3" chance="10000"/><!-- burst arrow -->
+			<item id="2201" chance="6000"/><!-- dragon necklace -->
+			<item id="2147" chance="200"/><!-- small ruby -->
+			<item id="2050" chance="10000"/><!-- torch -->
+			<item name="sniper gloves" chance="100" />
+		</item>
+	</loot>
+</monster>

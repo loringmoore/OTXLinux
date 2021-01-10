@@ -1,0 +1,17 @@
+rt<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Korbin" script="default.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="133" head="60" body="116" legs="62" feet="95"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Are you looking to buy plants or vases?"/>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_buyable" value="
+			amphora,2023,4,0;
+			flower bowl,2102,6;
+			god flowers,2100,5;
+			honey flower,2103,5;
+			indoor plant kit,3937,8;
+			potted flower,2104,5;
+			vase,2008,3,0;"/>
+	</parameters>
+</npc>

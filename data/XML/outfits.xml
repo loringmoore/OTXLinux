@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<outfits>
+	<!-- Female outfits -->
+	<outfit type="0" looktype="136" name="Citizen" premium="no" unlocked="yes" enabled="yes" />
+	<outfit type="0" looktype="137" name="Hunter" premium="no" unlocked="yes" enabled="yes" />
+	<outfit type="0" looktype="138" name="Mage" premium="no" unlocked="yes" enabled="yes" />
+	<outfit type="0" looktype="139" name="Knight" premium="no" unlocked="yes" enabled="yes" />
+	<outfit type="0" looktype="140" name="Noblewoman" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="0" looktype="141" name="Summoner" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="0" looktype="142" name="Warrior" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="0" looktype="200" name="Full Citizen" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="0" looktype="222" name="Full Hunter" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="0" looktype="223" name="Full Mage" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="0" looktype="224" name="Full Knight" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="0" looktype="226" name="Full Nobleman" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="0" looktype="229" name="Full Summoner" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="0" looktype="230" name="Full Warrior" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="0" looktype="235" name="Full Barbarian" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="0" looktype="236" name="Full Druid" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="0" looktype="237" name="Full Wizard" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="0" looktype="238" name="Full Oriental" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="0" looktype="242" name="Full Pirate" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="0" looktype="243" name="Full Assassin" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="0" looktype="244" name="Full Beggar" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="0" looktype="245" name="Full Shaman" premium="yes" unlocked="yes" enabled="yes" />
+
+	<!-- Male outfits -->
+	<outfit type="1" looktype="128" name="Citizen" premium="no" unlocked="yes" enabled="yes" />
+	<outfit type="1" looktype="129" name="Hunter" premium="no" unlocked="yes" enabled="yes" />
+	<outfit type="1" looktype="130" name="Mage" premium="no" unlocked="yes" enabled="yes" />
+	<outfit type="1" looktype="131" name="Knight" premium="no" unlocked="yes" enabled="yes" />
+	<outfit type="1" looktype="132" name="Nobleman" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="1" looktype="133" name="Summoner" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="1" looktype="134" name="Warrior" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="1" looktype="193" name="Full Citizen" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="1" looktype="194" name="Full Hunter" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="1" looktype="195" name="Full Mage" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="1" looktype="196" name="Full Knight" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="1" looktype="197" name="Full Nobleman" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="1" looktype="198" name="Full Summoner" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="1" looktype="199" name="Full Warrior" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="1" looktype="231" name="Full Barbarian" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="1" looktype="232" name="Full Druid" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="1" looktype="233" name="Full Wizard" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="1" looktype="234" name="Full Oriental" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="1" looktype="239" name="Full Pirate" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="1" looktype="135" name="Full Assassin" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="1" looktype="240" name="Full Beggar" premium="yes" unlocked="yes" enabled="yes" />
+	<outfit type="1" looktype="241" name="Full Shaman" premium="yes" unlocked="yes" enabled="yes" />
+</outfits>

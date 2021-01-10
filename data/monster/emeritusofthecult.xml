@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Emeritus of the Cult" nameDescription="an emeritus of the cult" race="blood" experience="800" speed="300">
+	<health now="1085" max="1085" />
+	<look type="185" head="114" body="79" legs="79" feet="57" corpse="3058" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag runonhealth="40" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-265" poison="100" />
+		<attack name="fire" interval="500" chance="7" range="7" radius="2" target="1" min="-56" max="-103">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="yellowfirework" />
+		</attack>
+		<attack name="fire" interval="750" chance="7" radius="3" min="-75" max="-120">
+			<attribute key="areaEffect" value="holyarea" />
+		</attack>
+	</attacks>
+	<defenses armor="15" defense="15">
+		<defense name="healing" interval="2000" chance="15" min="35" max="80">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+		<defense name="speed" interval="500" chance="15" speedchange="200" duration="20000">
+			<attribute key="areaEffect" value="rednote"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element earthPercent="10" />
+		<element physicalPercent="-10" />
+		<element energyPercent="-8" />
+		<element firePercent="-5" />
+	</elements>
+	<summons maxSummons="1">
+		<summon name="Demon Skeleton" interval="2000" chance="10" />
+	</summons>
+	<voices interval="5000" chance="10">
+		<voice sentence="Come, peer behind the curtain!" />
+		<voice sentence="For the triangle!" />
+		<voice sentence="Look into my eyes and obey!" />
+	</voices>
+	<loot>
+		<item id="1962" chance="700" /><!-- orange book -->
+		<item name="small topaz" chance="210" />
+		<item name="gold coin" countmax="100" chance="43380" />
+		<item name="gold coin" countmax="67" chance="43380" />
+		<item name="health potion" countmax="2" chance="3000"/><!-- lifefluid -->
+		<item name="mysterious fetish" chance="310" />
+		<item id="1987" chance="100000"><!-- bag -->
+			<item id="3955" chance="220" />
+			<item name="wand of inferno" chance="450" />
+			<item name="crown helmet" chance="420" />
+			<item name="sword ring" chance="50" />
+			<item name="platinum amulet" chance="2900" />
+			<item name="crown legs" chance="200" />
+			<item name="yellow piece of cloth" chance="1390" />
+		</item>
+	</loot>
+</monster>

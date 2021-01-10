@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weapons>
+	<!-- Wands/Rods -->
+	<wand id="2190"  mana="1" script="wandofvortex.lua"> <!-- Wand of Vortex -->
+	</wand>
+	<wand id="2182" mana="2" script="snakebite rod.lua"> <!-- Snakebite Rod -->
+	</wand>
+	<wand id="2191"  mana="4" script="wand of dragonbreath.lua"> <!-- Wand of Dragonbreath -->
+	</wand>
+	<wand id="2186"  mana="6" script="moonlight rod.lua"> <!-- Moonlight Rod -->
+	</wand>
+	<wand id="2188"  mana="9" script="wand of plague.lua"> <!-- Wand of Plague -->
+	</wand>
+	<wand id="2185" mana="12" script="volcanic rod.lua"> <!-- Volcanic Rod -->
+	</wand>
+	<wand id="2189"  mana="15" script="wand of cosmic energy.lua"> <!-- Wand of Cosmic Energy -->
+	</wand>
+	<wand id="2181" mana="19" script="quagmire rod.lua"> <!-- Quagmire Rod -->
+	</wand>
+	<wand id="2187"  mana="23" script="wand of inferno.lua"> <!-- Wand of Inferno -->
+	</wand>
+	<wand id="2183"  mana="30" script="tempest rod.lua"> <!-- Tempest Rod -->
+	</wand>
+	<wand id="577" mana="30" script="wand of divinity.lua"> <!-- Wand of divinity -->
+	</wand>
+	<wand id="5231" mana="30" script="mycelium rod.lua"> <!-- Mycelium Rod -->
+	</wand>
+	<wand id="5030" mana="30" script="wand of perdition.lua"> <!-- Wand of Perdition -->
+	</wand>
+	<wand id="576" mana="30" script="glacial rod.lua"> <!-- Glacial Rod -->
+	</wand>
+	<wand id="5622" mana="30" script="wand of voodoo.lua"> <!-- Wand of Voodoo -->
+	</wand>
+	<!-- </wand> -->
+
+	<!--Axes -->
+	
+	
+	<!-- Clubs -->
+	
+	
+	<!-- Swords -->
+	
+	
+
+	<!-- Ammunition -->
+	<distance id="1294" breakchance="1" /> <!-- small stone breakchance="3" -->
+	<distance id="2111" action="removecount" /> <!-- snowball -->
+	<distance id="2389" breakchance="3"/> <!-- action="move" -->  <!-- spear breakchance="3"  -->
+	<distance id="2399" breakchance="10" /> <!-- action="move" --> <!-- throwing star breakchance="10" -->
+	<distance id="2410" breakchance="7"/> <!-- throwing knife breakchance="7" -->
+	<distance id="5423" breakchance="18"/> <!-- assassin star breakchance="7" -->
+	<distance id="2543" action="removecount" /> <!-- bolt -->
+	<distance id="2544" action="removecount" /> <!-- arrow -->
+	<distance id="2545" action="removecount" script="poison_arrow.lua" />
+	<distance id="2546" action="removecount" script="burst_arrow.lua" />
+	<distance id="2547" action="removecount" /> <!-- Power Bolt -->
+	<distance id="2352" mana="25" script="crystal arrow.lua" />
+	<distance id="5422" action="removecount" /> <!-- infernal bolt -->
+</weapons>

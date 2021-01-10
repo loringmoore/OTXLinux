@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dwarven Ghost" nameDescription="a dwarven ghost" race="energy" experience="90" speed="220" manacost="0">
+	<health now="190" max="190"/>
+	<look type="160" head="28" body="85" legs="104" feet="66" corpse="2913"/>
+	<targetchange interval="5000" chance="50"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="15" attack="15"/>
+		<attack name="physical" interval="500" chance="17" range="7" min="0" max="-15">
+			<attribute key="shootEffect" value="suddendeath"/>
+		</attack>
+		<attack name="manadrain" interval="500" chance="7" range="7" min="-6" max="-12">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+		<attack name="energy" interval="500" chance="7" length="1" spread="0" min="-6" max="-22">
+			<attribute key="areaEffect" value="teleport"/>
+		</attack>
+	</attacks>
+	<defenses armor="10" defense="10">
+		<defense name="healing" interval="500" chance="9" min="4" max="16">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity invisible="1"/>
+		<immunity energy="1"/>
+		<immunity lifedrain="1"/>
+	</immunities>
+	<elements>
+		<element holyPercent="-15"/>
+		<element physicalPercent="50"/>
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="Who dares to disturb my rest?"/>
+		<voice sentence="Hail Durin!"/>
+	</voices>
+	<loot>
+		<item id="2379" chance="46000"/><!-- dagger -->
+		<item id="2150" chance="24000"/><!-- small amethyst -->
+		<item id="2787" countmax="4" chance="15000"/><!-- white mushroom -->
+		<item name="mana potion" chance="2900"/><!-- manafluid -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="piggy bank" chance="90" />
+			<item id="5158" chance="20000"/><!-- exori vis -->
+			<item id="5277" chance="14000"/><!-- white piece of cloth -->
+		</item>
+	</loot>
+</monster>

@@ -1,0 +1,12 @@
+rt<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Irma" script="irma.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="140" head="78" body="90" legs="13" feet="14"/>
+	<parameters>
+		<parameter key="message_greet" value="Welcome to my fashion shope, |PLAYERNAME|. You'll find the the finest fabrics in the land here!"/>
+		<parameter key="message_farewell" value="Good bye, |PLAYERNAME|." />
+		<parameter key="message_walkaway" value="Good bye, |PLAYERNAME|." />
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="Ape Fur,5255,120;Blue Piece of Cloth,5280,200;Brown Piece of Cloth,5281,100;Green Dragon Leather,5249,100;Green Piece of Cloth,5278,200;Lizard Leather,5248,150;Minotaur Leather,5250,80;Red Dragon Leather,5294,200;Red Piece of Cloth,5279,300;Simple Dress,2657,50;Spool of Yarn,5257,1000;White Piece of Cloth,5277,100;Yellow Piece of Cloth,5282,150" />
+	</parameters>
+</npc>

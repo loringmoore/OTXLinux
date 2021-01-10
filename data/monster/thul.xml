@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Thul" nameDescription="Thul" race="blood" experience="27000" speed="520" manacost="0">
+	<health now="2950" max="2950" />
+	<look type="12" corpse="5169" />
+	<targetchange interval="5000" chance="8" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag runonhealth="40" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-285" />
+		<attack name="drown" interval="500" chance="7" radius="4" target="0" min="-108" max="-137">
+			<attribute key="areaEffect" value="icearea" />
+		</attack>
+		<attack name="physical" interval="500" chance="9" radius="3" min="0" max="-170">
+			<attribute key="areaEffect" value="blackspark" />
+		</attack>
+		<attack name="speed" interval="500" chance="9" range="7" speedchange="-360" duration="5000">
+			<attribute key="shootEffect" value="snowball" />
+		</attack>
+	</attacks>
+	<defenses armor="25" defense="25">
+		<defense name="healing" interval="2000" chance="10" min="25" max="75">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element energyPercent="-15" />
+	</elements>
+	<immunities>
+		<immunity lifedrain="1" />
+		<immunity drown="1" />
+		<immunity earth="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="2000" chance="7">
+		<voice sentence="Gaaahhh!" />
+		<voice sentence="Boohaa!" />
+	</voices>
+	<summons maxSummons="2">
+		<summon name="Water Elemental" interval="2000" chance="10" />
+	</summons>
+	<loot>
+		<item name="gold coin" countmax="100" chance="87500" />
+		<item name="gold coin" countmax="100" chance="87500" />
+		<item name="gold coin" countmax="100" chance="87500" />
+		<item name="small diamond" countmax="18" chance="7500" />
+		<item name="small ruby" countmax="27" chance="7500" />
+		<item name="small amethyst" countmax="30" chance="7500" />
+		<item name="violet gem" chance="860" />
+		<item name="ice rapier" chance="7761" />
+		<item name="shrimp" countmax="15" chance="5000" />
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="the robe of the ice queen" chance="2000" />
+			<item name="tempest rod" chance="2000" />
+			<item name="glacier kilt" chance="2300" />
+			<item name="glacier mask" chance="1400" />
+		</item>
+	</loot>
+</monster>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dread Priest" nameDescription="a dread priest" race="blood" experience="1550" speed="420" manacost="0">
+	<health now="1770" max="1770"/>
+	<look type="233" corpse="3058"/>
+	<targetchange interval="5000" chance="5"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="105" attack="82"/>
+		<attack name="holy" interval="500" chance="6" range="7" min="-105" max="-205">
+			<attribute key="shootEffect" value="holy"/>
+			<attribute key="areaEffect" value="yellowenergy" />
+		</attack>
+		<attack name="holy" interval="1000" chance="10" radius="4" target="0" min="-89" max="-162">
+			<attribute key="areaEffect" value="yellowfirework" />
+		</attack>
+		<attack name="holy" interval="750" chance="7" length="4" spread="0" min="-148" max="-255">
+			<attribute key="areaEffect" value="holyarea" />
+		</attack>
+	</attacks>
+	<defenses armor="25" defense="52">
+		<defense name="healing" interval="1000" chance="17" min="90" max="250">
+			<attribute key="areaEffect" value="greenshimmer"/>
+		</defense>
+		<defense name="speed" interval="1000" chance="10" speedchange="300" duration="3000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity invisible="1"/>
+		<immunity energy="1"/>
+		<immunity holy="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Punish the non-believer!"/>
+		<voice sentence="Thy sins offend me."/>
+		<voice sentence="Penitence before the gods!" yell="1"/>
+	</voices>
+	<loot>
+		<item id="2689" chance="40000"/><!-- bread -->
+		<item id="2015" chance="18000"/><!-- brown flask -->
+		<item id="2148" countmax="100" chance="70000"/><!-- gold coin -->
+		<item id="2148" countmax="56" chance="70000"/><!-- gold coin -->
+		<item id="2044" chance="20000"/><!-- lamp -->
+		<item id="1949" chance="40000"/><!-- scroll -->
+		<item name="health potion" countmax="3" chance="4000"/>
+		<item id="2401" chance="22000"/><!-- staff -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<item id="2193" chance="1000"/><!-- ankh -->
+			<item id="noble armor" chance="1400"/>
+			<item id="5157" chance="1000"/><!-- intense healing -->
+			<item id="2166" chance="100"/><!-- power ring -->
+			<item id="brown book" chance="400"/>
+			<item id="brown piece of cloth" countmax="3" chance="900"/>
+			<item id="steel boots" chance="50"/>
+			<item id="tempest rod" chance="1100"/><!--change to wand of starstorm-->
+		</item>
+	</loot>
+</monster>

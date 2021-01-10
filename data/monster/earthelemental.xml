@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Earth Elemental" nameDescription="an earth elemental" race="undead" experience="450" speed="220">
+	<health now="650" max="650" />
+	<look type="183" corpse="5357" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag staticattack="80" />
+		<flag lightlevel="0" />
+		<flag lightcolor="0" />
+		<flag targetdistance="1" />
+		<flag runonhealth="80" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-110" />
+		<attack name="poison" interval="500" chance="6" range="7" target="1" min="-72" max="-105">
+			<attribute key="shootEffect" value="smallstone" />
+			<attribute key="areaEffect" value="greenbubble" />
+		</attack>
+		<attack name="physical" interval="500" chance="6" range="7" radius="2" target="1" min="0" max="-100">
+			<attribute key="shootEffect" value="largerock" />
+			<attribute key="areaEffect" value="poff" />
+		</attack>
+		<attack name="poisoncondition" interval="500" chance="9" length="6" spread="0" min="-200" max="-260">
+			<attribute key="areaEffect" value="greenspark" />
+		</attack>
+		<attack name="poisoncondition" interval="500" chance="6" target="0" radius="5" min="-100" max="-140">
+			<attribute key="areaEffect" value="poison" />
+		</attack>
+		<attack name="speed" interval="2000" chance="10" range="5" target="1" speedchange="-330" duration="5000">
+			<attribute key="areaEffect" value="poison" />
+			<attribute key="shootEffect" value="poison" />
+		</attack>
+	</attacks>
+	<defenses armor="25" defense="25">
+		<defense name="healing" interval="2000" chance="5" min="60" max="80">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element lifedrainPercent="50" />
+		<element drownPercent="85" />
+		<element physicalPercent="50" />
+		<element firePercent="-25" />
+	</elements>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+		<immunity earth="1" />
+		<immunity energy="1" />
+	</immunities>
+	<loot>
+		<item name="small stone" countmax="10" chance="10000" />
+		<item name="gold coin" countmax="100" chance="43000" />
+		<item name="gold coin" countmax="30" chance="50000" />
+		<item name="blank rune" chance="10000" />
+		<item name="mana potion" chance="1910" />
+		<item name="poison arrow" countmax="30" chance="20160" />
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="noble armor" chance="350" />
+			<item name="small topaz" chance="620" />
+			<item name="iron ore" chance="570" />
+			<item id="5438" chance="100"/>
+		</item>
+	</loot>
+</monster>

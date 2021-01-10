@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Gypsy" nameDescription="a gypsy" race="blood" experience="1050" speed="230">
+	<health now="1200" max="1200" />
+	<look type="244" head="115" body="73" legs="110" feet="116" corpse="3065" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="80" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-190" />
+		<attack name="lifedrain" interval="500" chance="8" target="1" range="1" min="-88" max="-185">
+			<attribute key="areaEffect" value="dice" />
+		</attack>
+		<attack name="physical" interval="500" chance="6" target="1" range="7" min="-60" max="-130">
+			<attribute key="shootEffect" value="throwingknife" />
+		</attack>
+		<attack name="energy" interval="500" chance="6" target="1" range="7" min="-48" max="-109">
+			<attribute key="shootEffect" value="energy" />
+		</attack>
+		<attack name="manadrain" interval="500" chance="6" radius="6" min="-70" max="-160">
+			<attribute key="areaEffect" value="purplenote" />
+		</attack>
+	</attacks>
+	<defenses armor="20" defense="20">
+		<defense name="healing" interval="500" chance="8" min="40" max="80">
+			<attribute key="areaEffect" value="bluenote" />
+		</defense>
+	</defenses>
+	<elements>
+		<element earthPercent="20" />
+		<element drownPercent="10" />
+		<element lifedrainPercent="10" />
+		<element firePercent="-10" />
+		<element holyPercent="-10" />
+	</elements>
+	<immunities>
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="The cards have shown me your doom!" />
+		<voice sentence="Come, peer into my crystal ball." />
+		<voice sentence="Enjoy the pain - I know you love it." />
+		<voice sentence="Listen to my music and let yourself go." />
+	</voices>
+	<loot>
+		<item name="emerald bangle" chance="1100" />
+		<item name="small diamond" countmax="2" chance="1020" />
+		<item name="gold coin" countmax="149" chance="90000" />
+		<item name="platinum coin" chance="9910" />
+		<item name="moonlight rod" chance="5500" />
+		<item name="health potion" countmax="3" chance="5000" />
+		<item name="mana potion" countmax="3" chance="5000" />
+		<item name="holy orchid" chance="1800" />
+		<item name="mysterious fetish" chance="1000" />
+		<item id="3955" chance="1000" />
+		<item name="blue piece of cloth" chance="800" />
+		<item name="red piece of cloth" chance="800" />
+		<item id="2370" chance="2000" />
+		<item id="2192" chance="1300" />
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="boots of haste" chance="220" />
+			<item name="tempest rod" chance="1000" /> -->
+			<item name="white dress" chance="1000" />
+			<item name="yellow rose" chance="200" />
+			<item id="5322" chance="800" />
+			<item name="stuffed toad" chance="90" />
+			<item name="focus cape" chance="1500" />
+			<item name="obsidian knife" chance="500" />
+		</item>
+	</loot>
+</monster>

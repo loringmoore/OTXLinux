@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Gladiator" nameDescription="a gladiator" race="blood" experience="1200" speed="200" manacost="470">
+	<health now="1450" max="1450" />
+	<look type="199" head="78" body="3" legs="79" feet="114" corpse="3058" />
+	<targetchange interval="4000" chance="0" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-245" />
+		<attack name="melee" interval="500" chance="10" range="7" radius="3" target="0" min="-10" max="-125">
+			<attribute key="areaEffect" value="yellowspark"/>
+		</attack>
+	</attacks>
+	<defenses armor="25" defense="25">
+		<defense name="healing" interval="500" chance="5" min="200" max="250">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="15" />
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+		<immunity fire="1"/>
+		<immunity poison="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="You are no match for me!" />
+		<voice sentence="Feel my prowess" />
+		<voice sentence="Fight!" />
+		<voice sentence="Take this!" />
+	</voices>
+	<loot>
+		<item name="gold coin" countmax="100" chance="49500" />
+		<item id="2544" countmax="10" chance="90450" />	<!-- bolt -->	
+		<item id="2120" chance="1510" />	<!-- Rope -->
+		<item name="health potion" countmax="3" chance="1510" />
+		<item name="poison arrow" countmax="4" chance="1210" />
+		<item name="plate armor" chance="2250" />
+		<item id="2681" chance="1210" />	<!-- Grapes -->	
+		<item id="1987" chance="100000"><!-- bag -->
+			<item id="2487" chance="210" />	<!-- Crown Armor -->
+			<item id="2491" chance="310" />	<!-- Crown Helmet -->
+			<item id="2519" chance="210" />	<!-- Crown Shield -->
+			<item id="2488" chance="110" />	<!-- Crown Legs -->
+			<item id="2392" chance="310" />	<!-- Fire Sword -->
+			<item id="2381" chance="1610" />	<!-- Halberd -->
+			<item id="2744" chance="510" />	<!-- Red Rose -->
+		</item>
+	</loot>
+</monster>

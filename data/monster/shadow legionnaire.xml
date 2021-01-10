@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shadow Legionnaire" nameDescription="a shadow legionnaire" race="undead" experience="8250" speed="400" manacost="0">
+	<health now="9900" max="9900"/>
+	<look type="131" head="52" body="52" legs="52" feet="52" corpse="3058"/>
+	<targetchange interval="5000" chance="3"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="115" attack="90"/>
+		<attack name="lifedrain" interval="750" chance="12" range="7" min="-125" max="-265">
+			<attribute key="shootEffect" value="infernalbolt"/>
+		</attack>
+		<attack name="lifedrain" interval="750" chance="8" range="1" min="-212" max="-322">
+			<attribute key="shootEffect" value="death"/>
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<attack name="manadrain" interval="750" chance="10" range="7" radius="3" target="0" min="-180" max="-405">
+			<attribute key="areaEffect" value="purplenote"/>
+		</attack>
+		<attack name="shadow wave" interval="750" chance="9" />
+	</attacks>
+	<defenses armor="42" defense="60">
+		<defense name="healing" interval="500" chance="10" min="150" max="325">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity invisible="1"/>
+		<immunity fire="1"/>
+		<immunity poison="1"/>
+		<immunity energy="1"/>
+		<immunity paralyze="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Darkness take you!" yell="1"/>
+		<voice sentence="I am one with the shadows!" />
+		<voice sentence="Your gods won't help you!" />
+		<voice sentence="Yield!"/>
+	</voices>
+	<loot>
+		<item id="2152" countmax="9" chance="20000"/><!-- platinum coin -->
+		<item id="2792" chance="40000"/><!-- dark mushroom -->
+		<item id="2148" countmax="79" chance="66600"/><!-- gold coin -->
+		<item id="2148" countmax="99" chance="44400"/><!-- gold coin -->
+		<item id="2393" chance="2000"/><!-- giant sword -->
+		<item id="2490" chance="1000"/><!-- dark helmet -->
+		<item id="2529" chance="20000"/><!-- black shield -->
+		<item id="2477" chance="4000"/><!-- knight legs -->
+		<item id="2476" chance="5000"/><!-- knight armor -->
+		<item name="health potion" countmax="6" chance="6700"/>
+		<item id="1987" chance="100000"><!-- bag -->
+			<item id="2414" chance="1000"/><!-- dragon lance -->
+			<item id="2195" chance="1000"/><!-- boots of haste -->
+			<item id="2472" chance="150"/><!-- magic plate armor -->
+			<item id="2498" chance="1000"/><!-- royal helmet -->
+			<item name="golden legs" chance="700"/><!-- royal helmet -->
+			<item id="2542" chance="200"/><!-- tempest shield -->
+			<item id="5229" chance="500"/><!-- justice seeker -->
+		</item>
+	</loot>
+</monster>

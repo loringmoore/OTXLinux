@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Charles" script="default.lua" walkinterval="2000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="128" head="115" body="69" legs="87" feet="116" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Hello, |PLAYERNAME|. What do you need?" /> 
+		<parameter key="message_placedinqueue" value="|PLAYERNAME|, I am already talking to somebody else! Please wait until it is your turn." />
+		<parameter key="message_farewell" value="Good bye, |PLAYERNAME|! And remember: No running up and down in the library!" /> 
+		<parameter key="message_walkaway" value="Good bye, |PLAYERNAME|! And remember: No running up and down in the library!" /> 
+		<parameter key="message_idletimeout" value="Good bye, |PLAYERNAME|! And remember: No running up and down in the library!" />		
+		
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="how are you;job;library;train;vocation;crescent isle;name;help;hint;people;dwarves;sewer;potion;castle;" />
+		
+        <parameter key="keyword_reply1" value="Well, most of the troops have deserted, the library's funds aren't looking great, and the attacks from the Dwarves have increased in frequency." />
+        <parameter key="keyword_reply2" value="I am the master of this beautiful library." />
+        <parameter key="keyword_reply3" value="We have one of the greatest collection of books in all the land." />
+        <parameter key="keyword_reply4" value="Training is necessary if you want to hone your skills and explore the mainland beyond Crescent Isle." />
+        <parameter key="keyword_reply5" value="Go and read our books. Ignorance may mean death, so be careful." />
+        <parameter key="keyword_reply6" value="You can be whatever you want as long as you are willing to train up your skills and acquire the appropriate gear." />
+		<parameter key="keyword_reply7" value="That's where we are now; a crescent-shaped island southwest of the mainland." />
+		<parameter key="keyword_reply8" value="My name is Charles." />
+		<parameter key="keyword_reply9" value="I'm afraid my talents are purely academic; I was never good with a sword." />
+		<parameter key="keyword_reply10" value="There is a nest of spiders just north of here; if you're willing to go fight them I'm sure they will drop a fair amount of gold." />
+		<parameter key="keyword_reply11" value="Here on Crescent Isle we have some people, a temple, some shops, a farm and an academy." />
+		<parameter key="keyword_reply12" value="A clan of particularly hostile dwarves live in the mountain here on the island. We have been in a bitter conflict with them for years now." />
+		<parameter key="keyword_reply13" value="The sewers below the town are full of rats." />
+		<parameter key="keyword_reply14" value="Potions are rare, expensive, magical fluids that restore your vitality in an instant. Gryphor sells them at his shop." />
+		<parameter key="keyword_reply15" value="The Governor's castle is south of here." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="" />
+        <parameter key="shop_sellable" value="dead rat,2813,2" />
+    </parameters>
+</npc>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Ice Witch" nameDescription="an ice witch" race="blood" experience="580" speed="200">
+	<health now="650" max="650" />
+	<look type="236" head="0" body="47" legs="105" feet="105" corpse="3065" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag staticattack="70" />
+		<flag lightlevel="0" />
+		<flag lightcolor="0" />
+		<flag targetdistance="4" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-60" />
+		<attack name="drown" interval="500" chance="6" length="5" spread="2" min="-60" max="-130">
+			<attribute key="areaEffect" value="iceattack" />
+		</attack>
+		<attack name="drown" interval="500" chance="10" range="7" target="1" min="-55" max="-115">
+			<attribute key="shootEffect" value="snowball" />
+			<attribute key="areaEffect" value="icearea" />
+		</attack>
+		<attack name="speed" interval="500" chance="7" range="7" speedchange="-600" duration="20000">
+			<attribute key="shootEffect" value="energy" />
+			<attribute key="areaEffect" value="bluebubble" />
+		</attack>
+	</attacks>
+	<defenses armor="20" defense="20">
+		<defense name="healing" interval="500" chance="11" min="90" max="120">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="50" />
+		<element earthPercent="40" />
+		<element holyPercent="30" />
+		<element energyPercent="-10" />
+		<element lifedrainPercent="-10" />
+	</elements>
+	<immunities>
+		<immunity drown="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="So you think you are cool?" />
+		<voice sentence="I hope it is not too cold for you! HeHeHe." />
+		<voice sentence="Freeze!" />
+	</voices>
+	<loot>
+		<item name="gold coin" countmax="90" chance="29630" />
+		<item name="clerical mace" chance="920" />
+		<item name="mystic turban" chance="430" />
+		<item name="green mushroom" chance="1310" />
+		<item name="ice cube" chance="10000" /><!-- ice cube -->
+		<item name="mana potion" countmax="2" chance="820" />
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="glacier shoes" chance="280" />
+			<item name="diamond sceptre" chance="330" />
+			<item name="glacier mask" chance="90" />
+			<item name="crystal sword" chance="400" />
+		</item>
+	</loot>
+</monster>

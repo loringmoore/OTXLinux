@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gnorre Chyllson" nameDescription="Gnorre Chyllson" race="blood" experience="19000" speed="370">
+	<health now="7150" max="7150" />
+	<look type="240" head="11" body="9" legs="11" feet="85" corpse="3058" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag targetdistance="1" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-455" />
+		<attack name="physical" interval="750" chance="10" range="7" radius="3" target="0" min="-120" max="-410">
+			<attribute key="areaEffect" value="blackspark"/>
+		</attack>
+		<attack name="drown" interval="750" chance="10" range="7" radius="5" target="0" min="-76" max="-123">
+			<attribute key="areaEffect" value="iceattack"/>
+		</attack>
+		<attack name="gnorre drown" interval="750" chance="9" />
+		<attack name="lifedrain" interval="1000" chance="15" range="7" min="-120" max="-200">
+			<attribute key="shootEffect" value="snowball" />
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<attack name="drown" interval="500" chance="11" length="8" spread="0" min="-50" max="-121">
+			<attribute key="areaEffect" value="bluebubble"/>
+		</attack>
+		<attack name="drown" interval="700" chance="9" length="8" spread="3" min="-50" max="-250">
+			<attribute key="areaEffect" value="bluenote"/>
+		</attack>
+	</attacks>
+	<defenses armor="51" defense="52" />
+	<elements>
+		<element physicalPercent="-5" />
+		<element energyPercent="-10" />
+	</elements>
+	<immunities>
+		<immunity fire="1" />
+		<immunity lifedrain="1" />
+		<immunity drown="1" />
+		<immunity earth="1" />
+		<immunity paralyze="1" />
+		<immunity outfit="1" />
+		<immunity drunk="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="2000" chance="5">
+		<voice sentence="I am like the merciless northwind." />
+		<voice sentence="Snow will be your death shroud." />
+		<voice sentence="Feel the wrath of father chyll!" />
+	</voices>
+	<loot>
+		<item id="2651" chance="10000"/><!-- jacket -->
+		<item id="2668" countmax="4" chance="40000"/><!-- salmon -->
+		<item id="2111" countmax="8" chance="30000"/><!-- snowball -->
+		<item id="2009" chance="18000"/><!-- green flask -->
+		<item name="warrior helmet" chance="4310" />
+		<item id="2186" chance="10000"/><!-- moonlight rod -->
+		<item id="2148" countmax="100" chance="30000"/><!-- gold coin -->
+		<item id="2148" countmax="100" chance="30000"/><!-- gold coin -->
+		<item id="2148" countmax="100" chance="30000"/><!-- gold coin -->
+		<item id="2152" countmax="20" chance="3000"/><!-- gold coin -->
+		<item id="2473" chance="10000"/><!-- viking helmet -->
+		<item id="2162" chance="20000"/><!-- magic light wand -->
+		<item id="2433" chance="2000"/><!-- scroll -->
+		<item name="mana potion" chance="9000"/>
+		<item id="2268" subtype="2" chance="2200"/><!-- sudden death rune -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="glacier amulet" chance="1520" />
+			<item name="glacier shoes" chance="1310" />
+			<item name="glacier kilt" chance="1930" />
+			<item name="glacier robe" chance="1310" />
+			<item id="2171" chance="2000"/><!-- platinum amulet -->
+			<item name="arcane staff" chance="100"/>
+			<item id="2158" chance="1400"/><!-- blue gem -->
+		</item>
+	</loot>
+</monster>

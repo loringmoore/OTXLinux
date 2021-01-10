@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Dragon King" nameDescription="a dragon king" race="fire" experience="9600" speed="320">
+	<health now="9800" max="9800" />
+	<look type="203" corpse="5613" />
+	<targetchange interval="2000" chance="15" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="70" />
+		<flag runonhealth="400" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-603" />
+		<attack name="firecondition" interval="500" chance="7" target="1" radius="1" range="5" min="-920" max="-1280">
+			<attribute key="areaEffect" value="firearea" />
+			<attribute key="shootEffect" value="fire" />
+		</attack>
+		<attack name="fire" interval="500" chance="8" range="7" target="1" radius="7" min="-180" max="-330">
+			<attribute key="areaEffect" value="explosion" />
+			<attribute key="shootEffect" value="fire" />
+		</attack>
+		<attack name="fire" interval="500" chance="6" length="8" spread="3" min="-220" max="-450">
+			<attribute key="areaEffect" value="yellowfirework" />
+		</attack>
+		<attack name="fire" interval="500" chance="8" radius="5" target="0" min="-210" max="-280">
+			<attribute key="areaEffect" value="fireattack" />
+		</attack>
+		<attack name="speed" interval="500" chance="6" range="7" radius="4" target="1" speedchange="-800" duration="30000">
+			<attribute key="areaEffect" value="yellowspark" />
+		</attack>
+	</attacks>
+	<defenses armor="35" defense="35" />
+	<elements>
+		<element drownPercent="-10" />
+		<element physicalPercent="10" />
+		<element holyPercent="-15" />
+		<element energyPercent="-10" />
+	</elements>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+		<immunity lifedrain="1" />
+		<immunity earth="1" />
+		<immunity fire="1" />
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="EMBRACE MY GIFTS!" yell="1" />
+		<voice sentence="I DEVOUR YOUR CHARRED FLESH!" yell="1" />
+	</voices>
+	<loot>
+		<item name="gold coin" countmax="100" chance="33725" />
+		<item name="gold coin" countmax="100" chance="33725" />
+		<item name="gold coin" countmax="76" chance="33725" />
+		<item name="platinum coin" countmax="10" chance="29840" />
+		<item name="soul orb" chance="12170" />
+		<item name="wand of dragonbreath" chance="92000" />
+		<item name="demonic essence" chance="8920" />
+		<item name="wyvern fang" chance="15100" />
+		<item name="fire axe" chance="15020" />
+		<item name="wand of perdition" chance="200" />
+		<item name="mana potion" countmax="6" chance="29460" />
+		<item name="health potion" countmax="8" chance="24700" />
+		<item name="red dragon leather" chance="6650" />
+		<item name="red dragon scale" chance="6650" />
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="magma legs" chance="3130" />
+			<item name="magma boots" chance="9510" />
+			<item name="steel boots" chance="900" />
+			<item name="dragon scale mail" chance="470" />
+			<item name="dragon scale helmet" chance="150" />
+			<item name="dragon scale boots" chance="70" />
+			<item name="dragon scale legs" chance="100" />
+			<item name="royal axe" chance="1470" />
+			<item name="samurai sword" chance="100" />
+			<item name="dragon robe" chance="690" />
+			<item name="stuffed dragon" chance="50" />
+		</item>
+	</loot>
+</monster>

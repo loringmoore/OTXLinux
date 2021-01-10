@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Serpent Abomination" nameDescription="a serpent abomination" race="blood" experience="3800" speed="135">
+	<health now="6250" max="6250"/>
+	<look type="176" corpse="3007"/>
+	<targetchange interval="4000" chance="10"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="70"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-420"/>
+		<attack name="fire" interval="500" chance="10" length="4" spread="3" min="-310" max="-630">
+			<attribute key="areaEffect" value="explosion"/>
+		</attack>
+		<attack name="lifedrain" interval="500" chance="15" length="4" spread="0" min="-170" max="-370">
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<attack name="drunk" interval="500" chance="15" range="7" radius="4" target="0" duration="9000">
+			<attribute key="shootEffect" value="poison"/>
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+		<attack name="physical" interval="500" chance="10" range="7" radius="3" target="0">
+			<attribute key="areaEffect" value="greenspark"/>
+		</attack>
+	</attacks>
+	<defenses armor="30" defense="30">
+		<defense name="healing" interval="2000" chance="15" min="650" max="700">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity fire="1"/>
+		<immunity poison="1"/>
+		<immunity lifedrain="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Khhhh!"/>
+		<voice sentence="Hmmnn!"/>
+		<voice sentence="Aaag!"/>
+		<voice sentence="Ssss!"/>
+	</voices>
+	<loot>
+		<item name="gold coin" countmax="100" chance="50000"/>
+		<item name="gold coin" countmax="98" chance="47000"/>
+		<item name="platinum coin" countmax="8" chance="50590"/>
+		<item name="meat" countmax="4" chance="50450"/>
+		<item name="mana potion" countmax="3" chance="9950"/>
+		<item name="venom hood" chance="8730"/>
+		<item name="health potion" countmax="3" chance="9400"/>
+		<item name="small topaz" countmax="4" chance="2900"/>
+		<item id="1987" chance="100000">				<!-- bag -->
+			<item name="mycelium rod" chance="1020"/>
+			<item name="golden armor" chance="470"/>
+			<item name="royal helmet" chance="560"/>
+			<item name="knight legs" chance="7780"/>
+			<item name="lizard leather" chance="12110"/>
+			<item name="lizard scale" chance="6240"/>
+			<item name="crystalline axe" chance="10"/>
+			<item name="steel boots" chance="540"/>
+		</item>
+	</loot>
+</monster>

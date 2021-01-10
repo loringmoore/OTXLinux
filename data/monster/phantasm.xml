@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Phantasm" nameDescription="a phantasm" race="undead" experience="4400" speed="280" manacost="0">
+	<health now="3950" max="3950"/>
+	<look type="158" corpse="5125"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="90" attack="95"/>
+		<attack name="physical" interval="500" chance="10" range="7" min="-250" max="-550">
+			<attribute key="shootEffect" value="suddendeath"/>
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<attack name="phantasm drown" interval="500" chance="15" />
+		<attack name="drunk" interval="500" chance="15" radius="6" target="0" duration="6000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+		<attack name="manadrain" interval="500" chance="10" target="0" radius="3" min="-5" max="-80">
+			<attribute key="areaEffect" value="yellowbubble" />
+		</attack>
+	</attacks>
+	<defenses armor="25" defense="20">
+		<defense name="healing" interval="500" chance="30" min="75" max="125">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="speed" interval="500" chance="10" speedchange="500" duration="6000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+		<defense name="invisible" interval="500" chance="25" duration="8000">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="100"/>
+		<element poisonPercent="70"/>
+		<element firePercent="-24"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Oh my, you forgot to put your pants on!"/>
+		<voice sentence="Weeheeheeheehee!"/>
+		<voice sentence="Its nothing but a dream!"/>
+		<voice sentence="Give in!"/>
+		<voice sentence="Dream a little dream with me!"/>
+	</voices>
+	<summons maxSummons="2">
+		<summon name="Phantasm Summon" interval="0" chance="20" max="2"/>
+	</summons>
+	<loot>
+		<item id="2148" countmax="96" chance="58000"/><!-- gold coin -->
+		<item id="2148" countmax="90" chance="58000"/><!-- gold coin -->
+		<item name="mana potion" countmax="3" chance="13000"/><!-- manafluid -->
+		<item name="health potion" countmax="2" chance="13000"/><!-- manafluid -->
+		<item name="demonic essence" chance="16320" />
+		<item name="jade hammer" chance="110" />
+		<item name="thaian sword" chance="550" />
+		<item id="2260" chance="32500"/><!-- blank rune -->
+		<item id="2230" chance="50000"/><!-- bone -->
+		<item id="2152" chance="1000" /><!-- platinum coin -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<item id="2804" countmax="2" chance="15000"/><!-- shadow herb -->
+			<item id="2149" chance="9000" countmax="2"/><!-- small emerald -->
+			<item id="2487" chance="600" /><!-- crown armor -->
+			<item id="2165" chance="600" /><!-- stealth ring -->
+		</item>
+	</loot>
+</monster>

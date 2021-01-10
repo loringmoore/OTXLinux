@@ -1,0 +1,55 @@
+local keywordHandler = KeywordHandler:new()
+local npcHandler = NpcHandler:new(keywordHandler)
+NpcSystem.parseParameters(npcHandler)
+
+function onCreatureAppear(cid)            npcHandler:onCreatureAppear(cid)            end
+function onCreatureDisappear(cid)        npcHandler:onCreatureDisappear(cid)            end
+function onCreatureSay(cid, type, msg)        npcHandler:onCreatureSay(cid, type, msg)        end
+function onThink()                npcHandler:onThink()                    end
+
+
+
+local function greetCallback(cid)
+	local player = Player(cid)
+	local level = player:getLevel()
+	if level < 10 then
+		npcHandler:say("Woah there |PLAYERNAME|, I'm afraid you aren't quite experienced enough to sail! Come back when you're a little stronger.", cid)
+		npcHandler:resetNpc(cid)
+		return false
+	else
+		npcHandler:setMessage(MESSAGE_GREET)
+	end
+	return true
+end
+
+
+-- Travel
+local function addTravelKeyword(keyword, cost, destination, action)
+    local travelKeyword = keywordHandler:addKeyword({keyword}, StdModule.say, {npcHandler = npcHandler, text = 'Do you seek a seek a passage to ' .. keyword:titleCase() .. ' for |TRAVELCOST|?', cost = cost, discount = 'postman'})
+        travelKeyword:addChildKeyword({'yes'}, StdModule.travel, {npcHandler = npcHandler, premium = true, cost = cost, discount = 'postman', destination = destination}, nil, action)
+        travelKeyword:addChildKeyword({'no'}, StdModule.say, {npcHandler = npcHandler, text = 'We would like to serve you some time.', reset = true})
+end
+
+addTravelKeyword('gravenport', 40, Position(529, 978, 6), function(player) if player:getStorageValue(Storage.postman.Mission01) == 3 then player:setStorageValue(Storage.postman.Mission01, 4) end end)
+addTravelKeyword('madrissa', 160, Position(472, 690, 6))
+addTravelKeyword('territh', 160, Position(1094, 632, 6))
+addTravelKeyword('thunder cove', 190, Position(1065, 1202, 6))
+addTravelKeyword('rhymveil', 170, Position(778, 125, 6))
+
+-- Kick
+-- keywordHandler:addKeyword({'kick'}, StdModule.kick, {npcHandler = npcHandler, destination = {Position(33174, 31773, 6), Position(33175, 31771, 6), Position(33177, 31772, 6)}})
+
+-- Basic
+keywordHandler:addKeyword({'sail'}, StdModule.say, {npcHandler = npcHandler, text = 'Where do you want to go? To Gravenport, Territh, Madrissa, Thunder Cove or Rhymveil?'})
+keywordHandler:addKeyword({'passage'}, StdModule.say, {npcHandler = npcHandler, text = 'Where do you want to go? To Gravenport, Territh, Madrissa, Thunder Cove or Rhymveil?'})
+keywordHandler:addKeyword({'job'}, StdModule.say, {npcHandler = npcHandler, text = 'I am the captain of this vessel.'})
+keywordHandler:addKeyword({'here'}, StdModule.say, {npcHandler = npcHandler, text = 'This is Crescent Isle. Where do you want to go?'})
+keywordHandler:addKeyword({'crescent isle'}, StdModule.say, {npcHandler = npcHandler, text = 'We\'re already there.}'})
+
+npcHandler:setMessage(MESSAGE_GREET, 'Welcome on board, |PLAYERNAME|. Where may I sail you today?')
+npcHandler:setMessage(MESSAGE_FAREWELL, 'Good bye. Recommend us if you were satisfied with our service.')
+npcHandler:setMessage(MESSAGE_WALKAWAY, 'Good bye then.')
+
+
+npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, creatureSayCallback)
+npcHandler:addModule(FocusModule:new())

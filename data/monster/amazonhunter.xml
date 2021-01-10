@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Amazon Hunter" nameDescription="an amazon hunter" race="blood" experience="1700" speed="230" manacost="0">
+	<health now="1400" max="1400"/>
+	<look type="222" head="116" body="95" legs="114" feet="113" corpse="3065" />
+	<targetchange interval="5000" chance="50"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="4"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="150"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="20" attack="15"/>
+		<attack name="physical" interval="500" chance="10" range="7" target="1" min="-95" max="-205">
+			<attribute key="shootEffect" value="spear"/>
+			<attribute key="areaEffect" value="explosionarea"/>
+		</attack>
+		<attack name="fire" interval="700" chance="12" range="7" target="1" radius="2" min="-0" max="-229">
+			<attribute key="shootEffect" value="burstarrow"/>
+			<attribute key="areaEffect" value="explosion"/>
+		</attack>
+		<attack name="physical" interval="700" chance="8" range="7" target="1" radius="3" min="-0" max="-45">
+			<attribute key="shootEffect" value="throwingknife"/>
+			<attribute key="areaEffect" value="blackspark"/>
+		</attack>
+		<attack name="hunter bleed" interval="700" chance="9"/>
+	</attacks>
+	<defenses armor="32" defense="20">
+		<defense name="healing" interval="500" chance="12" min="0" max="244">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="speed" interval="500" chance="5" speedchange="750" duration="4000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="You are marked for death!"/>
+		<voice sentence="This time the prey is you!"/>
+		<voice sentence="You are hunted!"/>
+		<voice sentence="You'll make a fine trophy!"/>
+		<voice sentence="Bullseye!"/>
+	</voices>
+	<loot>
+		<item id="2389" countmax="5" chance="50000"/><!-- spear -->
+		<item id="2150" countmax="3" chance="5000"/><!-- small amethyst -->
+		<item id="2147" countmax="3" chance="5000"/><!-- small ruby -->
+		<item name="throwing knife" countmax="10" chance="6000" />
+		<item name="mana potion" countmax="2" chance="5000"/><!-- manafluid -->
+		<item name="health potion" countmax="2" chance="5000"/><!-- lifefluid -->
+		<item name="brown piece of cloth" countmax="2" chance="2000" />
+		<item id="2260" chance="2000"/><!-- blank rune -->
+		<item id="2165" chance="2000"/><!-- stealth ring -->
+		<item id="2148" countmax="100" chance="70000"/><!-- gold coin -->
+		<item id="2148" countmax="100" chance="30000"/><!-- gold coin -->
+		<item id="2152" countmax="3" chance="9000"/><!-- platinum coin -->
+		<item id="2666" chance="20000"/><!-- meat -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="amazon shield" chance="900"/><!-- amazon shield -->
+			<item id="2156" chance="400"/><!-- red gem -->
+			<item name="amazon armor" chance="700"/><!-- amazon armor -->
+			<item id="2154" chance="400"/><!-- yellow gem -->
+		</item>
+	</loot>
+</monster>

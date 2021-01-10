@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Nomad" nameDescription="a nomad" race="blood" experience="150" speed="180" manacost="0">
+	<health now="250" max="250" />
+	<look type="234" head="114" body="20" legs="22" feet="2" corpse="3058" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="15" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-105" />
+	</attacks>
+	<defenses armor="10" defense="10">
+	</defenses>
+	<elements>
+		<element firePercent="20" />
+		<element holyPercent="20" />
+		<element physicalPercent="-10" />
+		<element drownPercent="-10" />
+		<element lifedrainPercent="-10" />
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="We are the true sons of the desert!" />
+		<voice sentence="I will leave your remains to the vultures!" />
+		<voice sentence="We are swift as the wind of the desert!" />
+	</voices>
+	<loot>
+		<item name="gold coin" countmax="100" chance="56250" />
+		<item name="mace" chance="2120" />
+		<item name="iron helmet" chance="1650" />
+		<item name="brass armor" chance="2350" />
+		<item name="steel shield" chance="2920" />
+		<item name="black pearl" chance="2500" />
+		<item name="brown piece of cloth" chance="270" />
+		<item name="health potion" countmax="1" chance="7100" />
+		<item name="mana potion"  countmax="1" chance="8180" />
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="spike sword" chance="540" />
+		</item>
+	</loot>
+</monster>

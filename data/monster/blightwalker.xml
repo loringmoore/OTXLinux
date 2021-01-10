@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Blightwalker" nameDescription="a blightwalker" race="undead" experience="5850" speed="240" manacost="0">
+	<health now="8900" max="8900"/>
+	<look type="164" corpse="5131"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="88" attack="100"/>
+		<attack name="poison" interval="750" chance="10" range="7" target="1" radius="1" min="-220" max="-405">
+			<attribute key="shootEffect" value="poison" />
+		</attack>
+		<attack name="lifedrain" interval="750" chance="8" target="0" radius="4" min="-65" max="-135">
+			<attribute key="areaEffect" value="greenshimmer" />
+		</attack>
+		<attack name="drunk" interval="750" chance="8" target="0" radius="3" duration="5000">
+			<attribute key="areaEffect" value="greenspark" />
+		</attack>
+		<attack name="blightwalker curse" interval="750" chance="11" />
+	</attacks>
+	<defenses armor="15" defense="15">
+		<defense name="healing" interval="750" chance="25" min="75" max="125">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element poisonPercent="100"/>
+		<element firePercent="60"/>
+		<element energyPercent="40"/>
+		<element physicalPercent="-5"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="I can see you decaying!"/>
+		<voice sentence="Let me taste your mortality!"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="100" chance="627500"/><!-- gold coin -->
+		<item id="2148" countmax="99" chance="627500"/><!-- gold coin -->
+		<item id="2260" chance="29750"/><!-- blank rune -->
+		<item name="assassin star" countmax="10" chance="5900" />
+		<item id="2694" countmax="3" chance="33000"/><!-- bunch of wheat -->
+		<item id="2179" chance="7800"/><!-- gold ring -->
+		<item id="2152" countmax="3" chance="7500"/><!-- platinum coin -->
+		<item id="2545" countmax="9" chance="62750"/><!-- poison arrow -->
+		<item id="2550" chance="5000"/><!-- scythe -->
+		<item name="mana potion" countmax="3" chance="3000"/><!-- manafluid -->
+		<item name="health potion" countmax="2" chance="3000"/><!-- lifefluid -->
+		<item name="soul orb" chance="23720" />
+		<item name="gold ingot" chance="3720" />
+		<item name="demonic essence" chance="28000" />
+		<item id="1987" chance="100000"><!-- bag -->
+			<item id="2183" chance="700"/><!-- tempest rod -->
+			<item name="venom mantle" chance="1050" />
+			<item name="venom legs" chance="2500" />
+			<item name="golden sickle" chance="500" />
+			<item id="2199" chance="750"/><!-- garlic necklace -->
+			<item id="2173" chance="50"/><!-- amulet of loss -->
+			<item id="2436" chance="500"/><!-- skull staff -->
+			<item id="5312" chance="100"/><!--death ring-->
+		</item>
+	</loot>
+</monster>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Gerald" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="129" head="78" body="45" legs="42" feet="117" />
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="backpack,2000,20;pick,2553,10;shovel,2554,20;rope,2120,50" />
+	</parameters>
+</npc>

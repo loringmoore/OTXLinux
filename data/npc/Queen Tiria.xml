@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Queen Tiria" script="queentiria.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="222" head="74" body="66" legs="15" feet="77"/>
+	<parameters>
+        <parameter key="message_greet" value="Be greeted, |PLAYERNAME|! You made it into our stronghold, impressive!"/>
+		<parameter key="message_farewell" value="Good hunting, |PLAYERNAME|!"/>
+        
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;amazon;intruder" />
+		
+        <parameter key="keyword_reply1" value="I am Tiria, Queen of the Amazons in this region. I protect our home, our people, and our way of life." />
+        <parameter key="keyword_reply2" value="Amazons have called this region their home for years. Our founding mothers built this fortress in the forest many years ago. Intruders are not welcome." />
+        <parameter key="keyword_reply3" value="The entrance to the fortress is very well-hidden, most enemies never find their way in." />
+	 </parameters>
+</npc>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Titus" script="smith.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="131" head="76" body="38" legs="76" feet="114"/>
+	<parameters>
+		<parameter key="message_greet" value="Hi |PLAYERNAME|. Can I do something for you?"/>
+		<parameter key="message_farewell" value="Good bye and come again."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;shop;name" />
+		
+        <parameter key="keyword_reply1" value="I am the blacksmith. If you need weapons or armor - just ask me." />
+        <parameter key="keyword_reply2" value="I sell and buy weapons, armor, helmets, and shields. So you are able to protect yourself from monsters." />
+        <parameter key="keyword_reply3" value="My name is Titus." />
+	</parameters>
+</npc>

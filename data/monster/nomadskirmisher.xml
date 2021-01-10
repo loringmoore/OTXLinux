@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Nomad Skirmisher" nameDescription="a nomad skirmisher" race="blood" experience="260" speed="200" manacost="0">
+	<health now="450" max="450" />
+	<look type="234" head="114" body="100" legs="5" feet="0" corpse="3058" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="15" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-155" />
+		<attack name="physical" interval="500" chance="12" range="7" min="0" max="-90">
+			<attribute key="shootEffect" value="spear" />
+		</attack>
+	</attacks>
+	<defenses armor="15" defense="15">
+	</defenses>
+	<elements>
+		<element firePercent="20" />
+		<element holyPercent="20" />
+		<element physicalPercent="-10" />
+		<element drownPercent="-10" />
+		<element lifedrainPercent="-10" />
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="Keep running!" />
+		<voice sentence="I'm going to enjoy this!" />
+		<voice sentence="Aruwan guide my spear!" />
+	</voices>
+	<loot>
+		<item name="gold coin" countmax="100" chance="56250" />
+		<item name="gold coin" countmax="100" chance="56250" />
+		<item name="mace" chance="2120" />
+		<item name="steel helmet" chance="1650" />
+		<item name="plate armor" chance="2350" />
+		<item name="white pearl" chance="2500" />
+		<item name="small ruby" countmax="2" chance="3040" />
+		<item name="green piece of cloth" chance="270" />
+		<item name="white piece of cloth" chance="270" />
+		<item name="health potion" countmax="2" chance="7100" />
+		<item name="mana potion"  countmax="2" chance="8180" />
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="green gem" chance="540" />
+			<item name="castle shield" chance="2920" />
+			<item name="crystal sword" chance="920" />
+		</item>
+	</loot>
+</monster>

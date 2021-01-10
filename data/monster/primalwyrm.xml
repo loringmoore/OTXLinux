@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Primal Wyrm" nameDescription="a primal wyrm" race="undead" experience="4600" speed="320" manacost="0">
+	<health now="7800" max="7800"/>
+	<look type="192" corpse="5377"/>
+	<targetchange interval="4000" chance="15"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag staticattack="80"/>
+		<flag lightlevel="0"/>
+		<flag lightcolor="0"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="250"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-603" />
+		<attack name="primal wyrm curse" interval="500" chance="5" range="5" />
+		<attack name="poisoncondition" interval="500" chance="10" target="1" range="5" min="-920" max="-1280">
+			<attribute key="areaEffect" value="groundshaker" />
+		</attack>
+		<attack name="lifedrain" interval="500" chance="15" range="7" target="1" min="-80" max="-230">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+		<attack name="lifedrain" interval="500" chance="10" length="8" spread="3" min="-120" max="-250">
+			<attribute key="areaEffect" value="bluebubble" />
+		</attack>
+		<attack name="lifedrain" interval="500" chance="15" radius="4" target="0" min="-110" max="-180">
+			<attribute key="areaEffect" value="mortarea" />
+		</attack>
+		<attack name="speed" interval="500" chance="20" range="7" target="1" speedchange="-800" duration="30000">
+			<attribute key="areaEffect" value="blackspark" />
+		</attack>
+	</attacks>
+	<defenses armor="35" defense="35">
+		<defense name="healing" interval="500" chance="15" min="200" max="300">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="25"/>
+		<element drownPercent="-5"/>
+		<element holyPercent="-15"/>
+	</elements>
+	<immunities>
+		<immunity energy="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+		<immunity lifedrain="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="EMBRACE MY GIFTS!" yell="1" />
+		<voice sentence="I WILL FEAST ON YOUR SOUL!" yell="1" />
+	</voices>
+	<loot>
+		<item name="gold coin" countmax="100" chance="33725" />
+		<item name="gold coin" countmax="100" chance="33725" />
+		<item name="gold coin" countmax="66" chance="33725" />
+		<item name="platinum coin" countmax="2" chance="29840" />
+		<item name="soul orb" chance="12170" />
+		<item name="demonic essence" chance="8920" />
+		<item id="2672" countmax="3" chance="32420"/><!-- dragon ham -->
+		<item name="venom legs" chance="3130" />
+		<item name="venom boots" chance="9510" />
+		<item name="health potion" countmax="6" chance="11000"/><!-- manafluid -->
+		<item name="mana potion" countmax="5" chance="11000"/><!-- lifefluid -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="samurai armor" chance="870" />
+			<item name="samurai helmet" chance="150" />
+			<item name="samurai boots" chance="870" />
+			<item name="samurai legs" chance="1400" />
+			<item name="dragon lance" chance="470" />
+			<item name="samurai sword" chance="100" />
+			<item name="infernal bolt" countmax="4" chance="15100" />
+			<item name="dark lord's cape" chance="90" />
+			<item name="wand of voodoo" chance="6650" />
+			<item name="ancient tiara" chance="810" />
+		</item>
+	</loot>
+</monster>

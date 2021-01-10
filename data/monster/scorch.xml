@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Scorch" nameDescription="Scorch" race="fire" experience="46000" speed="360" manacost="0">
+	<health now="10000" max="10000"/>
+	<look type="159" corpse="5110"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="160" attack="80"/>
+		<attack name="fire" interval="750" chance="15" range="7" target="1" min="-310" max="-600">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="explosion"/>
+		</attack>
+		<attack name="fire" interval="750" chance="7" length="8" spread="3" min="-900" max="-2000">
+			<attribute key="areaEffect" value="redfirework"/>
+		</attack>
+		<attack name="fire" interval="750" chance="13" range="7" radius="14" target="0" min="-250" max="-450">
+			<attribute key="areaEffect" value="fireattack"/>
+		</attack>
+		<attack name="fire" interval="750" chance="10" range="7" radius="3" target="0" min="-190" max="-375">
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+	</attacks>
+	<defenses armor="25" defense="25"/>
+	<elements>
+		<element firePercent="100"/>
+		<element energyPercent="40"/>
+		<element physicalPercent="24"/>
+		<element drownPercent="-10"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<loot>
+		<item id="2148" countmax="85" chance="61000"/><!-- gold coin -->
+		<item id="2148" countmax="80" chance="61000"/><!-- gold coin -->
+		<item id="2260" chance="52000"/><!-- blank rune -->
+		<item id="2304" charges="6" chance="2000"/><!-- GFB -->
+		<item id="2239" chance="47000"/><!-- burnt scroll -->
+		<item id="2127" chance="2200"/><!-- emerald bangle -->
+		<item id="5022" countmax="2" chance="4000"/><!-- orichalcum pearl -->
+		<item id="2152" chance="850"/><!-- platinum coin -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<item id="2145" chance="13200"/><!-- small diamond -->
+			<item id="2147" countmax="4" chance="7000"/><!-- small ruby -->
+			<item id="2187" chance="8000"/><!-- wand of inferno -->
+			<item id="2432" chance="4000"/><!-- fire axe -->
+			<item id="2493" chance="1900"/><!-- demon helmet -->
+			<item id="2392" chance="5000"/><!-- fire sword -->	
+			<item name="wand of perdition" chance="3000"/>
+			<item name="magma amulet" chance="5000"/>
+			<item name="magma legs" chance="4000"/>
+			<item name="magma coat" chance="5000"/>
+			<item name="magma monocle" chance="6000"/>
+			<item name="magma boots" chance="7000"/>
+			<item name="phoenix shield" chance="7000"/>
+		</item>
+	</loot>
+</monster>

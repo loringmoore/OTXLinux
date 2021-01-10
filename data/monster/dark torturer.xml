@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dark Torturer" nameDescription="a dark torturer" race="blood" experience="4650" speed="250" manacost="0">
+	<health now="7350" max="7350"/>
+	<look type="151" corpse="5113"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="90" attack="100"/>
+		<attack name="physical" interval="500" chance="17" range="7" min="-60" max="-600">
+			<attribute key="shootEffect" value="throwingknife"/>
+		</attack>
+		<attack name="dark torturer skill reducer" interval="500" chance="7"/>
+	</attacks>
+	<defenses armor="25" defense="35">
+		<defense name="healing" interval="500" chance="20" min="75" max="125">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="100"/>
+		<element poisonPercent="50"/>
+		<element energyPercent="40"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="3000" chance="30">
+		<voice sentence="You like it, don't you?"/>
+		<voice sentence="IahaEhheAie!"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="100" chance="50000"/><!-- gold coin -->
+		<item id="2148" countmax="100" chance="50000"/><!-- gold coin -->
+		<item id="2671" countmax="2" chance="10500"/><!-- ham -->
+		<item name="key ring" chance="1192" />
+		<item name="health potion" countmax="2" chance="3000"/>
+		<item name="mana potion" countmax="2" chance="3000"/>
+		<item name="assassin star" countmax="5" chance="3000"/>
+		<item id="5022" countmax="2" chance="600"/><!-- orichalcum pearl -->
+		<item id="2152" countmax="8" chance="12500"/><!-- platinum coin -->
+		<item name="cat's paw" chance="2222" />
+		<item name="gold ingot" countmax="2" chance="600"/>
+		<item name="saw" chance="1222" />
+		<item name="soul orb" chance="23000" />
+		<item name="demonic essence" chance="8520" />
+		<item id="2558" chance="1700"/><!-- saw -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<item id="2645" chance="5000"/><!-- steel boots -->
+			<item id="2470" chance="100"/><!-- golden legs -->
+			<item name="butcher's axe" chance="850" />
+			<item name="glorious axe" chance="450" />
+		</item>
+	</loot>
+</monster>
