@@ -48,7 +48,7 @@
 			<item id="2747" chance="1000"/><!-- grave flower -->
 			<item id="2804" chance="2000"/><!-- shadow herb -->
 			<item id="2802" chance="1000"/><!-- sling herb -->
-			<item id="2802" chance="1000"/><!-- sling herb -->
+			<item id="5161" chance="1000"/><!-- poison strike -->
 		</item>
 	</loot>
 </monster>

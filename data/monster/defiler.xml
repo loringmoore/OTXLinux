@@ -70,7 +70,8 @@
 			<item name="red gem" chance="1538" />
 			<item name="blue gem" chance="300" />
 			<item id="5312" chance="200"/>
+			<item id="5175" chance="2000"/> <!--intense healing scroll-->
 			<item id="2181" chance="4000"/><!-- quagmire rod -->
-	</item>
+		</item>
 	</loot>
 </monster>

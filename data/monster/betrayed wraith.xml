@@ -63,6 +63,7 @@
 		<item id="2394" chance="16250"/><!-- morning star -->
 		<item id="2387" chance="27500"/><!-- double axe -->
 		<item id="2417" chance="3750"/><!-- battle hammer -->
+		<item id="5160" chance="1750"/><!-- force strike scroll -->
 		<item name="mana potion" chance="3000"/>
 		<item name="health potion" chance="3000"/>
 		<item name="power bolt" countmax="5" chance="50000" />
@@ -72,9 +73,12 @@
 		<item id="1987" chance="100000"><!-- bag -->
 			<item id="2173" chance="100"/><!-- amulet of loss -->
 			<item id="5178" chance="1250"/><!-- skull helmet -->
+			<item id="5449" chance="1000"/><!-- strong haste scroll -->
 			<item id="2145" chance="11500" countmax="4"/> <!-- small diamond -->
 			<item id="2178" chance="7000"/> <!-- mind stone -->
 			<item name="samurai sword" chance="1890" />
+			<item id="5434" chance="590" /> <!-- poison wave scroll-->
+			<item id="5445" chance="1000" /> <!-- invisible scroll-->
 		</item>
 	</loot>
 </monster>

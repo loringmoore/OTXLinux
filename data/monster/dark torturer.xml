@@ -30,12 +30,12 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element firePercent="100"/>
 		<element poisonPercent="50"/>
 		<element energyPercent="40"/>
 	</elements>
 	<immunities>
 		<immunity invisible="1"/>
+		<immunity fire="1"/>
 	</immunities>
 	<voices interval="3000" chance="30">
 		<voice sentence="You like it, don't you?"/>

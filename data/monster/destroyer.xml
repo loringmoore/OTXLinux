@@ -64,6 +64,7 @@
 			<item id="2178" chance="750"/><!-- mind stone -->
 			<item id="5178" chance="300"/><!-- skull helmet -->
 			<item id="2393" chance="3500"/><!-- giant sword -->
+			<item id="5438" chance="1500"/><!-- boulder throw scroll -->
 			<item id="2125" chance="2300"/><!-- crystal necklace -->
 			<item name="dreaded cleaver" chance="833" />
 			<item name="war hammer" chance="333" />

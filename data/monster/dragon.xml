@@ -64,6 +64,9 @@
 			<item id="2145" chance="800"/><!-- small diamond -->
 			<item id="2457" chance="6000"/><!-- steel helmet -->
 			<item id="2187" chance="2000"/><!-- wand of inferno -->
+			<item id="5430" chance="1500"/><!-- fire wave scroll -->
+			<item id="5154" chance="3500"/><!-- light healing scroll -->
+			<item name="dragon scale boots" chance="100" />
 			<item name="green dragon leather" chance="1000" />
 			<item name="green dragon scale" chance="1000" />
 		</item>

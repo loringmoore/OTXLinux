@@ -70,6 +70,7 @@
 			<item name="skull helmet" chance="9000" />
 			<item name="guardian halberd" chance="3000" />
 			<item name="magic plate armor" chance="2900" />
+			<item id="5571" chance="3000" /><!-- drain bomb scroll -->
 		</item>
 	</loot>
 </monster>

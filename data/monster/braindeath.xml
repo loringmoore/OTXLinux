@@ -73,11 +73,19 @@
 		<item name="steel shield" chance="5940" />
 		<item name="green piece of cloth" chance="5030" />
 		<item name="beholder eye" chance="2990" />
-		<item name="clerical mace" chance="1970" />
-		<item name="haunted blade" chance="1440" />
-		<item id="2175" chance="930" /><!-- spellbook -->
-		<item name="sapphire hammer" chance="180" />
-		<item name="beholder shield" chance="100" />
-		<item name="beholder helmet" chance="100" />
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="clerical mace" chance="1970" />
+			<item name="haunted blade" chance="1440" />
+			<item id="2175" chance="930" /><!-- spellbook -->
+			<item id="5160" chance="930" /><!-- force strike scroll -->
+			<item id="5159" chance="930" /><!-- flame strike scroll -->
+			<item id="5161" chance="930" /><!-- poison strike scroll -->
+			<item name="sapphire hammer" chance="180" />
+			<item name="beholder shield" chance="100" />
+			<item name="beholder helmet" chance="100" />
+			<item id="2150" countmax="4" chance="5000"/><!-- small amethyst -->
+			<item id="2149" countmax="3" chance="4800"/><!-- small emerald -->
+			<item name="venom hood" chance="490" />
+		</item>
 	</loot>
 </monster>

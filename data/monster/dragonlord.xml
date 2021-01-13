@@ -67,6 +67,8 @@
 			<item id="2146" chance="10000"/><!-- small sapphire -->
 			<item id="2479" chance="800"/><!-- strange helmet -->
 			<item id="2528" chance="600"/><!-- tower shield -->
+			<item id="5430" chance="2000"/><!-- fire wave scroll -->
+			<item id="5157" chance="2500"/><!-- intense healing scroll -->
 		</item>
 	</loot>
 </monster>

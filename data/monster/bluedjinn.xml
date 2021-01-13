@@ -61,7 +61,8 @@
 			<item name="blue piece of cloth" chance="1920" />
 			<item id="2745" chance="1000"/><!-- blue rose -->
 			<item id="1978" chance="5000"/><!-- book -->
-			<item id="2663" chance="100"/><!-- mystic turban -->
+			<item id="2663" chance="1000"/><!-- mystic turban -->
+			<item id="5158" chance="300"/><!-- energy strike -->
 			<item id="2146" countmax="4" chance="5000"/><!-- small sapphire -->
 		</item>
 	</loot>

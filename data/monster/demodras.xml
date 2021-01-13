@@ -71,6 +71,7 @@
 			<item id="2498" chance="800"/><!-- royal helmet -->
 			<item id="2479" chance="1600"/><!-- strange helmet -->
 			<item id="2528" chance="1200"/><!-- tower shield -->
+			<item id="5430" chance="7200"/><!-- fire wave scroll -->
 			<item id="5285" chance="100000" /><!-- dragon claw -->
 		</item>
 	</loot>

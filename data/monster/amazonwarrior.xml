@@ -59,6 +59,7 @@
 			<item name="guardian shield" chance="1000"/>
 			<item name="knight legs" chance="800"/>
 			<item id="5222" chance="1000"/><!-- crystal sword -->
+			<item id="5452" chance="100"/><!-- berserk scroll -->
 		</item>
 	</loot>
 </monster>

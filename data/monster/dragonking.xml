@@ -69,13 +69,15 @@
 		<item name="health potion" countmax="8" chance="24700" />
 		<item name="red dragon leather" chance="6650" />
 		<item name="red dragon scale" chance="6650" />
+		<item id="5430" chance="5500"/><!-- fire wave scroll -->
+		<item id="5157" chance="2500"/><!-- intense healing scroll -->
 		<item id="1987" chance="100000"><!-- bag -->
 			<item name="magma legs" chance="3130" />
 			<item name="magma boots" chance="9510" />
 			<item name="steel boots" chance="900" />
 			<item name="dragon scale mail" chance="470" />
 			<item name="dragon scale helmet" chance="150" />
-			<item name="dragon scale boots" chance="70" />
+			<item name="dragon scale boots" chance="700" />
 			<item name="dragon scale legs" chance="100" />
 			<item name="royal axe" chance="1470" />
 			<item name="samurai sword" chance="100" />

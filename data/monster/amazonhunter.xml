@@ -61,10 +61,12 @@
 		<item id="2148" countmax="100" chance="70000"/><!-- gold coin -->
 		<item id="2148" countmax="100" chance="30000"/><!-- gold coin -->
 		<item id="2152" countmax="3" chance="9000"/><!-- platinum coin -->
+		<item id="5162" chance="400"/><!-- haste scroll -->
 		<item id="2666" chance="20000"/><!-- meat -->
 		<item id="1987" chance="100000"><!-- bag -->
 			<item name="amazon shield" chance="900"/><!-- amazon shield -->
 			<item id="2156" chance="400"/><!-- red gem -->
+			<item id="5428" chance="100"/><!-- ethereal spear scroll -->
 			<item name="amazon armor" chance="700"/><!-- amazon armor -->
 			<item id="2154" chance="400"/><!-- yellow gem -->
 		</item>

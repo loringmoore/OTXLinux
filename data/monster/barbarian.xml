@@ -66,6 +66,7 @@
 			<item name="enchanted staff" chance="550" />
 			<item name="silver mace" chance="350" />
 			<item name="glacier shoes" chance="200" />
+			<item id="5162" chance="100"/><!-- haste scroll -->
 		</item>
 	</loot>
 </monster>

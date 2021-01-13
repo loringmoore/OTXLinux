@@ -56,6 +56,8 @@
 			<item id="2135" chance="1000"/><!-- scarab amulet -->
 			<item id="2159" countmax="2" chance="10000"/><!-- scarab coin -->
 			<item id="2540" chance="1000"/><!-- scarab shield -->
+			<item id="5161" chance="1000"/><!-- poison strike -->
+			<item id="5449" chance="1000"/><!-- strong haste scroll -->
 			<item id="2150" countmax="4" chance="5000"/><!-- small amethyst -->
 			<item id="2149" countmax="3" chance="4800"/><!-- small emerald -->
 			<item name="venom hood" chance="490" />

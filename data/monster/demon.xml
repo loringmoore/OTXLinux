@@ -85,6 +85,7 @@
 			<item id="2214" chance="1000"/><!-- ring of healing -->
 			<item id="2165" chance="2800"/><!-- stealth ring -->
 			<item id="2151" chance="7000"/><!-- talon -->
+			<item id="5431" chance="1000"/><!-- great energy beam scroll -->
 		</item>
 	</loot>
 </monster>

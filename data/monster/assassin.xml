@@ -53,6 +53,7 @@
 			<item id="2145" chance="200"/><!-- small diamond -->
 			<item id="2457" chance="6000"/><!-- steel helmet -->
 			<item id="2509" chance="2000"/><!-- steel shield -->
+			<item id="5445" chance="100"/><!-- invisible scroll -->
 			<item name="throwing star" countmax="7" chance="9000"/><!-- torch -->
 		</item>
 	</loot>

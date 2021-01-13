@@ -35,7 +35,7 @@
 		</attack>
 	</attacks>
 	<defenses armor="12" defense="15">
-		<defense name="healing" interval="500" chance="10" min="60" max="100">
+		<defense name="healing" interval="500" chance="10" min="260" max="800">
 			<attribute key="areaEffect" value="greenshimmer"/>
 		</defense>
 	</defenses>
@@ -62,6 +62,7 @@
 		<item id="2148" countmax="100" chance="60000"/><!-- gold coin -->
 		<item name="mana potion" countmax="4" chance="3000"/><!-- manafluid -->
 		<item id="1954" chance="6000"/><!-- inkwell -->
+		<item id="5161" chance="1000"/><!-- poison strike scroll -->
 		<item id="2285" chance="2000"/><!-- poison field rune -->
 		<item id="1987" chance="100000"><!-- bag -->
 			<item id="5180" chance="600"/><!-- venom mantle -->
@@ -72,6 +73,8 @@
 			<item id="5231" chance="1000"/><!-- mycelium rod -->
 			<item id="1986" chance="800"/><!-- red tome -->
 			<item id="2501" chance="600"/><!-- ceremonial mask -->
+			<item id="5439" chance="100"/><!-- heal friend scroll -->
+			<item id="5441" chance="300"/><!-- ultimate healing scroll -->
 		</item>
 	</loot>
 </monster>

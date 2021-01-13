@@ -48,7 +48,7 @@
 		<immunity energy="1"/>
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="I'll protect the herd!"/>
+		<voice sentence="I'll protect the clan!"/>
 		<voice sentence="Never surrender!"/>
 		<voice sentence="Submit!"/>
 	</voices>
@@ -66,6 +66,8 @@
 		<item id="2655" chance="1000"/><!-- red robe -->
 		<item id="1987" chance="100000"><!-- bag -->
 			<item id="1970" chance="800"/><!-- Tible -->
+			<item id="5160" chance="600"/><!-- force strike -->
+			<item id="5158" chance="500"/><!-- energy strike -->
 			<item id="2268" subtype="3" chance="800"/><!-- sudden death rune -->
 			<item id="2183" chance="1000"/><!-- tempest rod -->
 			<item name="amazon helmet" chance="600"/><!-- amazon helmet -->

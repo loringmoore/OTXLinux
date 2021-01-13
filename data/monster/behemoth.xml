@@ -49,6 +49,7 @@
 		<item name="platinum coin" countmax="5" chance="59800" />
 		<item name="health potion" chance="10000" />
 		<item id="2666" countmax="6" chance="80000"/><!-- meat -->
+		<item id="5449" chance="2500"/><!-- strong haste scroll -->
 		<item id="1987" chance="100000"><!-- bag -->
 			<item name="small amethyst" countmax="5" chance="6380" />
 			<item name="perfect behemoth fang" chance="1090" />
@@ -61,6 +62,7 @@
 			<item id="2463" chance="4000"/><!-- plate armor -->
 			<item id="2150" countmax="2" chance="8000"/><!-- small amethyst -->
 			<item id="2645" chance="800"/><!-- steel boots -->
+			<item id="5438" chance="800"/><!-- boulder throw -->
 			<item id="2174" chance="1600"/><!-- strange symbol -->
 			<item id="2377" chance="8000"/><!-- two handed sword -->
 			<item name="war axe" chance="50" />
