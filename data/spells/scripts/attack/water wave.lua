@@ -1,6 +1,6 @@
 local combat = createCombatObject()
 setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_DROWNDAMAGE)
-setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_FIREWORK_BLUE)
+setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_ICEATTACK)
 
 local area = createCombatArea(AREA_WAVE7)
 setCombatArea(combat, area)

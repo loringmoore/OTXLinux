@@ -1,6 +1,6 @@
 local combat = Combat()
 combat:setParameter(COMBAT_PARAM_TYPE, COMBAT_LIFEDRAIN)
-combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_DRAWBLOOD)
+combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_ARCANE)
 combat:setArea(createCombatArea(AREA_CIRCLE3X3))
 
 function onGetFormulaValues(player, level, maglevel)
