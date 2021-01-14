@@ -175,3 +175,5 @@ pip-log.txt
 config.lua
 theforgottenserver.exe
 vc14/theforgottenserver.VC.db
+theforgottenserver.exe
+*.exe
