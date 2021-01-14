@@ -1,6 +1,6 @@
 local combat = Combat()
 combat:setParameter(COMBAT_PARAM_TYPE, COMBAT_ENERGYDAMAGE)
-combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_TELEPORT)
+combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_YELLOWENERGY)
 combat:setParameter(COMBAT_PARAM_BLOCKARMOR, 1)
 combat:setArea(createCombatArea(AREA_WAVE6, AREADIAGONAL_WAVE6))
 

@@ -121,6 +121,17 @@
 	<action itemid="5450" script="scrolls/ultimate haste.lua" />
 	<action itemid="5451" script="scrolls/ultimate light.lua" />
 	<action itemid="5452" script="scrolls/berserk.lua" />
+	<action itemid="5568" script="scrolls/holy strike.lua" />
+	<action itemid="5569" script="scrolls/drain strike.lua" />
+	<action itemid="5570" script="scrolls/front sweep.lua" />
+	<action itemid="5571" script="scrolls/drain bomb.lua" />
+	<action itemid="5572" script="scrolls/divine explosion.lua" />
+	<action itemid="5760" script="scrolls/summon creature.lua" />
+	<action itemid="5761" script="scrolls/fire sweep.lua" />
+	<action itemid="5762" script="scrolls/water sweep.lua" />
+	<action itemid="5763" script="scrolls/venom sweep.lua" />
+	<action itemid="5764" script="scrolls/energy sweep.lua" />
+	
 	
 	<!-- Potions -->
 	<action itemid="5424" script="other/healthpotion.lua" />
@@ -199,4 +210,6 @@
 	<!-- Dolls -->
 	<action itemid="5080" script="other/dolls.lua" />
 	
+	<!-- Bosses -->
+	<action itemid="5660" script="other/giantshrimp" />
 </actions>

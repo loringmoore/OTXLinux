@@ -2819,7 +2819,7 @@
 	</item>
 	<item id="2274" article="an" name="avalanche rune">
 		<attribute key="type" value="rune" />
-		<attribute key="runeSpellName" value="adori mas frigo" />
+		<attribute key="runeSpellName" value="adori mas aqua" />
 		<attribute key="weight" value="120" />
 		<attribute key="charges" value="1" />
 	</item>
@@ -2867,9 +2867,9 @@
 		<attribute key="weight" value="120" />
 		<attribute key="charges" value="10" />
 	</item>
-	<item id="2288" article="a" name="stone shower rune">
+	<item id="2288" article="a" name="poison shower rune">
 		<attribute key="type" value="rune" />
-		<attribute key="runeSpellName" value="adori mas tera" />
+		<attribute key="runeSpellName" value="adori mas pox" />
 		<attribute key="weight" value="120" />
 		<attribute key="charges" value="1" />
 	</item>
@@ -9880,8 +9880,8 @@
 		<attribute key="weight" value="9550" />
 		<attribute key="armor" value="14" />
 		<attribute key="slotType" value="body" />
-		<attribute key="speed" value="20" /> 
-		<attribute key="maxManaPointsPercent" value="118"/>
+		<!-- <attribute key="speed" value="20" /> -->
+		<attribute key="maxManaPointsPercent" value="117"/>
 		<attribute key="skillDist" value="7" />
 	</item>
 	<item id="5239" article="a" name="paladin armor">
@@ -11052,10 +11052,12 @@
 		<attribute key="weaponType" value="shield" />
 		<attribute key="skillDist" value="2" />
 	</item>
-	<item id="5709" article="a" name="titan armor">
+	<item id="5709" article="a" name="divine plate">
 		<attribute key="weight" value="12000" />
-		<attribute key="armor" value="18" />
+		<attribute key="armor" value="15" />
 		<attribute key="slotType" value="body" />
+		<attribute key="maxManaPointsPercent" value="118"/>
+		<attribute key="skillDist" value="7" />
 	</item>
 	<item id="5710" article="a" name="dead lizard chosen">
 		<attribute key="containerSize" value="38" />
@@ -11162,6 +11164,234 @@
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="600" />
 		<attribute key="corpseType" value="blood" />
+	</item>
+	<item id="5728" article="a" name="dead crustacea gigantica">
+		<attribute key="containerSize" value="16" />
+		<attribute key="decayTo" value="5729" />
+		<attribute key="duration" value="900" />
+		<attribute key="corpseType" value="blood" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="5729" article="a" name="dead crustacea gigantica">
+		<attribute key="containerSize" value="16" />
+		<attribute key="decayTo" value="5730" />
+		<attribute key="duration" value="600" />
+		<attribute key="corpseType" value="blood" />
+	</item>
+	<item id="5730" article="a" name="dead crustacea gigantica">
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="600" />
+		<attribute key="corpseType" value="blood" />
+	</item>
+	<item id="5731" article="a" name="dead crawler">
+		<attribute key="weight" value="4400" />
+		<attribute key="containerSize" value="36" />
+		<attribute key="decayTo" value="5732" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="venom" />
+	</item>
+	<item id="5732" article="a" name="dead crawler">
+		<attribute key="weight" value="3000" />
+		<attribute key="containerSize" value="36" />
+		<attribute key="decayTo" value="5733" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="venom" />
+	</item>
+	<item id="5733" article="a" name="dead crawler">
+		<attribute key="weight" value="2000" />
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="venom" />
+	</item>
+	<item id="5734" article="a" name="dead spidris">
+		<attribute key="weight" value="4400" />
+		<attribute key="containerSize" value="36" />
+		<attribute key="decayTo" value="5735" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="venom" />
+	</item>
+	<item id="5735" article="a" name="dead spidris">
+		<attribute key="weight" value="3000" />
+		<attribute key="containerSize" value="36" />
+		<attribute key="decayTo" value="5736" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="venom" />
+	</item>
+	<item id="5736" article="a" name="dead spidris">
+		<attribute key="weight" value="2000" />
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="venom" />
+	</item>
+	<item id="5737" article="a" name="dead kollos">
+		<attribute key="weight" value="20000" />
+		<attribute key="containerSize" value="36" />
+		<attribute key="decayTo" value="5738" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="venom" />
+	</item>
+	<item id="5738" article="a" name="dead kollos">
+		<attribute key="weight" value="8000" />
+		<attribute key="containerSize" value="36" />
+		<attribute key="decayTo" value="5739" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="venom" />
+	</item>
+	<item id="5739" article="a" name="dead kollos">
+		<attribute key="weight" value="4000" />
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="venom" />
+	</item>
+	<item id="5740" article="a" name="dead spitter">
+		<attribute key="weight" value="20000" />
+		<attribute key="containerSize" value="36" />
+		<attribute key="decayTo" value="5741" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="venom" />
+	</item>
+	<item id="5741" article="a" name="dead spitter">
+		<attribute key="weight" value="8000" />
+		<attribute key="containerSize" value="36" />
+		<attribute key="decayTo" value="5742" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="venom" />
+	</item>
+	<item id="5742" article="a" name="dead spitter">
+		<attribute key="weight" value="4000" />
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="venom" />
+	</item>
+	<item id="5743" article="a" name="dead waspoid">
+		<attribute key="weight" value="20000" />
+		<attribute key="containerSize" value="36" />
+		<attribute key="decayTo" value="5744" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="venom" />
+	</item>
+	<item id="5744" article="a" name="dead waspoid">
+		<attribute key="weight" value="8000" />
+		<attribute key="containerSize" value="36" />
+		<attribute key="decayTo" value="5745" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="venom" />
+	</item>
+	<item id="5745" article="a" name="dead waspoid">
+		<attribute key="weight" value="4000" />
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="venom" />
+	</item>
+	<item id="5746" article="a" name="dead gobbler">
+		<attribute key="containerSize" value="40" />
+		<attribute key="decayTo" value="5747" />
+		<attribute key="duration" value="600" />
+		<attribute key="corpseType" value="blood" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="5747" article="a" name="dead gobbler">
+		<attribute key="containerSize" value="40" />
+		<attribute key="decayTo" value="5748" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="blood" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="5748" article="a" name="dead gobbler">
+		<attribute key="containerSize" value="40" />
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="blood" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="5749" article="a" name="dead midnight panther">
+		<attribute key="containerSize" value="10" />
+		<attribute key="decayTo" value="5750" />
+		<attribute key="duration" value="900" />
+		<attribute key="corpseType" value="blood" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="5750" article="a" name="dead midnight panther">
+		<attribute key="containerSize" value="10" />
+		<attribute key="decayTo" value="5751" />
+		<attribute key="duration" value="600" />
+		<attribute key="corpseType" value="blood" />
+	</item>
+	<item id="5751" article="a" name="dead midnight panther">
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="600" />
+		<attribute key="corpseType" value="blood" />
+	</item>
+	<item id="5752" article="a" name="slain monster">
+		<attribute key="weight" value="120000" />
+		<attribute key="containerSize" value="10" />
+		<attribute key="decayTo" value="5753" />
+		<attribute key="duration" value="600" />
+		<attribute key="corpseType" value="blood" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="5753" article="a" name="slain monster">
+		<attribute key="weight" value="120000" />
+		<attribute key="containerSize" value="10" />
+		<attribute key="decayTo" value="5754" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="blood" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="5754" article="a" name="slain monster">
+		<attribute key="weight" value="120000" />
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="blood" />
+	</item>
+	<item id="5755" article="a" name="golden can of oil">
+		<attribute key="description" value="The can is warm to the touch." />
+		<attribute key="weight" value="200" />
+	</item>
+	<item id="5756" article="a" name="leather whip">
+		<attribute key="description" value="It is made of the highest quality leather." />
+		<attribute key="weight" value="200" />
+	</item>
+	<item id="5757" article="a" name="dead execowtioner">
+		<attribute key="containerSize" value="50" />
+		<attribute key="decayTo" value="5758" />
+		<attribute key="duration" value="600" />
+		<attribute key="corpseType" value="blood" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="5758" article="a" name="dead execowtioner">
+		<attribute key="containerSize" value="50" />
+		<attribute key="decayTo" value="5759" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="blood" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="5759" article="a" name="dead execowtioner">
+		<attribute key="containerSize" value="50" />
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="blood" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="5760" article="a" name="spell scroll">
+		<attribute key="description" value="It contains instructions to learn the 'summon creature' spell." />
+		<attribute key="weight" value="200" />
+	</item>
+	<item id="5761" article="a" name="spell scroll">
+		<attribute key="description" value="It contains instructions to learn the 'fire sweep' spell." />
+		<attribute key="weight" value="200" />
+	</item>
+	<item id="5762" article="a" name="spell scroll">
+		<attribute key="description" value="It contains instructions to learn the 'water sweep' spell." />
+		<attribute key="weight" value="200" />
+	</item>
+	<item id="5763" article="a" name="spell scroll">
+		<attribute key="description" value="It contains instructions to learn the 'venom sweep' spell." />
+		<attribute key="weight" value="200" />
+	</item>
+	<item id="5764" article="a" name="spell scroll">
+		<attribute key="description" value="It contains instructions to learn the 'energy sweep' spell." />
+		<attribute key="weight" value="200" />
 	</item>
 	
 	<item id="20001" name="water" />

@@ -1,6 +1,6 @@
 local combat = Combat()
 combat:setParameter(COMBAT_PARAM_TYPE, COMBAT_DROWNDAMAGE)
-combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_LOSEENERGY)
+combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_ICEAREA)
 combat:setParameter(COMBAT_PARAM_BLOCKARMOR, 1)
 combat:setArea(createCombatArea(AREA_WAVE6, AREADIAGONAL_WAVE6))
 
