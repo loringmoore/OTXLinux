@@ -57,7 +57,7 @@
 		<item id="1987" chance="100000"><!-- bag -->
 			<item name="wand of plague" chance="280" />
 			<item name="wand of dragonbreath" chance="1500" />
-			<item id="5445" chance="100"><!-- invisible scroll -->
+			<item id="5445" chance="100"/><!-- invisible scroll -->
 		</item>
 	</loot>
 </monster>
