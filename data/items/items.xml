@@ -11145,7 +11145,24 @@
 		<attribute key="duration" value="900"/>
 		<attribute key="corpseType" value="venom"/>
 	</item>
-	
+	<item id="5725" article="a" name="dead draptor">
+		<attribute key="containerSize" value="16" />
+		<attribute key="decayTo" value="5726" />
+		<attribute key="duration" value="900" />
+		<attribute key="corpseType" value="blood" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="5726" article="a" name="dead draptor">
+		<attribute key="containerSize" value="16" />
+		<attribute key="decayTo" value="5726" />
+		<attribute key="duration" value="600" />
+		<attribute key="corpseType" value="blood" />
+	</item>
+	<item id="5727" article="a" name="dead draptor">
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="600" />
+		<attribute key="corpseType" value="blood" />
+	</item>
 	
 	<item id="20001" name="water" />
 	<item id="20002" name="blood" />
