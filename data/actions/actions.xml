@@ -211,5 +211,5 @@
 	<action itemid="5080" script="other/dolls.lua" />
 	
 	<!-- Bosses -->
-	<action itemid="5660" script="other/giantshrimp" />
+	<action itemid="5660" script="other/giantshrimp.lua" />
 </actions>
