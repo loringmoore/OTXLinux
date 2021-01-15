@@ -1,79 +1,71 @@
 local keywordHandler = KeywordHandler:new()
 local npcHandler = NpcHandler:new(keywordHandler)
 NpcSystem.parseParameters(npcHandler)
-
-function onCreatureAppear(cid)
-	npcHandler:onCreatureAppear(cid)
+local talkState = {}
+function onCreatureAppear(cid)                          npcHandler:onCreatureAppear(cid)                        end
+function onCreatureDisappear(cid)                       npcHandler:onCreatureDisappear(cid)                     end
+function onCreatureSay(cid, type, msg)                  npcHandler:onCreatureSay(cid, type, msg)                end
+function onThink()                                      npcHandler:onThink()                                    end
+function creatureSayCallback(cid, type, msg)
+        if(not npcHandler:isFocused(cid)) then
+                return false
+        end
+local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid        
+local spells = {
+				[1] = {spell_name = "Poison Field" ,price = 300, words = 'ADEVO GRAV POX', number = 1},
+				[2] = {spell_name = "Light Magic Missile" ,price = 500, words = 'ADORI', number = 2},
+				[3] = {spell_name = "Fire Field" ,price = 500, words = 'ADORI GRAV FLAM', number = 3},
+				[4] = {spell_name = "Fireball" ,price = 1600, words = 'ADORI FLAM', number = 4},
+				[5] = {spell_name = "Energy Field" ,price = 700, words = 'ADEVO GRAV VIS', number = 5},
+				[6] = {spell_name = "Envenom" ,price = 6000, words = 'ADEVO RES POX', number = 6},
+				[7] = {spell_name = "Great Fireball" ,price = 1200, words = 'ADORI GRAN FLAM', number = 7},
+				[8] = {spell_name = "Thunderstorm" ,price = 1200, words = 'ADORI GRAN VIS', number = 8},
+				[9] = {spell_name = "Poison Shower" ,price = 1200, words = 'ADORI GRAN POX', number = 9},
+				[10] = {spell_name = "Avalanche" ,price = 1200, words = 'ADORI GRAN AQUA', number = 10},
+				[11] = {spell_name = "Heavy Magic Missile" ,price = 1500, words = 'ADORI GRAN', number = 11},
+				[12] = {spell_name = "Poison Bomb" ,price = 1000, words = 'ADEVO MAS POX', number = 12},
+				[13] = {spell_name = "Firebomb" ,price = 1500, words = 'ADEVO MAS FLAM', number = 13},
+				[14] = {spell_name = "Soulfire" ,price = 1800, words = 'ADEVO RES FLAM', number = 14},
+				[15] = {spell_name = "Poison Wall" ,price = 1600, words = 'ADEVO MAS GRAV POX', number = 15},
+				[16] = {spell_name = "Explosion" ,price = 1800, words = 'ADEVO MAS HUR', number = 16},
+				[17] = {spell_name = "Fire Wall" ,price = 2000, words = 'ADEVO MAS GRAV FLAM', number = 17},
+				[18] = {spell_name = "Energybomb" ,price = 2300, words = 'ADEVO MAS VIS', number = 18},
+				[19] = {spell_name = "Energy Wall" ,price = 2500, words = 'ADEVO MAS GRAV VIS', number = 19},
+				[20] = {spell_name = "Sudden Death" ,price = 3000, words = 'ADORI VITA VIS', number = 20},
+				[21] = {spell_name = "Antidote Rune" ,price = 600, words = 'ADANA POX', number = 21},
+				[22] = {spell_name = "Intense Healing Rune" ,price = 600, words = 'ADURA GRAN', number = 22},
+				[23] = {spell_name = "Ultimate Healing Rune" ,price = 1500, words = 'ADURA VITA', number = 23},
+				[24] = {spell_name = "Convince Creature" ,price = 800, words = 'ADETA SIO', number = 24},
+				[25] = {spell_name = "Animate Dead" ,price = 1200, words = 'ADANA MORT', number = 25},
+				[26] = {spell_name = "Chameleon" ,price = 1300, words = 'ADEVO INA', number = 26},
+				[27] = {spell_name = "Destroy Field" ,price = 700, words = 'ADITO GRAV', number = 27},
+				[28] = {spell_name = "Disintegrate" ,price = 900, words = 'ADITO TERA', number = 28},
+				[29] = {spell_name = "Magic Wall" ,price = 2100, words = 'ADEVO GRAV TERA', number = 29},
+				[30] = {spell_name = "Wild Growth" ,price = 2000, words = 'ADEVO GRAV VITA', number = 30},
+				[30] = {spell_name = "Paralyze" ,price = 1900, words = 'ADANA ANI', number = 31},
+		
+				}	
+for i = 1, #spells do
+	if msgcontains(msg, spells[i].spell_name) then
+		if getPlayerLearnedInstantSpell(cid, spells[i].spell_name) == false then
+			npcHandler:say("Would you like to buy "..spells[i].spell_name.." for "..spells[i].price.." gold?", cid)
+			talkState[talkUser] = spells[i].number
+		else
+			npcHandler:say("You already know how to cast this spell.", cid)
+		end
+	elseif msgcontains(msg, 'yes') then
+		if talkState[talkUser] == spells[i].number then
+			if getPlayerMoney(cid) >= spells[i].price then
+				doPlayerRemoveMoney(cid, spells[i].price)
+				npcHandler:say("To cast this spell say {"..spells[i].words.."}.", cid)
+				doPlayerLearnInstantSpell(cid, spells[i].spell_name)
+				doSendMagicEffect(getCreaturePosition(cid), 12)
+			else
+				npcHandler:say("You don\'t have enough money.", cid)
+			end
+		end
+	end
 end
-function onCreatureDisappear(cid)
-	npcHandler:onCreatureDisappear(cid)
 end
-function onCreatureSay(cid, type, msg)
-	npcHandler:onCreatureSay(cid, type, msg)
-end
-function onThink()
-	npcHandler:onThink()
-end
-
-local shopModule = ShopModule:new()
-npcHandler:addModule(shopModule)
-
-shopModule:addBuyableItem({'spellbook'}, 2175, 150, 'spellbook')
-shopModule:addBuyableItem({'magic lightwand'}, 2163, 400, 'magic lightwand')
-
-shopModule:addBuyableItem({'health potion'}, 5424, 50, 'health potion')
-shopModule:addBuyableItem({'mana potion'}, 5425, 50, 'mana potion')
-
-shopModule:addBuyableItem({'intense healing'}, 2265, 95, 1, 'intense healing rune')
-shopModule:addBuyableItem({'ultimate healing'}, 2273, 175, 1, 'ultimate healing rune')
-shopModule:addBuyableItem({'magic wall'}, 2293, 350, 1, 'magic wall rune')
-shopModule:addBuyableItem({'destroy field'}, 2261, 45, 1, 'destroy field rune')
-shopModule:addBuyableItem({'light magic missile'}, 2287, 40, 1, 'light magic missile rune')
-shopModule:addBuyableItem({'heavy magic missile'}, 2311, 120, 1, 'heavy magic missile rune')
-shopModule:addBuyableItem({'great fireball'}, 2304, 180, 1, 'great fireball rune')
-shopModule:addBuyableItem({'explosion'}, 2313, 250, 1, 'explosion rune')
-shopModule:addBuyableItem({'sudden death'}, 2268, 350, 1, 'sudden death rune')
---shopModule:addBuyableItem({'death arrow'}, 2263, 300, 1, 'death arrow rune')
-shopModule:addBuyableItem({'paralyze'}, 2278, 700, 1, 'paralyze rune')
-shopModule:addBuyableItem({'animate dead'}, 2316, 375, 1, 'animate dead rune')
-shopModule:addBuyableItem({'convince creature'}, 2290, 1, 1, 'convince creature rune')
-shopModule:addBuyableItem({'chameleon'}, 2291, 210, 1, 'chameleon rune')
-shopModule:addBuyableItem({'disintegrate'}, 2310, 80, 1, 'disintegreate rune')
-
--- Backpack Potions and Runes
---shopModule:addBuyableItemContainer({'bp hp'}, 2000, 2006, 900, 10, 'backpack of health potions')
---shopModule:addBuyableItemContainer({'bp mp'}, 2001, 2006, 1000, 7, 'backpack of mana potions')
---shopModule:addBuyableItemContainer({'bp ihr'}, 2001, 2265, 1900, 1, 'backpack of intense healing runes')
---shopModule:addBuyableItemContainer({'bp sdr'}, 2001, 2268, 7000, 1, 'backpack of sudden death runes')
---shopModule:addBuyableItemContainer({'bp uhr'}, 2001, 2273, 3500, 1, 'backpack of ultimate healing runes')
---shopModule:addBuyableItemContainer({'bp hmmr'}, 2001, 2311, 2400, 1, 'backpack of heavy magic missile runes')
---shopModule:addBuyableItemContainer({'bp epn'}, 2001, 2313, 5000, 1, 'backpack of explosion runes')
-
-shopModule:addBuyableItem({'wand of vortex', 'vortex'}, 2190, 100, 'wand of vortex')
-shopModule:addBuyableItem({'wand of dragonbreath', 'dragonbreath'}, 2191, 1000, 'wand of dragonbreath')
-shopModule:addBuyableItem({'wand of plague', 'plague'}, 2188, 5000, 'wand of plague')
-shopModule:addBuyableItem({'wand of cosmic energy', 'cosmic energy'}, 2189, 10000, 'wand of cosmic energy')
-shopModule:addBuyableItem({'wand of inferno', 'inferno'}, 2187, 15000, 'wand of inferno')
-
-shopModule:addBuyableItem({'snakebite rod', 'snakebite'}, 2182, 100, 'snakebite rod')
-shopModule:addBuyableItem({'moonlight rod', 'moonlight'}, 2186, 1000, 'moonlight rod')
-shopModule:addBuyableItem({'volcanic rod', 'volcanic'}, 2185, 5000, 'volcanic rod')
-shopModule:addBuyableItem({'quagmire rod', 'quagmire'}, 2181, 10000, 'quagmire rod')
-shopModule:addBuyableItem({'tempest rod', 'tempest'}, 2183, 15000, 'tempest rod')
-
-shopModule:addSellableItem({'wand of vortex', 'vortex'}, 2190, 250, 'wand of vortex')
-shopModule:addSellableItem({'wand of dragonbreath', 'dragonbreath'}, 2191, 500, 'wand of dragonbreath')
-shopModule:addSellableItem({'wand of plague', 'plague'}, 2188, 2500, 'wand of plague')
-shopModule:addSellableItem({'wand of cosmic energy', 'cosmic energy'}, 2189, 5000, 'wand of cosmic energy')
-shopModule:addSellableItem({'wand of inferno', 'inferno'},2187, 7500, 'wand of inferno')
-
-shopModule:addSellableItem({'snakebite rod', 'snakebite'}, 2182, 250,'snakebite rod')
-shopModule:addSellableItem({'moonlight rod', 'moonlight'}, 2186, 500, 'moonlight rod')
-shopModule:addSellableItem({'volcanic rod', 'volcanic'}, 2185, 2500, 'volcanic rod')
-shopModule:addSellableItem({'quagmire rod', 'quagmire'}, 2181, 5000, 'quagmire rod')
-shopModule:addSellableItem({'tempest rod', 'tempest'}, 2183, 7500, 'tempest rod')
-
-
-
 npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, creatureSayCallback)
 npcHandler:addModule(FocusModule:new())

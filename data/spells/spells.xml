@@ -243,23 +243,23 @@
 	</instant>
 
 <!-- Conjure Spells -->
-	<conjure group="support" name="Conjure Arrow" words="exevo con" lvl="13" mana="100" conjureId="2544" conjureCount="20" exhaustion="2000" needlearn="1" function="conjureItem">
+	<conjure group="support" name="Conjure Arrow" words="exevo con" lvl="13" mana="100" conjureId="2544" conjureCount="50" exhaustion="2000" needlearn="1" function="conjureItem">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure group="support" name="Conjure Poisoned Arrow" words="exevo con pox" lvl="16" mana="130" conjureId="2545" conjureCount="14" exhaustion="2000" needlearn="1" function="conjureItem">
+	<conjure group="support" name="Conjure Poisoned Arrow" words="exevo con pox" lvl="16" mana="130" conjureId="2545" conjureCount="30" exhaustion="2000" needlearn="1" function="conjureItem">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure group="support" name="Conjure Bolt" words="exevo con mort" lvl="17" mana="140" prem="0" conjureId="2543" conjureCount="10" exhaustion="2000" needlearn="1" function="conjureItem">
+	<conjure group="support" name="Conjure Bolt" words="exevo con mort" lvl="17" mana="140" prem="0" conjureId="2543" conjureCount="20" exhaustion="2000" needlearn="1" function="conjureItem">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure group="support" name="Conjure Explosive Arrow" words="exevo con flam" lvl="25" mana="290" conjureId="2546" conjureCount="16" exhaustion="2000" needlearn="1" function="conjureItem">
+	<conjure group="support" name="Conjure Explosive Arrow" words="exevo con flam" lvl="25" mana="290" conjureId="2546" conjureCount="25" exhaustion="2000" needlearn="1" function="conjureItem">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure group="support" name="Conjure Infernal Bolt" words="exevo con hur" lvl="33" mana="180" soul="3" prem="0" conjureId="7363" conjureCount="10" exhaustion="2000" needlearn="1" function="conjureItem">
+	<conjure group="support" name="Conjure Infernal Bolt" words="exevo con hur" lvl="33" mana="180" soul="3" prem="0" conjureId="5422" conjureCount="5" exhaustion="2000" needlearn="1" function="conjureItem">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
@@ -274,7 +274,7 @@
 	<!-- <conjure group="support" name="Enchant Staff" words="exeta vis" lvl="41" mana="80" prem="0" conjureId="2433" reagentId="2401" exhaustion="2000" needlearn="1" function="conjureItem"> 
 		<vocation name="Master Sorcerer"/>
 	</conjure> -->
-	<conjure group="support" name="Conjure Power Bolt" words="exevo con vis" lvl="59" mana="700" soul="4" prem="0" conjureId="2547" conjureCount="20" exhaustion="2000" needlearn="1" function="conjureItem">
+	<conjure group="support" name="Conjure Power Bolt" words="exevo con vis" lvl="59" mana="700" soul="4" prem="0" conjureId="2547" conjureCount="10" exhaustion="2000" needlearn="1" function="conjureItem">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>

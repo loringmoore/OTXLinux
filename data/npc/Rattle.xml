@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<npc name="Rattle" script="default.lua" walkinterval="2000" access="3" floorchange="0">
+<npc name="Rattle" script="runes.lua" walkinterval="2000" access="3" floorchange="0">
     <health now="100" max="100"/>
     <look type="33"/>
     <parameters>
@@ -25,7 +25,7 @@
 		<parameter key="keyword_reply10" value="The living are always in such a hurry to accomplish their tasks. It's all too distract them from the fear of death." />
 		<parameter key="keyword_reply11" value="Nomads are the sons and daughters of the desert. The roam the sands, taking what they want. Rumor has it they have an underground fortress somewhere to the south." />
 		<parameter key="keyword_reply12" value="The mountains to the east aren't much safer than the desert floor. An impenetrable stronghold lies at the heart of the tallest peak." />
-		<parameter key="keyword_reply13" value="Scarabs have long smyolised the strength of the desert. They live deep underground, rarely venturing into the sunlight." />
+		<parameter key="keyword_reply13" value="Scarabs have long symbolized the strength of the desert. They live deep underground, rarely venturing into the sunlight." />
 		<parameter key="keyword_reply14" value="This is a city of commerce; go out and explore, you'll find all that Madrissa has to offer." />
     </parameters>
 </npc>

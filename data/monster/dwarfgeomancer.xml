@@ -56,7 +56,7 @@
 			<item id="2146" chance="100"/><!-- small sapphire -->
 			<item id="2175" chance="800"/><!-- spellbook -->
 			<item id="5182" chance="100"/><!-- venom boots -->
-			<item name="boots of haste" chance="50"/>
+			<item id="5438" chance="150"/><!-- boulder throw scroll -->
 			<item name="iron ore" chance="700" />
 			<item name="wand of plague" chance="500" />
 		</item>
