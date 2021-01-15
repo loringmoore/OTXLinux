@@ -64,6 +64,7 @@
 			<item id="2164" chance="1000"/><!-- might ring -->
 			<item id="2377" chance="3000"/><!-- two handed sword -->
 			<item id="2121" chance="10000"/><!-- wedding ring -->
+			<item id="5765" chance="2000"/><!-- conjure arrow scroll -->
 		</item>
 	</loot>
 </monster>

@@ -56,6 +56,7 @@
 			<item id="1973" chance="9000"/><!-- book -->
 			<item id="2401" chance="14000"/><!-- staff -->
 			<item id="2188" chance="2000"/><!-- wand of plague -->
+			<item id="5760" chance="100"/><!-- summon creature scroll -->
 		</item>
 	</loot>
 </monster>

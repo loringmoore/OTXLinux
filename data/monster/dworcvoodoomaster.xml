@@ -68,6 +68,7 @@
 			<item id="2050" chance="11000"/><!-- torch -->
 			<item id="3967" chance="1000"/><!-- tribal mask -->
 			<item id="3955" chance="100"/><!-- voodoo doll -->
+			<item id="5154" chance="200"/><!-- voodoo doll -->
 		</item>
 	</loot>
 </monster>

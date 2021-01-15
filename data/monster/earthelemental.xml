@@ -66,7 +66,8 @@
 			<item name="noble armor" chance="350" />
 			<item name="small topaz" chance="620" />
 			<item name="iron ore" chance="570" />
-			<item id="5438" chance="100"/>
+			<item id="5438" chance="100"/><!--boulder throw scroll -->
+			<item id="5161" chance="200"/><!--poison strike scroll-->
 		</item>
 	</loot>
 </monster>

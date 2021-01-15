@@ -40,6 +40,7 @@
 		<item id="1987" chance="100000"><!-- bag -->
 			<item id="2378" chance="12000"/><!-- battle axe -->
 			<item id="2381" chance="1400"/><!-- halberd -->
+			<item id="5162" chance="150"/><!-- haste spell scroll -->
 		</item>
 	</loot>
 </monster>

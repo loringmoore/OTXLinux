@@ -77,6 +77,7 @@
 			<item id="2149" chance="9000" countmax="2"/><!-- small emerald -->
 			<item id="2487" chance="600" /><!-- crown armor -->
 			<item id="2165" chance="600" /><!-- stealth ring -->
+			<item id="5569" chance="2000"/><!-- drain strike scroll -->
 		</item>
 	</loot>
 </monster>

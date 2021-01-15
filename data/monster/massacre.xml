@@ -66,6 +66,7 @@
 			<item id="2400" chance="900"/><!-- berserker -->
 			<item id="2466" chance="3500"/><!-- golden armor -->
 			<item id="2522" chance="500"/><!-- great shield -->
+			<item id="5443" chance="1000"/><!-- challenge scroll -->
 		</item>
 	</loot>
 </monster>

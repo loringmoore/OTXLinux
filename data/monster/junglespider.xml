@@ -58,7 +58,8 @@
 			<item id="2477" chance="1000"/><!-- knight legs -->
 			<item name="venom amulet" chance="150"/><!-- platinum amulet -->
 			<item id="5161" chance="250"/><!-- poison strike -->
-			<item id="5449" chance="50"/><!-- strong haste -->
+			<item id="5449" chance="500"/><!-- strong haste -->
+			<item id="5766" chance="500"/><!-- conjure poisoned arrow scroll -->
 			<item name="warrior helmet" chance="2000"/><!-- steel helmet -->
 			<item name="boots of haste" chance="400"/><!-- boh -->
 			<item name="giant spider silk" countmax="3" chance="3500" />

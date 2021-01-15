@@ -30,7 +30,7 @@
 			<attribute key="areaEffect" value="redspark" />
 		</attack>
 		<attack name="physical" interval="500" chance="6" length="8" spread="3" min="0" max="-300">
-			<attribute key="areaEffect" value="groundshaker" />
+			<attribute key="areaEffect" value="arcane" />
 		</attack>
 		<attack name="lifedrain" interval="500" chance="7" radius="4" target="0" min="-225" max="-275">
 			<attribute key="areaEffect" value="redspark" />
@@ -84,6 +84,7 @@
 			<item name="skull helmet" chance="990" />
 			<item id="5022" countmax="4" chance="1500"/><!-- orichalcum pearl-->
 			<item id="2214" chance="280"/><!-- ROH -->
+			<item id="5571" chance="480"/><!-- drain bomb scroll -->
 		</item>
 	</loot>
 </monster>

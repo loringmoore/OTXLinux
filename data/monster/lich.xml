@@ -74,6 +74,7 @@
 			<item id="2214" chance="2000"/><!-- ring of healing -->
 			<item id="2479" chance="1000"/><!-- strange helmet -->
 			<item id="2143" chance="5000"/><!-- white pearl -->
+			<item id="5760" chance="250"/><!-- summon creature scroll -->
 			<item name="mind stone" chance="350" />
 			<item name="yellow gem" chance="690" />
 			<item name="skull staff" chance="550" />

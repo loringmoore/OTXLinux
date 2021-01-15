@@ -42,6 +42,7 @@
 			<item id="2483" chance="2000"/><!-- scale armor -->
 			<item id="2481" chance="4000"/><!-- soldier helmet -->
 			<item name="minotaur leather" chance="1990" />
+			<item id="5768" chance="300"/><!-- conjure bolt spell -->
 		</item>
 	</loot>
 </monster>

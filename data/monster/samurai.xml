@@ -72,6 +72,7 @@
 			<item name="samurai sword" chance="340" />
 			<item name="red piece of cloth" chance="1190" />
 			<item name="white piece of cloth" chance="1150" />
+			<item id="5767" chance="1000"/><!-- conjure explosive arrow scroll -->
 		</item>
 	</loot>
 </monster>

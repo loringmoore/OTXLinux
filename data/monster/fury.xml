@@ -83,6 +83,7 @@
 			<item name="noble axe" chance="2000" />
 			<item name="steel boots" chance="790" />
 			<item name="orichalcum pearl" countmax="4" chance="1500" />
+			<item id="5449" chance="500" /><!-- strong haste scroll -->
 		</item>
 	</loot>
 </monster>

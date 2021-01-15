@@ -67,6 +67,7 @@
 			<item id="2171" chance="210" />	<!-- Platinum Amulet  -->
 			<item id="2498" chance="300"/><!-- royal helmet -->
 			<item id="2207" chance="600"/><!-- sword ring -->
+			<item id="5769" chance="500"/><!-- conjure power bolt spell -->
 		</item>
 	</loot>
 </monster>

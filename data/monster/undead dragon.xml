@@ -85,7 +85,7 @@
 			<item id="2498" chance="1750"/><!-- royal helmet -->
 			<item id="2492" chance="290"/><!-- dragon scale mail -->
 			<item id="2466" chance="860"/><!-- golden armor -->
-			<item id="paladin armor" chance="460"/><!-- golden armor -->
+			<item id="divine plate" chance="460"/><!-- golden armor -->
 			<item name="skull helmet" chance="1400" />
 			<item id="5236" chance="860"/><!-- dragon robe -->
 		</item>

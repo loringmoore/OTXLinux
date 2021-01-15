@@ -71,6 +71,8 @@
 			<item id="2802" chance="10000"/><!-- sling herb -->
 			<item id="2189" chance="2000"/><!-- wand of cosmic energy -->
 			<item id="2154" chance="200"/><!-- yellow gem -->
+			<item id="5157" chance="200"/><!-- intense healing scroll -->
+			<item id="5158" chance="600"/><!-- energy strike scroll -->
 		</item>
 	</loot>
 </monster>

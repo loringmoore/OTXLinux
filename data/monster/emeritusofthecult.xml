@@ -63,6 +63,7 @@
 			<item name="platinum amulet" chance="2900" />
 			<item name="crown legs" chance="200" />
 			<item name="yellow piece of cloth" chance="1390" />
+			<item id="5568" chance="200" /><!-- holy strike -->
 		</item>
 	</loot>
 </monster>

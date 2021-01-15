@@ -79,6 +79,7 @@
 			<item id="3957" chance="200"/><!-- war horn -->
 			<item id="2127" chance="200"/><!-- emerald bangle -->
 			<item id="2492" chance="200"/><!-- dragon scale mail -->
+			<item id="5763" chance="600"/><!-- venom sweep scroll -->
 		</item>
 	</loot>
 </monster>

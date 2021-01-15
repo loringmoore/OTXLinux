@@ -79,12 +79,15 @@
 		<item name="mana potion" countmax="2" chance="9000"/><!-- manafluid -->
 		<item name="health potion" countmax="2" chance="9000"/><!-- lifefluid -->
 		<item name="small ruby" chance="4250" />
-		<item name="magma boots" chance="300" />
-		<!-- <item name="raspberry" countmax="5" chance="8500" />
-		<!-- <item name="spellbook of mind control" chance="370" /> -->
-		<!-- <item name="royal tapestry" chance="520" />
-		<!-- <item name="black skull" chance="820" />
-		<!-- <item name="gold ingot" chance="70" />
-		<!-- <item name="crystal of power" chance="220" /> -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="magma boots" chance="300" />
+			<!-- <item name="raspberry" countmax="5" chance="8500" />
+			<!-- <item name="spellbook of mind control" chance="370" /> -->
+			<!-- <item name="royal tapestry" chance="520" /> -->
+			<item name="black skull" chance="820" />
+			<item id="5159" chance="2000"/><!-- flame strike -->
+			<!-- <item name="gold ingot" chance="70" />
+			<!-- <item name="crystal of power" chance="220" /> -->
+		</item>
 	</loot>
 </monster>

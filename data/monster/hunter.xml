@@ -43,6 +43,7 @@
 			<item id="2147" chance="200"/><!-- small ruby -->
 			<item id="2050" chance="10000"/><!-- torch -->
 			<item name="sniper gloves" chance="10" />
+			<item id="5765" chance="10000"/><!-- conjure arrow scroll -->
 		</item>
 	</loot>
 </monster>

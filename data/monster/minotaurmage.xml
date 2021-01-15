@@ -55,6 +55,7 @@
 			<item id="2404" chance="8000"/><!-- combat knife -->
 			<item id="2189" chance="1000"/><!-- wand of cosmic energy -->
 			<item name="minotaur leather" chance="1000" />
+			<item id="5158" chance="500"/><!-- energy strike scoll -->
 		</item>
 	</loot>
 </monster>

@@ -64,6 +64,8 @@
 			<item id="2146" chance="10000"/><!-- small sapphire -->
 			<item id="2197" chance="1600"/><!-- stone skin amulet -->
 			<item id="2475" chance="2000"/><!-- warrior helmet -->
+			<item id="5434" chance="200"/><!-- poison wave scroll -->
+			<item id="5441" chance="2000"/><!-- ultimate healing scroll -->
 		</item>
 	</loot>
 </monster>

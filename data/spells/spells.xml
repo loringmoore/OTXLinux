@@ -259,7 +259,7 @@
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure group="support" name="Conjure Infernal Bolt" words="exevo con hur" lvl="33" mana="180" soul="3" prem="0" conjureId="5422" conjureCount="5" exhaustion="2000" needlearn="1" function="conjureItem">
+	<conjure group="support" name="Conjure Infernal Bolt" words="exevo con hur" lvl="73" mana="1200" soul="3" prem="0" conjureId="5422" conjureCount="5" exhaustion="2000" needlearn="1" function="conjureItem">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>

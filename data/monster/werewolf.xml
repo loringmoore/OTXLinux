@@ -73,6 +73,7 @@
 			<item name="platinum amulet" chance="870" />
 			<item name="warrior helmet" chance="1470" />
 			<item name="rose shield" chance="680" />
+			<item id="5713" chance="1200"/><!-- werewolf amulet -->
 		</item>
 	</loot>
 </monster>

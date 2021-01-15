@@ -72,6 +72,7 @@
 			<item name="knight armor" chance="200" />
 			<item name="brown book" chance="200" />
 			<item name="fish fin" chance="1280" />
+			<item id="5463" chance="12000"/><!-- water strike scroll -->
 		</item>
 	</loot>
 </monster>

@@ -82,6 +82,7 @@
 			<item name="green mushroom" chance="12000"/>
 			<item name="ice cube" chance="550"/>
 			<item name="haunted blade" chance="120"/>
+			<item id="5437" chance="100"> <!-- water wave scroll -->
 		</item>
 	</loot>
 </monster>

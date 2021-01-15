@@ -47,6 +47,7 @@
 		<item id="1987" chance="100000"><!-- bag -->
 			<item id="2456" chance="8000"/><!-- bow -->
 			<item id="2397" chance="12000"/><!-- longsword -->
+			<item id="5765" chance="300"/><!-- conjure arrow scroll -->
 		</item>
 	</loot>
 </monster>

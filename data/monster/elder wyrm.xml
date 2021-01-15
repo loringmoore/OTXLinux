@@ -69,6 +69,7 @@
 			<item id="5234" chance="600"/><!-- focus cape -->
 			<item id="72170" chance="120"/><!-- Silver amulet -->
 			<item id="2434" chance="1000"/><!-- dragon hammer -->
+			<item id="5427" chance="100"/><!-- energy wave scroll -->
 		</item>
 	</loot>
 </monster>

@@ -57,6 +57,7 @@
 			<item id="2663" chance="1000"/><!-- mystic turban -->
 			<item id="2436" chance="100"/><!-- skull staff -->
 			<item name="noble axe" chance="10" />
+			<item id="5569" chance="500"/><!-- drain strike -->
 		</item>
 	</loot>
 </monster>

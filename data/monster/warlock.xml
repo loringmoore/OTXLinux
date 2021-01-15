@@ -85,6 +85,7 @@
 			<item id="2146" chance="2800"/><!-- small sapphire -->
 			<item id="2197" chance="1000"/><!-- stone skin amulet -->
 			<item id="2151" chance="2200"/><!-- talon -->
+			<item id="5159" chance="1200"/><!-- flame strike scroll -->
 		</item>
 	</loot>
 </monster>

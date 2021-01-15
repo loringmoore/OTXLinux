@@ -11393,6 +11393,30 @@
 		<attribute key="description" value="It contains instructions to learn the 'energy sweep' spell." />
 		<attribute key="weight" value="200" />
 	</item>
+	<item id="5765" article="a" name="spell scroll">
+		<attribute key="description" value="It contains instructions to learn the 'conjure arrow' spell." />
+		<attribute key="weight" value="200" />
+	</item>
+	<item id="5766" article="a" name="spell scroll">
+		<attribute key="description" value="It contains instructions to learn the 'conjure poisoned arrow' spell." />
+		<attribute key="weight" value="200" />
+	</item>
+	<item id="5767" article="a" name="spell scroll">
+		<attribute key="description" value="It contains instructions to learn the 'conjure explosive arrow' spell." />
+		<attribute key="weight" value="200" />
+	</item>
+	<item id="5768" article="a" name="spell scroll">
+		<attribute key="description" value="It contains instructions to learn the 'conjure bolt' spell." />
+		<attribute key="weight" value="200" />
+	</item>
+	<item id="5769" article="a" name="spell scroll">
+		<attribute key="description" value="It contains instructions to learn the 'conjure power bolt' spell." />
+		<attribute key="weight" value="200" />
+	</item>
+	<item id="5770" article="a" name="spell scroll">
+		<attribute key="description" value="It contains instructions to learn the 'conjure infernal bolt' spell." />
+		<attribute key="weight" value="200" />
+	</item>
 	
 	<item id="20001" name="water" />
 	<item id="20002" name="blood" />

@@ -57,6 +57,7 @@
 			<item id="2200" chance="4000"/><!-- protection amulet -->
 			<item id="2165" chance="100"/><!-- stealth ring -->
 			<item id="2377" chance="4000"/><!-- two handed sword -->
+			<item id="5445" chance="200"/><!-- invisibility scroll -->
 		</item>
 	</loot>
 </monster>

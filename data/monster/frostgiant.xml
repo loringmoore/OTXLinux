@@ -75,6 +75,7 @@
 			<item name="glacier kilt" chance="690" />
 			<item name="platinum amulet" chance="120" />
 			<item name="crystal necklace" chance="1730" />
+			<item id="5436" chance="150" /><!-- water strike scroll -->
 		</item>
 	</loot>
 </monster>

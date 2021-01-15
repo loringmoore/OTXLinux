@@ -52,6 +52,7 @@
 			<item id="2199" chance="5000"/><!-- garlic necklace -->
 			<item id="2402" chance="1000"/><!-- silver dagger -->
 			<item id="2185" chance="2000"/><!-- volcanic rod -->
+			<item id="5159" chance="200"/><!-- flame strike scroll -->
 		</item>
 	</loot>
 </monster>

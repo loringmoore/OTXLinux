@@ -63,6 +63,7 @@
 			<item id="1980" chance="5000"/><!-- book -->
 			<item id="2663" chance="100"/><!-- mystic turban -->
 			<item id="2149" countmax="4" chance="5400"/><!-- small emerald -->
+			<item id="5159" chance="500" /><!-- flame strike scroll -->
 		</item>
 	</loot>
 </monster>

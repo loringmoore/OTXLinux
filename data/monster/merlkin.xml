@@ -57,6 +57,7 @@
 			<item id="2150" chance="1000"/><!-- small amethyst -->
 			<item id="2188" chance="2000"/><!-- wand of plague -->
 			<item name="ape fur" chance="1000" />
+			<item id="5158" chance="500"/><!-- energy strike scroll -->
 		</item>
 	</loot>
 </monster>

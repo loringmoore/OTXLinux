@@ -60,6 +60,7 @@
 			<item id="2124" chance="3000"/><!-- crystal ring -->
 			<item id="castle shield" chance="1000"/><!-- castle shield -->
 			<item id="2170" chance="100"/><!-- silver amulet -->
+			<item id="5569" chance="300"/><!-- drain strike scroll -->
 			<item id="red gem" chance="2000"/>
 			<item id="wand of plague" chance="1500"/>
 			<item name="yellow piece of cloth" countmax="3" chance="900" />

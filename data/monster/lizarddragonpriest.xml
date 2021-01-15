@@ -64,6 +64,8 @@
 			<item name="samurai boots" chance="450" />
 			<item name="magma coat" chance="300" />
 			<item name="wand of inferno" chance="1480" />
+			<item id="5157" chance="300"/><!-- intense healing scroll -->
+			<item id="5159" chance="750"/><!-- flame strike scroll -->
 		</item>
 	</loot>
 </monster>

@@ -50,6 +50,7 @@
 			<item id="2467" chance="11000"/><!-- leather armor -->
 			<item id="2177" chance="2000"/><!-- life crystal -->
 			<item id="2166" chance="100"/><!-- power ring -->
+			<item id="5157" chance="500"/><!-- intense healing scroll -->
 		</item>
 	</loot>
 </monster>

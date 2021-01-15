@@ -63,6 +63,7 @@
 			<item name="small emerald" countmax="2" chance="1000" />
 			<item name="small diamond" chance="1000" />
 			<item name="small sapphire" chance="1000" />
+			<item id="5436" chance="700"/><!-- water strike scroll -->
 		</item>
 	</loot>
 </monster>

@@ -57,6 +57,7 @@
 			<item id="2392" chance="310" />	<!-- Fire Sword -->
 			<item id="2381" chance="1610" />	<!-- Halberd -->
 			<item id="2744" chance="510" />	<!-- Red Rose -->
+			<item id="5452" chance="500" /><!-- berserk scroll -->
 		</item>
 	</loot>
 </monster>

@@ -52,6 +52,7 @@
 			<item name="green gem" chance="540" />
 			<item name="castle shield" chance="2920" />
 			<item name="crystal sword" chance="920" />
+			<item id="5428" chance="1200"/><!-- ethereal spear scroll -->
 		</item>
 	</loot>
 </monster>

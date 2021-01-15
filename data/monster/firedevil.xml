@@ -47,6 +47,7 @@
 			<item id="2419" chance="12000"/><!-- scimitar -->
 			<item id="2150" chance="600"/><!-- small amethyst -->
 			<item id="2185" chance="1000"/><!-- volcanic rod -->
+			<item id="5159" chance="1000"/><!-- flame strike scroll -->
 		</item>
 	</loot>
 </monster>

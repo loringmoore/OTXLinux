@@ -75,6 +75,7 @@
 			<item name="skeleton decoration" chance="220"/>
 			<item name="bat decoration" chance="390"/>
 			<item name="black skull" chance="650"/>
+			<item id="5569" chance="1700"/><!-- drain strike -->
 		</item>
 	</loot>
 </monster>

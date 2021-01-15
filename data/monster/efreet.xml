@@ -76,7 +76,8 @@
 		<item id="1987" chance="100000"><!-- bag -->
 			<item id="2155" chance="100"/><!-- green gem -->
 			<item id="1860" chance="5000"/><!-- green tapestry -->
-			<item id="2663" chance="200"/><!-- mystic turban -->
+			<item id="2663" chance="2000"/><!-- mystic turban -->
+			<item id="5159" chance="200"/><!-- flame strike scroll -->
 			<item id="2149" countmax="2" chance="14000"/><!-- small emerald -->
 			<item id="2187" chance="1000"/><!-- wand of inferno -->
 			<item name="magma monocle" chance="360" />

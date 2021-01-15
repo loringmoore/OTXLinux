@@ -52,6 +52,7 @@
 			<item id="2169" chance="1400"/><!-- time ring -->
 			<item name="giant spider silk" chance="2140" />
 			<item name="lightning headband" chance="220" />
+			<item id="5449" chance="500" /><!-- strong haste scroll -->
 		</item>
 	</loot>
 </monster>

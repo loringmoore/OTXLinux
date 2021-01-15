@@ -73,6 +73,7 @@
 		<item id="2063" chance="40000"/><!-- small oil lamp -->
 		<item id="1987" chance="100000"><!-- bag -->
 			<item id="2158" chance="100"/><!-- blue gem -->
+			<item id="5158" chance="1000"/><!-- energy strike scroll -->
 			<item id="1872" chance="5000"/><!-- blue tapestry -->
 			<item id="2663" chance="200"/><!-- mystic turban -->
 			<item id="2146" countmax="2" chance="14000"/><!-- small sapphire -->

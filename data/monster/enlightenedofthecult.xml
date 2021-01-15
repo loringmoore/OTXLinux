@@ -71,6 +71,7 @@
 			<item name="blue robe" chance="40" />
 			<item name="black skull" chance="130" />
 			<item id="3955" chance="430" />
+			<item id="5445" chance="500" /> <!-- invsibility scroll -->
 			<item name="amber staff" chance="100" />
 			<item name="key ring" chance="100" />
 			<item name="grey tome" chance="200" />

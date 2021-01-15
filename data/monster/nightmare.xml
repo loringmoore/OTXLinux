@@ -72,6 +72,7 @@
 			<item id="2454" chance="100"/><!-- war axe -->
 			<item id="5312" chance="100"/><!-- war axe -->
 			<item name="skeleton decoration" chance="200" />
+			<item id="5449" chance="5000"/><!-- strong haste spell -->
 		</item>
 	</loot>
 </monster>

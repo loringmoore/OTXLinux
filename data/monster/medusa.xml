@@ -67,6 +67,7 @@
 			<item name="venom mantle" chance="870" />
 			<item name="venom legs" chance="420" />
 			<item name="venom amulet" chance="4060" />
+			<item id="5433" chance="100"/><!-- poison storm scroll -->
 		</item>
 	</loot>
 </monster>

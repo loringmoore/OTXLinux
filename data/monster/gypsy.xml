@@ -76,6 +76,7 @@
 			<item name="stuffed toad" chance="90" />
 			<item name="focus cape" chance="1500" />
 			<item name="obsidian knife" chance="500" />
+			<item id="5157" chance="280"/><!-- intense healing scroll -->
 		</item>
 	</loot>
 </monster>

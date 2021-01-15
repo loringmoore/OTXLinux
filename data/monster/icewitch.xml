@@ -65,6 +65,7 @@
 			<item name="diamond sceptre" chance="330" />
 			<item name="glacier mask" chance="90" />
 			<item name="crystal sword" chance="400" />
+			<item id="5436" chance="100"/><!-- water strike scroll -->
 		</item>
 	</loot>
 </monster>

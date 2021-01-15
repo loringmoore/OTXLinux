@@ -67,6 +67,7 @@
 		<item id="2394" chance="20000"/><!-- morning star -->
 		<item id="1987" chance="100000"><!-- bag -->
 			<item id="3972" chance="100"/><!-- bonelord helmet -->
+			<item id="5760" chance="100"/><!-- bonelord helmet -->
 			<item id="2518" chance="100"/><!-- bonelord shield -->
 			<item id="2175" chance="2000"/><!-- spellbook -->
 			<item id="2509" chance="12000"/><!-- steel shield -->
