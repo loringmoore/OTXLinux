@@ -68,7 +68,7 @@
 			<item name="black skull" chance="151" />
 			<item name="warrior helmet" chance="1886" />
 			<item name="knight legs" chance="3030" />
-			<item id="5159" chance="1000"><!-- flame strike scroll -->
+			<item id="5159" chance="1000"/><!-- flame strike scroll -->
 		</item>
 	</loot>
 </monster>
