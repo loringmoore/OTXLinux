@@ -9,20 +9,6 @@ function onThink()                npcHandler:onThink()                    end
 
 
 
-local function greetCallback(cid)
-	local player = Player(cid)
-	local level = player:getLevel()
-	if level < 10 then
-		npcHandler:say("Woah there |PLAYERNAME|, I'm afraid you aren't quite experienced enough to sail! Come back when you're a little stronger.", cid)
-		npcHandler:resetNpc(cid)
-		return false
-	else
-		npcHandler:setMessage(MESSAGE_GREET)
-	end
-	return true
-end
-
-
 -- Travel
 local function addTravelKeyword(keyword, cost, destination, action)
     local travelKeyword = keywordHandler:addKeyword({keyword}, StdModule.say, {npcHandler = npcHandler, text = 'Do you seek a seek a passage to ' .. keyword:titleCase() .. ' for |TRAVELCOST|?', cost = cost, discount = 'postman'})

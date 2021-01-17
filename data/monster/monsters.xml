@@ -9,6 +9,7 @@
 	<monster name="ancient scarab" file="ancientscarab.xml"/>
 	<monster name="arkhothep" file="arkhothep.xml"/>
 	<monster name="assassin" file="assassin.xml"/>
+	<monster name="azurefrog" file="azurefrog.xml"/>
 	<monster name="badger" file="badger.xml"/>
 	<monster name="bandit" file="bandit.xml"/>
 	<monster name="banshee" file="banshee.xml"/>

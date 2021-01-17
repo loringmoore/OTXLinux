@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Captain Seaweed" script="travel_rhymveil.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="240" head="118" body="40" legs="95" feet="114" />
+    <parameters>
+		<parameter key="keywords" value="name" />
+		<parameter key="keyword_reply1" value="I'm captain Seaweed, only I can navigate these icy waters." />
+    </parameters>
+</npc>

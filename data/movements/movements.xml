@@ -14,6 +14,7 @@
 	<movevent event="StepOut" itemid="447" script="tiles.lua" />
 	<movevent event="StepIn" itemid="3216" script="tiles.lua" />
 	<movevent event="StepOut" itemid="3217" script="tiles.lua" />
+	<movevent event="StepIn" actionid="5000" script="crescentboat.lua" />
 	
 	<!--ocean-->
 	<movevent event="StepIn" fromid="747" toid="752" script="drowning.lua" />
@@ -456,11 +457,95 @@
 
 	<movevent event="Equip" itemid="2518" slot="hand" function="onEquipItem" /> <!--beholder -->
 	<movevent event="DeEquip" itemid="2518" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5209" slot="hand" function="onEquipItem" /> <!--beholder -->
+	<movevent event="DeEquip" itemid="2509" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2510" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2510" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2511" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2511" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2512" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2512" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2513" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2513" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2514" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2514" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2515" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2515" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2516" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2516" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2517" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2517" slot="hand" function="onDeEquipItem" />
 	
+	<movevent event="Equip" itemid="2519" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2519" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2520" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2520" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2521" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2521" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2522" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2522" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2523" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2523" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2524" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2524" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2525" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2525" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2526" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2526" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2527" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2527" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2528" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2528" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2529" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2529" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2530" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2530" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2531" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2531" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2532" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2532" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2533" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2533" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2534" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2534" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2535" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2535" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2536" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2536" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2537" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2537" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2538" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2538" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2539" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2539" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2540" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2540" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2541" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2541" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2542" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2542" slot="hand" function="onDeEquipItem" />
 	
-	<!--distance-->
-	<movevent event="Equip" itemid="3974" slot="hand" function="onEquipItem" /> <!--beholder -->
+	<movevent event="Equip" itemid="3973" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="3973" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="3974" slot="hand" function="onEquipItem" /> 
 	<movevent event="DeEquip" itemid="3974" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="3975" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="3975" slot="hand" function="onDeEquipItem" />
+	
+	<movevent event="Equip" itemid="5241" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="5241" slot="hand" function="onDeEquipItem" />
+	
+	<movevent event="Equip" itemid="5314" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="5314" slot="hand" function="onDeEquipItem" />
+	
+	<movevent event="Equip" itemid="5619" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="5619" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5620" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="5620" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5708" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="5708" slot="hand" function="onDeEquipItem" />
+	
+
 	
 	<!--mage-->
 	<movevent event="Equip" itemid="2175" slot="hand" function="onEquipItem" /> <!--spellbook -->
@@ -480,17 +565,258 @@
 	<movevent event="Equip" itemid="1984" slot="hand" function="onEquipItem" /> <!--blue tome -->
 	<movevent event="DeEquip" itemid="1984" slot="hand" function="onDeEquipItem" />
 	
+	
+	<!-- club -->
+	
+	<movevent event="Equip" itemid="2321" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2321" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2382" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2382" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2391" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2391" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2394" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2394" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2398" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2398" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2401" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2401" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2416" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2416" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2417" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2417" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2421" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2421" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2422" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2422" slot="hand" function="onDeEquipItem" />
+	
+	<movevent event="Equip" itemid="2423" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2423" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2424" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2424" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2433" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2433" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2434" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2434" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5219" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="5219" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2436" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2436" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2437" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2437" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2439" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2439" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2444" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2444" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2445" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2445" slot="hand" function="onDeEquipItem" />
+	
+	<movevent event="Equip" itemid="2448" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2448" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2449" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2449" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2452" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2452" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="3961" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="3961" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="3966" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="3966" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5027" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="5027" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5028" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="5028" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5029" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="5029" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5210" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="5210" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5211" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="5211" slot="hand" function="onDeEquipItem" />
+	
+	<movevent event="Equip" itemid="5212" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="5212" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5213" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="5213" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5214" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="5214" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5215" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="5215" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5216" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="5216" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5217" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="5217" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5218" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="5218" slot="hand" function="onDeEquipItem" />
+	
 	<!--axe-->
 	
-	<movevent event="Equip" itemid="2378" slot="hand" script="battleaxe.lua" /> <!--battle axe -->
-	<movevent event="DeEquip" itemid="2378" slot="hand" script="battleaxe.lua" />
-	<movevent event="Equip" itemid="2436" slot="hand" function="onEquipItem" /> <!--battle axe -->
-	<movevent event="DeEquip" itemid="2436" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2378" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2378" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2380" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2380" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2381" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2381" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2386" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2386" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2387" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2387" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2388" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2388" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2405" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2405" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2414" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2414" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2415" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2415" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2418" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2418" slot="hand" function="onDeEquipItem" />
+	
+	<movevent event="Equip" itemid="2425" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2425" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2426" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2426" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2427" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2427" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2428" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2428" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2429" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2429" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2430" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2430" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2431" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2431" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2432" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2432" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2435" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2435" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2440" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2440" slot="hand" function="onDeEquipItem" />
+	
+	<movevent event="Equip" itemid="2441" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2441" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2443" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2443" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2447" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2447" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2454" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2454" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2550" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="2550" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="3962" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="3962" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="3964" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="3964" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5199" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="5199" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5200" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="5200" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5201" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="5201" slot="hand" function="onDeEquipItem" />
+	
+	<movevent event="Equip" itemid="5202" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="5202" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5203" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="5203" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5204" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="5204" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5205" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="5205" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5206" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="5206" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5207" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="5207" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5208" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="5208" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5209" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="5209" slot="hand" function="onDeEquipItem" />
 	
 	
+	<!--sword -->
 	
-	
-	
+	<movevent event="Equip" itemid="2376" slot="hand" function="onEquipItem" /> <!--sword -->
+	<movevent event="DeEquip" itemid="2376" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2377" slot="hand" function="onEquipItem" /> <!--2hsword -->
+	<movevent event="DeEquip" itemid="2377" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2379" slot="hand" function="onEquipItem" /> <!--dagger -->
+	<movevent event="DeEquip" itemid="2379" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2383" slot="hand" function="onEquipItem" /> <!--spike sword -->
+	<movevent event="DeEquip" itemid="2383" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2384" slot="hand" function="onEquipItem" /> <!--rapier -->
+	<movevent event="DeEquip" itemid="2384" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2385" slot="hand" function="onEquipItem" /> <!--sabre -->
+	<movevent event="DeEquip" itemid="2385" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2390" slot="hand" function="onEquipItem" /> <!--magic longsword -->
+	<movevent event="DeEquip" itemid="2390" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2392" slot="hand" function="onEquipItem" /> <!--fire sword -->
+	<movevent event="DeEquip" itemid="2392" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2393" slot="hand" function="onEquipItem" /> <!--giant sword-->
+	<movevent event="DeEquip" itemid="2393" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2395" slot="hand" function="onEquipItem" /> <!--carlin sword-->
+	<movevent event="DeEquip" itemid="2395" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2396" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="2396" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2397" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="2397" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2400" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="2400" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2402" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="2402" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2403" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="2403" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2404" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="2404" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2406" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="2406" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2407" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="2407" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2408" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="2408" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2409" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="2409" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2411" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="2411" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2412" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="2412" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2413" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="2413" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2419" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="2419" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2420" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="2420" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2438" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="2438" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2442" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="2442" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2446" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="2446" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2450" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="2450" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2451" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="2451" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="3963" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="3963" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5220" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="5220" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5221" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="5221" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5222" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="5222" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5223" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="5223" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5224" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="5224" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5225" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="5225" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5226" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="5226" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5227" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="5227" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5228" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="5228" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5229" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="5229" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5230" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="5230" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5297" slot="hand" function="onEquipItem" /> <!--battle axe -->
+	<movevent event="DeEquip" itemid="5297" slot="hand" function="onDeEquipItem" />
 	
 	
 	
