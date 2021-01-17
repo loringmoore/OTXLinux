@@ -42,6 +42,7 @@
 			<item id="2458" chance="10000"/><!-- chain helmet -->
 			<item id="2110" chance="1000"/><!-- doll -->
 			<item id="2459" chance="1000"/><!-- iron helmet -->
+			<item id="5162" chance="4000"/><!-- haste scroll -->
 			<item id="2509" chance="2000"/><!-- steel shield -->
 		</item>
 	</loot>

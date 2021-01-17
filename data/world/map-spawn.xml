@@ -1611,10 +1611,6 @@
 		<monster name="cyclops" x="1" y="-10" z="5" spawntime="60" />
 		<monster name="cyclops" x="3" y="6" z="5" spawntime="60" />
 	</spawn>
-	<spawn centerx="346" centery="873" centerz="5" radius="2">
-		<monster name="bandit" x="1" y="0" z="5" spawntime="60" />
-		<monster name="smuggler" x="0" y="1" z="5" spawntime="60" />
-	</spawn>
 	<spawn centerx="972" centery="873" centerz="5" radius="13">
 		<monster name="orc berserker" x="-9" y="-9" z="5" spawntime="60" />
 		<monster name="orc berserker" x="2" y="-8" z="5" spawntime="60" />
@@ -1624,6 +1620,14 @@
 		<monster name="orc berserker" x="11" y="-3" z="5" spawntime="60" />
 		<monster name="orc rider" x="7" y="-2" z="5" spawntime="60" />
 		<monster name="orc" x="3" y="-1" z="5" spawntime="60" />
+	</spawn>
+	<spawn centerx="346" centery="876" centerz="5" radius="7">
+		<monster name="wild warrior" x="0" y="-4" z="5" spawntime="60" />
+		<monster name="bandit" x="1" y="-2" z="5" spawntime="60" />
+		<monster name="wild warrior" x="2" y="-2" z="5" spawntime="60" />
+		<monster name="wild warrior" x="-1" y="-1" z="5" spawntime="60" />
+		<monster name="bandit" x="3" y="-1" z="5" spawntime="60" />
+		<monster name="smuggler" x="2" y="0" z="5" spawntime="60" />
 	</spawn>
 	<spawn centerx="845" centery="877" centerz="5" radius="11">
 		<monster name="elf" x="-6" y="-5" z="5" spawntime="60" />
@@ -2442,7 +2446,9 @@
 	<spawn centerx="345" centery="876" centerz="6" radius="5">
 		<monster name="wild warrior" x="3" y="-3" z="6" spawntime="60" />
 		<monster name="wild warrior" x="-3" y="-2" z="6" spawntime="60" />
-		<monster name="bandit" x="-1" y="1" z="6" spawntime="60" />
+		<monster name="smuggler" x="-3" y="1" z="6" spawntime="60" />
+		<monster name="bandit" x="1" y="2" z="6" spawntime="60" />
+		<monster name="wild warrior" x="-1" y="3" z="6" spawntime="60" />
 	</spawn>
 	<spawn centerx="916" centery="876" centerz="6" radius="19">
 		<monster name="cyclops" x="19" y="-14" z="6" spawntime="60" />
@@ -3023,6 +3029,17 @@
 		<monster name="winter wolf" x="5" y="3" z="7" spawntime="60" />
 		<monster name="polar bear" x="1" y="9" z="7" spawntime="60" />
 	</spawn>
+	<spawn centerx="729" centery="305" centerz="7" radius="30">
+		<monster name="winter wolf" x="8" y="-28" z="7" spawntime="60" />
+		<monster name="winter wolf" x="-10" y="-21" z="7" spawntime="60" />
+		<monster name="winter wolf" x="-23" y="-9" z="7" spawntime="60" />
+		<monster name="winter wolf" x="14" y="-8" z="7" spawntime="60" />
+		<monster name="winter wolf" x="14" y="3" z="7" spawntime="256" />
+		<monster name="winter wolf" x="-2" y="4" z="7" spawntime="256" />
+		<monster name="winter wolf" x="-13" y="9" z="7" spawntime="60" />
+		<monster name="winter wolf" x="11" y="18" z="7" spawntime="256" />
+		<monster name="winter wolf" x="11" y="19" z="7" spawntime="60" />
+	</spawn>
 	<spawn centerx="351" centery="335" centerz="7" radius="15">
 		<monster name="Ice Witch" x="-14" y="4" z="7" spawntime="60" />
 		<monster name="Barbarian" x="-11" y="5" z="7" spawntime="60" />
@@ -3074,6 +3091,14 @@
 		<monster name="Barbarian" x="-15" y="3" z="7" spawntime="60" />
 		<monster name="Skinflayer" x="3" y="13" z="7" spawntime="60" />
 		<monster name="Skinflayer" x="5" y="15" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="702" centery="367" centerz="7" radius="30">
+		<monster name="winter wolf" x="-8" y="-24" z="7" spawntime="60" />
+		<monster name="winter wolf" x="-12" y="-16" z="7" spawntime="60" />
+		<monster name="winter wolf" x="19" y="-7" z="7" spawntime="60" />
+		<monster name="winter wolf" x="-12" y="4" z="7" spawntime="60" />
+		<monster name="winter wolf" x="7" y="15" z="7" spawntime="60" />
+		<monster name="winter wolf" x="-11" y="16" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="299" centery="368" centerz="7" radius="15">
 		<monster name="Skinflayer" x="9" y="-5" z="7" spawntime="60" />
@@ -3648,6 +3673,19 @@
 		<monster name="crab" x="-1" y="-7" z="7" spawntime="60" />
 		<monster name="Blood Crab" x="15" y="-1" z="7" spawntime="60" />
 		<monster name="crab" x="13" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="337" centery="877" centerz="7" radius="13">
+		<monster name="wild warrior" x="6" y="-10" z="7" spawntime="60" />
+		<monster name="smuggler" x="3" y="-7" z="7" spawntime="60" />
+		<monster name="wild warrior" x="-7" y="-3" z="7" spawntime="60" />
+		<monster name="bandit" x="-2" y="-3" z="7" spawntime="60" />
+		<monster name="wild warrior" x="5" y="-1" z="7" spawntime="60" />
+		<monster name="smuggler" x="-3" y="1" z="7" spawntime="60" />
+		<monster name="bandit" x="-6" y="3" z="7" spawntime="60" />
+		<monster name="smuggler" x="-11" y="4" z="7" spawntime="60" />
+		<monster name="wild warrior" x="-4" y="5" z="7" spawntime="60" />
+		<monster name="bandit" x="-1" y="6" z="7" spawntime="60" />
+		<monster name="smuggler" x="0" y="11" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="756" centery="884" centerz="7" radius="30">
 		<monster name="snake" x="11" y="0" z="7" spawntime="60" />

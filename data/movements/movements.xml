@@ -565,6 +565,37 @@
 	<movevent event="Equip" itemid="1984" slot="hand" function="onEquipItem" /> <!--blue tome -->
 	<movevent event="DeEquip" itemid="1984" slot="hand" function="onDeEquipItem" />
 	
+	<!-- wands -->
+	<movevent event="Equip" itemid="2190" slot="hand" function="onEquipItem" /> <!--spellbook -->
+	<movevent event="DeEquip" itemid="2190" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2182" slot="hand" function="onEquipItem" /> <!--grey tome -->
+	<movevent event="DeEquip" itemid="2182" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2191" slot="hand" function="onEquipItem" /> <!--brown book -->
+	<movevent event="DeEquip" itemid="2191" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2186" slot="hand" function="onEquipItem" /> <!--Tible -->
+	<movevent event="DeEquip" itemid="2186" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2188" slot="hand" function="onEquipItem" /> <!--green tome -->
+	<movevent event="DeEquip" itemid="2188" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2185" slot="hand" function="onEquipItem" /> <!--red tome -->
+	<movevent event="DeEquip" itemid="2185" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2189" slot="hand" function="onEquipItem" /> <!--purple tome -->
+	<movevent event="DeEquip" itemid="2189" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2181" slot="hand" function="onEquipItem" /> <!--blue tome -->
+	<movevent event="DeEquip" itemid="2181" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2187" slot="hand" function="onEquipItem" /> <!--spellbook -->
+	<movevent event="DeEquip" itemid="2187" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2183" slot="hand" function="onEquipItem" /> <!--grey tome -->
+	<movevent event="DeEquip" itemid="2183" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="577" slot="hand" function="onEquipItem" /> <!--brown book -->
+	<movevent event="DeEquip" itemid="577" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5231" slot="hand" function="onEquipItem" /> <!--Tible -->
+	<movevent event="DeEquip" itemid="5231" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5030" slot="hand" function="onEquipItem" /> <!--green tome -->
+	<movevent event="DeEquip" itemid="5030" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="576" slot="hand" function="onEquipItem" /> <!--red tome -->
+	<movevent event="DeEquip" itemid="576" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5622" slot="hand" function="onEquipItem" /> <!--purple tome -->
+	<movevent event="DeEquip" itemid="5622" slot="hand" function="onDeEquipItem" />
 	
 	<!-- club -->
 	
