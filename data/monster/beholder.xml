@@ -68,7 +68,7 @@
 			<item id="2509" chance="8000"/><!-- steel shield -->
 			<item id="2377" chance="8000"/><!-- two handed sword -->
 			<item id="2512" chance="6000"/><!-- wooden shield -->
-			<item id="5159" chance="100"/><!-- flame strike scroll -->
+			<item id="5159" chance="700"/><!-- flame strike scroll -->
 			<item name="beholder eye" chance="940" />
 		</item>
 	</loot>

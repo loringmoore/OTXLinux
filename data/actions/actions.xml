@@ -6,6 +6,7 @@
 	<action actionid="2000" script="quests/system.lua" />
 	<action actionid="2001" script="quests/orange.lua" />
 	<action actionid="2002" script="quests/dwarvenset.lua" />
+	<action actionid="2003" script="quests/greatlight.lua" />
 	<action uniqueid="30015" script="quests/annihilator.lua" />
 
 	<!-- Tools -->

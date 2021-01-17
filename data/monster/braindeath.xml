@@ -77,9 +77,9 @@
 			<item name="clerical mace" chance="1970" />
 			<item name="haunted blade" chance="1440" />
 			<item id="2175" chance="930" /><!-- spellbook -->
-			<item id="5160" chance="930" /><!-- force strike scroll -->
-			<item id="5159" chance="930" /><!-- flame strike scroll -->
-			<item id="5161" chance="930" /><!-- poison strike scroll -->
+			<item id="5569" chance="1500" /><!-- drain strike scroll -->
+			<item id="5159" chance="2000" /><!-- flame strike scroll -->
+			<item id="5161" chance="1800" /><!-- poison strike scroll -->
 			<item name="sapphire hammer" chance="180" />
 			<item name="beholder shield" chance="100" />
 			<item name="beholder helmet" chance="100" />
