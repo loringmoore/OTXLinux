@@ -8,6 +8,7 @@
 	<action actionid="2002" script="quests/dwarvenset.lua" />
 	<action actionid="2003" script="quests/greatlight.lua" />
 	<action uniqueid="30015" script="quests/annihilator.lua" />
+	<action itemid="4856" script="quests/waterstrike.lua" />
 
 	<!-- Tools -->
 	<action itemid="2120" script="tools/rope.lua" />

@@ -4,8 +4,8 @@ setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_ENERGY)
 setCombatParam(combat, COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_ENERGY)
 
 function onGetFormulaValues(cid, level, maglevel)
-	min = -((level / 7) + (maglevel * 0.005) + 1)
-	max = -((level / 7) + (maglevel * 0.005) + 3)
+	min = -((level / 7) + (maglevel * 0.04) + 5)
+	max = -((level / 7) + (maglevel * 0.07) + 10)
 	return min, max
 end
 

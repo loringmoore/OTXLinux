@@ -200,15 +200,19 @@
 	<item fromid="574" toid="575" name="firefly" />
 	
 	<item id="576" article="a" name="glacial rod">
-		<attribute key="description" value="It grants you the power of striking your foes with the fury of a frigid glacier." />
+		<attribute key="description" value="It grants you the power of striking your foes with the force of a frigid glacier." />
 		<attribute key="weight" value="2700" />
 		<attribute key="weaponType" value="wand" />
+		<attribute key="manaGain" value="10" />
+		<attribute key="manaTicks" value="1000" />
 		<attribute key="range" value="2" />
 	</item>
 	<item id="577" article="a" name="wand of divinity">
 		<attribute key="description" value="It is sparkling with hallowed energy." />
 		<attribute key="weight" value="2550" />
 		<attribute key="weaponType" value="wand" />
+		<attribute key="manaGain" value="10" />
+		<attribute key="manaTicks" value="1000" />
 		<attribute key="range" value="2" />
 	</item>
 	<item fromid="578" toid="581" name="dragon statue" />
@@ -2405,6 +2409,8 @@
 		<attribute key="weight" value="2650" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="poison" />
+		<attribute key="manaGain" value="8" />
+		<attribute key="manaTicks" value="1000" />
 		<attribute key="range" value="2" />
 	</item>
 	<item id="2182" article="a" name="snakebite rod">
@@ -2412,6 +2418,8 @@
 		<attribute key="weight" value="1900" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="poison" />
+		<attribute key="manaGain" value="2" />
+		<attribute key="manaTicks" value="1000" />
 		<attribute key="range" value="3" />
 	</item>
 	<item id="2183" article="a" name="tempest rod">
@@ -2419,6 +2427,8 @@
 		<attribute key="weight" value="2100" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="energy" />
+		<attribute key="manaGain" value="10" />
+		<attribute key="manaTicks" value="1000" />
 		<attribute key="range" value="1" />
 	</item>
 	<item id="2184" article="a" name="crystal wand">
@@ -2429,6 +2439,8 @@
 		<attribute key="weight" value="2900" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="fire" />
+		<attribute key="manaGain" value="6" />
+		<attribute key="manaTicks" value="1000" />
 		<attribute key="range" value="3" />
 	</item>
 	<item id="2186" article="a" name="moonlight rod">
@@ -2436,6 +2448,8 @@
 		<attribute key="weight" value="1950" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="energy" />
+		<attribute key="manaGain" value="4" />
+		<attribute key="manaTicks" value="1000" />
 		<attribute key="range" value="3" />
 	</item>
 	<item id="2187" article="a" name="wand of inferno">
@@ -2443,6 +2457,8 @@
 		<attribute key="weight" value="3050" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="fire" />
+		<attribute key="manaGain" value="9" />
+		<attribute key="manaTicks" value="1000" />
 		<attribute key="range" value="2" />
 	</item>
 	<item id="2188" article="a" name="wand of plague">
@@ -2450,6 +2466,8 @@
 		<attribute key="weight" value="2300" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="poison" />
+		<attribute key="manaGain" value="5" />
+		<attribute key="manaTicks" value="1000" />
 		<attribute key="range" value="2" />
 	</item>
 	<item id="2189" article="a" name="wand of cosmic energy">
@@ -2457,6 +2475,8 @@
 		<attribute key="weight" value="2500" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="energy" />
+		<attribute key="manaGain" value="7" />
+		<attribute key="manaTicks" value="1000" />
 		<attribute key="range" value="3" />
 	</item>
 	<item id="2190" article="a" name="wand of vortex">
@@ -2465,12 +2485,16 @@
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="energy" />
 		<attribute key="range" value="3" />
+		<attribute key="manaGain" value="1" />
+		<attribute key="manaTicks" value="1000" />
 	</item>
 	<item id="2191" article="a" name="wand of dragonbreath">
 		<attribute key="description" value="Legends say that this wand holds the soul of a young dragon." />
 		<attribute key="weight" value="2300" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="fire" />
+		<attribute key="manaGain" value="3" />
+		<attribute key="manaTicks" value="1000" />
 		<attribute key="range" value="3" />
 	</item>
 	<item id="2192" article="a" name="crystal ball">
@@ -8739,6 +8763,8 @@
 		<attribute key="weight" value="2700" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="fire" />
+		<attribute key="manaGain" value="10" />
+		<attribute key="manaTicks" value="1000" />
 		<attribute key="range" value="2" />
 	</item>
 	<item id="5031" article="an" name="enchanted chicken wing">
@@ -9825,6 +9851,8 @@
 		<attribute key="weight" value="3700" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="poison" />
+		<attribute key="manaGain" value="10" />
+		<attribute key="manaTicks" value="1000" />
 		<attribute key="range" value="2" />
 	</item> 
 	<item id="5232" article="an" name="arbalest">
@@ -10856,6 +10884,8 @@
 		<attribute key="description" value="It is filled with the dark hatred and rage of a tormented demonic being." />
 		<attribute key="weight" value="2850" />
 		<attribute key="weaponType" value="wand" />
+		<attribute key="manaGain" value="10" />
+		<attribute key="manaTicks" value="1000" />
 		<attribute key="range" value="3" />
 	</item>
 	<item id="5623" article="a" name="dead elf">
