@@ -80,6 +80,7 @@ local function creatureSayCallback(cid, type, msg)
 			else
 				npcHandler:say("You don't have it...", cid)
 			end
+		end
 	elseif msgcontains(msg, "no") then
 		if npcHandler.topic[cid] > 1 then
 			npcHandler:say("Then I\'m afraid I can\'t help you.", cid)
@@ -87,6 +88,7 @@ local function creatureSayCallback(cid, type, msg)
 		end
 	return true
 	end
+end
 
 npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, creatureSayCallback)
 npcHandler:addModule(FocusModule:new())

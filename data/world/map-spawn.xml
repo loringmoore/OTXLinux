@@ -3263,11 +3263,10 @@
 		<monster name="deer" x="-3" y="7" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="1098" centery="713" centerz="7" radius="13">
-		<monster name="butterfly yellow" x="-8" y="-2" z="7" spawntime="60" />
-		<monster name="butterfly purple" x="9" y="-2" z="7" spawntime="60" />
-		<monster name="butterfly purple" x="2" y="1" z="7" spawntime="60" />
-		<monster name="butterfly blue" x="-10" y="4" z="7" spawntime="60" />
-		<monster name="butterfly red" x="8" y="6" z="7" spawntime="60" />
+		<monster name="butterflyred" x="-4" y="-1" z="7" spawntime="60" />
+		<monster name="butterflyred" x="7" y="1" z="7" spawntime="60" />
+		<monster name="butterflyred" x="-9" y="3" z="7" spawntime="60" />
+		<monster name="butterflyred" x="0" y="4" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="1159" centery="714" centerz="7" radius="13">
 		<monster name="pig" x="2" y="-10" z="7" spawntime="60" />
