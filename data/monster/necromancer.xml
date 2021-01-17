@@ -58,6 +58,7 @@
 			<item id="2436" chance="100"/><!-- skull staff -->
 			<item name="noble axe" chance="10" />
 			<item id="5569" chance="500"/><!-- drain strike -->
+			<item id="5160" chance="2000"/><!-- force strike -->
 		</item>
 	</loot>
 </monster>
