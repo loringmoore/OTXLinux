@@ -60,6 +60,7 @@
 			<item id="2154" chance="200"/><!-- yellow gem -->
 			<item name="lizard leather" chance="1320" />
 			<item name="lizard scale" chance="860" />
+			<item id="5157" chance="1900" /> <!-- intense healing scroll -->
 		</item>
 	</loot>
 </monster>

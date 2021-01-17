@@ -4,22 +4,7 @@
 	<look type="233" head="114" body="100" legs="98" feet="64"/>
 	<parameters>
 		<parameter key="message_greet" value="Hello |PLAYERNAME|. Welcome to my magic shop." />
-		<parameter key="message_decline" value="If |TOTALCOST| gold coins is too much for you, maybe you should consider a less prestigous vocation!" />
-		<parameter key="shop_buyable" value="
-			mana potion,5425,75;
-			health potion,5424,60;
-			wand of vortex,2190,100;
-			blank rune,2260,10;
-			vial,2006,5;
-			spellbook,2175,25;
-			wand of dragonbreath,2191,1000;
-			wand of plague,2188,3000;
-			wand of cosmic energy,2189,7500;
-			wand of inferno,2187,12500;
-			snakebite rod,2182,500;
-			moonlight rod2186,1500;
-			volcanic rod,2185,5000;
-			quagmire rod,2181,10000;
-			tempest rod,2183,15000;" />
-	</parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_decline" value="Very well, |PLAYERNAME|. Come back when you can afford to pay |TOTALCOST| gold coins...or is that too difficult a task?" />
+		<parameter key="shop_buyable" value="mana potion,5425,75;health potion,5424,60;wand of vortex,2190,100;blank rune,2260,10;spellbook,2175,25;wand of dragonbreath,2191,1000;wand of plague,2188,3000;wand of cosmic energy,2189,7500;wand of inferno,2187,12500;snakebite rod,2182,500;moonlight rod,2186,1500;volcanic rod,2185,5000;quagmire rod,2181,10000;tempest rod,2183,15000;"/>
 </npc>

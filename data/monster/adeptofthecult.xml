@@ -61,11 +61,12 @@
 			<item name="enchanted staff" chance="120" />
 			<item name="amber staff" chance="680" />
 			<item name="key ring" chance="120" />
-			<item name="red robe" chance="80" />
+			<item name="red robe" chance="800" />
 			<item name="tempest rod" chance="220" />
 			<item id="2169" chance="420" /><!-- time ring -->
 			<item id="3955" chance="730" />
 			<item name="red piece of cloth" chance="990" />
+			<item id="5569" chance="900" />
 		</item>
 	</loot>
 </monster>

@@ -57,8 +57,9 @@
 		<item name="mana potion" chance="1000"/>
 		<item id="1962" chance="940" /><!-- orange book -->
 		<item id="1987" chance="100000"><!-- bag -->
-			<item name="key ring" chance="60" />
+			<item name="key ring" chance="260" />
 			<item id="3955" chance="600" />
+			<item id="5569" chance="900" />
 			<item name="life ring" chance="560" />
 			<item name="quagmire rod" chance="250" />
 			<item name="green piece of cloth" chance="760" />

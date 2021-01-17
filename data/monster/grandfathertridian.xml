@@ -63,12 +63,13 @@
 		<item id="2167" chance="450" />					<!-- energy ring -->
 		<item id="2171" chance="200" />					<!-- platinum amulet -->
 		<item id="1987" chance="100000"><!-- bag -->
-			<item name="key ring" chance="100" />			<!-- key ring -->
+			<item name="key ring" chance="700" />			<!-- key ring -->
 			<item id="2656" chance="400" />					<!-- blue robe -->
 			<item name="wand of inferno" chance="5000" />	<!-- wand of inferno -->
 			<item name="amber staff" chance="3000" />		<!-- amber staff -->
-			<item id="3955" chance="1000" />				<!-- voodoo doll -->
-			<item name="platinum amulet" chance="870" />
+			<item id="3955" chance="1000" />	
+			<item id="5441" chance="1000" /><!-- exura vita scroll -->
+			<item name="platinum amulet" chance="8700" />
 		</item>
 	</loot>
 </monster>
