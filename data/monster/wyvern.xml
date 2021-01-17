@@ -54,6 +54,7 @@
 			<item id="2187" chance="1000"/><!-- wand of inferno -->
 			<item id="1976" chance="5000"/><!-- gemmed book -->
 			<item id="2127" chance="300"/><!-- emerald bangle -->
+			<item id="5157" chance="800"/><!-- intense healing scroll -->
 			<item name="wyvern fang" chance="410" />
 		</item>
 	</loot>
