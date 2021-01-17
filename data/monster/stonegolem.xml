@@ -27,7 +27,7 @@
 		<immunity paralyze="1"/>
 	</immunities>
 	<loot>
-		<item id="2148" countmax="15" chance="32000"/><!-- gold coin -->
+		<item id="2148" countmax="100" chance="72000"/><!-- gold coin -->
 		<item id="1294" countmax="4" chance="26000"/><!-- small stone -->
 		<item id="1987" chance="100000"><!-- bag -->
 			<item id="2395" chance="3000"/><!-- carlin sword -->

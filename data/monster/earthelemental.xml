@@ -61,13 +61,15 @@
 		<item name="gold coin" countmax="30" chance="50000" />
 		<item name="blank rune" chance="10000" />
 		<item name="mana potion" chance="1910" />
+		<item id="2647" chance="2500"/><!-- plate legs -->
 		<item name="poison arrow" countmax="30" chance="20160" />
 		<item id="1987" chance="100000"><!-- bag -->
 			<item name="noble armor" chance="350" />
 			<item name="small topaz" chance="620" />
 			<item name="iron ore" chance="570" />
-			<item id="5438" chance="100"/><!--boulder throw scroll -->
-			<item id="5161" chance="200"/><!--poison strike scroll-->
+			<item id="5438" chance="300"/><!--boulder throw scroll -->
+			<item id="5161" chance="1000"/><!--poison strike scroll-->
+			<item id="5162" chance="2000"/><!-- haste scroll -->
 		</item>
 	</loot>
 </monster>

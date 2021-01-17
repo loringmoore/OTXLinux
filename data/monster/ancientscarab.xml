@@ -61,6 +61,7 @@
 			<item id="2150" countmax="4" chance="5000"/><!-- small amethyst -->
 			<item id="2149" countmax="3" chance="4800"/><!-- small emerald -->
 			<item name="venom hood" chance="490" />
+			<item id="2159" chance="9000"/><!-- haste scroll -->
 		</item>
 	</loot>
 </monster>

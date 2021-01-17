@@ -3718,6 +3718,12 @@
 		<monster name="Amazon Warrior" x="-4" y="18" z="7" spawntime="60" />
 		<monster name="Amazon Warrior" x="10" y="18" z="7" spawntime="60" />
 	</spawn>
+	<spawn centerx="582" centery="957" centerz="7" radius="18">
+		<monster name="wolf" x="4" y="0" z="7" spawntime="60" />
+		<monster name="wolf" x="-7" y="1" z="7" spawntime="60" />
+		<monster name="wolf" x="0" y="9" z="7" spawntime="60" />
+		<monster name="wolf" x="15" y="9" z="7" spawntime="60" />
+	</spawn>
 	<spawn centerx="310" centery="958" centerz="7" radius="10">
 		<monster name="snake" x="3" y="1" z="7" spawntime="60" />
 	</spawn>

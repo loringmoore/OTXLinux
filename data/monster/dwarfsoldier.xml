@@ -41,7 +41,7 @@
 			<item name="iron ore" chance="300" />
 			<item id="2378" chance="5000"/><!-- battle axe -->
 			<item id="2455" chance="8000"/><!-- crossbow -->
-			<item id="5768" chance="100"/><!-- conjure bolt scroll -->
+			<item id="5768" chance="500"/><!-- conjure bolt scroll -->
 			<item id="2525" chance="3000"/><!-- dwarven shield -->
 		</item>
 	</loot>

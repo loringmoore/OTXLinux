@@ -4,7 +4,8 @@
 	<look type="185" head="71" body="90" legs="89" feet="90" />
 	<parameters>
 		<parameter key="message_greet" value="Welcome, |PLAYERNAME|." />
+		<parameter key="module_shop" value="1"/>
 		<parameter key="message_decline" value="Very well, |PLAYERNAME|. Come back when you can afford to pay |TOTALCOST| gold coins...or is that too difficult a task?" />
-		<parameter key="shop_buyable" value="mana potion,5425,75;bow,2456,200;spear,2389,5;poison arrow,2545,18;bolt,2543,3;arrow,2544,2;small stone,1294,2;throwing knife,2410,30;throwing star,2399,40;power bolt,2457,7"/>
+		<parameter key="shop_buyable" value="mana potion,5425,75;health potion,5424,60;wand of vortex,2190,100;blank rune,2260,10;vial,2006,5;spellbook,2175,25;wand of dragonbreath,2191,1000;wand of plague,2188,3000;wand of cosmic energy,2189,7500;wand of inferno,2187,12500;snakebite rod,2182,500;moonlight rod2186,1500;volcanic rod,2185,5000;quagmire rod,2181,10000;tempest rod,2183,15000;"/>
 	</parameters>
 </npc>

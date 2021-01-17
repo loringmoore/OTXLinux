@@ -131,6 +131,12 @@
 	<action itemid="5762" script="scrolls/water sweep.lua" />
 	<action itemid="5763" script="scrolls/venom sweep.lua" />
 	<action itemid="5764" script="scrolls/energy sweep.lua" />
+	<action itemid="5765" script="scrolls/conjure arrow.lua" />
+	<action itemid="5766" script="scrolls/conjure poisoned arrow.lua" />
+	<action itemid="5767" script="scrolls/conjure explosive arrow.lua" />
+	<action itemid="5768" script="scrolls/conjure bolt.lua" />
+	<action itemid="5769" script="scrolls/conjure power bolt.lua" />
+	<action itemid="5770" script="scrolls/conjure infernal bolt.lua" />
 	
 	
 	<!-- Potions -->
