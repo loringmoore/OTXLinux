@@ -47,7 +47,7 @@ local spells = {
 				}	
 for i = 1, #spells do
 	if msgcontains(msg, spells[i].spell_name) then
-		if getPlayerLearnedInstantSpell(cid, spells[i].spell_name) == false then
+		if player:hasLearnedSpell(cid, spells[i].spell_name) == false then
 			npcHandler:say("Would you like to buy "..spells[i].spell_name.." for "..spells[i].price.." gold?", cid)
 			talkState[talkUser] = spells[i].number
 		else
@@ -55,11 +55,11 @@ for i = 1, #spells do
 		end
 	elseif msgcontains(msg, 'yes') then
 		if talkState[talkUser] == spells[i].number then
-			if getPlayerMoney(cid) >= spells[i].price then
-				doPlayerRemoveMoney(cid, spells[i].price)
+			if player:getMoney(cid) >= spells[i].price then
+				player:removeMoney(cid, spells[i].price)
 				npcHandler:say("To cast this spell say "..spells[i].words..".", cid)
 				player:learnSpell(cid, spells[i].spell_name)
-				doSendMagicEffect(getCreaturePosition(cid), 12)
+				player:sendMagicEffect(getCreaturePosition(cid), 12)
 			else
 				npcHandler:say("You don\'t have enough money.", cid)
 			end
