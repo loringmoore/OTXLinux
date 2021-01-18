@@ -58,7 +58,7 @@ for i = 1, #spells do
 			if getPlayerMoney(cid) >= spells[i].price then
 				doPlayerRemoveMoney(cid, spells[i].price)
 				npcHandler:say("To cast this spell say "..spells[i].words.."}.", cid)
-				player:learnSpell(spells[i].spell_name)
+				cid:learnSpell(spells[i].spell_name)
 				doSendMagicEffect(getCreaturePosition(cid), 12)
 			else
 				npcHandler:say("You don\'t have enough money.", cid)
