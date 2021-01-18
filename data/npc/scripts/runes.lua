@@ -10,6 +10,7 @@ function creatureSayCallback(cid, type, msg)
         if(not npcHandler:isFocused(cid)) then
                 return false
         end
+local player = Player(cid)
 local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid        
 local spells = {
 				[1] = {spell_name = "Poison Field" ,price = 300, words = 'ADEVO GRAV POX', number = 1},
@@ -58,7 +59,7 @@ for i = 1, #spells do
 			if getPlayerMoney(cid) >= spells[i].price then
 				doPlayerRemoveMoney(cid, spells[i].price)
 				npcHandler:say("To cast this spell say "..spells[i].words.."}.", cid)
-				cid:learnSpell(spells[i].spell_name)
+				player:learnSpell(spells[i].spell_name)
 				doSendMagicEffect(getCreaturePosition(cid), 12)
 			else
 				npcHandler:say("You don\'t have enough money.", cid)
