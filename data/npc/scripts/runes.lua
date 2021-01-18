@@ -35,14 +35,14 @@ local spells = {
 				[21] = {spell_name = "Antidote Rune" ,price = 600, words = 'ADANA POX', number = 21},
 				[22] = {spell_name = "Intense Healing Rune" ,price = 600, words = 'ADURA GRAN', number = 22},
 				[23] = {spell_name = "Ultimate Healing Rune" ,price = 1500, words = 'ADURA VITA', number = 23},
-				[24] = {spell_name = "Convince Creature" ,price = 800, words = 'ADETA SIO', number = 24},
-				[25] = {spell_name = "Animate Dead" ,price = 1200, words = 'ADANA MORT', number = 25},
-				[26] = {spell_name = "Chameleon" ,price = 1300, words = 'ADEVO INA', number = 26},
-				[27] = {spell_name = "Destroy Field" ,price = 700, words = 'ADITO GRAV', number = 27},
-				[28] = {spell_name = "Disintegrate" ,price = 900, words = 'ADITO TERA', number = 28},
-				[29] = {spell_name = "Magic Wall" ,price = 2100, words = 'ADEVO GRAV TERA', number = 29},
-				[30] = {spell_name = "Wild Growth" ,price = 2000, words = 'ADEVO GRAV VITA', number = 30},
-				[30] = {spell_name = "Paralyze" ,price = 1900, words = 'ADANA ANI', number = 31},
+				[24] = {spell_name = "Convince Creature" ,price = 800, words = 'adeta sio', number = 24},
+				[25] = {spell_name = "Animate Dead" ,price = 1200, words = 'adana mort', number = 25},
+				[26] = {spell_name = "Chameleon" ,price = 1300, words = 'adevo ina', number = 26},
+				[27] = {spell_name = "Destroy Field" ,price = 700, words = 'adito grav', number = 27},
+				[28] = {spell_name = "Disintegrate" ,price = 900, words = 'adito tera', number = 28},
+				[29] = {spell_name = "Magic Wall" ,price = 2100, words = 'adevo grav tera', number = 29},
+				[30] = {spell_name = "Wild Growth" ,price = 2000, words = 'adevo grav vita', number = 30},
+				[30] = {spell_name = "Paralyze" ,price = 300, words = 'adana ani', number = 31},
 		
 				}	
 for i = 1, #spells do
@@ -57,8 +57,8 @@ for i = 1, #spells do
 		if talkState[talkUser] == spells[i].number then
 			if getPlayerMoney(cid) >= spells[i].price then
 				doPlayerRemoveMoney(cid, spells[i].price)
-				npcHandler:say("To cast this spell say {"..spells[i].words.."}.", cid)
-				doPlayerLearnInstantSpell(cid, spells[i].spell_name)
+				npcHandler:say("To cast this spell say "..spells[i].words..".", cid)
+				player:learnSpell(cid, spells[i].spell_name)
 				doSendMagicEffect(getCreaturePosition(cid), 12)
 			else
 				npcHandler:say("You don\'t have enough money.", cid)
