@@ -52,7 +52,7 @@
 		<item id="1987" chance="100000"><!-- bag -->
 			<item id="3955" chance="220" />
 			<item name="wand of vortex" chance="450" />
-			<item name="spellbook" chance="1450" />
+			<item id="2175" chance="1450" />
 		</item>
 	</loot>
 </monster>
