@@ -1,6 +1,6 @@
 local config = {
     storage = 6707,
-    cooldown = 120,
+    cooldown = 10,
     file = "data/logs/bugs.log"
 }
 
