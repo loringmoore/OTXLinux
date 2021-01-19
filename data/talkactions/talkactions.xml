@@ -64,10 +64,10 @@
 	<talkaction words="!oriental" script="Outfits/oriental.lua" />
 	<talkaction words="!pirate" script="Outfits/pirate.lua" />
 	<talkaction words="!shaman" script="Outfits/shaman.lua" />
-	<!-- <talkaction words="!summoner" script="Outfits/summoner.lua" /> -->
+	<talkaction words="!summoner" script="Outfits/summoner.lua" />
 	<talkaction words="!warrior" script="Outfits/warrior.lua" />
 	<talkaction words="!wizard" script="Outfits/wizard.lua" />
-	<talkaction words="!bugreport" Use separator=" " script="bugreport.lua"/>
+	<!-- <talkaction words="!bugreport" Use separator=" " script="bugreport.lua"/> -->
 	
 	
 
