@@ -56,7 +56,7 @@
 		<item name="small emerald" chance="510" />
 		<item id="1987" chance="100000"><!-- bag -->
 			<item name="wand of plague" chance="280" />
-			<item name="spellbook of enlightnment" chance="880" />
+			<item name="spellbook of enlightenment" chance="880" />
 			<item name="wand of dragonbreath" chance="1500" />
 			<item id="5445" chance="100"/><!-- invisible scroll -->
 		</item>
