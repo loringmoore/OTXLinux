@@ -67,14 +67,14 @@
 		<item id="2162" chance="20000"/><!-- magic light wand -->
 		<item id="2433" chance="2000"/><!-- scroll -->
 		<item name="mana potion" chance="9000"/>
-		<item id="2268" subtype="2" chance="2200"/><!-- sudden death rune -->
+		<item id="2268" subtype="50" chance="2200"/><!-- sudden death rune -->
 		<item id="1987" chance="100000"><!-- bag -->
 			<item name="glacier amulet" chance="1520" />
 			<item name="glacier shoes" chance="1310" />
 			<item name="glacier kilt" chance="1930" />
 			<item name="glacier robe" chance="1310" />
 			<item id="2171" chance="2000"/><!-- platinum amulet -->
-			<item name="arcane staff" chance="100"/>
+			<item name="spellbook of lost souls" chance="100"/>
 			<item id="2158" chance="1400"/><!-- blue gem -->
 		</item>
 	</loot>

@@ -19,6 +19,9 @@ addTravelKeyword('crescent isle', 160, Position(472, 690, 6))
 addTravelKeyword('madrissa', 110, Position(472, 690, 6))
 addTravelKeyword('territh', 160, Position(1094, 632, 6))
 addTravelKeyword('rhymveil', 120, Position(778, 125, 6))
+addTravelKeyword('summerhaven', 'I see...It will cost |TRAVELCOST| to cover my expenses. Is it that what you wish?', 50, Position(768, 1264, 6), 
+	function(player) return player:getStorageValue(6060) == 1 end)
+
 
 -- Kick
 -- keywordHandler:addKeyword({'kick'}, StdModule.kick, {npcHandler = npcHandler, destination = {Position(33174, 31773, 6), Position(33175, 31771, 6), Position(33177, 31772, 6)}})

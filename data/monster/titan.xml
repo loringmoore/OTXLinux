@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Titan" nameDescription="a titan" race="blood" experience="7500" speed="210">
-	<health now="9000" max="9000"/>
+<monster name="Titan" nameDescription="a titan" race="blood" experience="9500" speed="210">
+	<health now="16000" max="16000"/>
 	<look type="246" corpse="5714"/>
 	<targetchange interval="4000" chance="10"/>
 	<flags>
@@ -38,7 +38,7 @@
 		</attack>
 	</attacks>
 	<defenses armor="112" defense="112">
-		<defense name="healing" interval="500" chance="15" min="150" max="350">
+		<defense name="healing" interval="500" chance="15" min="350" max="950">
 			<attribute key="areaEffect" value="greenshimmer" />
 		</defense>
 		<defense name="speed" interval="500" chance="15" speedchange="260" duration="5000">
@@ -72,7 +72,7 @@
 		<item name="Small Topaz" countmax="3" chance="4580"/>
 		<item name="crystalline Axe" chance="3000"/>
 		<item name="sapphire hammer" chance="2200"/>
-		<item name="Knight Armor" chance="1980"/>
+		<item name="Knight Armor" chance="9980"/>
 		<item name="demon helmet" chance="250"/>
 		<item name="pair of iron fists" chance="130"/>
 		<item name="Violet Gem" chance="1060"/>
@@ -81,6 +81,7 @@
 		<item name="Golden legs" chance="840"/>
 		<item name="Mastermind Shield" chance="620"/>
 		<item name="Heavy Mace" chance="460"/>
+		<item name="blue tome" chance="460"/>
 		<item id="2578" chance="370"/>
 		<item id="2136" chance="100"/><!-- demonbone amulet -->
 	</loot>

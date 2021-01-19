@@ -61,6 +61,7 @@
 			<item id="3955" chance="600" />
 			<item id="5569" chance="900" />
 			<item name="life ring" chance="560" />
+			<item name="spellbook of enlightenment" chance="1560" />
 			<item name="quagmire rod" chance="650" />
 			<item name="green piece of cloth" chance="760" />
 		</item>

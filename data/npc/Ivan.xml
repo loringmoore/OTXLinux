@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Ivan" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="196" head="116" body="86" legs="19" feet="87"/>
+	<parameters>
+		<parameter key="message_greet" value="Welcome, |PLAYERNAME|."/>
+		<parameter key="message_farewell" value="Until next time, |PLAYERNAME|."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;magic;name" />
+		
+        <parameter key="keyword_reply1" value="I'm retired now but I've dedicated my life to studying the magic arts!" />
+        <parameter key="keyword_reply2" value="Just because I don't get out much anymore doesn't mean my interest in magic has waned. If you have any unwanted spell scrolls, bring them to me and I'll pay a fair price for them!" />
+        <parameter key="keyword_reply3" value="My name is Ivan." />
+		<parameter key="shop_sellable" value="
+			light healing,5154,7;
+			food,5155,80;
+			cure poison,5156,120;
+			intense healing,5157,95;
+			energy strike,5158,5;
+			flame strike,5159,20;
+			force strike,5160,150;
+			poison strike,5161,30;
+			haste,5162,49;
+			brass shield,2511,25;
+			carlin sword,2395,118;
+			chain armor,2464,70;
+			chain helmet,2458,17;
+			chain legs,2648,25;
+			club,2382,1;
+			coat,2651,1;
+			copper shield,2530,50;
+			crowbar,2416,50;
+			dagger,2379,2;
+			double axe,2387,260;
+			doublet,2485,3;
+			dwarven shield,2525,100;
+			halberd,2381,400;
+			hand axe,2380,4;
+			hatchet,2388,25;
+			iron helmet,2459,150;
+			jacket,2650,1;
+			katana,2412,35;
+			leather armor,2467,12;
+			leather boots,2643,2;
+			leather helmet,2461,4;
+			leather legs,2649,9;
+			legion helmet,2480,22;
+			longsword,2397,51;
+			mace,2398,30;
+			morning star,2394,100;
+			orcish axe,2428,350;
+			plate armor,2463,400;
+			plate legs,2647,115;
+			plate shield,2510,45;
+			rapier,2384,5;
+			sabre,2385,12;
+			scale armor,2483,75;
+			short sword,2406,10;
+			sickle,2405,3;
+			small axe,2559,5;
+			soldier helmet,2481,16;
+			spike sword,2383,240;
+			steel helmet,2457,293;
+			steel shield,2509,80;
+			studded armor,2484,25;
+			studded club,2448,10;
+			studded helmet,2482,20;
+			studded legs,2468,15;
+			studded shield,2526,16;
+			throwing knife,2410,2;
+			two handed sword,2377,450;
+			viking helmet,2473,66;		
+			wooden shield,2512,5;"/>
+	</parameters>
+</npc>

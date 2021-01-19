@@ -71,10 +71,10 @@
 			<item id="2791" chance="5500"/><!-- wood mushroom -->
 			<item id="2205" chance="800"/><!-- life ring -->
 			<item id="5231" chance="1000"/><!-- mycelium rod -->
-			<item id="1986" chance="800"/><!-- red tome -->
+			<item name="spellbook of mind control" chance="800"/><!-- red tome -->
 			<item id="2501" chance="600"/><!-- ceremonial mask -->
 			<item id="5439" chance="100"/><!-- heal friend scroll -->
-			<item id="5441" chance="300"/><!-- ultimate healing scroll -->
+			<item id="5441" chance="600"/><!-- ultimate healing scroll -->
 		</item>
 	</loot>
 </monster>

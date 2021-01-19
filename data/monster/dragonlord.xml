@@ -69,6 +69,7 @@
 			<item id="2528" chance="600"/><!-- tower shield -->
 			<item id="5430" chance="2000"/><!-- fire wave scroll -->
 			<item id="5157" chance="2500"/><!-- intense healing scroll -->
+			<item name="red tome" chance="600" />
 		</item>
 	</loot>
 </monster>

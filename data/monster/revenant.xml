@@ -74,6 +74,7 @@
 			<item name="crown armor" chance="1010"/>
 			<item name="vampire shield" chance="1000"/>
 			<item name="dreaded cleaver" chance="200"/>
+			<item name="green tome" chance="600" />
 		</item>
 	</loot>
 </monster>

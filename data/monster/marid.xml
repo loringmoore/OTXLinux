@@ -82,6 +82,7 @@
 			<item name="magma monocle" chance="320" />
 			<item name="blue piece of cloth" chance="3750" />
 			<item name="blue gem" chance="110" />
+			<item name="grey tome" chance="880" />
 		</item>
 	</loot>
 </monster>

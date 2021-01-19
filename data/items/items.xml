@@ -1552,18 +1552,15 @@
 	</item>
 	<item id="1970" name="the holy Tible">
 		<attribute key="weight" value="1300" />
-		<attribute key="magicPoints" value="13"/>
-		<attribute key="defense" value="1"/>
+		<attribute key="magicPoints" value="11"/>
+		<attribute key="defense" value="6"/>
 		<attribute key="weaponType" value="shield"/>
 	</item>
 	<item id="1971" article="a" name="brown book">
-		<!-- <attribute key="writeable" value="1" />
+		<attribute key="writeable" value="1" />
 		<attribute key="maxTextLen" value="1023" />
-		<attribute key="writeOnceItemId" value="1950" /> -->
+		<attribute key="writeOnceItemId" value="1950" />
 		<attribute key="weight" value="1300" />
-		<attribute key="magicPoints" value="10"/>
-		<attribute key="defense" value="1"/>
-		<attribute key="weaponType" value="shield"/>
 	</item>
 	<item id="1972" article="a" name="book">
 		<attribute key="writeable" value="1" />
@@ -1627,36 +1624,36 @@
 	<item id="1982" article="a" name="purple tome">
 		<attribute key="weight" value="1900" />
 		<attribute key="description" value="It's a volume of The Mystic Secrets of the world." />
-		<attribute key="magicPoints" value="25"/>
-		<attribute key="defense" value="1"/>
+		<attribute key="magicPoints" value="17"/>
+		<attribute key="defense" value="9"/>
 		<attribute key="weaponType" value="shield"/>
 	</item>
 	<item id="1983" article="a" name="green tome">
 		<attribute key="weight" value="1900" />
 		<attribute key="description" value="It's a volume of The Mystic Secrets of the world." />
-		<attribute key="magicPoints" value="17"/>
-		<attribute key="defense" value="1"/>
+		<attribute key="magicPoints" value="9"/>
+		<attribute key="defense" value="5"/>
 		<attribute key="weaponType" value="shield"/>
 	</item>
 	<item id="1984" article="a" name="blue tome">
 		<attribute key="weight" value="1900" />
 		<attribute key="description" value="It's a volume of The Mystic Secrets of the world." />
-		<attribute key="magicPoints" value="30"/>
-		<attribute key="defense" value="1"/>
+		<attribute key="magicPoints" value="21"/>
+		<attribute key="defense" value="11"/>
 		<attribute key="weaponType" value="shield"/>
 	</item>
 	<item id="1985" article="a" name="grey tome">
 		<attribute key="weight" value="1900" />
 		<attribute key="description" value="It's a volume of The Mystic Secrets of the world." />
-		<attribute key="magicPoints" value="7"/>
-		<attribute key="defense" value="1"/>
+		<attribute key="magicPoints" value="5"/>
+		<attribute key="defense" value="3"/>
 		<attribute key="weaponType" value="shield"/>
 	</item>
 	<item id="1986" article="a" name="red tome">
 		<attribute key="weight" value="1900" />
 		<attribute key="description" value="It's a volume of The Mystic Secrets of the world." />
-		<attribute key="magicPoints" value="21"/>
-		<attribute key="defense" value="1"/>
+		<attribute key="magicPoints" value="7"/>
+		<attribute key="defense" value="13"/>
 		<attribute key="weaponType" value="shield"/>
 	</item>
 	<item id="1987" article="a" name="bag">
@@ -2386,7 +2383,7 @@
 	</item>
 	<item id="2175" article="a" name="spellbook">
 		<attribute key="weight" value="1800" />
-		<attribute key="magicPoints" value="5"/>
+		<attribute key="magicPoints" value="1"/>
 		<attribute key="defense" value="1"/>
 		<attribute key="weaponType" value="shield"/>
 	</item>
@@ -11446,6 +11443,36 @@
 	<item id="5770" article="a" name="spell scroll">
 		<attribute key="description" value="It contains instructions to learn the 'conjure infernal bolt' spell." />
 		<attribute key="weight" value="200" />
+	</item>
+	<item id="5771" article="a" name="spellbook of enlightenment">
+		<attribute key="weight" value="1950" />
+		<attribute key="magiclevelpoints" value="3" />
+		<attribute key="defense" value="2" />
+		<attribute key="weaponType" value="shield" />
+	</item>
+	<item id="5772" article="a" name="spellbook of warding">
+		<attribute key="weight" value="2100" />
+		<attribute key="magiclevelpoints" value="7" />
+		<attribute key="defense" value="4" />
+		<attribute key="weaponType" value="shield" />
+	</item>
+	<item id="5773" article="a" name="spellbook of mind control">
+		<attribute key="weight" value="2450" />
+		<attribute key="magiclevelpoints" value="15" />
+		<attribute key="defense" value="8" />
+		<attribute key="weaponType" value="shield" />
+	</item>
+	<item id="5774" article="a" name="spellbook of lost souls">
+		<attribute key="weight" value="2560" />
+		<attribute key="magiclevelpoints" value="19" />
+		<attribute key="defense" value="10" />
+		<attribute key="weaponType" value="shield" />
+	</item>
+	<item id="5775" article="a" name="spellscroll of prophecies">
+		<attribute key="weight" value="2650" />
+		<attribute key="magiclevelpoints" value="23" />
+		<attribute key="defense" value="12" />
+		<attribute key="weaponType" value="shield" />
 	</item>
 	
 	<item id="20001" name="water" />

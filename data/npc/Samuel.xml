@@ -8,11 +8,12 @@
  		<parameter key="message_farewell" value="Yeah, bye |PLAYERNAME|."/>
 
         <parameter key="module_keywords" value="1" />
-        <parameter key="keywords" value="name;job;help;citizens;" />
-        <parameter key="keyword_reply1" value="Samuel." />
+        <parameter key="keywords" value="name;job;help;citizens;ingredient;" />
+        <parameter key="keyword_reply1" value="Name's Samuel." />
         <parameter key="keyword_reply2" value="I'm a farmer and a cook." />
-        <parameter key="keyword_reply3" value="Me? Help? I've got too much going on to worry about everyone else's problems. Besides, none of them will help me get the orange that I need." />
+        <parameter key="keyword_reply3" value="Me? Help? I've got too much going on to worry about everyone else/'s problems. Besides, none of them will help me get the ingredient that I need." />
         <parameter key="keyword_reply4" value="Not many people live on Crescent Isle and I like it that way." />
+		<parameter key="keyword_reply5" value="There's a new recipe I want to try and it calls for some citrus. Oranges don/'t grow here on Crescent Isle, but if you could find a way to get to that little island to the south I bet you could find an orange there! If you manage to bring me one, I/'ll reward you handsomly." />
 
         <parameter key="module_shop" value="1"/>
         <parameter key="shop_buyable" value="bread,2689,3;ham,2671,8;meat,2666,5;" />

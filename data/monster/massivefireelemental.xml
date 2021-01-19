@@ -49,11 +49,11 @@
 		<item name="gold coin" countmax="100" chance="25000"/>
 		<item name="gold coin" countmax="42" chance="25000"/>
 		<item name="wand of inferno" chance="2240"/>
-		<item name="fire sword" chance="530"/>
+		<item name="fire sword" chance="1530"/>
 		<item name="magma amulet" chance="1300"/>
-		<item name="magma boots" chance="560"/>
-		<item name="magma legs" chance="210"/>
+		<item name="magma boots" chance="960"/>
+		<item name="magma legs" chance="510"/>
 		<item name="noble armor" chance="1330"/><!-- rusty armor -->
-		<item id="5159" chance="500"/><!-- flame strike scroll -->
+		<item id="5159" chance="2000"/><!-- flame strike scroll -->
 	</loot>
 </monster>

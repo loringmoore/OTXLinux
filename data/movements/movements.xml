@@ -564,6 +564,16 @@
 	<movevent event="DeEquip" itemid="1982" slot="hand" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="1984" slot="hand" function="onEquipItem" /> <!--blue tome -->
 	<movevent event="DeEquip" itemid="1984" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5771" slot="hand" function="onEquipItem" /> <!--blue tome -->
+	<movevent event="DeEquip" itemid="5771" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5772" slot="hand" function="onEquipItem" /> <!--blue tome -->
+	<movevent event="DeEquip" itemid="5772" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5773" slot="hand" function="onEquipItem" /> <!--blue tome -->
+	<movevent event="DeEquip" itemid="5773" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5774" slot="hand" function="onEquipItem" /> <!--blue tome -->
+	<movevent event="DeEquip" itemid="5774" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5775" slot="hand" function="onEquipItem" /> <!--blue tome -->
+	<movevent event="DeEquip" itemid="5775" slot="hand" function="onDeEquipItem" />
 	
 	<!-- wands -->
 	<movevent event="Equip" itemid="2190" slot="hand" function="onEquipItem" /> <!--spellbook -->

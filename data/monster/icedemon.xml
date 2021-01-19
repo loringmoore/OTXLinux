@@ -80,7 +80,7 @@
 			<item id="2164" chance="200"/><!-- might ring -->
 			<item id="2176" chance="6000"/><!-- orb -->
 			<item name="glacier amulet" chance="1400"/>
-			<item id="1982" chance="2600"/><!-- purple tome -->
+			<item name="spellbook of lost souls" chance="200"/>
 			<item id="2214" chance="1000"/><!-- ring of healing -->
 			<item id="2165" chance="2800"/><!-- stealth ring -->
 			<item id="2151" chance="7000"/><!-- talon -->

@@ -70,9 +70,9 @@
 			<item name="wand of cosmic energy" chance="900" />
 			<item name="ring of healing" chance="1008" />
 			<item name="knight armor" chance="200" />
-			<item name="brown book" chance="200" />
 			<item name="fish fin" chance="1280" />
-			<item id="5463" chance="12000"/><!-- water strike scroll -->
+			<item id="5463" chance="1200"/><!-- water strike scroll -->
+			<item name="green tome" chance="600" />
 		</item>
 	</loot>
 </monster>

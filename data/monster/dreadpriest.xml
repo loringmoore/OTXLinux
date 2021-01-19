@@ -60,13 +60,14 @@
 		<item id="1987" chance="100000"><!-- bag -->
 			<item id="2193" chance="1000"/><!-- ankh -->
 			<item id="noble armor" chance="1400"/>
-			<item id="5157" chance="1000"/><!-- intense healing -->
-			<item id="2166" chance="100"/><!-- power ring -->
-			<item id="5568" chance="250"/><!-- holy strike -->
+			<item id="5157" chance="3000"/><!-- intense healing -->
+			<item id="2166" chance="500"/><!-- power ring -->
+			<item id="5568" chance="1250"/><!-- holy strike -->
 			<item id="brown book" chance="400"/>
 			<item id="brown piece of cloth" countmax="3" chance="900"/>
 			<item id="steel boots" chance="50"/>
-			<item id="tempest rod" chance="1100"/><!--change to wand of starstorm-->
+			<item id="wand of divinity" chance="1100"/><!--change to wand of starstorm-->
+			<item name="the holy tible" chance="600" />
 		</item>
 	</loot>
 </monster>

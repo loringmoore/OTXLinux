@@ -64,6 +64,7 @@
 			<item name="crown legs" chance="200" />
 			<item name="yellow piece of cloth" chance="1390" />
 			<item id="5568" chance="900" /><!-- holy strike -->
+			<item name="green tome" chance="600" />
 		</item>
 	</loot>
 </monster>

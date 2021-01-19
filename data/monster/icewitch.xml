@@ -65,7 +65,8 @@
 			<item name="diamond sceptre" chance="330" />
 			<item name="glacier mask" chance="90" />
 			<item name="crystal sword" chance="400" />
-			<item id="5436" chance="100"/><!-- water strike scroll -->
+			<item id="5436" chance="1000"/><!-- water strike scroll -->
+			<item name="spellbook of warding" chance="600" />
 		</item>
 	</loot>
 </monster>

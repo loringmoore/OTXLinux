@@ -81,8 +81,8 @@
 			<item name="mystic blade" chance="270" />
 			<item name="noble axe" chance="1750" />
 			<item id="2528" chance="800"/><!-- tower shield -->
-			<item name="green tome" chance="90" />
-			<item id="5236" chance="90"/>
+			<item name="red tome" chance="390" />
+			<item id="5236" chance="190"/> <!-- dragon robe -->
 		</item>
 	</loot>
 </monster>

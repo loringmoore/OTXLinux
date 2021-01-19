@@ -69,6 +69,7 @@
 			<item name="infernal bolt" countmax="5" chance="1550" />
 			<item name="red piece of cloth" chance="350" />
 			<item name="boots of haste" chance="100" />
+			<item name="viking shield" chance="250" />
 		</item>
 	</loot>
 </monster>

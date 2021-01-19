@@ -54,7 +54,7 @@
 		<item id="3976" countmax="3" chance="70000"/><!-- worm -->
 		<item id="1987" chance="100000"><!-- bag -->
 			<item id="2144" chance="2000"/><!-- black pearl -->
-			<item id="brown book" chance="200"/>
+			<item id="green tome" chance="900"/>
 			<item id="crimson sword" chance="900"/>
 			<item id="sudden death rune" subtype="5" chance="1200"/>
 			<item id="2124" chance="3000"/><!-- crystal ring -->

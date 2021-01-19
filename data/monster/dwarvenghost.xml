@@ -53,7 +53,7 @@
 		<item id="2787" countmax="4" chance="15000"/><!-- white mushroom -->
 		<item name="mana potion" chance="2900"/><!-- manafluid -->
 		<item id="1987" chance="100000"><!-- bag -->
-			<item name="piggy bank" chance="90" />
+			<item name="piggy bank" chance="390" />
 			<item id="5158" chance="20000"/><!-- exori vis -->
 			<item id="5277" chance="14000"/><!-- white piece of cloth -->
 		</item>

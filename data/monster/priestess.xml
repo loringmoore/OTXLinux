@@ -65,6 +65,7 @@
 			<item id="2791" chance="7000"/><!-- wood mushroom -->
 			<item id="2070" chance="2800"/><!-- wooden flute -->
 			<item id="5160" chance="2100"/><!-- force strike scroll -->
+			<item name="grey tome" chance="1200" />
 		</item>
 	</loot>
 </monster>
