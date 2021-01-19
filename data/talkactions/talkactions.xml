@@ -67,6 +67,7 @@
 	<talkaction words="!summoner" script="Outfits/summoner.lua" />
 	<talkaction words="!warrior" script="Outfits/warrior.lua" />
 	<talkaction words="!wizard" script="Outfits/wizard.lua" />
+	<talkaction words="!bugreport" event="script" value="bugreport.lua"/>
 	
 	
 
