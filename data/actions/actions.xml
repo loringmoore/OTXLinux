@@ -7,6 +7,11 @@
 	<action actionid="2001" script="quests/orange.lua" />
 	<action actionid="2002" script="quests/dwarvenset.lua" />
 	<action actionid="2003" script="quests/greatlight.lua" />
+	<action actionid="2004" script="quests/poisonlever.lua" />
+	<action actionid="2005" script="quests/energylever.lua" />
+	<action actionid="2006" script="quests/firelever.lua" />
+	<action actionid="2007" script="quests/waterlever.lua" />
+	<action actionid="2008" script="quests/waterlever.lua" />
 	<action uniqueid="30015" script="quests/annihilator.lua" />
 	<action itemid="4856" script="quests/waterstrike.lua" />
 
