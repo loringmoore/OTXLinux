@@ -1,7 +1,7 @@
 
 function onSay(cid, words, param, channel)
 local storage = 6707
-local exhaustion = 10
+local exhaust = 10
 local a = "data/logs/bugs.txt"
 local f = io.open(a, "a+")
 	if(param == '') then
