@@ -1,33 +1,21 @@
-local config = {
-    storage = 6707,
-    cooldown = 10,
-    file = "data/logs/bugs.log"
-}
 
-function onSay(player, words, param)
-    local file = io.open(config.file, "a")
-    if not file then
-        print(string.format("Warning: Could not open %s", config.file))
-        return true
-    end
-
-    local split = param:split(",")
-    local action = split[1]
-  
-    if (action == nil) then
-        return true
-    end
-  
-    if player:getStorageValue(config.storage) >= os.time() then
-        player:sendTextMessage(MESSAGE_INFO_DESCR, string.format('You must wait %d seconds to use this command again', config.cooldown))
-        return false
-    end
-  
-    io.output(file)
-    io.write("------------------------------\n")
-    local position = player:getPosition()
-    player:sendTextMessage(MESSAGE_INFO_DESCR, string.format('[%s] - Player %s reported a bug at %d, %d, %d with description: %s.', os.date("%c"), player:getName(), position.x, position.y, position.z, param))
-    player:setStorageValue(config.storage, os.time() + config.cooldown)
-    player:sendCancelMessage("Your report has been received successfully!")
-    return false
+function onSay(cid, words, param, channel)
+local storage = 6707
+local delaytime = 120
+local a = "data/logs/bugs.txt"
+local f = io.open(a, "a+")
+	if(param == '') then
+		doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Command param required.")
+		return true
+	end
+local exhaust = exhaustion.get(cid, storage)
+	if(not exhaust) then
+		exhaustion.set(cid, storage, delaytime)
+                doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "Your report has been received successfully!")
+		f:write(""..getPlayerName(cid).." reported a bug at " .. os.date("%d %B %Y - %X.", os.time()) .."\n"..param.." [x="..getPlayerPosition(cid).x..", y="..getPlayerPosition(cid).y..", z="..getPlayerPosition(cid).z.."].\n\n----------------------------------------------------------\n")
+		f:close()
+	else
+		doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_RED, "You must wait " .. exhaustion.get(cid, storage) .. " seconds to report.")
+	end
+return TRUE
 end
