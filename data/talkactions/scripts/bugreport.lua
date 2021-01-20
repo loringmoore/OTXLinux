@@ -1,33 +1,19 @@
-local config = {
-    storage = 6707,
-    cooldown = 10,
-    file = "data/logs/bugs.log"
-}
-
 function onSay(player, words, param)
-    local file = io.open(config.file, "a")
-    if not file then
-        print(string.format("Warning: Could not open %s", config.file))
-        return true
-    end
-
-    local split = param:split(",")
-    local action = split[1]
-  
-    if (action == nil) then
-        return true
-    end
-  
-    if player:getStorageValue(config.storage) >= os.time() then
-        player:sendTextMessage(MESSAGE_INFO_DESCR, string.format('You must wait %d seconds to use this command again', config.cooldown))
+    local storage = 67081 -- (You can change the storage if its already in use)
+    local delaytime = 30 -- (Exhaust In Seconds.)
+    local x = player:getPosition().x -- (Do not edit this.)
+    local y = player:getPosition().y -- (Do not edit this.)
+    local z =  player:getPosition().z -- (Do not edit this.)
+    if (param == '') then
+        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Command param required.")
         return false
     end
-  
-    io.output(file)
-    io.write("------------------------------\n")
-    local position = player:getPosition()
-    player:sendTextMessage(MESSAGE_INFO_DESCR, string.format('[%s] - Player %s reported a bug at %d, %d, %d with description: %s.', os.date("%c"), player:getName(), position.x, position.y, position.z, param))
-    player:setStorageValue(config.storage, os.time() + config.cooldown)
-    player:sendCancelMessage("Your report has been received successfully!")
+    if player:getStorageValue(storage) <= os.time() then
+        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Your report has been received successfully!")
+        db.query("INSERT INTO  `znote_player_reports` (`id` ,`name` ,`posx` ,`posy` ,`posz` ,`report_description` ,`date`)VALUES (NULL ,  '" .. player:getName() .. "',  '" .. x .. "',  '" .. y .. "',  '" .. z .. "',  " .. db.escapeString(param) .. ",  '" .. os.time() .. "')")
+        player:setStorageValue(storage,os.time()+delaytime)
+    else
+        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You have to wait ".. player:getStorageValue(storage) - os.time().." seconds to report again.")
+    end
     return false
 end
