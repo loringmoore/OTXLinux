@@ -1,4 +1,4 @@
-local spellName = "water strike"
+local spellName = "holy strike"
 
 function onUse(player, item, fromPosition, target, toPosition, isHotkey)
     if player:hasLearnedSpell(spellName) then
