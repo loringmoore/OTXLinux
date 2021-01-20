@@ -1,13 +1,19 @@
 function onSay(player, words, param)
-    local storage = 67081 -- (You can change the storage if its already in use)
-    local delaytime = 30 -- (Exhaust In Seconds.)
-    local x = player:getPosition().x -- (Do not edit this.)
-    local y = player:getPosition().y -- (Do not edit this.)
-    local z =  player:getPosition().z -- (Do not edit this.)
-    if (param == '') then
-        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Command param required.")
-        return false
-    end
- 
-    return false
+	if not player:getGroup():getAccess() then
+		return true
+	end
+
+	local target = Player(param)
+	if target == nil then
+		player:sendCancelMessage("Player not found.")
+		return false
+	end
+
+	if target:getGroup():getAccess() then
+		player:sendCancelMessage("You cannot kick this player.")
+		return false
+	end
+
+	target:remove()
+	return false
 end
