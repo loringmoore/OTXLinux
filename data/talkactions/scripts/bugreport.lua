@@ -7,9 +7,9 @@ local f = io.open(a, "a+")
 		doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Command param required.")
 		return true
 	end
-local exhaust = exhaustion.get(cid, storage)
+local exhaust = player:setExhaustion(cid, storage)
 	if(not exhaust) then
-		exhaustion.set(cid, storage, delaytime)
+		player:setExhaustion(cid, storage, delaytime)
                 doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "Your report has been received successfully!")
 		f:write(""..getPlayerName(cid).." reported a bug at " .. os.date("%d %B %Y - %X ", os.time()) .."\n"..param.." [x="..getPlayerPosition(cid).x..", y="..getPlayerPosition(cid).y..", z="..getPlayerPosition(cid).z.."].\n\n----------------------------------------------------------\n")
 		f:close()
