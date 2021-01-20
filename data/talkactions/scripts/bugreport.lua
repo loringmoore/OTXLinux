@@ -8,12 +8,6 @@ function onSay(player, words, param)
         player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Command param required.")
         return false
     end
-    if player:getStorageValue(storage) <= os.time() then
-        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Your report has been received successfully!")
-        db.query("INSERT INTO  `znote_player_reports` (`id` ,`name` ,`posx` ,`posy` ,`posz` ,`report_description` ,`date`)VALUES (NULL ,  '" .. player:getName() .. "',  '" .. x .. "',  '" .. y .. "',  '" .. z .. "',  " .. db.escapeString(param) .. ",  '" .. os.time() .. "')")
-        player:setStorageValue(storage,os.time()+delaytime)
-    else
-        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You have to wait ".. player:getStorageValue(storage) - os.time().." seconds to report again.")
-    end
+ 
     return false
 end
