@@ -1,5 +1,6 @@
-function onSay(cid, words, param, channel, player)
+function onSay(cid, words, param, channel)
 local storage = 6707
+local player = Player(cid)
 local delaytime = 600
 local a = "data/logs/bugs.txt"
 local f = io.open(a, "a+")
