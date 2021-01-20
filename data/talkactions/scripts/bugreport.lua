@@ -24,10 +24,11 @@ function onSay(player, words, param)
     end
   
     io.output(file)
-    io.write("------------------------------\n")
+    io.write(os.date(), " Player:" .. player:getName() .. " reported a bug at " .. position.x .. " ,".. position.y .. " ,".. position.z .. " with description: " .. param .. "\n\n----------------------------------------------------------\n")
     local position = player:getPosition()
     player:sendTextMessage(MESSAGE_INFO_DESCR, string.format('[%s] - Player %s reported a bug at %d, %d, %d with description: %s.', os.date("%c"), player:getName(), position.x, position.y, position.z, param))
     player:setStorageValue(config.storage, os.time() + config.cooldown)
     player:sendCancelMessage("Your report has been received successfully!")
     return false
 end
+
