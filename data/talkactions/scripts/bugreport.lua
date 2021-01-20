@@ -22,7 +22,8 @@ function onSay(player, words, param)
         player:sendTextMessage(MESSAGE_INFO_DESCR, string.format('You must wait %d seconds to use this command again', config.cooldown))
         return false
     end
-  
+  	
+	local position = player:getPosition()
     io.output(file)
     io.write(os.date(), " Player:" .. player:getName() .. " reported a bug at " .. position.x .. " ,".. position.y .. " ,".. position.z .. " with description: " .. param .. "\n\n----------------------------------------------------------\n")
     local position = player:getPosition()
