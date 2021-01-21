@@ -2527,9 +2527,6 @@
 		<monster name="goblin" x="-6" y="10" z="6" spawntime="60" />
 		<monster name="goblin" x="-6" y="14" z="6" spawntime="60" />
 	</spawn>
-	<spawn centerx="996" centery="900" centerz="6" radius="1">
-		<npc name="An Old Hermit" x="0" y="0" z="6" spawntime="60" direction="2" />
-	</spawn>
 	<spawn centerx="320" centery="904" centerz="6" radius="9">
 		<monster name="dwarf" x="-7" y="-5" z="6" spawntime="60" />
 		<monster name="dwarf soldier" x="-8" y="-3" z="6" spawntime="60" />
