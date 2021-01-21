@@ -2840,7 +2840,7 @@
 	</item>
 	<item id="2274" article="an" name="avalanche rune">
 		<attribute key="type" value="rune" />
-		<attribute key="runeSpellName" value="adori mas aqua" />
+		<attribute key="runeSpellName" value="adori gran aqua" />
 		<attribute key="weight" value="120" />
 		<attribute key="charges" value="1" />
 	</item>
@@ -2890,7 +2890,7 @@
 	</item>
 	<item id="2288" article="a" name="poison shower rune">
 		<attribute key="type" value="rune" />
-		<attribute key="runeSpellName" value="adori mas pox" />
+		<attribute key="runeSpellName" value="adori gran pox" />
 		<attribute key="weight" value="120" />
 		<attribute key="charges" value="1" />
 	</item>

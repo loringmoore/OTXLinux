@@ -47,6 +47,7 @@
 			<item name="samurai boots" chance="460" />
 			<item name="dragon lance" chance="710" />
 			<item name="halberd" chance="960" />
+			<item id="5428" chance="1000"/><!-- ethereal spear -->
 		</item>
 	</loot>
 </monster>

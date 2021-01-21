@@ -44,6 +44,7 @@
 			<item id="2145" chance="100"/><!-- small diamond -->
 			<item name="lizard leather" chance="990" />
 			<item name="lizard scale" chance="960" />
+			<item id="5428" chance="600"/><!-- ethereal spear -->
 		</item>
 	</loot>
 </monster>

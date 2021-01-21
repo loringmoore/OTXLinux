@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="An Old Hermit" script="anoldhermit.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="240" head="116" body="123" legs="123" feet="40" />
+	<parameters>
+		<parameter key="message_greet" value="What do you want, |PLAYERNAME|." />
+		<parameter key="message_farewell" value="Good bye, |PLAYERNAME|." />
+		<parameter key="message_walkaway" value="Good bye." />
+		 <parameter key="keywords" value="job;help;name" />
+        <parameter key="keyword_reply1" value="Job? Don't have one, don't want one! Why do you think I live out here alone?" />
+        <parameter key="keyword_reply2" value="Quite the saint, aren't you? If you're really offering to help an old man out, I suppose I do have a task that I cannot complete on my own." />
+        <parameter key="keyword_reply3" value="My name isn't important." />
+	</parameters>
+</npc>

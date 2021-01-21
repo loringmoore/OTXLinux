@@ -13,7 +13,7 @@ local function creatureSayCallback(cid, type, msg)
 	end
 	local player = Player(cid)
 	if msgcontains(msg, "outfit") then
-		if player:getStorageValue(6022) < 1 and player:getSex() == PLAYERSEX_FEMALE then
+		if player:getStorageValue(6045) < 1 and player:getSex() == PLAYERSEX_FEMALE then
 			npcHandler:say("Oh, my winged tiara and gloves? This is traditional garb worn by Amazon who have proved themselves to be expert markswomen. The outfit is awarded after completing dangerous tasks for our clan.", cid)
 		else
 			npcHandler:say("Oh, my winged tiara and gloves? This is traditional garb worn by Amazon who have proved themselves to be expert markswomen. The outfit is awarded after completing dangerous tasks for our clan. Although there are no men in our society, we would award a male warrior brave enough to complete these tasks with a hooded cloak instead of a tiara.", cid)
@@ -25,12 +25,12 @@ local function creatureSayCallback(cid, type, msg)
 			npcHandler.topic[cid] = 2
 		end
 	elseif msgcontains(msg, "sniper gloves") then
-		if player:getStorageValue(6022) == 1 then
+		if player:getStorageValue(6045) == 1 then
 			npcHandler:say("Did you find the sniper gloves?", cid)
 			npcHandler.topic[cid] = 4
 		end
 	elseif msgcontains(msg, "leather") then
-		if player:getStorageValue(6022) == 2 then
+		if player:getStorageValue(6045) == 2 then
 			npcHandler:say("Did you bring me 100 pieces of minotaur leather, 100 pieces of lizard leather, 100 pieces of red dragon leather and 100 pieces of green dragon leather?", cid)
 			npcHandler.topic[cid] = 5
 		end
@@ -48,12 +48,12 @@ local function creatureSayCallback(cid, type, msg)
 			npcHandler.topic[cid] = 3
 		elseif npcHandler.topic[cid] == 3 then
 			npcHandler:say("Such spirit! I wish you luck, |PLAYERNAME|!", cid)
-			player:setStorageValue(6022, 1)
+			player:setStorageValue(6045, 1)
 			npcHandler.topic[cid] = 0
 		elseif npcHandler.topic[cid] == 4 then
 			if player:removeItem(5247, 1) then
 				npcHandler:say("I\'ll admit that was much faster than I expected! Maybe I underestimated you, |PLAYERNAME|! Please bring me 100 pieces of lizard leather and 100 pieces of red dragon leather now!", cid)
-				player:setStorageValue(6022, 2)
+				player:setStorageValue(6045, 2)
 				npcHandler.topic[cid] = 0
 			else
 				npcHandler:say("You don't have it...", cid)
@@ -65,7 +65,7 @@ local function creatureSayCallback(cid, type, msg)
 				player:removeItem(5248, 100)
 				player:removeItem(5249, 100)
 				player:removeItem(5294, 100)
-				player:setStorageValue(6022, 3)
+				player:setStorageValue(6045, 3)
 				player:getPosition():sendMagicEffect(CONST_ME_MAGIC_BLUE)
 				npcHandler.topic[cid] = 0
 			else

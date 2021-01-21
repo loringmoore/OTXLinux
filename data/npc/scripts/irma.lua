@@ -14,7 +14,16 @@ function creatureSayCallback(cid, type, msg)
 	end
 	
 	local player = Player(cid)
-
+	
+		if npcHandler.topic[cid] == 4 then
+			 if getPlayerItemCount(cid,5251) >= 10 then
+      			doPlayerRemoveItem(cid,5251,10)
+				npcHandler:say("10 giant spider silks! Wonderful. Here, take this spool of yarn!", cid)
+				doPlayerAddItem(cid,5257,1)
+				npcHandler.topic[cid] = 0
+			else
+				npcHandler:say('Are you trying to mess with me?!', cid)
+			end
 		if npcHandler.topic[cid] == 5 then
 			 if getPlayerItemCount(cid,2655) >= 1 then
       			doPlayerRemoveItem(cid,2655,1)
@@ -42,7 +51,9 @@ function creatureSayCallback(cid, type, msg)
 			else
 				npcHandler:say('Are you trying to mess with me?!', cid)
 			end
-
+	elseif(msgcontains(msg, "spider silk")) then
+		npcHandler:say("Did you bring 10 spider silks for me to weave?", cid)
+		npcHandler.topic[cid] = 4
 	elseif(msgcontains(msg, "red robe")) then
 		npcHandler:say("Have you found a Red Robe for me?", cid)
 		npcHandler.topic[cid] = 5

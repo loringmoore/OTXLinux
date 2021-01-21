@@ -12,15 +12,15 @@
         <parameter key="keyword_reply2" value="Just because I don't get out much anymore doesn't mean my interest in magic has waned. If you have any unwanted spell scrolls, bring them to me and I'll pay a fair price for them!" />
         <parameter key="keyword_reply3" value="My name is Ivan." />
 		<parameter key="shop_sellable" value="
-			light healing,5154,7;
-			food,5155,80;
-			cure poison,5156,120;
-			intense healing,5157,95;
-			energy strike,5158,5;
-			flame strike,5159,20;
-			force strike,5160,150;
-			poison strike,5161,30;
-			haste,5162,49;
+			light healing,5154,100;
+			food,5155,300;
+			cure poison,5156,150;
+			intense healing,5157,350;
+			energy strike,5158,800;
+			flame strike,5159,800;
+			force strike,5160,800;
+			poison strike,5161,800;
+			haste,5162,600;
 			brass shield,2511,25;
 			carlin sword,2395,118;
 			chain armor,2464,70;
