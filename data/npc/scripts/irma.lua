@@ -51,20 +51,21 @@ function creatureSayCallback(cid, type, msg)
 			else
 				npcHandler:say('Are you trying to mess with me?!', cid)
 			end
-	elseif(msgcontains(msg, "spider silk")) then
-		npcHandler:say("Did you bring 10 spider silks for me to weave?", cid)
-		npcHandler.topic[cid] = 4
-	elseif(msgcontains(msg, "red robe")) then
-		npcHandler:say("Have you found a Red Robe for me?", cid)
-		npcHandler.topic[cid] = 5
-	elseif(msgcontains(msg, "mystic turban")) then
-		npcHandler:say("Have you found a Mystic Turban for me?", cid)
-		npcHandler.topic[cid] = 6
-	elseif(msgcontains(msg, "green tunic")) then
-		npcHandler:say("Have you found 20 Green Tunics for me?", cid)
-		npcHandler.topic[cid] = 7
-	end
+		elseif(msgcontains(msg, "spider silk")) then
+			npcHandler:say("Did you bring 10 spider silks for me to weave?", cid)
+			npcHandler.topic[cid] = 4
+		elseif(msgcontains(msg, "red robe")) then
+			npcHandler:say("Have you found a Red Robe for me?", cid)
+			npcHandler.topic[cid] = 5
+		elseif(msgcontains(msg, "mystic turban")) then
+			npcHandler:say("Have you found a Mystic Turban for me?", cid)
+			npcHandler.topic[cid] = 6
+		elseif(msgcontains(msg, "green tunic")) then
+			npcHandler:say("Have you found 20 Green Tunics for me?", cid)
+			npcHandler.topic[cid] = 7
+		end
 	return true
+	end
 end
 
 npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, creatureSayCallback)
