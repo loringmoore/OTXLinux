@@ -36,7 +36,11 @@
 			<attribute key="areaEffect" value="yellowspark" />
 		</attack>
 	</attacks>
-	<defenses armor="35" defense="35" />
+	<defenses armor="35" defense="35" >
+		<defense name="healing" interval="1000" chance="10" min="125" max="275">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
 	<elements>
 		<element drownPercent="-10" />
 		<element physicalPercent="10" />
@@ -52,7 +56,7 @@
 	</immunities>
 	<voices interval="5000" chance="10">
 		<voice sentence="EMBRACE MY GIFTS!" yell="1" />
-		<voice sentence="I DEVOUR YOUR CHARRED FLESH!" yell="1" />
+		<voice sentence="I WILL DEVOUR YOUR CHARRED FLESH!" yell="1" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="100" chance="33725" />

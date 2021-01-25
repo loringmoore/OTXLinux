@@ -181,26 +181,66 @@
 	
 
 	<!-- Amulets -->
+	<movevent event="Equip" itemid="2129" slot="necklace" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="2129" slot="necklace" function="onDeEquipItem" />
+	
+	<movevent event="Equip" itemid="2125" slot="necklace" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="2125" slot="necklace" function="onDeEquipItem" />
+	
 	<movevent event="Equip" itemid="2161" slot="necklace" function="onEquipItem" />
 	<movevent event="DeEquip" itemid="2161" slot="necklace" function="onDeEquipItem" />
+	
+	<movevent event="Equip" itemid="2131" slot="necklace" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="2131" slot="necklace" function="onDeEquipItem" />
+	
+	<movevent event="Equip" itemid="2142" slot="necklace" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="2142" slot="necklace" function="onDeEquipItem" />
+	
+	<movevent event="Equip" itemid="2136" slot="necklace" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="2136" slot="necklace" function="onDeEquipItem" />
+	
 	<movevent event="Equip" itemid="2170" slot="necklace" function="onEquipItem" />
 	<movevent event="DeEquip" itemid="2170" slot="necklace" function="onDeEquipItem" />
+	
 	<movevent event="Equip" itemid="2172" slot="necklace" function="onEquipItem" />
 	<movevent event="DeEquip" itemid="2172" slot="necklace" function="onDeEquipItem" />
+	
 	<movevent event="Equip" itemid="2197" slot="necklace" function="onEquipItem" />
 	<movevent event="DeEquip" itemid="2197" slot="necklace" function="onDeEquipItem" />
+	
 	<movevent event="Equip" itemid="2198" slot="necklace" function="onEquipItem" />
 	<movevent event="DeEquip" itemid="2198" slot="necklace" function="onDeEquipItem" />
+	
 	<movevent event="Equip" itemid="2199" slot="necklace" function="onEquipItem" />
 	<movevent event="DeEquip" itemid="2199" slot="necklace" function="onDeEquipItem" />
+	
 	<movevent event="Equip" itemid="2200" slot="necklace" function="onEquipItem" />
 	<movevent event="DeEquip" itemid="2200" slot="necklace" function="onDeEquipItem" />
+	
 	<movevent event="Equip" itemid="2201" slot="necklace" function="onEquipItem" />
 	<movevent event="DeEquip" itemid="2201" slot="necklace" function="onDeEquipItem" />
+	
+	<movevent event="Equip" itemid="2130" slot="necklace" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="2130" slot="necklace" function="onDeEquipItem" />
+	
+	<movevent event="Equip" itemid="2218" slot="necklace" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="2218" slot="necklace" function="onDeEquipItem" />
+	
+	<movevent event="Equip" itemid="2135" slot="necklace" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="2135" slot="necklace" function="onDeEquipItem" />
+	
+	<movevent event="Equip" itemid="2133" slot="necklace" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="2133" slot="necklace" function="onDeEquipItem" />
+	
+	<movevent event="Equip" itemid="2126" slot="necklace" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="2126" slot="necklace" function="onDeEquipItem" />
+	
 	<movevent event="Equip" itemid="2173" slot="necklace" function="onEquipItem" />
 	<movevent event="DeEquip" itemid="2173" slot="necklace" function="onDeEquipItem" />
+	
 	<movevent event="Equip" itemid="2196" slot="necklace" function="onEquipItem" />
 	<movevent event="DeEquip" itemid="2196" slot="necklace" function="onDeEquipItem" />
+	
 	<movevent event="Equip" itemid="5183" slot="necklace" function="onEquipItem" /> <!-- venom --> 
 	<movevent event="DeEquip" itemid="5183" slot="necklace" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="5024" slot="necklace" function="onEquipItem" /> <!-- lightning -->
@@ -210,6 +250,11 @@
 	<movevent event="Equip" itemid="5195" slot="necklace" function="onEquipItem" /> <!-- magma -->
 	<movevent event="DeEquip" itemid="5195" slot="necklace" function="onDeEquipItem" />
 	
+	<movevent event="Equip" itemid="5713" slot="necklace" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="5713" slot="necklace" function="onDeEquipItem" />
+	
+	<movevent event="Equip" itemid="5621" slot="necklace" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="5621" slot="necklace" function="onDeEquipItem" />
 
 	<!-- Rings -->
 	<movevent event="Equip" itemid="2164" slot="ring" function="onEquipItem" />
@@ -300,8 +345,10 @@
 	<!--mage -->
 	<movevent event="Equip" itemid="3967" slot="head" function="onEquipItem" /> <!--tribal -->
 	<movevent event="DeEquip" itemid="3967" slot="head" function="onDeEquipItem" />
-	<movevent event="Equip" itemid="2323" slot="head" function="onEquipItem" /> <!--hat of the mad -->
-	<movevent event="DeEquip" itemid="2323" slot="head" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="3970" slot="head" function="onEquipItem" /> <!--featherheaddress -->
+	<movevent event="DeEquip" itemid="3970" slot="head" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2662" slot="head" function="onEquipItem" /> <!--hat of the mad -->
+	<movevent event="DeEquip" itemid="2662" slot="head" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="5179" slot="head" function="onEquipItem" /> <!--venom -->
 	<movevent event="DeEquip" itemid="5179" slot="head" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="5184" slot="head" function="onEquipItem" /> <!--lightning -->
@@ -312,6 +359,8 @@
 	<movevent event="DeEquip" itemid="5193" slot="head" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="3972" slot="head" function="onEquipItem" /> <!--beholder -->
 	<movevent event="DeEquip" itemid="3972" slot="head" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2139" slot="head" function="onEquipItem" /> <!--tiara -->
+	<movevent event="DeEquip" itemid="2139" slot="head" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="2342" slot="head" function="onEquipItem" /> <!--HOTA -->
 	<movevent event="DeEquip" itemid="2342" slot="head" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="2501" slot="head" function="onEquipItem" /> <!--ceremonial -->
@@ -385,6 +434,8 @@
 	<movevent event="DeEquip" itemid="5238" slot="armor" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="5239" slot="armor" function="onEquipItem" /> <!-- paladin -->
 	<movevent event="DeEquip" itemid="5239" slot="armor" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5709" slot="armor" function="onEquipItem" /> <!-- divine plate -->
+	<movevent event="DeEquip" itemid="5709" slot="armor" function="onDeEquipItem" />
 	
 	<!--mage -->
 	<movevent event="Equip" itemid="5233" slot="armor" function="onEquipItem" /> <!-- spirit cloak -->
@@ -441,6 +492,8 @@
 	
 	
 	<!--mage-->
+	<movevent event="Equip" itemid="3983" slot="legs" function="onEquipItem" /> <!--bast -->
+	<movevent event="DeEquip" itemid="3983" slot="legs" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="5197" slot="legs" function="onEquipItem" /> <!--blue -->
 	<movevent event="DeEquip" itemid="5197" slot="legs" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="5181" slot="legs" function="onEquipItem" /> <!--venom -->
@@ -451,6 +504,8 @@
 	<movevent event="DeEquip" itemid="5190" slot="legs" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="5026" slot="legs" function="onEquipItem" /> <!--magma -->
 	<movevent event="DeEquip" itemid="5026" slot="legs" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5705" slot="legs" function="onEquipItem" /> <!--brocade -->
+	<movevent event="DeEquip" itemid="5705" slot="legs" function="onDeEquipItem" />
 	
 	<!-- Shields -->
 	

@@ -2146,10 +2146,13 @@
 	<item id="2125" article="a" name="crystal necklace">
 		<attribute key="weight" value="490" />
 		<attribute key="slotType" value="necklace" />
+		<attribute key="absorbPercentDrown" value="3"/>
 	</item>
 	<item id="2126" article="a" name="bronze necklace">
 		<attribute key="weight" value="410" />
 		<attribute key="slotType" value="necklace" />
+		<attribute key="absorbPercentHoly" value="6" />
+		<attribute key="absorbPercentLifeDrain" value="-6" />
 	</item>
 	<item id="2127" article="an" name="emerald bangle">
 		<attribute key="weight" value="179" />
@@ -2187,6 +2190,7 @@
 	<item id="2133" article="a" name="ruby necklace">
 		<attribute key="weight" value="570" />
 		<attribute key="slotType" value="necklace" />
+		<attribute key="speed" value="20" />
 	</item>
 	<item id="2134" article="a" name="silver brooch" plural="silver brooches">
 		<attribute key="weight" value="116" />
@@ -2194,6 +2198,7 @@
 	<item id="2135" article="a" name="scarab amulet">
 		<attribute key="weight" value="770" />
 		<attribute key="slotType" value="necklace" />
+		<attribute key="speed" value="14" />
 	</item>
 	<item id="2136" article="a" name="demonbone amulet">
 		<attribute key="weight" value="690" />
@@ -2211,8 +2216,11 @@
 	</item>
 	<item id="2139" article="an" name="ancient tiara">
 		<attribute key="weight" value="820" />
-		<attribute key="armor" value="0" />
+		<attribute key="armor" value="8" />
 		<attribute key="slotType" value="head" />
+		<attribute key="magiclevelpoints" value="4" />
+		<attribute key="maxHitPointsPercent" value="96"/>
+		<attribute key="maxManaPointsPercent" value="116"/>
 	</item>
 	<item id="2140" article="a" name="holy scarab">
 		<attribute key="weight" value="870" />
@@ -2285,9 +2293,7 @@
 	<item id="2161" article="a" name="strange talisman">
 		<attribute key="weight" value="290" />
 		<attribute key="slotType" value="necklace" />
-		<attribute key="charges" value="200" />
-		<attribute key="showcharges" value="1" />
-		<attribute key="absorbPercentEnergy" value="10" />
+		<attribute key="absorbPercentEnergy" value="3" />
 		<attribute key="showattributes" value="1" />
 	</item>
 	<item id="2162" article="a" name="magic light wand">
@@ -2351,9 +2357,7 @@
 	<item id="2170" article="a" name="silver amulet">
 		<attribute key="weight" value="500" />
 		<attribute key="slotType" value="necklace" />
-		<attribute key="charges" value="200" />
-		<attribute key="showcharges" value="1" />
-		<attribute key="absorbPercentEarth" value="10" />
+		<attribute key="absorbPercentEarth" value="3" />
 		<attribute key="showattributes" value="1" />
 	</item>
 	<item id="2171" article="a" name="platinum amulet">
@@ -2367,9 +2371,7 @@
 	<item id="2172" article="a" name="bronze amulet">
 		<attribute key="weight" value="500" />
 		<attribute key="slotType" value="necklace" />
-		<attribute key="charges" value="200" />
-		<attribute key="showcharges" value="1" />
-		<attribute key="absorbPercentManaDrain" value="20" />
+		<attribute key="absorbPercentManaDrain" value="3" />
 		<attribute key="showattributes" value="1" />
 	</item>
 	<item id="2173" article="an" name="amulet of loss">
@@ -2523,18 +2525,13 @@
 	<item id="2198" article="an" name="elven amulet">
 		<attribute key="weight" value="270" />
 		<attribute key="slotType" value="necklace" />
-		<attribute key="charges" value="50" />
-		<attribute key="showcharges" value="1" />
-		<attribute key="absorbPercentPhysical" value="5" />
-		<attribute key="absorbPercentMagic" value="5" />
+		<attribute key="speed" value="10" />
 		<attribute key="showattributes" value="1" />
 	</item>
 	<item id="2199" article="a" name="garlic necklace">
 		<attribute key="weight" value="380" />
 		<attribute key="slotType" value="necklace" />
-		<attribute key="charges" value="150" />
-		<attribute key="showcharges" value="1" />
-		<attribute key="absorbPercentLifeDrain" value="20" />
+		<attribute key="absorbPercentLifeDrain" value="3" />
 		<attribute key="showattributes" value="1" />
 	</item>
 	<item id="2200" article="a" name="protection amulet">
@@ -2542,15 +2539,13 @@
 		<attribute key="slotType" value="necklace" />
 		<!-- <attribute key="charges" value="250" /> -->
 		<!-- <attribute key="showcharges" value="1" /> -->
-		<attribute key="absorbPercentPhysical" value="6" />
+		<attribute key="absorbPercentPhysical" value="3" />
 		<attribute key="showattributes" value="1" />
 	</item>
 	<item id="2201" article="a" name="dragon necklace">
 		<attribute key="weight" value="630" />
 		<attribute key="slotType" value="necklace" />
-		<attribute key="charges" value="200" />
-		<attribute key="showcharges" value="1" />
-		<attribute key="absorbPercentFire" value="8" />
+		<attribute key="absorbPercentFire" value="3" />
 		<attribute key="showattributes" value="1" />
 	</item>
 	<item id="2202" article="a" name="stealth ring (invisibility)">
@@ -2679,6 +2674,7 @@
 	<item id="2218" article="a" name="paw amulet">
 		<attribute key="slotType" value="necklace" />
 		<attribute key="weight" value="420" />
+		<attribute key="speed" value="4" />
 	</item>
 	<item id="2219" article="a" name="banana skin">
 		<attribute key="weight" value="30" />
@@ -3047,8 +3043,6 @@
 		<attribute key="weight" value="700" />
 		<attribute key="armor" value="3" />
 		<attribute key="slotType" value="head" />
-		<attribute key="maxHitPointsPercent" value="98"/>
-		<attribute key="maxManaPointsPercent" value="106"/>
 	</item>
 	<item id="2324" article="a" name="broom">
 		<attribute key="weight" value="1100" />
@@ -3126,12 +3120,13 @@
 	<item id="2343" article="a" name="helmet of the ancients">
 		<attribute key="description" value="The gem is glowing with power." />
 		<attribute key="weight" value="2760" />
-		<attribute key="armor" value="11" />
+		<attribute key="armor" value="10" />
 		<attribute key="slotType" value="head" />
 		<!-- <attribute key="duration" value="1800" /> -->
 		<!-- <attribute key="decayTo" value="2342" /> -->
 		<attribute key="maxHitPointsPercent" value="94"/>
 		<attribute key="maxManaPointsPercent" value="122"/>
+		<attribute key="magiclevelpoints" value="5" />
 	</item>
 	<item id="2344" article="a" name="gemmed lamp">
 		<attribute key="weight" value="1300" />
@@ -3978,6 +3973,7 @@
 		<attribute key="slotType" value="head"/>
 		<attribute key="maxHitPointsPercent" value="103"/>
 		<attribute key="maxManaPointsPercent" value="99"/>
+		<attribute key="magicPointsPercent" value="90"/>
 	</item>
 	<item id="2459" article="an" name="iron helmet">
 		<attribute key="weight" value="3000"/>
@@ -3985,6 +3981,7 @@
 		<attribute key="slotType" value="head"/>
 		<attribute key="maxHitPointsPercent" value="108"/>
 		<attribute key="maxManaPointsPercent" value="97"/>
+		<attribute key="magicPointsPercent" value="90"/>
 	</item>
 	<item id="2460" article="a" name="brass helmet">
 		<attribute key="weight" value="2700"/>
@@ -3992,11 +3989,13 @@
 		<attribute key="slotType" value="head"/>
 		<attribute key="maxHitPointsPercent" value="106"/>
 		<attribute key="maxManaPointsPercent" value="98"/>
+		<attribute key="magicPointsPercent" value="90"/>
 	</item>
 	<item id="2461" article="a" name="leather helmet">
 		<attribute key="weight" value="2200"/>
 		<attribute key="armor" value="1"/>
 		<attribute key="slotType" value="head"/>
+		<attribute key="magicPointsPercent" value="90"/>
 	</item>
 	<item id="2462" article="a" name="devil helmet">
 		<attribute key="weight" value="5000"/>
@@ -4004,6 +4003,7 @@
 		<attribute key="slotType" value="head"/>
 		<attribute key="maxHitPointsPercent" value="111"/>
 		<attribute key="maxManaPointsPercent" value="96"/>
+		<attribute key="magicPointsPercent" value="90"/>
 	</item>
 	<item id="2463" article="a" name="plate armor">
 		<attribute key="weight" value="12000"/>
@@ -4011,6 +4011,7 @@
 		<attribute key="slotType" value="body"/>
 		<attribute key="maxHitPointsPercent" value="120"/>
 		<attribute key="maxManaPointsPercent" value="93"/>
+		<attribute key="magicPointsPercent" value="80"/>
 	</item>
 	<item id="2464" article="a" name="chain armor">
 		<attribute key="weight" value="10000"/>
@@ -4025,6 +4026,7 @@
 		<attribute key="slotType" value="body"/>
 		<attribute key="maxHitPointsPercent" value="116"/>
 		<attribute key="maxManaPointsPercent" value="95"/>
+		<attribute key="magicPointsPercent" value="80"/>
 	</item>
 	<item id="2466" article="a" name="golden armor">
 		<attribute key="description" value="It's an enchanted armor."/>
@@ -4033,6 +4035,7 @@
 		<attribute key="slotType" value="body"/>
 		<attribute key="maxHitPointsPercent" value="128"/>
 		<attribute key="maxManaPointsPercent" value="91"/>
+		<attribute key="magicPointsPercent" value="80"/>
 	</item>
 	<item id="2467" article="a" name="leather armor">
 		<attribute key="weight" value="6000"/>
@@ -4040,6 +4043,7 @@
 		<attribute key="slotType" value="body"/>
 		<attribute key="maxHitPointsPercent" value="108"/>
 		<attribute key="maxManaPointsPercent" value="97"/>
+		<attribute key="magicPointsPercent" value="80"/>
 	</item>
 	<item id="2468" name="studded legs">
 		<attribute key="weight" value="2600"/>
@@ -4047,6 +4051,7 @@
 		<attribute key="slotType" value="legs"/>
 		<attribute key="maxHitPointsPercent" value="105"/>
 		<attribute key="maxManaPointsPercent" value="98"/>
+		<attribute key="magicPointsPercent" value="85"/>
 	</item>
 	<item id="2469" name="dragon scale legs">
 		<attribute key="weight" value="4800"/>
@@ -4054,6 +4059,7 @@
 		<attribute key="slotType" value="legs"/>
 		<attribute key="maxHitPointsPercent" value="125"/>
 		<attribute key="maxManaPointsPercent" value="92"/>
+		<attribute key="magicPointsPercent" value="85"/>
 	</item>
 	<item id="2470" name="golden legs">
 		<attribute key="weight" value="5600"/>
@@ -4061,6 +4067,7 @@
 		<attribute key="slotType" value="legs"/>
 		<attribute key="maxHitPointsPercent" value="123"/>
 		<attribute key="maxManaPointsPercent" value="92"/>
+		<attribute key="magicPointsPercent" value="85"/>
 	</item>
 	<item id="2471" article="a" name="golden helmet">
 		<attribute key="description" value="It's the famous Helmet of the Stars." />
@@ -4069,6 +4076,7 @@
 		<attribute key="slotType" value="head"/>
 		<attribute key="maxHitPointsPercent" value="118"/>
 		<attribute key="maxManaPointsPercent" value="94"/>
+		<attribute key="magicPointsPercent" value="90"/>
 	</item>
 	<item id="2472" article="a" name="magic plate armor">
 		<attribute key="weight" value="8500"/>
@@ -4077,6 +4085,7 @@
         <attribute key="description" value="An enchanted gem glows on the plate armor."/>
 		<attribute key="maxHitPointsPercent" value="134"/>
 		<attribute key="maxManaPointsPercent" value="89"/>
+		<attribute key="magicPointsPercent" value="80"/>
 	</item>
 	<item id="2473" article="a" name="viking helmet">
 		<attribute key="weight" value="3900"/>
@@ -4084,6 +4093,7 @@
 		<attribute key="slotType" value="head"/>
 		<attribute key="maxHitPointsPercent" value="106"/>
 		<attribute key="maxManaPointsPercent" value="98"/>
+		<attribute key="magicPointsPercent" value="90"/>
 	</item>
 	<item id="2474" article="a" name="winged helmet">
 		<attribute key="description" value="It's the Helmet of Hermes." />
@@ -4099,6 +4109,7 @@
 		<attribute key="slotType" value="head"/>
 		<attribute key="maxHitPointsPercent" value="112"/>
 		<attribute key="maxManaPointsPercent" value="96"/>
+		<attribute key="magicPointsPercent" value="90"/>
 	</item>
 	<item id="2476" article="a" name="knight armor">
 		<attribute key="weight" value="12000"/>
@@ -4106,6 +4117,7 @@
 		<attribute key="slotType" value="body"/>
 		<attribute key="maxHitPointsPercent" value="124"/>
 		<attribute key="maxManaPointsPercent" value="92"/>
+		<attribute key="magicPointsPercent" value="80"/>
 	</item>
 	<item id="2477" name="knight legs">
 		<attribute key="weight" value="7000"/>
@@ -4113,6 +4125,7 @@
 		<attribute key="slotType" value="legs"/>
 		<attribute key="maxHitPointsPercent" value="120"/>
 		<attribute key="maxManaPointsPercent" value="93"/>
+		<attribute key="magicPointsPercent" value="85"/>
 	</item>
 	<item id="2478" name="brass legs">
 		<attribute key="weight" value="3800"/>
@@ -4120,27 +4133,29 @@
 		<attribute key="slotType" value="legs"/>
 		<attribute key="maxHitPointsPercent" value="113"/>
 		<attribute key="maxManaPointsPercent" value="96"/>
+		<attribute key="magicPointsPercent" value="85"/>
 	</item>
 	<item id="2479" article="a" name="strange helmet">
 		<attribute key="weight" value="4600"/>
 		<attribute key="armor" value="6"/>
 		<attribute key="slotType" value="head"/>
-		<attribute key="maxHitPointsPercent" value="109"/>
-		<attribute key="maxManaPointsPercent" value="97"/>
+		<attribute key="maxHitPointsPercent" value="97"/>
+		<attribute key="maxManaPointsPercent" value="112"/>
+		<attribute key="magiclevelpoints" value="3" />
 	</item>
 	<item id="2480" article="a" name="legion helmet">
 		<attribute key="weight" value="3100"/>
 		<attribute key="armor" value="4"/>
 		<attribute key="slotType" value="head"/>
-		<attribute key="maxManaPointsPercent" value="104"/>
-		<attribute key="skillDist" value="4" />
+		<attribute key="maxManaPointsPercent" value="103"/>
+		<attribute key="skillDist" value="3" />
 	</item>
 	<item id="2481" article="a" name="soldier helmet">
 		<attribute key="weight" value="3200"/>
 		<attribute key="armor" value="5"/>
 		<attribute key="slotType" value="head"/>
-		<attribute key="maxHitPointsPercent" value="108"/>
-		<attribute key="maxManaPointsPercent" value="97"/>
+		<attribute key="skillDist" value="4" />
+		<attribute key="maxManaPointsPercent" value="104"/>
 	</item>
 	<item id="2482" article="a" name="studded helmet">
 		<attribute key="weight" value="2450"/>
@@ -4148,6 +4163,7 @@
 		<attribute key="slotType" value="head"/>
 		<attribute key="maxHitPointsPercent" value="103"/>
 		<attribute key="maxManaPointsPercent" value="99"/>
+		<attribute key="magicPointsPercent" value="90"/>
 	</item>
 	<item id="2483" article="a" name="scale armor">
 		<attribute key="weight" value="10500"/>
@@ -4155,6 +4171,7 @@
 		<attribute key="slotType" value="body"/>
 		<attribute key="maxHitPointsPercent" value="118"/>
 		<attribute key="maxManaPointsPercent" value="94"/>
+		<attribute key="magicPointsPercent" value="80"/>
 	</item>
 	<item id="2484" article="a" name="studded armor">
 		<attribute key="weight" value="7100"/>
@@ -4162,6 +4179,7 @@
 		<attribute key="slotType" value="body"/>
 		<attribute key="maxHitPointsPercent" value="110"/>
 		<attribute key="maxManaPointsPercent" value="97"/>
+		<attribute key="magicPointsPercent" value="80"/>
 	</item>
 	<item id="2485" article="a" name="doublet">
 		<attribute key="weight" value="2500"/>
@@ -4169,6 +4187,7 @@
 		<attribute key="slotType" value="body"/>
 		<attribute key="maxHitPointsPercent" value="104"/>
 		<attribute key="maxManaPointsPercent" value="99"/>
+		<attribute key="magicPointsPercent" value="80"/>
 	</item>
 	<item id="2486" article="a" name="noble armor">
 		<attribute key="weight" value="12000"/>
@@ -4183,6 +4202,7 @@
 		<attribute key="slotType" value="body"/>
 		<attribute key="maxHitPointsPercent" value="126"/>
 		<attribute key="maxManaPointsPercent" value="91"/>
+		<attribute key="magicPointsPercent" value="80"/>
 	</item>
 	<item id="2488" name="crown legs">
 		<attribute key="weight" value="6500"/>
@@ -4190,13 +4210,15 @@
 		<attribute key="slotType" value="legs"/>
 		<attribute key="maxHitPointsPercent" value="120"/>
 		<attribute key="maxManaPointsPercent" value="93"/>
+		<attribute key="magicPointsPercent" value="85"/>
 	</item>
 	<item id="2489" article="a" name="dark armor">
 		<attribute key="weight" value="12000"/>
 		<attribute key="armor" value="10"/>
 		<attribute key="slotType" value="body"/>
-		<attribute key="maxHitPointsPercent" value="120"/>
-		<attribute key="maxManaPointsPercent" value="93"/>
+		<attribute key="maxHitPointsPercent" value="92"/>
+		<attribute key="maxManaPointsPercent" value="129"/>
+		<attribute key="magiclevelpoints" value="5" />
 	</item>
 	<item id="2490" article="a" name="dark helmet">
 		<attribute key="weight" value="4600"/>
@@ -4206,11 +4228,12 @@
 		<attribute key="maxManaPointsPercent" value="97"/>
 	</item>
 	<item id="2491" article="a" name="crown helmet">
-		<attributevvvvvvvvvvv key="weight" value="2950"/>
+		<attribute key="weight" value="2950"/>
 		<attribute key="armor" value="7"/>
 		<attribute key="slotType" value="head"/>
 		<attribute key="maxHitPointsPercent" value="111"/>
 		<attribute key="maxManaPointsPercent" value="96"/>
+		<attribute key="magicPointsPercent" value="90"/>
 	</item>
 	<item id="2492" article="a" name="dragon scale mail">
 		<attribute key="weight" value="11400"/>
@@ -4218,6 +4241,7 @@
 		<attribute key="slotType" value="body"/>
 		<attribute key="maxHitPointsPercent" value="130"/>
 		<attribute key="maxManaPointsPercent" value="90"/>
+		<attribute key="magicPointsPercent" value="80"/>
 	</item>
 	<item id="2493" article="a" name="demon helmet">
 		<attribute key="description" value="You hear an evil whispering from inside." />
@@ -4226,6 +4250,7 @@
 		<attribute key="slotType" value="head"/>
 		<attribute key="maxHitPointsPercent" value="115"/>
 		<attribute key="maxManaPointsPercent" value="95"/>
+		<attribute key="magicPointsPercent" value="90"/>
 	</item>
 	<item id="2494" article="a" name="demon armor">
 		<attribute key="weight" value="8000"/>
@@ -4233,6 +4258,7 @@
 		<attribute key="slotType" value="body"/>
 		<attribute key="maxHitPointsPercent" value="132"/>
 		<attribute key="maxManaPointsPercent" value="89"/>
+		<attribute key="magicPointsPercent" value="80"/>
 	</item>
 	<item id="2495" name="demon legs">
 		<attribute key="weight" value="7000"/>
@@ -4240,6 +4266,7 @@
 		<attribute key="slotType" value="legs"/>
 		<attribute key="maxHitPointsPercent" value="123"/>
 		<attribute key="maxManaPointsPercent" value="92"/>
+		<attribute key="magicPointsPercent" value="85"/>
 	</item>
 	<item id="2496" article="a" name="horned helmet">
 		<attribute key="weight" value="5100"/>
@@ -4247,6 +4274,7 @@
 		<attribute key="slotType" value="head"/>
 		<attribute key="maxHitPointsPercent" value="117"/>
 		<attribute key="maxManaPointsPercent" value="94"/>
+		<attribute key="magicPointsPercent" value="90"/>
 	</item>
 	<item id="2497" article="a" name="crusader helmet">
 		<attribute key="weight" value="5200"/>
@@ -4254,6 +4282,7 @@
 		<attribute key="slotType" value="head"/>
 		<attribute key="maxHitPointsPercent" value="112"/>
 		<attribute key="maxManaPointsPercent" value="96"/>
+		<attribute key="magicPointsPercent" value="90"/>
 	</item>
 	<item id="2498" article="a" name="royal helmet">
 		<attribute key="description" value="An excellent masterpiece of a smith."/>
@@ -4262,6 +4291,7 @@
 		<attribute key="slotType" value="head"/>
 		<attribute key="maxHitPointsPercent" value="114"/>
 		<attribute key="maxManaPointsPercent" value="95"/>
+		<attribute key="magicPointsPercent" value="90"/>
 	</item>
 	<item id="2499" article="an" name="amazon helmet">
 		<attribute key="weight" value="2950"/>
@@ -4283,6 +4313,7 @@
 		<attribute key="slotType" value="head"/>
 		<attribute key="maxHitPointsPercent" value="95"/>
 		<attribute key="maxManaPointsPercent" value="118"/>
+		<attribute key="magiclevelpoints" value="4" />
 	</item>
 	<item id="2502" article="a" name="dwarven helmet">
 		<attribute key="weight" value="4200"/>
@@ -4319,6 +4350,7 @@
 		<attribute key="slotType" value="head"/>
 		<attribute key="maxHitPointsPercent" value="115"/>
 		<attribute key="maxManaPointsPercent" value="95"/>
+		<attribute key="magicPointsPercent" value="90"/>
 	</item>
 	<item id="2507" name="elven legs">
 		<attribute key="weight" value="3500"/>
@@ -4338,14 +4370,14 @@
 		<attribute key="weight" value="6900"/>
 		<attribute key="defense" value="21"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="50"/>
+		<attribute key="magicPointsPercent" value="70"/>
 		<attribute key="absorbPercentPhysical" value="2" />
 	</item>
 	<item id="2510" article="a" name="plate shield">
 		<attribute key="weight" value="6500"/>
 		<attribute key="defense" value="17"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="50"/>
+		<attribute key="magicPointsPercent" value="70"/>
 		<attribute key="absorbPercentPhysical" value="1" />
 	</item>
 	<item id="2511" article="a" name="brass shield">
@@ -4353,20 +4385,20 @@
 		<attribute key="defense" value="16"/>
 		<attribute key="weaponType" value="shield"/>
 		<attribute key="absorbPercentPhysical" value="1" />
-		<attribute key="magicPointsPercent" value="50"/>
+		<attribute key="magicPointsPercent" value="70"/>
 	</item>
 	<item id="2512" article="a" name="wooden shield">
 		<attribute key="weight" value="4000"/>
 		<attribute key="defense" value="14"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="50"/>
+		<attribute key="magicPointsPercent" value="70"/>
 		<attribute key="absorbPercentPhysical" value="1" />
 	</item>
 	<item id="2513" article="a" name="battle shield">
 		<attribute key="weight" value="6200"/>
 		<attribute key="defense" value="23"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="50"/>
+		<attribute key="magicPointsPercent" value="70"/>
 		<attribute key="absorbPercentPhysical" value="2" />
 	</item>
 	<item id="2514" article="a" name="mastermind shield">
@@ -4374,21 +4406,21 @@
 		<attribute key="weight" value="5700"/>
 		<attribute key="defense" value="37"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="50"/>
+		<attribute key="magicPointsPercent" value="70"/>
 		<attribute key="absorbPercentPhysical" value="3" />
 	</item>
 	<item id="2515" article="a" name="guardian shield">
 		<attribute key="weight" value="5500"/>
 		<attribute key="defense" value="30"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="50"/>
+		<attribute key="magicPointsPercent" value="70"/>
 		<attribute key="absorbPercentPhysical" value="3" />
 	</item>
 	<item id="2516" article="a" name="dragon shield">
 		<attribute key="weight" value="6000"/>
 		<attribute key="defense" value="31"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="50"/>
+		<attribute key="magicPointsPercent" value="70"/>
 		<attribute key="absorbPercentPhysical" value="3" />
 	</item>
 	<item id="2517" article="a" name="shield of honour">
@@ -4402,14 +4434,14 @@
 		<attribute key="weight" value="4700"/>
 		<attribute key="defense" value="28"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="50"/>
+		<attribute key="magicPointsPercent" value="70"/>
 		<attribute key="absorbPercentPhysical" value="2" />
 	</item>
 	<item id="2519" article="a" name="crown shield">
 		<attribute key="weight" value="6200"/>
 		<attribute key="defense" value="32"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="50"/>
+		<attribute key="magicPointsPercent" value="70"/>
 		<attribute key="absorbPercentPhysical" value="3" />
 	</item>
 	<item id="2520" article="a" name="demon shield">
@@ -4417,14 +4449,14 @@
 		<attribute key="weight" value="2600"/>
 		<attribute key="defense" value="35"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="50"/>
+		<attribute key="magicPointsPercent" value="70"/>
 		<attribute key="absorbPercentPhysical" value="3" />
 	</item>
 	<item id="2521" article="a" name="dark shield">
 		<attribute key="weight" value="5200"/>
 		<attribute key="defense" value="25"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="50"/>
+		<attribute key="magicPointsPercent" value="70"/>
 		<attribute key="absorbPercentPhysical" value="2" />
 	</item>
 	<item id="2522" article="a" name="great shield">
@@ -4432,7 +4464,7 @@
 		<attribute key="weight" value="8400"/>
 		<attribute key="defense" value="38"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="50"/>
+		<attribute key="magicPointsPercent" value="70"/>
 		<attribute key="absorbPercentPhysical" value="3" />
 	</item>
 	<item id="2523" article="a" name="blessed shield">
@@ -4440,7 +4472,7 @@
 		<attribute key="weight" value="6800"/>
 		<attribute key="defense" value="40"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="50"/>
+		<attribute key="magicPointsPercent" value="70"/>
 		<attribute key="absorbPercentPhysical" value="4" />
 	</item>
 	<item id="2524" article="an" name="ornamented shield">
@@ -4448,21 +4480,21 @@
 		<attribute key="weight" value="6700"/>
 		<attribute key="defense" value="22"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="50"/>
+		<attribute key="magicPointsPercent" value="70"/>
 		<attribute key="absorbPercentPhysical" value="2" />
 	</item>
 	<item id="2525" article="a" name="dwarven shield">
 		<attribute key="weight" value="5500"/>
 		<attribute key="defense" value="26"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="50"/>
+		<attribute key="magicPointsPercent" value="70"/>
 		<attribute key="absorbPercentPhysical" value="2" />
 	</item>
 	<item id="2526" article="a" name="studded shield">
 		<attribute key="weight" value="5900"/>
 		<attribute key="defense" value="15"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="50"/>
+		<attribute key="magicPointsPercent" value="70"/>
 		<attribute key="absorbPercentPhysical" value="1" />
 	</item>
 	<item id="2527" article="a" name="rose shield">
@@ -4475,7 +4507,7 @@
 		<attribute key="weight" value="8200"/>
 		<attribute key="defense" value="32"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="50"/>
+		<attribute key="magicPointsPercent" value="70"/>
 		<attribute key="absorbPercentPhysical" value="3" />
 	</item>
 	<item id="2529" article="a" name="black shield">
@@ -4489,7 +4521,7 @@
 		<attribute key="weight" value="6300"/>
 		<attribute key="defense" value="19"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="50"/>
+		<attribute key="magicPointsPercent" value="70"/>
 		<attribute key="absorbPercentPhysical" value="1" />
 	</item>
 	<item id="2531" article="a" name="viking shield">
@@ -4502,14 +4534,14 @@
 		<attribute key="weight" value="6100"/>
 		<attribute key="defense" value="27"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="50"/>
+		<attribute key="magicPointsPercent" value="70"/>
 		<attribute key="absorbPercentPhysical" value="2" />
 	</item>
 	<item id="2533" article="a" name="griffin shield">
 		<attribute key="weight" value="5000"/>
 		<attribute key="defense" value="29"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="50"/>
+		<attribute key="magicPointsPercent" value="70"/>
 		<attribute key="absorbPercentPhysical" value="2" />
 	</item>
 	<item id="2534" article="a" name="vampire shield">
@@ -4517,7 +4549,7 @@
 		<attribute key="weight" value="3800"/>
 		<attribute key="defense" value="34"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="50"/>
+		<attribute key="magicPointsPercent" value="70"/>
 		<attribute key="absorbPercentPhysical" value="3" />
 	</item>
 	<item id="2535" article="a" name="castle shield">
@@ -4530,7 +4562,7 @@
 		<attribute key="weight" value="5800"/>
 		<attribute key="defense" value="33"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="50"/>
+		<attribute key="magicPointsPercent" value="70"/>
 		<attribute key="absorbPercentPhysical" value="3" />
 	</item>
 	<item id="2537" article="an" name="amazon shield">
@@ -4562,13 +4594,13 @@
 		<attribute key="weight" value="5500"/>
 		<attribute key="defense" value="20"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="50"/>
+		<attribute key="magicPointsPercent" value="70"/>
 	</item>
 	<item id="2542" article="a" name="tempest shield">
 		<attribute key="weight" value="5100"/>
 		<attribute key="defense" value="36"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="50"/>
+		<attribute key="magicPointsPercent" value="70"/>
 	</item>
 	<item id="2543" article="a" name="bolt" plural="bolts">
 		<attribute key="weight" value="80"/>
@@ -4861,11 +4893,13 @@
 		<attribute key="armor" value="1" />
 		<attribute key="slotType" value="feet" />
 		<attribute key="maxHitPointsPercent" value="101" />
+		<attribute key="magicPointsPercent" value="95"/>
 	</item>
 	<item id="2644" name="bunnyslippers">
 		<attribute key="weight" value="600" />
 		<attribute key="slotType" value="feet" />
-		<attribute key="magicPoints" value="5"/>
+		<attribute key="magiclevelpoints" value="1" />
+		<attribute key="maxManaPointsPercent" value="104"/>
 	</item>
 	<item id="2645" name="steel boots">
 		<attribute key="weight" value="2900" />
@@ -4873,13 +4907,15 @@
 		<attribute key="slotType" value="feet" />
 		<attribute key="maxHitPointsPercent" value="105" />
 		<attribute key="maxManaPointsPercent" value="92"/>
+		<attribute key="magicPointsPercent" value="95"/>
 	</item>
 	<item id="2646" name="golden boots">
 		<attribute key="weight" value="3100" />
 		<attribute key="armor" value="4" />
 		<attribute key="slotType" value="feet" />
 		<attribute key="maxHitPointsPercent" value="106" />
-		<attribute key="maxManaPointsPercent" value="97"/>		   
+		<attribute key="maxManaPointsPercent" value="97"/>
+		<attribute key="magicPointsPercent" value="95"/>
 	</item>
 	<item id="2647" name="plate legs">
 		<attribute key="weight" value="5000" />
@@ -4887,6 +4923,7 @@
 		<attribute key="slotType" value="legs" />
 		<attribute key="maxHitPointsPercent" value="118"/>
 		<attribute key="maxManaPointsPercent" value="94"/>
+		<attribute key="magicPointsPercent" value="85"/>
 	</item>
 	<item id="2648" name="chain legs">
 		<attribute key="weight" value="3500" />
@@ -4900,6 +4937,7 @@
 		<attribute key="armor" value="1" />
 		<attribute key="slotType" value="legs" />
 		<attribute key="maxHitPointsPercent" value="102"/>
+		<attribute key="magicPointsPercent" value="85"/>
 	</item>
 	<item id="2650" article="a" name="jacket">
 		<attribute key="weight" value="2400" />
@@ -4940,7 +4978,7 @@
 		<attribute key="slotType" value="body" />
 		<attribute key="maxHitPointsPercent" value="92"/>
 		<attribute key="maxManaPointsPercent" value="132"/>
-		<!-- <attribute key="magicPointsPercent" value="110"/> -->
+		<attribute key="magiclevelpoints" value="5" />
 	</item>
 	<item id="2657" article="a" name="simple dress">
 		<attribute key="weight" value="1000" />
@@ -4972,6 +5010,8 @@
 		<attribute key="weight" value="750" />
 		<attribute key="armor" value="1" />
 		<attribute key="slotType" value="head" />
+		<attribute key="magiclevelpoints" value="3" />
+		<attribute key="maxManaPointsPercent" value="102"/>
 	</item>
 	<item id="2663" article="a" name="mystic turban">
 		<attribute key="description" value="Something is strange about this turban." />
@@ -7803,6 +7843,7 @@
 		<attribute key="slotType" value="head" />
 		<attribute key="maxHitPointsPercent" value="99"/>
 		<attribute key="maxManaPointsPercent" value="104"/>
+		<attribute key="magiclevelpoints" value="1" />
 	</item>
 	<item id="3968" article="a" name="leopard armor">
 		<attribute key="weight" value="9500" />
@@ -7822,13 +7863,17 @@
 		<attribute key="weight" value="2100" />
 		<attribute key="armor" value="2" />
 		<attribute key="slotType" value="head" />
+		<attribute key="magiclevelpoints" value="1" />
+		<attribute key="maxManaPointsPercent" value="106"/>
+		<attribute key="maxHitPointsPercent" value="98"/>
 	</item>
 	<item id="3971" article="a" name="charmer's tiara">
 		<attribute key="weight" value="2200" />
-		<attribute key="armor" value="2" />
+		<attribute key="armor" value="4" />
 		<attribute key="slotType" value="head" />
-		<attribute key="skillDist" value="2" />
-		<attribute key="maxManaPointsPercent" value="102"/>
+		<attribute key="magiclevelpoints" value="2" />
+		<attribute key="maxManaPointsPercent" value="108"/>
+		<attribute key="maxHitPointsPercent" value="97"/>
 	</item>
 	<item id="3972" article="a" name="beholder helmet">
 		<attribute key="weight" value="4600" />
@@ -7836,6 +7881,7 @@
 		<attribute key="slotType" value="head" />
 		<attribute key="maxHitPointsPercent" value="96"/>
 		<attribute key="maxManaPointsPercent" value="114"/>
+		<attribute key="magiclevelpoints" value="3" />
 	</item>
 	<item id="3973" article="a" name="tusk shield">
 		<attribute key="weight" value="6900" />
@@ -7853,7 +7899,7 @@
 		<attribute key="weight" value="5900" />
 		<attribute key="defense" value="26" />
 		<attribute key="weaponType" value="shield" />
-		<attribute key="magicPointsPercent" value="50"/>
+		<attribute key="magicPointsPercent" value="70"/>
 	</item>
 	<item id="3976" article="a" name="worm">
 		<attribute key="weight" value="5" />
@@ -7868,10 +7914,15 @@
 		<attribute key="slotType" value="feet" />
 		<attribute key="maxHitPointsPercent" value="103"/>
 		<attribute key="maxManaPointsPercent" value="99"/>
+		<attribute key="magicPointsPercent" value="95"/>
 	</item>
 	<item id="3983" article="a" name="bast skirt">
 		<attribute key="weight" value="350" />
 		<attribute key="slotType" value="legs" />
+		<attribute key="armor" value="6" />
+		<attribute key="maxHitPointsPercent" value="93"/>
+		<attribute key="maxManaPointsPercent" value="130"/>
+		<attribute key="magiclevelpoints" value="3" />
 	</item>
 	<item id="3984" name="jungle grass">
 		<attribute key="decayTo" value="3985" />
@@ -8725,8 +8776,8 @@
 	<item id="5024" article="a" name="lightning pendant">
 		<attribute key="weight" value="500" />
 		<attribute key="slotType" value="necklace" />
-		<attribute key="absorbPercentEnergy" value="3" />
-		<attribute key="absorbPercentEarth" value="-3" />
+		<attribute key="absorbPercentEnergy" value="6" />
+		<attribute key="absorbPercentEarth" value="-6" />
 		<!-- <attribute key="charges" value="200" />
 		<attribute key="showcharges" value="1" /> -->
 		<attribute key="showattributes" value="1" /> 
@@ -8782,13 +8833,11 @@
 	<item id="5035" article="a" name="death ring">
 		<attribute key="weight" value="80" />
 		<attribute key="slotType" value="ring" />
-		<attribute key="armor" value="1" />
-		<attribute key="absorbPercentLifedrain" value="5" />
-		<attribute key="decayTo" value="0" />
+		<attribute key="manaGain" value="8" />
+		<attribute key="manaTicks" value="1000" />
 		<attribute key="transformDeEquipTo" value="5312" />
 		<attribute key="duration" value="480" />
-		<attribute key="skillShield" value="-10" />
-		<attribute key="showduration" value="1" />
+		<attribute key="absorbPercentPhysical" value="-10" />
 		<attribute key="description" value="Wearing it makes you feel a little weaker than usual." />
 	</item>
 	<item id="5036" article="a" name="skull candle">
@@ -9400,15 +9449,17 @@
 		<attribute key="absorbPercentEarth" value="4" />
 		<attribute key="absorbPercentFire" value="-5" />
 		<attribute key="slotType" value="head" />
+		<attribute key="magiclevelpoints" value="2" />
 	</item>
 	<item id="5180" article="a" name="venom mantle">
 		<attribute key="weight" value="2250" />
-		<attribute key="armor" value="11" />
+		<attribute key="armor" value="12" />
 		<attribute key="slotType" value="body" />
 		<attribute key="absorbPercentEarth" value="8" />
 		<attribute key="absorbPercentFire" value="-8" />
 		<attribute key="maxHitPointsPercent" value="92"/>
 		<attribute key="maxManaPointsPercent" value="132"/>
+		<attribute key="magiclevelpoints" value="6" />
 	</item>
 	<item id="5181" name="venom legs">
 		<attribute key="weight" value="1900" />
@@ -9418,6 +9469,7 @@
 		<attribute key="absorbPercentFire" value="-6" />
 		<attribute key="maxHitPointsPercent" value="91"/>
 		<attribute key="maxManaPointsPercent" value="134"/>
+		<attribute key="magiclevelpoints" value="4" />
 	</item>
 	<item id="5182" name="venom boots">
 		<attribute key="weight" value="750" />
@@ -9425,12 +9477,14 @@
 		<attribute key="slotType" value="feet" />
 		<attribute key="absorbPercentEarth" value="5" />
 		<attribute key="absorbPercentFire" value="-5" />
+		<attribute key="magiclevelpoints" value="2" />
+		<attribute key="maxManaPointsPercent" value="106"/>
 	</item>
 	<item id="5183" article="a" name="venom amulet">
 		<attribute key="weight" value="500" />
 		<attribute key="slotType" value="necklace" />
-		<attribute key="absorbPercentEarth" value="3" />
-		<attribute key="absorbPercentFire" value="-3" />
+		<attribute key="absorbPercentEarth" value="6" />
+		<attribute key="absorbPercentFire" value="-6" />
 		<!-- <attribute key="charges" value="200" />
 		<attribute key="showcharges" value="1" /> -->
 		<attribute key="showattributes" value="1" /> 
@@ -9442,16 +9496,18 @@
 		<attribute key="maxManaPointsPercent" value="110"/>
 		<attribute key="absorbPercentEnergy" value="4" />
 		<attribute key="absorbPercentEarth" value="-5" />
+		<attribute key="magiclevelpoints" value="2" />
 		<attribute key="slotType" value="head" />
 	</item>
 	<item id="5185" article="a" name="lightning robe">
 		<attribute key="weight" value="2250" />
-		<attribute key="armor" value="11" />
+		<attribute key="armor" value="12" />
 		<attribute key="slotType" value="body" />
 		<attribute key="absorbPercentEnergy" value="8" />
 		<attribute key="absorbPercentEarth" value="-8" />
 		<attribute key="maxHitPointsPercent" value="92"/>
 		<attribute key="maxManaPointsPercent" value="132"/>
+		<attribute key="magiclevelpoints" value="6" />
 	</item>
 	<item id="5186" name="lightning legs">
 		<attribute key="weight" value="1900" />
@@ -9461,6 +9517,7 @@
 		<attribute key="absorbPercentPoison" value="-6" />
 		<attribute key="maxHitPointsPercent" value="91"/>
 		<attribute key="maxManaPointsPercent" value="134"/>
+		<attribute key="magiclevelpoints" value="4" />
 	</item>
 	<item id="5187" name="lightning boots">
 		<attribute key="weight" value="750" />
@@ -9468,7 +9525,9 @@
 		<attribute key="slotType" value="feet" />
 		<attribute key="absorbPercentEnergy" value="5" />
 		<attribute key="absorbPercentPoison" value="-5" />
-	</item>
+		<attribute key="magiclevelpoints" value="2" />
+<em>		<attribute key="maxManaPointsPercent" value="106"/>
+</em>	</item>
 	<item id="5188" article="a" name="glacier mask">
 		<attribute key="weight" value="1000" />
 		<attribute key="armor" value="5" />
@@ -9476,16 +9535,18 @@
 		<attribute key="maxManaPointsPercent" value="110"/>
 		<attribute key="absorbPercentDrown" value="4" />
 		<attribute key="absorbPercentEnergy" value="-5" />
+		<attribute key="magiclevelpoints" value="2" />
 		<attribute key="slotType" value="head" />
 	</item>
 	<item id="5189" article="a" name="glacier robe">
 		<attribute key="weight" value="2250" />
-		<attribute key="armor" value="11" />
+		<attribute key="armor" value="12" />
 		<attribute key="slotType" value="body" />
 		<attribute key="absorbPercentDrown" value="8" />
 		<attribute key="absorbPercentEnergy" value="-8" />
 		<attribute key="maxHitPointsPercent" value="92"/>
 		<attribute key="maxManaPointsPercent" value="132"/>
+		<attribute key="magiclevelpoints" value="6" />
 	</item>
 	<item id="5190" article="a" name="glacier kilt">
 		<attribute key="weight" value="1900" />
@@ -9495,6 +9556,7 @@
 		<attribute key="absorbPercentEnergy" value="-6" />
 		<attribute key="maxHitPointsPercent" value="91"/>
 		<attribute key="maxManaPointsPercent" value="134"/>
+		<attribute key="magiclevelpoints" value="4" />
 	</item>
 	<item id="5191" name="glacier shoes">
 		<attribute key="weight" value="750" />
@@ -9502,12 +9564,14 @@
 		<attribute key="slotType" value="feet" />
 		<attribute key="absorbPercentDrown" value="5" />
 		<attribute key="absorbPercentEnergy" value="-5" />
+		<attribute key="magiclevelpoints" value="2" />
+		<attribute key="maxManaPointsPercent" value="106"/>
 	</item>
 	<item id="5192" article="a" name="glacier amulet">
 		<attribute key="weight" value="500" />
 		<attribute key="slotType" value="necklace" />
-		<attribute key="absorbPercentDrown" value="3" />
-		<attribute key="absorbPercentEnergy" value="-3" />
+		<attribute key="absorbPercentDrown" value="6" />
+		<attribute key="absorbPercentEnergy" value="-6" />
 		<!-- <attribute key="charges" value="200" />
 		<attribute key="showcharges" value="1" /> -->
 		<attribute key="showattributes" value="1" /> 
@@ -9519,16 +9583,18 @@
 		<attribute key="maxManaPointsPercent" value="110"/>
 		<attribute key="absorbPercentFire" value="4" />
 		<attribute key="absorbPercentDrown" value="-5" />
+		<attribute key="magiclevelpoints" value="2" />
 		<attribute key="slotType" value="head" />
 	</item>
 	<item id="5025" article="a" name="magma coat">
 		<attribute key="weight" value="2250" />
-		<attribute key="armor" value="11" />
+		<attribute key="armor" value="12" />
 		<attribute key="absorbPercentFire" value="8" />
 		<attribute key="absorbPercentDrown" value="-8" />
 		<attribute key="slotType" value="body" />
 		<attribute key="maxHitPointsPercent" value="92"/>
 		<attribute key="maxManaPointsPercent" value="132"/>
+		<attribute key="magiclevelpoints" value="6" />
 	</item>
 	<item id="5026" name="magma legs">
 		<attribute key="weight" value="1900" />
@@ -9538,6 +9604,7 @@
 		<attribute key="slotType" value="legs" />
 		<attribute key="maxHitPointsPercent" value="91"/>
 		<attribute key="maxManaPointsPercent" value="134"/>
+		<attribute key="magiclevelpoints" value="4" />
 	</item>
 	<item id="5194" name="magma boots">
 		<attribute key="weight" value="750" />
@@ -9545,12 +9612,14 @@
 		<attribute key="absorbPercentFire" value="5" />
 		<attribute key="absorbPercentDrown" value="-5" />
 		<attribute key="slotType" value="feet" />
+		<attribute key="magiclevelpoints" value="2" />
+		<attribute key="maxManaPointsPercent" value="106"/>
 	</item>
 	<item id="5195" article="a" name="magma amulet">
 		<attribute key="weight" value="500" />
 		<attribute key="slotType" value="necklace" />
-		<attribute key="absorbPercentFire" value="3" />
-		<attribute key="absorbPercentDrown" value="-3" />
+		<attribute key="absorbPercentFire" value="6" />
+		<attribute key="absorbPercentDrown" value="-6" />
 		<!-- <attribute key="charges" value="200" />
 		<attribute key="showcharges" value="1" /> -->
 		<attribute key="showattributes" value="1" /> 
@@ -9560,8 +9629,11 @@
 	</item>
 	<item id="5197" name="blue legs">
 		<attribute key="weight" value="1800" />
-		<attribute key="armor" value="8" />
+		<attribute key="armor" value="7" />
 		<attribute key="slotType" value="legs" />
+		<attribute key="maxHitPointsPercent" value="92"/>
+		<attribute key="maxManaPointsPercent" value="132"/>
+		<attribute key="magiclevelpoints" value="3" />
 	</item>
 	<item id="5198" article="a" name="samurai helmet">
 		<attribute key="weight" value="6600" />
@@ -9586,7 +9658,7 @@
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillAxe" value="10"/>
 	</item>
-	<item id="5201" article="a" name="butcher's axe">
+	<item id="5201" article="a" namen="butcher's axe">
 		<attribute key="weight" value="6300" />
 		<attribute key="defense" value="24" />
 		<attribute key="attack" value="41" />
@@ -9806,7 +9878,7 @@
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
 		<attribute key="skillSword" value="5" />
-	</item>
+	</item>r
 	<item id="5227" article="a" name="mystic blade">
 		<attribute key="weight" value="3500" />
 		<attribute key="defense" value="25" />
@@ -9865,7 +9937,7 @@
 		<attribute key="armor" value="8" />
 		<attribute key="slotType" value="body" />
 		<attribute key="weight" value="2650" />
-		<!-- <attribute key="magicPointsPercent" value="3" /> -->
+		<attribute key="magicPointsPercent" value="4" />
 		<attribute key="maxHitPointsPercent" value="94"/>
 		<attribute key="maxManaPointsPercent" value="123"/>
 	</item> 
@@ -9873,7 +9945,7 @@
 		<attribute key="weight" value="2100" />
 		<attribute key="armor" value="9" />
 		<attribute key="slotType" value="body" />
-		<!-- <attribute key="magicPointsPercent" value="5"/> -->
+		<attribute key="magicPointsPercent" value="4"/>
 		<attribute key="maxHitPointsPercent" value="93" />
 		<attribute key="maxManaPointsPercent" value="126"/>
 	</item> 
@@ -9884,6 +9956,7 @@
 		<attribute key="maxHitPointsPercent" value="91"/>
 		<attribute key="maxManaPointsPercent" value="134"/>
 		<attribute key="slotType" value="body" />
+		<attribute key="magiclevelpoints" value="6" />
 	</item>
 	<item id="5236" article="a" name="dragon robe">
 		<attribute key="description" value="It is covered with runic symbols." />
@@ -9892,14 +9965,16 @@
 		<attribute key="armor" value="14" />
 		<attribute key="maxHitPointsPercent" value="90"/>
 		<attribute key="maxManaPointsPercent" value="136"/>
+		<attribute key="magiclevelpoints" value="7" />
 	</item>
 	<item id="5237" article="a" name="dark lord's cape">
 		<attribute key="description" value="There is a dark aura surrounding it." />
 		<attribute key="weight" value="2900" />
 		<attribute key="armor" value="15" />
-		<attribute key="maxHitPointsPercent" value="88"/>
-		<attribute key="maxManaPointsPercent" value="140"/>
+		<attribute key="maxHitPointsPercent" value="89"/>
+		<attribute key="maxManaPointsPercent" value="138"/>
 		<attribute key="slotType" value="body" />
+		<attribute key="magiclevelpoints" value="7" />
 	</item>
 	<item id="5238" article="a" name="samurai armor">
 		<attribute key="weight" value="9550" />
@@ -10803,10 +10878,10 @@
 		<attribute key="floorchange" value="west" />
 	</item>
 	<item id="5574" name="stairs">
-		<attribute key="floorchange" value="south" />
+		<attribute key="floorchange" value="southalt" />
 	</item>
 	<item id="5575" name="stairs">
-		<attribute key="floorchange" value="east" />
+		<attribute key="floorchange" value="eastalt" />
 	</item>
 	<item fromid="5576" toid="5587" article="a" name="dirt wall" />
 	<item fromid="5588" toid="5599" article="a" name="stone wall" />
@@ -10861,7 +10936,7 @@
 		<attribute key="weight" value="3200" />
 		<attribute key="defense" value="39" />
 		<attribute key="weaponType" value="shield" />
-		<attribute key="magicPointsPercent" value="50"/>
+		<attribute key="magicPointsPercent" value="70"/>
 	</item>
 	<item id="5620" article="a" name="necromancer shield">
 		<attribute key="description" value="It is enchanted with unholy, necromantic powers." />
@@ -10873,8 +10948,8 @@
 	<item id="5621" article="a" name="scarecrow amulet">
 		<attribute key="weight" value="550" />
 		<attribute key="slotType" value="necklace" />
-		<attribute key="absorbPercentLifedrain" value="28" />
-		<attribute key="absorbPercentHoly" value="-50" />
+		<attribute key="absorbPercentLifedrain" value="6" />
+		<attribute key="absorbPercentHoly" value="-6" />
 		<attribute key="showattributes" value="1" />
 	</item>	
 	<item id="5622" article="a" name="wand of voodoo">
@@ -10904,7 +10979,7 @@
 	
 	<item id="5642" article="a" name="dead frost dragon">
 		<attribute key="containerSize" value="50" />
-		<attribute key="decayTo" value="5625" />
+		<attribute key="decayTo" value="5643" />
 		<attribute key="duration" value="900" />
 		<attribute key="corpseType" value="undead" />
 	</item>
@@ -11055,14 +11130,17 @@
 		<attribute key="weight" value="6500" />
 		<attribute key="armor" value="8" />
 		<attribute key="slotType" value="legs" />
-		<attribute key="skillDist" value="2" />
+		<attribute key="magiclevelpoints" value="8" />
+		<attribute key="maxHitPointsPercent" value="90"/>
+		<attribute key="maxManaPointsPercent" value="136"/>
 	</item>
 	<item id="5706" article="a" name="brocade robes">
 		<attribute key="weight" value="7000" />
 		<attribute key="armor" value="16" />
 		<attribute key="slotType" value="body" />
-		<attribute key="maxHitPointsPercent" value="89"/>
-		<attribute key="maxManaPointsPercent" value="138"/>
+		<attribute key="maxHitPointsPercent" value="88"/>
+		<attribute key="maxManaPointsPercent" value="140"/>
+		<attribute key="magiclevelpoints" value="8" />
 	</item>
 	<item id="5707" article="an" name="elvish bow">
 		<attribute key="description" value="This beautifully ornamented bow was made by a skilled elvish bowmaker." />
@@ -11089,7 +11167,7 @@
 	<item id="5710" article="a" name="dead lizard chosen">
 		<attribute key="containerSize" value="38" />
 		<attribute key="decayTo" value="5711" />
-		<attribute key="duration" value="900" />
+		<attribudrte key="duration" value="900" />
 		<attribute key="corpseType" value="blood" />
 		<attribute key="fluidSource" value="blood" />
 	</item>
@@ -11108,6 +11186,7 @@
 		<attribute key="slotType" value="necklace" />
 		<attribute key="armor" value="1" />
 		<attribute key="absorbPercentPhysical" value="6" />
+		<attribute key="absorbPercentManaDrain" value="-6" />
 		<attribute key="showattributes" value="1" />
 	</item>
 	<item id="5714" article="a" name="dead titan">

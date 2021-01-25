@@ -73,6 +73,7 @@
 			<item name="fish fin" chance="1280" />
 			<item id="5463" chance="1200"/><!-- water strike scroll -->
 			<item name="green tome" chance="600" />
+			<item name="glacial rod" chance="130" />
 		</item>
 	</loot>
 </monster>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <npc name="Ivan" script="default.lua" walkinterval="2000" floorchange="0">
 	<health now="150" max="150"/>
-	<look type="196" head="116" body="86" legs="19" feet="87"/>
+	<look type="195" head="95" body="3" legs="15" feet="95"/>
 	<parameters>
 		<parameter key="message_greet" value="Welcome, |PLAYERNAME|."/>
 		<parameter key="message_farewell" value="Until next time, |PLAYERNAME|."/>
@@ -21,55 +21,46 @@
 			force strike,5160,800;
 			poison strike,5161,800;
 			haste,5162,600;
-			brass shield,2511,25;
-			carlin sword,2395,118;
-			chain armor,2464,70;
-			chain helmet,2458,17;
-			chain legs,2648,25;
-			club,2382,1;
-			coat,2651,1;
-			copper shield,2530,50;
-			crowbar,2416,50;
-			dagger,2379,2;
-			double axe,2387,260;
-			doublet,2485,3;
-			dwarven shield,2525,100;
-			halberd,2381,400;
-			hand axe,2380,4;
-			hatchet,2388,25;
-			iron helmet,2459,150;
-			jacket,2650,1;
-			katana,2412,35;
-			leather armor,2467,12;
-			leather boots,2643,2;
-			leather helmet,2461,4;
-			leather legs,2649,9;
-			legion helmet,2480,22;
-			longsword,2397,51;
-			mace,2398,30;
-			morning star,2394,100;
-			orcish axe,2428,350;
-			plate armor,2463,400;
-			plate legs,2647,115;
-			plate shield,2510,45;
-			rapier,2384,5;
-			sabre,2385,12;
-			scale armor,2483,75;
-			short sword,2406,10;
-			sickle,2405,3;
-			small axe,2559,5;
-			soldier helmet,2481,16;
-			spike sword,2383,240;
-			steel helmet,2457,293;
-			steel shield,2509,80;
-			studded armor,2484,25;
-			studded club,2448,10;
-			studded helmet,2482,20;
-			studded legs,2468,15;
-			studded shield,2526,16;
-			throwing knife,2410,2;
-			two handed sword,2377,450;
-			viking helmet,2473,66;		
-			wooden shield,2512,5;"/>
+			invisible,5445,2000;
+			conjure arrow,5765,450;
+			intense healing,5157,350;
+			heal friend,5439,800;
+			ultimate healing,5441,1000;
+			strong haste,5449,1300;
+			conjure explosive arrow,5767,1000;
+			energy beam,5426,1000;
+			ultimate light,5451,1600;
+			cancel invisibility,5442,1600;
+			great energy beam,5431,1800;
+			mass healing,5440,2200;
+			energy wave,5427,2500;
+			great light,5444,500;
+			groundshaker,5432,1500;
+			ethereal spear,5428,1100;
+			summon creature,5760,2000;
+			water strike,5436,800;
+			ultimate explosion,5435,8000;
+			poison storm,5433,6000;
+			holy strike,5568,1800;
+			divine explosion,5572,3000;
+			drain bomb,5571,3000;
+			drain strike,5569,900;
+			boulder throw,5438,1500;
+			poison wave,5434,2500;
+			fierce berserk,5429,7500;
+			front sweep,5570,4000;
+			fire sweep,5761,5000;
+			water sweep,5762,5000;
+			venom sweep,5763,5000;
+			energy sweep,5764,5000;
+			water wave,5437,5500;
+			fire wave,5430,850;
+			magic rope,5447,200;
+			berserk,5452,2500;
+			magic shield,5448,450;
+			conjure poisoned arrow,5766,700;
+			conjure bolt,5768,750;
+			conjure power bolt,5769,2000;
+			conjure infernal bolt,5770,7000;"/>
 	</parameters>
 </npc>

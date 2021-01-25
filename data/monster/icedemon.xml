@@ -85,6 +85,7 @@
 			<item id="2165" chance="2800"/><!-- stealth ring -->
 			<item id="2151" chance="7000"/><!-- talon -->
 			<item id="5436" chance="2000"/><!-- water strike -->
+			<item name="glacial rod" chance="1350" />
 		</item>
 	</loot>
 </monster>

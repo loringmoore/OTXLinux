@@ -102,6 +102,7 @@
 	<monster name="giant spider" file="giantspider.xml"/>
 	<monster name="gladiator" file="gladiator.xml"/>
 	<monster name="gnorre chyllson" file="gnorrechyllson.xml"/>
+	<monster name="gobbler" file="gobbler.xml"/>
 	<monster name="goblin" file="goblin.xml"/>
 	<monster name="Gorug" file="Gorug.xml"/>
 	<monster name="grandfather tridian" file="grandfathertridian.xml"/>

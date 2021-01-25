@@ -13,10 +13,10 @@ local function creatureSayCallback(cid, type, msg)
 	end
 	local player = Player(cid)
 	if msgcontains(msg, "task") then
-		if player:getStorageValue(6046) == 0 then
-			npcHandler:say("What I need is quite simple: a spool of yarn. Not just any yarn mind you, yarn from a giant spiders/' silk. I can/'t be out grappling with monsters anymore, so if you can bring me a spool of yarn I/'ll make it worth your while.", cid)
+		if player:getStorageValue(6046) < 1 then
+			npcHandler:say("What I need is quite simple: a spool of yarn. Not just any yarn mind you, yarn from a giant spiders' silk. I can't be out grappling with monsters anymore, so if you can bring me a spool of yarn I'll make it worth your while.", cid)
 		else
-			npcHandler:say("I don\'t have any other jobs for you.", cid)
+			npcHandler:say("I don't have any other jobs for you.", cid)
 		end
 	elseif msgcontains(msg, "giant spider") then
 		if npcHandler.topic[cid] == 1 then

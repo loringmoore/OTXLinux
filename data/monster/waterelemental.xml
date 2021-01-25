@@ -65,6 +65,7 @@
 			<item name="small sapphire" chance="1000" />
 			<item id="5436" chance="1100"/><!-- water strike scroll -->
 			<item name="spellbook of warding" chance="500" />
+			<item name="glacial rod" chance="630" />
 		</item>
 	</loot>
 </monster>

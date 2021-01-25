@@ -1,0 +1,42 @@
+----- 23/01/2021 15:25:48 - Loring (73.172.27.142) -----
+Debug Assertion 7.72 Container.h 178
+Sat Jan 23 15:23:17 2021
+Windows Version: 6.2 build 9200 on 2
+Graphic Engine: 2
+Last Packet Types: 142 101 109 109 104 109 109 030 104 109
+Last Packet: 011 000 142 000 000 000 016 255 000 116 084 019 086 051 051 051
+Player Position: [337,968,7]
+Player.cpp 383: exception occurred, reason:
+Player.cpp 456: exception occurred, reason:
+Control.cpp 1560: exception occurred (Type = 0), reason:
+Control.cpp 366: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 127: exception occurred (Surface = 1), reason:
+GUI.cpp 1408: exception occurred (Surface = 1), reason:
+MapWindow.cpp 834: exception occurred (Surface = 1), reason:
+MapWindow.cpp 527: exception occurred (Obj = 4515), reason:
+MapWindow.cpp 1062: exception occurred (posx = 192) (posy = 128), reason:
+MapWindow.cpp 927: exception occurred, reason:
+Objects.cpp 484: exception occurred (Number = 255) (Flag = 24), reason:
+Container.h 178: index out of range (original i: 255, i: 254, min: 1, d: 254)
+
+----- 23/01/2021 16:29:56 - Loring (73.172.27.142) -----
+Debug Assertion 7.72 Container.h 178
+Sat Jan 23 16:28:30 2021
+Windows Version: 6.2 build 9200 on 2
+Graphic Engine: 2
+Last Packet Types: 162 142 104 109 109 107 160 160 103 109
+Last Packet: 088 000 109 238 002 216 000 007 001 237 002 216 000 007 104 031
+Player Position: [749,216,7]
+Player.cpp 383: exception occurred, reason:
+Player.cpp 456: exception occurred, reason:
+Control.cpp 1560: exception occurred (Type = 0), reason:
+Control.cpp 366: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 127: exception occurred (Surface = 1), reason:
+GUI.cpp 1408: exception occurred (Surface = 1), reason:
+MapWindow.cpp 834: exception occurred (Surface = 1), reason:
+MapWindow.cpp 527: exception occurred (Obj = 4601), reason:
+MapWindow.cpp 1062: exception occurred (posx = 160) (posy = 128), reason:
+MapWindow.cpp 927: exception occurred, reason:
+Objects.cpp 484: exception occurred (Number = 267) (Flag = 24), reason:
+Container.h 178: index out of range (original i: 267, i: 266, min: 1, d: 254)
+Comment: 

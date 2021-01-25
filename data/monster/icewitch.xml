@@ -67,6 +67,7 @@
 			<item name="crystal sword" chance="400" />
 			<item id="5436" chance="1000"/><!-- water strike scroll -->
 			<item name="spellbook of warding" chance="600" />
+			<item name="glacial rod" chance="430" />
 		</item>
 	</loot>
 </monster>

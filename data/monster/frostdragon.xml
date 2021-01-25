@@ -74,7 +74,7 @@
 		<item name="ice rapier" chance="350"/>
 		<item id="1987" chance="100000">				<!-- bag -->
 			<item name="strange helmet" chance="450"/>
-			<item name="dragon scale mail" chance="80"/>
+			<item name="dragon scale mail" chance="100"/>
 			<item name="royal helmet" chance="210"/>
 			<item name="tower shield" chance="340"/>
 			<item name="power bolt" countmax="6" chance="6000"/>
@@ -82,7 +82,7 @@
 			<item name="green mushroom" chance="12000"/>
 			<item name="ice cube" chance="550"/>
 			<item name="haunted blade" chance="120"/>
-			<item id="5437" chance="100"/> <!-- water wave scroll -->
+			<item id="5437" chance="300"/> <!-- water wave scroll -->
 		</item>
 	</loot>
 </monster>

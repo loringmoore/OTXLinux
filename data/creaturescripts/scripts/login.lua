@@ -61,11 +61,13 @@ function onLogin(player)
 	if stats then
 		stats.playerId = player:getId()
 	end
-
+	
+	
 	-- Events
 	for i = 1, #events do
 		player:registerEvent(events[i])
 	end
+	
 
 	if player:getStorageValue(Storage.combatProtectionStorage) <= os.time() then
 		player:setStorageValue(Storage.combatProtectionStorage, os.time() + 10)
