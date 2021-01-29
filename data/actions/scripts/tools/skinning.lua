@@ -12,6 +12,16 @@ local config = {
 		[4262] = {value = 25000, newItem = 5253, after = 4263}, -- lizard snakecharmer
 		[4256] = {value = 25000, newItem = 5253, after = 4257}, -- lizard templar
 
+		-- Wolves
+		
+		[2827] = {value = 25000, newItem = 5267, after = 2828},
+		[2924] = {value = 25000, newItem = 5267, after = 2925},
+		[2969] = {value = 25000, newItem = 5267, after = 2970},
+		
+		-- Bears
+		[2894] = {value = 25000, newItem = 5266, after = 2985},
+		[2850] = {value = 25000, newItem = 5266, after = 2851},
+		
 		-- High Class Lizards
 		[5351] = {value = 25000, newItem = 5253, after = 5352}, -- lizard legionnaire 		
 		[5354] = {value = 25000, newItem = 5253, after = 5355}, -- lizard dragon priest
@@ -48,6 +58,7 @@ local config = {
 
 		-- Vampires
 		[2956] = {value = 25000, newItem = 5274, after = 2957}, -- vampire
+		[5676] = {value = 25000, newItem = 5274, after = 5677}, -- vampire
 	}
 }
 

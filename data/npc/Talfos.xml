@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<npc name="Talfos" script="talfos.lua" walkinterval="2000" floorchange="0">
+<npc name="Talfos" script="talfos.lua" walkinterval="2000" walkradius="1" floorchange="0">
 	<health now="100" max="100" />
 	<look type="160" head="27" body="86" legs="126" feet="127" />
 	<parameters>
@@ -11,6 +11,6 @@
 		
         <parameter key="keyword_reply1" value="I'm Talfos, a guard." />
         <parameter key="keyword_reply2" value="It's my job to gaurd the entrance to the catacombs." />
-        <parameter key="keyword_reply3" value="Being a guard is extremely dull. No one tries to get in, and the toads are always croaking so loud that I can/'t get a wink of shuteye!" />
+        <parameter key="keyword_reply3" value="Being a guard is extremely dull. No one tries to get in, and the toads are always croaking so loud that I can't get a wink of shuteye!" />
 	 </parameters>
 </npc>

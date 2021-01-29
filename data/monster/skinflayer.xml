@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Skinflayer" nameDescription="a skinflayer" race="blood" experience="800" speed="360" manacost="0">
-	<health now="800" max="800"/>
+<monster name="Skinflayer" nameDescription="a skinflayer" race="blood" experience="1100" speed="360" manacost="0">
+	<health now="900" max="900"/>
 	<look type="232" head="0" body="59" legs="94" feet="59" corpse="3058"/>
 	<targetchange interval="5000" chance="3"/>
 	<strategy attack="100" defense="0"/>
@@ -29,7 +29,7 @@
 		</attack>
 	</attacks>
 	<defenses armor="50" defense="60">
-		<defense name="healing" interval="500" chance="17" min="50" max="150">
+		<defense name="healing" interval="500" chance="12" min="50" max="150">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</defense>
 		<defense name="invisible" interval="500" chance="7" duration="5000">
@@ -70,6 +70,7 @@
 			<item name="red piece of cloth" chance="350" />
 			<item name="boots of haste" chance="100" />
 			<item name="viking shield" chance="250" />
+			<item name="obsidian knife" chance="750" />
 		</item>
 	</loot>
 </monster>

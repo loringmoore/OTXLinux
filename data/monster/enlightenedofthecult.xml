@@ -70,6 +70,7 @@
 			<item name="skull staff" chance="350" />
 			<item name="blue robe" chance="40" />
 			<item name="black skull" chance="130" />
+			<item name="blessed wooden stake" chance="550" />
 			<item id="3955" chance="430" />
 			<item id="5445" chance="500" /> <!-- invsibility scroll -->
 			<item name="amber staff" chance="100" />

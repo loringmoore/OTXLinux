@@ -69,6 +69,7 @@
 			<item name="amber staff" chance="3000" />		<!-- amber staff -->
 			<item id="3955" chance="1000" />	
 			<item id="5441" chance="1000" /><!-- exura vita scroll -->
+			<item id="5426" chance="1000" /><!-- energy beam scroll -->
 			<item name="platinum amulet" chance="8700" />
 		</item>
 	</loot>

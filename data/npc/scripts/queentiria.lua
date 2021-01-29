@@ -71,6 +71,7 @@ local function creatureSayCallback(cid, type, msg)
 			else
 				npcHandler:say("You don't have it...", cid)
 			end
+		end
 	elseif msgcontains(msg, "no") then
 		if npcHandler.topic[cid] > 1 then
 			npcHandler:say("Then no.", cid)

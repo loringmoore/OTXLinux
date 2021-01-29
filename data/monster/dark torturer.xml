@@ -60,7 +60,7 @@
 		<item id="1987" chance="100000"><!-- bag -->
 			<item id="2645" chance="5000"/><!-- steel boots -->
 			<item id="2470" chance="100"/><!-- golden legs -->
-			<item name="butcher's axe" chance="850" />
+			<item id="5201" chance="850" />
 			<item name="glorious axe" chance="450" />
 		</item>
 	</loot>

@@ -95,7 +95,7 @@ function onUseShovel(player, item, fromPosition, target, toPosition)
 	if isInArray(others, targetId) then
 		target:transform(targetId + 1)
 		target:decay()
-
+	
 		return true
 	end
 
@@ -120,15 +120,18 @@ function onUseShovel(player, item, fromPosition, target, toPosition)
 
 		toPosition.z = toPosition.z + 1
 		tile:relocateTo(toPosition)
-	elseif groundId == 231 then
-		local randomValue = math.random(1, 100)
-		if randomValue == 1 then
+	elseif isInArray({231, 9059}, targetId) then
+		local rand = math.random(100)
+		if target.actionid == 100 and rand <= 20 then
+			target:transform(489)
+			target:decay()
+		elseif rand == 1 then
 			Game.createItem(2159, 1, toPosition)
-		elseif randomValue > 95 then
+		elseif rand > 95 then
 			Game.createMonster("Scarab", toPosition)
 		end
 		toPosition:sendMagicEffect(CONST_ME_POFF)
-	else
+		else
 		return false
 	end
 
@@ -139,7 +142,7 @@ function onUsePick(player, item, fromPosition, target, toPosition)
 	if toPosition.x == CONTAINER_POSITION then
 		return false
 	end
-
+	
 	local tile = Tile(toPosition)
 	if not tile then
 		return false
@@ -153,7 +156,7 @@ function onUsePick(player, item, fromPosition, target, toPosition)
 	if (ground.uid > 65535 or ground.actionid == 0) and not isInArray(groundIds, ground.itemid) then
 		return false
 	end
-
+	
 	ground:transform(392)
 	ground:decay()
 

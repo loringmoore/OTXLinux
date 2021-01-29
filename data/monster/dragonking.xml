@@ -18,7 +18,7 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-603" />
-		<attack name="firecondition" interval="500" chance="7" target="1" radius="1" range="5" min="-920" max="-1280">
+		<attack name="bleedcondition" interval="500" chance="7" target="1" radius="1" range="5" min="-920" max="-1280">
 			<attribute key="areaEffect" value="firearea" />
 			<attribute key="shootEffect" value="fire" />
 		</attack>
@@ -37,7 +37,7 @@
 		</attack>
 	</attacks>
 	<defenses armor="35" defense="35" >
-		<defense name="healing" interval="1000" chance="10" min="125" max="275">
+		<defense name="healing" interval="1000" chance="5" min="125" max="275">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
@@ -83,7 +83,7 @@
 			<item name="dragon scale helmet" chance="150" />
 			<item name="dragon scale boots" chance="700" />
 			<item name="dragon scale legs" chance="100" />
-			<item name="royal axe" chance="1470" />
+			<item name="royal axe" chance="150" />
 			<item name="samurai sword" chance="100" />
 			<item name="dragon robe" chance="690" />
 			<item name="stuffed dragon" chance="50" />

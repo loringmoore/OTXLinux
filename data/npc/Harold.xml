@@ -7,7 +7,7 @@
 		<parameter key="message_farewell" value="Good bye and come again."/>
         <parameter key="module_keywords" value="1" />
         <parameter key="keywords" value="job;shop;name" />
-		
+		<parameter key="module_shop" value="1"/>
         <parameter key="keyword_reply1" value="I deal in weapons and armor. Don't hesitate to look around!" />
         <parameter key="keyword_reply2" value="I sell and buy weapons, armor, helmets, and shields. So you are able to protect yourself from monsters." />
         <parameter key="keyword_reply3" value="My name is Harold." />

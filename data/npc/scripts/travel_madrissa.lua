@@ -15,7 +15,7 @@ local function addTravelKeyword(keyword, cost, destination, action)
 end
 
 addTravelKeyword('gravenport', 90, Position(529, 978, 6), function(player) if player:getStorageValue(Storage.postman.Mission01) == 3 then player:setStorageValue(Storage.postman.Mission01, 4) end end)
-addTravelKeyword('crescent isle', 160, Position(472, 690, 6))
+addTravelKeyword('crescent isle', 160, Position(454, 1003, 6))
 addTravelKeyword('territh', 110, Position(1094, 632, 6))
 addTravelKeyword('thunder cove', 160, Position(1065, 1202, 6))
 addTravelKeyword('rhymveil', 170, Position(778, 125, 6))

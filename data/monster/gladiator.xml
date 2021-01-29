@@ -9,7 +9,7 @@
 		<flag hostile="1" />
 		<flag illusionable="0" />
 		<flag convinceable="1" />
-		<flag pushable="1" />
+		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
@@ -23,7 +23,7 @@
 		</attack>
 	</attacks>
 	<defenses armor="25" defense="25">
-		<defense name="healing" interval="500" chance="5" min="200" max="250">
+		<defense name="healing" interval="500" chance="5" min="50" max="150">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 	</defenses>

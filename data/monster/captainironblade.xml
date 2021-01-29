@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Captain Ironblade" nameDescription="Captain Ironblade" race="blood" experience="2850" speed="270" manacost="0">
+	<health now="3000" max="3000" />
+	<look type="239" head="79" body="77" legs="94" feet="76" corpse="3058" />
+	<targetchange interval="4000" chance="15" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag runonhealth="50" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-380" />
+		<attack name="fire" interval="500" chance="9" range="4" min="0" max="-190">
+			<attribute key="shootEffect" value="fire" />
+		</attack>
+		<attack name="drown" interval="500" chance="9" radius="2" target="1" range="4" min="-98" max="-170">
+			<attribute key="shootEffect" value="energyball" />
+			<attribute key="areaEffect" value="splash" />
+		</attack>
+	</attacks>
+	<defenses armor="45" defense="45" />
+	<immunities>
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="To my side, boys!" />
+		<voice sentence="Hiyaa" />
+		<voice sentence="Yo ho ho!" />
+		<voice sentence="Plundeeeeer!" />
+	</voices>
+	<loot>
+		<item id="2148" countmax="99" chance="67740" /> <!-- gold coin -->
+		<item id="2148" countmax="99" chance="67740" /> <!-- gold coin -->
+		<item id="2148" countmax="99" chance="67740" /> <!-- gold coin -->
+		<item id="2050" chance="10190" />				<!-- torch -->
+		<item id="2385" chance="10100" />				<!-- sabre -->
+		<item id="2238" chance="9900" />				<!-- worn leather boots -->
+		<item id="2410" countmax="15" chance="9000" />	<!-- throwing knife -->
+		<item id="2513" chance="3850" />				<!-- battle shield -->
+		<item name="knight armor" chance="1130" />				<!-- plate armor -->
+		<item id="5309" chance="1050" />				<!-- treasure map -->
+		<item id="5300" chance="1520" />					<!-- peg leg -->
+		<item id="5298" chance="1450" />					<!-- hook -->
+		<item id="5307" chance="4300" />					<!-- pirate backpack -->
+		<item id="5299" chance="4100" />					<!-- eye patch -->
+		<item id="1987" chance="100000">				<!-- bag -->
+			<item id="5322" chance="2150" />				<!-- die -->
+			<item id="5297" chance="100000" />				<!-- crimson sword -->
+		</item>
+	</loot>
+</monster>

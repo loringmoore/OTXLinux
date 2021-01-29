@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Don" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="128" head="22" body="94" legs="79" feet="117" addons="0" />
+	<parameters>
+		<parameter key="message_farewell" value="Yes, bye!" />
+		<parameter key="message_walkaway" value="?" />
+		<parameter key="message_greet" value="Hmmm, hello |PLAYERNAME|." />
+		<parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;name" />
+        <parameter key="keyword_reply1" value="I'm just a simple farmer, but one of my plots seems to have become infertile and a weird green mist is seeping through the ground..." />
+        <parameter key="keyword_reply2" value="My name is Don." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="
+			bunch of wheat,2694,1;
+			cheese,2696,5;
+			corncob,2686,3;" />
+		<parameter key="shop_sellable" value="dead spider,2807,2;" />
+	</parameters>
+</npc>

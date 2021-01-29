@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Chyros" script="chyros.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="154"/>
+	<parameters>
+		<parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;name;hell" />
+		<parameter key="module_shop" value="1"/>
+        <parameter key="keyword_reply1" value="I'm here in Madrissa working as a demon - human liason but I'm a bit homesick." />
+        <parameter key="keyword_reply2" value="I'm Chyros, I'm here from hell on a work visa." />
+		<parameter key="keyword_reply3" value="Hell is a great place. It's burning hot and the air is filled with the sound of damned souls." />
+		<parameter key="message_greet" value="Heh Heh Heh, welcome, |PLAYERNAME|." />
+		<parameter key="message_farewell" value="See you around, |PLAYERNAME|." />
+		<parameter key="message_walkaway" value="Watch your back, |PLAYERNAME|!" />
+	</parameters>
+</npc>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Crustacea Gigantica" nameDescription="a crustacea gigantica" race="blood" experience="1800" speed="290" manacost="0">
+	<health now="1600" max="1600" />
+	<look type="225" corpse="5728" />
+	<targetchange interval="5000" chance="8" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-60" max="-220" />
+		<attack name="drown" interval="500" chance="15" target="0" length="8" spread="3" min="-175" max="-245">
+			<attribute key="areaEffect" value="icearea"/>
+		</attack>
+		<attack name="drowncondition" interval="500" chance="10" target="0" radius="4" min="-100" max="-300">
+			<attribute key="areaEffect" value="splash"/>
+		</attack>
+		<attack name="drown" interval="500" chance="12" range="7" min="-40" max="-165">
+			<attribute key="shootEffect" value="ice" />
+			<attribute key="areaEffect" value="icearea" />
+		</attack>
+	</attacks>
+	<defenses armor="30" defense="45" />
+	<elements>
+		<element physicalPercent="12" />
+		<element lifedrainPercent="10" />
+		<element energyPercent="-10" />
+	</elements>
+	<immunities>
+		<immunity drown="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="2000" chance="7">
+		<voice sentence="Chrchrchr" yell="1" />
+		<voice sentence="Klonklonk" yell="1" />
+		<voice sentence="Chrrrrr" yell="1" />
+	</voices>
+	<loot>
+		<item id="2148" countmax="100" chance="100000" /><!-- gold coin -->
+		<item id="2148" countmax="43" chance="100000" /><!-- gold coin -->
+		<item name="power bolt" countmax="6" chance="6000"/>
+		<item name="shrimp" countmax="15" chance="80370"/>
+		<item name="mana potion" chance="14285" /><!-- strong mana potion -->
+		<item id="1987" chance="100000">				<!-- bag -->
+			<item name="strange helmet" chance="450"/>
+			<item name="glacier robe" chance="100"/>
+			<item name="glacier kilt" chance="210"/>
+			<item name="glacier mask" chance="340"/>
+			<item name="glacial rod" chance="1200"/>
+			<item name="ice cube" chance="1550"/>
+			<item name="haunted blade" chance="120"/>
+			<item id="5437" chance="300"/> <!-- water wave scroll -->
+		</item>
+	</loot>
+</monster>

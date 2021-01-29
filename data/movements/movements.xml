@@ -34,6 +34,9 @@
 	<!-- Citizen teleport -->
 	<movevent event="StepIn" itemid="1387" script="citizen.lua" />
 	<movevent event="StepIn" itemid="1397" script="citizen.lua" />
+	
+	<!-- teleport -->
+	<movevent event="AddItem" tileitem="1" itemid="1485" script="tombCoalBasin.lua" />
 
 	<!-- Walkback when walking on quest chest -->
 	<movevent event="StepIn" itemid="1738" script="walkback.lua" />
@@ -661,6 +664,8 @@
 	<movevent event="DeEquip" itemid="576" slot="hand" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="5622" slot="hand" function="onEquipItem" /> <!--purple tome -->
 	<movevent event="DeEquip" itemid="5622" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2348" slot="hand" function="onEquipItem" /> <!--ancient rune -->
+	<movevent event="DeEquip" itemid="2348" slot="hand" function="onDeEquipItem" />
 	
 	<!-- club -->
 	

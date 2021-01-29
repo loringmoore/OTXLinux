@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<monster name="Revenant" nameDescription="a revenant" race="blood" experience="1050" speed="100">
+<monster name="Revenant" nameDescription="a revenant" race="blood" experience="1050" speed="400">
 	<health now="1200" max="1200"/>
 	<look type="209" corpse="5676"/>
 	<targetchange interval="4000" chance="10"/>

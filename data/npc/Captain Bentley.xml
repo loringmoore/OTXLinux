@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Captain Bentley" script="travel_thunder cove.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="98"/>
+    <parameters>
+		<parameter key="keywords" value="name" />
+		<parameter key="keyword_reply1" value="Name's Bentley, I'm captain of this ship." />
+    </parameters>
+</npc>

@@ -15,10 +15,11 @@ local function addTravelKeyword(keyword, cost, destination, action)
 end
 
 addTravelKeyword('gravenport', 130, Position(529, 978, 6), function(player) if player:getStorageValue(Storage.postman.Mission01) == 3 then player:setStorageValue(Storage.postman.Mission01, 4) end end)
-addTravelKeyword('crescent isle', 160, Position(472, 690, 6))
+addTravelKeyword('crescent isle', 160, Position(454, 1003, 6))
 addTravelKeyword('madrissa', 110, Position(472, 690, 6))
 addTravelKeyword('thunder cove', 160, Position(1065, 1202, 6))
 addTravelKeyword('rhymveil', 120, Position(778, 125, 6))
+addTravelKeyword('desolation', 220, Position(1084, 518, 6))
 
 -- Kick
 -- keywordHandler:addKeyword({'kick'}, StdModule.kick, {npcHandler = npcHandler, destination = {Position(33174, 31773, 6), Position(33175, 31771, 6), Position(33177, 31772, 6)}})

@@ -31,6 +31,7 @@
 	<monster name="butterflypurple" file="butterflypurple.xml"/>
 	<monster name="butterflyred" file="butterflyred.xml"/>
 	<monster name="butterflyyellow" file="butterflyyellow.xml"/>
+	<monster name="captain ironblade" file="captainironblade.xml"/>
 	<monster name="carniphila" file="carniphila.xml"/>
 	<monster name="cave rat" file="caverat.xml"/>
 	<monster name="centipede" file="centipede.xml"/>
@@ -39,6 +40,7 @@
 	<monster name="countess sorrow" file="countesssorrow.xml"/>
 	<monster name="crab" file="crab.xml"/>
 	<monster name="crocodile" file="crocodile.xml"/>
+	<monster name="crustacea gigantica" file="crustaceagigantica.xml"/>
 	<monster name="crypt shambler" file="cryptshambler.xml"/>
 	<monster name="cyclops" file="cyclops.xml"/>
 	<monster name="dark magician" file="darkmagician.xml"/>
@@ -120,6 +122,7 @@
 	<monster name="the horned fox" file="hornedfox.xml"/>
 	<monster name="hunter" file="hunter.xml"/>
 	<monster name="hyaena" file="hyaena.xml"/>
+	<monster name="ice" file="ice.xml"/>
 	<monster name="ice demon" file="icedemon.xml"/>
 	<monster name="ice witch" file="icewitch.xml"/>
 	<monster name="hydra" file="hydra.xml"/>

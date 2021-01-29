@@ -46,7 +46,7 @@
 		<item id="2428" chance="30000"/><!-- orcish axe -->
 		<item id="2419" chance="24000"/><!-- scimitar -->
 		<item name="health potion" countmax="2" chance="5700"/>
-		<item id="2399" countmax="40" chance="60000"/><!-- throwing star -->
+		<item id="2399" countmax="18" chance="6000"/><!-- throwing star -->
 		<item id="1987" chance="100000"><!-- bag -->
 			<item id="2465" chance="2000"/><!-- brass armor -->
 			<item id="2497" chance="200"/><!-- crusader helmet -->

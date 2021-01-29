@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elf Apparition" nameDescription="an elf apparition" race="undead" experience="8500" speed="415" manacost="530">
+	<health now="9500" max="9500"/>
+	<look type="144" head="28" body="85" legs="104" feet="66" corpse="2913"/>
+	<targetchange interval="5000" chance="50"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="4"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="10"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="38" attack="53"/>
+		<attack name="energy" interval="500" chance="10" range="9" min="-150" max="-320">
+			<attribute key="shootEffect" value="crystalarrow"/>
+		</attack>
+		<attack name="holy" interval="500" chance="7" length="8" spread="3" min="-256" max="-422">
+			<attribute key="areaEffect" value="holyarea"/>
+		</attack>
+		<attack name="manadrain" interval="500" chance="15" range="7" radius="5" target="1" min="-145" max="-365">
+			<attribute key="shootEffect" value="energyball"/>
+			<attribute key="areaEffect" value="teleport"/>
+		</attack>
+	</attacks>
+	<defenses armor="38" defense="40">
+		<defense name="healing" interval="500" chance="9" min="140" max="260">
+			<attribute key="areaEffect" value="bluefirework"/>
+		</defense>
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Begone from this sacred realm!"/>
+	</voices>
+	<loot>
+		<item id="2544" countmax="100" chance="70000"/><!-- arrow -->
+		<item name="mana potion" countmax="10" chance="10000"/><!-- manafluid -->
+		<item name="gold coin" countmax="100" chance="50000"/>
+		<item name="gold coin" countmax="100" chance="25000"/>
+		<item name="platinum coin" countmax="22" chance="25000"/>
+		<item name="horseman helmet" chance="2000"/><!-- leather helmet -->
+		<item name="elven legs" chance="2800"/><!-- leather legs -->
+		<item name="blue piece of cloth" countmax="2" chance="4000"/><!-- orange -->
+		<item name="white piece of cloth" countmax="2" chance="4000"/><!-- orange -->
+		<item name="brown mushroom" countmax="2" chance="40000"/><!-- orange -->
+		<item name="white mushroom" countmax="2" chance="22000"/><!-- roll -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="amazon armor" chance="1000"/><!-- brass armor -->
+			<item name="lightning legs" chance="2000"/><!-- brass helmet -->
+			<item id="2546" countmax="3" chance="10000"/><!-- burst arrow -->
+			<item name="paladin armor" chance="100"/><!-- dragon necklace -->
+			<item id="2147"countmax="6" chance="2000"/><!-- small ruby -->
+			<item name="winged helmet" chance="400"/><!-- torch -->
+			<item name="sniper gloves" chance="1000" />
+			<item name="crystal arrow" chance="100"/><!-- conjure arrow scroll -->
+			<item id="5707" chance="100"/><!-- elvish bow -->
+		</item>
+	</loot>
+</monster>

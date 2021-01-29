@@ -1,16 +1,17 @@
-function onUse(player, item, fromPosition, target, toPosition)
+function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	
-	local position = player:getPosition()
-	local monster = "wolf"
+    local playerPos = player:getPosition()
+    if Tile(playerPos):hasFlag(TILESTATE_PROTECTIONZONE) then
+        playerPos:sendMagicEffect(CONST_ME_POFF)
+        return true
+    end
 	
 	if math.random(100) > 97 then
 		item:getPosition():sendMagicEffect(CONST_ME_SOUND_RED)
-		game.createMonster(monster, position)
-		monster:getPosition():sendMagicEffect(CONST_ME_TELEPORT)
+		Game.createMonster("wolf", player:getPosition())
+		item:remove(1)
 	else
-		item:getPosition():sendMagicEffect(CONST_ME_SOUND_YELLOW
-	end
+		item:getPosition():sendMagicEffect(CONST_ME_SOUND_YELLOW	
 	return true
+	end
 end
-
-	

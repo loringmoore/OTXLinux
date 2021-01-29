@@ -31,6 +31,8 @@
 	</wand>
 	<wand id="5622" mana="30" script="wand of voodoo.lua"> <!-- Wand of Voodoo -->
 	</wand>
+	<wand id="2348" mana="60" script="ancientrune.lua"> <!-- Wand of Voodoo -->
+	</wand>
 	<!-- </wand> -->
 
 	<!--Axes -->
