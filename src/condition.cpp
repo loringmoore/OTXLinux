@@ -149,6 +149,9 @@ Condition* Condition::createCondition(ConditionId_t id, ConditionType_t type, in
 		case CONDITION_POISON:
 		case CONDITION_FIRE:
 		case CONDITION_ENERGY:
+		case CONDITION_DROWN:
+		case CONDITION_DAZZLED:
+		case CONDITION_CURSED:
 		case CONDITION_BLEEDING:
 			return new ConditionDamage(id, type, buff, subId);
 

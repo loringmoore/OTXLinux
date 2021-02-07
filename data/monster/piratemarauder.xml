@@ -40,12 +40,13 @@
 		<item id="2510" chance="5000" />					<!-- plate shield -->
 		<item id="2464" chance="3000" />					<!-- chain armor -->
 		<item id="5309" chance="920" />					<!-- treasure map -->
-		<item id="5299" chance="530" />					<!-- eye patch -->
-		<item id="5298" chance="530" />					<!-- hook -->
-		<item id="5300" chance="510" />					<!-- peg leg -->
-		 <item id="5308" chance="440" />					<!-- pirate bag -->
+		<item id="5299" chance="1530" />					<!-- eye patch -->
+		<item id="5298" chance="1530" />					<!-- hook -->
+		<item id="5300" chance="1510" />					<!-- peg leg -->
+		 <item id="5308" chance="1440" />					<!-- pirate bag -->
 		<item id="1987" chance="100000"><!-- bag -->
-			<item id="5322" chance="90" />					<!-- die -->
+			<item id="5322" chance="390" />	<!-- die -->
+			<item id="5284" chance="1000" />	
 		</item>
 	</loot>
 </monster>

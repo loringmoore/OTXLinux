@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Lasethra" nameDescription="Lasethra" race="venom" experience="108000" speed="700" manacost="0">
-	<health now="25000" max="25000"/>
+<monster name="Lasethra" nameDescription="Lasethra" race="venom" experience="80000" speed="500" manacost="0">
+	<health now="15000" max="15000"/>
 	<look type="170" corpse="5375"/>
 	<targetchange interval="5000" chance="5"/>
 	<strategy attack="100" defense="0"/>
@@ -59,20 +59,20 @@
 		<item id="2152" countmax="30" chance="50000"/><!-- gold coin -->
 		<item id="2671" countmax="3" chance="60000"/><!-- ham -->
 		<item id="2666" countmax="4" chance="90000"/><!-- meat -->
-		<item id="2475" chance="3400"/><!-- warrior helmet -->
-		<item id="2476" chance="3000"/><!-- knight armor -->
-		<item id="2409" chance="5100"/><!-- serpent sword -->
-		<item id="4850" chance="1080"/><!-- hydra egg -->
+		<item id="2475" chance="14000"/><!-- warrior helmet -->
+		<item id="2476" chance="10000"/><!-- knight armor -->
+		<item id="2409" chance="51000"/><!-- serpent sword -->
+		<item id="4850" chance="5080"/><!-- hydra egg -->
 		<item id="2146" countmax="9" chance="10000"/><!-- small sapphire -->
 		<item id="1987" chance="100000"><!-- bag -->
-			<item id="2195" chance="2000"/><!-- boots of haste -->
+			<item id="2195" chance="4000"/><!-- boots of haste -->
 			<item id="2177" chance="1820"/><!-- life crystal -->
-			<item id="2171" chance="3200"/><!-- platinum amulet -->
-			<item id="2536" chance="2500"/><!-- medusa shield -->
-			<item id="2414" chance="1300"/><!-- dragon lance -->
+			<item id="2171" chance="10200"/><!-- platinum amulet -->
+			<item id="2536" chance="9500"/><!-- medusa shield -->
+			<item id="2414" chance="3300"/><!-- dragon lance -->
 			<item id="2214" chance="2400"/><!-- ring of healing -->
-			<item id="2498" chance="1200"/><!-- royal helmet -->
-			<item id="5232" chance="100"/><!-- arbalest -->
+			<item id="2498" chance="6200"/><!-- royal helmet -->
+			<item id="5232" chance="5000"/><!-- arbalest -->
 		</item>
 	</loot>
 </monster>

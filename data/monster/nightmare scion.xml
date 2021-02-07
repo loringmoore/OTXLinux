@@ -66,6 +66,7 @@
 			<item name="enchanted staff" chance="270" />
 			<item name="diamond sceptre" chance="340" />
 			<item id="5161" chance="2900"/><!-- poison strike -->
+			<item name="demonic essence" chance="5000" />
 		</item>
 	</loot>
 </monster>

@@ -63,7 +63,7 @@
 		<voice sentence="Ashes to ashes!"/>
 	</voices>
 	<loot>
-		<item id="2353" chance="100000"/><!-- burning heart -->
+		<item id="2353" chance="200"/><!-- burning heart -->
 		<item id="2148" countmax="80" chance="70000"/><!-- gold coin -->
 		<item id="2148" countmax="85" chance="50000"/><!-- gold coin -->
 		<item id="2148" countmax="95" chance="70000"/><!-- gold coin -->

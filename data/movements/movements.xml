@@ -37,6 +37,7 @@
 	
 	<!-- teleport -->
 	<movevent event="AddItem" tileitem="1" itemid="1485" script="tombCoalBasin.lua" />
+	<movevent event="AddItem" tileitem="1" actionid="3000" script="fierceberserk.lua" />
 
 	<!-- Walkback when walking on quest chest -->
 	<movevent event="StepIn" itemid="1738" script="walkback.lua" />
@@ -260,6 +261,10 @@
 	<movevent event="DeEquip" itemid="5621" slot="necklace" function="onDeEquipItem" />
 
 	<!-- Rings -->
+	<movevent event="Equip" itemid="2123" slot="ring" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="2123" slot="ring" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2124" slot="ring" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="2124" slot="ring" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="2164" slot="ring" function="onEquipItem" />
 	<movevent event="DeEquip" itemid="2164" slot="ring" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="2165" slot="ring" function="onEquipItem" />

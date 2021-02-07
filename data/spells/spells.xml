@@ -145,7 +145,7 @@
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</instant>
-	<instant group="healing" name="Heal Friend" words="exura sio" lvl="18" mana="70" prem="0" aggressive="0" blockwalls="1" needtarget="1" playernameparam="1" params="1" exhaustion="1000" needlearn="1" script="healing/heal friend.lua">
+	<instant group="healing" name="Heal Friend" words="exura sio" lvl="18" mana="170" prem="0" aggressive="0" blockwalls="1" needtarget="1" playernameparam="1" params="1" exhaustion="1000" needlearn="1" script="healing/heal friend.lua">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</instant>
@@ -237,7 +237,7 @@
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</instant>
-	<instant group="attack" name="Boulder Throw" words="exori hur" lvl="15" mana="40" prem="1" range="5" needtarget="1" blockwalls="1" needweapon="1" exhaustion="2000" needlearn="1" script="attack/whirlwind throw.lua">
+	<instant group="attack" name="Boulder Throw" words="exori hur" lvl="15" mana="30" prem="1" range="5" needtarget="1" blockwalls="1" needweapon="1" exhaustion="2000" needlearn="1" script="attack/whirlwind throw.lua">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</instant>

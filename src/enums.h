@@ -113,8 +113,10 @@ enum CombatType_t : uint16_t {
 	COMBAT_LIFEDRAIN = 1 << 5,
 	COMBAT_MANADRAIN = 1 << 6,
 	COMBAT_HEALING = 1 << 7,
+	COMBAT_DROWNDAMAGE = 1 << 8,
+	COMBAT_HOLYDAMAGE = 1 << 9,
 
-	COMBAT_COUNT = 8
+	COMBAT_COUNT = 10
 };
 
 enum CombatParam_t {
@@ -244,7 +246,7 @@ enum ConditionType_t {
 	CONDITION_EXHAUST_WEAPON = 1 << 12, // unused
 	CONDITION_REGENERATION = 1 << 13,
 	CONDITION_SOUL = 1 << 14,
-	// CONDITION_DROWN = 1 << 15,
+	CONDITION_DROWN = 1 << 15,
 	CONDITION_MUTED = 1 << 16,
 	CONDITION_CHANNELMUTEDTICKS = 1 << 17,
 	CONDITION_YELLTICKS = 1 << 18,
@@ -252,6 +254,8 @@ enum ConditionType_t {
 	CONDITION_EXHAUST_COMBAT = 1 << 20, // unused
 	CONDITION_EXHAUST_HEAL = 1 << 21, // unused
 	CONDITION_PACIFIED = 1 << 22,
+	CONDITION_DAZZLED = 1 << 23,
+	CONDITION_CURSED = 1 << 24,
 };
 
 enum ConditionId_t : int8_t {

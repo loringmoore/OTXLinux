@@ -53,7 +53,7 @@
 		<voice sentence="Chakka Chakka!"/>
 	</voices>
 	<loot>
-		<item id="2349" chance="100000"/><!-- blue note -->
+		<item id="2349" chance="1000"/><!-- blue note -->
 		<item id="2148" countmax="80" chance="70000"/><!-- gold coin -->
 		<item id="2148" countmax="85" chance="50000"/><!-- gold coin -->
 		<item id="2148" countmax="95" chance="70000"/><!-- gold coin -->

@@ -1073,7 +1073,7 @@ void Monster::pushCreatures(Tile* tile)
 				}
 
 				monster->changeHealth(-monster->getHealth());
-				monster->setDropLoot(false);
+				//monster->setDropLoot(false);
 				removeCount++;
 			}
 

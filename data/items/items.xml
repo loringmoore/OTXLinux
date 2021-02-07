@@ -3161,10 +3161,8 @@
 		<attribute key="duration" value="86400" />
 	</item>
 	<item id="2350" article="a" name="sword hilt">
-		<attribute key="description" value="It was once part of a formidable two handed weapon. It seems to be rotting rapidly." />
+		<attribute key="description" value="It was once part of a formidable two handed weapon." />
 		<attribute key="weight" value="900" />
-		<attribute key="decayTo" value="0" />
-		<attribute key="duration" value="86400" />
 	</item>
 	<item id="2351" article="a" name="cobrafang dagger">
 		<attribute key="description" value="This ritual weapon was forged from the sharp fang of a giant cobra. It seems to be rotting rapidly." />
@@ -3187,8 +3185,9 @@
 	<item id="2353" article="a" name="burning heart">
 		<attribute key="description" value="It is still beating with unholy life." />
 		<attribute key="weight" value="400" />
-		<attribute key="decayTo" value="0" />
-		<attribute key="duration" value="86400" />
+		<attribute key="healthGain" value="12" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="slotType" value="ring" />
 	</item>
 	<item id="2354" article="an" name="ornamented ankh">
 		<attribute key="description" value="This ancient relic shows signs of untold age. It seems to be rotting rapidly." />
@@ -3940,9 +3939,10 @@
 	<item id="2453" article="an" name="arcane staff">
 		<attribute key="description" value="It is enchanted with ancient magic that renders a weak staff into a powerful weapon."/>
 		<attribute key="weight" value="4000"/>
-		<attribute key="defense" value="30" />
-		<attribute key="attack" value="50" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="wand" />
+		<attribute key="manaGain" value="16" />
+		<attribute key="manaTicks" value="1000" />
+		<attribute key="range" value="4" />
 	</item>
 	<item id="2454" article="a" name="war axe">
 		<attribute key="weight" value="6150"/>
@@ -3987,7 +3987,7 @@
 		<attribute key="slotType" value="head"/>
 		<attribute key="maxHitPointsPercent" value="108"/>
 		<attribute key="maxManaPointsPercent" value="97"/>
-		<attribute key="magicPointsPercent" value="90"/>
+		
 	</item>
 	<item id="2460" article="a" name="brass helmet">
 		<attribute key="weight" value="2700"/>
@@ -4009,7 +4009,7 @@
 		<attribute key="slotType" value="head"/>
 		<attribute key="maxHitPointsPercent" value="111"/>
 		<attribute key="maxManaPointsPercent" value="96"/>
-		<attribute key="magicPointsPercent" value="90"/>
+		
 	</item>
 	<item id="2463" article="a" name="plate armor">
 		<attribute key="weight" value="12000"/>
@@ -4356,7 +4356,7 @@
 		<attribute key="slotType" value="head"/>
 		<attribute key="maxHitPointsPercent" value="115"/>
 		<attribute key="maxManaPointsPercent" value="95"/>
-		<attribute key="magicPointsPercent" value="90"/>
+		
 	</item>
 	<item id="2507" name="elven legs">
 		<attribute key="weight" value="3500"/>
@@ -4376,14 +4376,14 @@
 		<attribute key="weight" value="6900"/>
 		<attribute key="defense" value="21"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="70"/>
+		
 		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="2510" article="a" name="plate shield">
 		<attribute key="weight" value="6500"/>
 		<attribute key="defense" value="17"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="70"/>
+		
 		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2511" article="a" name="brass shield">
@@ -4391,20 +4391,20 @@
 		<attribute key="defense" value="16"/>
 		<attribute key="weaponType" value="shield"/>
 		<attribute key="absorbPercentAll" value="3" />
-		<attribute key="magicPointsPercent" value="70"/>
+		
 	</item>
 	<item id="2512" article="a" name="wooden shield">
 		<attribute key="weight" value="4000"/>
 		<attribute key="defense" value="14"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="70"/>
+		
 		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2513" article="a" name="battle shield">
 		<attribute key="weight" value="6200"/>
 		<attribute key="defense" value="23"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="70"/>
+		
 		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="2514" article="a" name="mastermind shield">
@@ -4412,21 +4412,21 @@
 		<attribute key="weight" value="5700"/>
 		<attribute key="defense" value="37"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="70"/>
+		
 		<attribute key="absorbPercentAll" value="9" />
 	</item>
 	<item id="2515" article="a" name="guardian shield">
 		<attribute key="weight" value="5500"/>
 		<attribute key="defense" value="30"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="70"/>
+		
 		<attribute key="absorbPercentAll" value="9" />
 	</item>
 	<item id="2516" article="a" name="dragon shield">
 		<attribute key="weight" value="6000"/>
 		<attribute key="defense" value="31"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="70"/>
+		
 		<attribute key="absorbPercentAll" value="9" />
 	</item>
 	<item id="2517" article="a" name="shield of honour">
@@ -4435,20 +4435,20 @@
 		<attribute key="defense" value="33"/>
 		<attribute key="weaponType" value="shield"/>
 		<attribute key="skillDist" value="3" />
-		<attribute key="magicPointsPercent" value="90"/>
+		
 	</item>
 	<item id="2518" article="a" name="beholder shield">
 		<attribute key="weight" value="4700"/>
 		<attribute key="defense" value="28"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="70"/>
+		
 		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="2519" article="a" name="crown shield">
 		<attribute key="weight" value="6200"/>
 		<attribute key="defense" value="32"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="70"/>
+		
 		<attribute key="absorbPercentAll" value="9" />
 	</item>
 	<item id="2520" article="a" name="demon shield">
@@ -4456,14 +4456,14 @@
 		<attribute key="weight" value="2600"/>
 		<attribute key="defense" value="35"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="70"/>
+		
 		<attribute key="absorbPercentAll" value="9" />
 	</item>
 	<item id="2521" article="a" name="dark shield">
 		<attribute key="weight" value="5200"/>
 		<attribute key="defense" value="25"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="70"/>
+		
 		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="2522" article="a" name="great shield">
@@ -4471,7 +4471,7 @@
 		<attribute key="weight" value="8400"/>
 		<attribute key="defense" value="38"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="70"/>
+		
 		<attribute key="absorbPercentAll" value="9" />
 	</item>
 	<item id="2523" article="a" name="blessed shield">
@@ -4479,7 +4479,7 @@
 		<attribute key="weight" value="6800"/>
 		<attribute key="defense" value="40"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="70"/>
+		
 		<attribute key="absorbPercentAll" value="12" />
 	</item>
 	<item id="2524" article="an" name="ornamented shield">
@@ -4487,21 +4487,21 @@
 		<attribute key="weight" value="6700"/>
 		<attribute key="defense" value="22"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="70"/>
+		
 		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="2525" article="a" name="dwarven shield">
 		<attribute key="weight" value="5500"/>
 		<attribute key="defense" value="26"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="70"/>
+		
 		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="2526" article="a" name="studded shield">
 		<attribute key="weight" value="5900"/>
 		<attribute key="defense" value="15"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="70"/>
+		
 		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2527" article="a" name="rose shield">
@@ -4514,7 +4514,7 @@
 		<attribute key="weight" value="8200"/>
 		<attribute key="defense" value="32"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="70"/>
+		
 		<attribute key="absorbPercentAll" value="9" />
 	</item>
 	<item id="2529" article="a" name="black shield">
@@ -4523,13 +4523,13 @@
 		<attribute key="defense" value="18"/>
 		<attribute key="weaponType" value="shield"/>
 		<attribute key="skillDist" value="1"/>
-		<attribute key="magicPointsPercent" value="90"/>
+		
 	</item>
 	<item id="2530" article="a" name="copper shield">
 		<attribute key="weight" value="6300"/>
 		<attribute key="defense" value="19"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="70"/>
+		
 		<attribute key="absorbPercentAll" value="9" />
 	</item>
 	<item id="2531" article="a" name="viking shield">
@@ -4542,14 +4542,14 @@
 		<attribute key="weight" value="6100"/>
 		<attribute key="defense" value="27"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="70"/>
+		
 		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="2533" article="a" name="griffin shield">
 		<attribute key="weight" value="5000"/>
 		<attribute key="defense" value="29"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="70"/>
+		
 		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="2534" article="a" name="vampire shield">
@@ -4557,7 +4557,7 @@
 		<attribute key="weight" value="3800"/>
 		<attribute key="defense" value="34"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="70"/>
+		
 		<attribute key="absorbPercentAll" value="9" />
 	</item>
 	<item id="2535" article="a" name="castle shield">
@@ -4565,13 +4565,13 @@
 		<attribute key="defense" value="28"/>
 		<attribute key="weaponType" value="shield"/>
 		<attribute key="skillDist" value="2" />
-		<attribute key="magicPointsPercent" value="90"/>
+		
 	</item>
 	<item id="2536" article="a" name="medusa shield">
 		<attribute key="weight" value="5800"/>
 		<attribute key="defense" value="33"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="70"/>
+		
 		<attribute key="absorbPercentAll" value="9" />
 	</item>
 	<item id="2537" article="an" name="amazon shield">
@@ -4585,7 +4585,7 @@
 		<attribute key="defense" value="36"/>
 		<attribute key="weaponType" value="shield"/>
 		<attribute key="skillDist" value="3" />
-		<attribute key="magicPointsPercent" value="90"/>
+		
 	</item>
 	<item id="2539" article="a" name="phoenix shield">
 		<attribute key="description" value="This shield feels warm to the touch."/>
@@ -4593,27 +4593,27 @@
 		<attribute key="defense" value="34"/>
 		<attribute key="weaponType" value="shield"/>
 		<attribute key="skillDist" value="3" />
-		<attribute key="magicPointsPercent" value="90"/>
+		
 	</item>
 	<item id="2540" article="a" name="scarab shield">
 		<attribute key="weight" value="4700"/>
 		<attribute key="defense" value="25"/>
 		<attribute key="weaponType" value="shield"/>
 		<attribute key="skillDist" value="2" />
-		<attribute key="magicPointsPercent" value="90"/>
+		
 	</item>
 	<item id="2541" article="a" name="bone shield">
 		<attribute key="weight" value="5500"/>
 		<attribute key="defense" value="20"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="70"/>
+		
 		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="2542" article="a" name="tempest shield">
 		<attribute key="weight" value="5100"/>
 		<attribute key="defense" value="36"/>
 		<attribute key="weaponType" value="shield"/>
-		<attribute key="magicPointsPercent" value="70"/>
+		
 		<attribute key="absorbPercentAll" value="9" />
 	</item>
 	<item id="2543" article="a" name="bolt" plural="bolts">
@@ -7902,20 +7902,20 @@
 		<attribute key="defense" value="27" />
 		<attribute key="weaponType" value="shield" />
 		<attribute key="skillDist" value="2" />
-		<attribute key="magicPointsPercent" value="90"/>
+		
 	</item>
 	<item id="3974" article="a" name="sentinel shield">
 		<attribute key="weight" value="4900" />
 		<attribute key="defense" value="22" />
 		<attribute key="weaponType" value="shield" />
 		<attribute key="skillDist" value="2" />
-		<attribute key="magicPointsPercent" value="90"/>
+		
 	</item>
 	<item id="3975" article="a" name="salamander shield">
 		<attribute key="weight" value="5900" />
 		<attribute key="defense" value="26" />
 		<attribute key="weaponType" value="shield" />
-		<attribute key="magicPointsPercent" value="70"/>
+		
 		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="3976" article="a" name="worm">
@@ -8854,7 +8854,7 @@
 		<attribute key="manaTicks" value="1000" />
 		<attribute key="transformDeEquipTo" value="5312" />
 		<attribute key="duration" value="480" />
-		<attribute key="absorbPercentPhysical" value="-10" />
+		<attribute key="absorbPercentAll" value="-10" />
 		<attribute key="description" value="Wearing it makes you feel a little weaker than usual." />
 	</item>
 	<item id="5036" article="a" name="skull candle">
@@ -9960,11 +9960,11 @@
 	</item> 
 	<item id="5234" article="a" name="focus cape">
 		<attribute key="weight" value="2100" />
-		<attribute key="armor" value="9" />
+		<attribute key="armor" value="12" />
 		<attribute key="slotType" value="body" />
-		<attribute key="magiclevelpoints" value="4"/>
-		<attribute key="maxHitPointsPercent" value="93" />
-		<attribute key="maxManaPointsPercent" value="126"/>
+		<attribute key="magiclevelpoints" value="6"/>
+		<attribute key="maxHitPointsPercent" value="92"/>
+		<attribute key="maxManaPointsPercent" value="132"/>
 	</item> 
 	<item id="5235" name="the robe of the ice queen">
 		<attribute key="description" value="The soft fabric shimmers." />
@@ -10020,7 +10020,7 @@
 		<attribute key="defense" value="36" />
 		<attribute key="weaponType" value="shield" />
 		<attribute key="skillDist" value="3" />
-		<attribute key="magicPointsPercent" value="90"/>
+		
 	</item> 
 	<item id="5242" article="a" name="cat's paw">
 		<attribute key="weight" value="1000" />
@@ -10320,7 +10320,7 @@
 		<attribute key="defense" value="26" />
 		<attribute key="weaponType" value="shield" />
 		<attribute key="skillDist" value="2"/>
-		<attribute key="magicPointsPercent" value="90"/>
+		
 	</item>
 	<item id="5315" article="a" name="stuffed dragon">
 		<attribute key="weight" value="850" />
@@ -10955,7 +10955,7 @@
 		<attribute key="weight" value="3200" />
 		<attribute key="defense" value="39" />
 		<attribute key="weaponType" value="shield" />
-		<attribute key="magicPointsPercent" value="70"/>
+		
 		<attribute key="absorbPercentAll" value="9" />
 	</item>
 	<item id="5620" article="a" name="necromancer shield">
@@ -10964,7 +10964,7 @@
 		<attribute key="defense" value="37" />
 		<attribute key="weaponType" value="shield" />
 		<attribute key="skillDist" value="3" />
-		<attribute key="magicPointsPercent" value="90"/>
+		
 	</item>
 	<item id="5621" article="a" name="scarecrow amulet">
 		<attribute key="weight" value="550" />
@@ -11177,7 +11177,7 @@
 		<attribute key="defense" value="29" />
 		<attribute key="weaponType" value="shield" />
 		<attribute key="skillDist" value="2" />
-		<attribute key="magicPointsPercent" value="90"/>
+		
 	</item>
 	<item id="5709" article="a" name="divine plate">
 		<attribute key="weight" value="12000" />

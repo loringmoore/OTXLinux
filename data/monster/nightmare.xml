@@ -57,7 +57,7 @@
 		<item id="2387" chance="15000"/><!-- double axe -->
 		<item id="2671" countmax="2" chance="15000"/><!-- ham -->
 		<item id="2666" countmax="4" chance="17500"/><!-- meat -->
-		<item name="demonic essence" chance="10000" />
+		<item name="demonic essence" countmax="2" chance="10000" />
 		<item id="2152" countmax="4" chance="1000"/><!-- platinum coin -->
 		<item id="2547" countmax="4" chance="7000"/><!-- power bolt -->
 		<item name="soul orb" chance="20000" />
@@ -72,7 +72,7 @@
 			<item id="2454" chance="100"/><!-- war axe -->
 			<item id="5312" chance="100"/><!-- war axe -->
 			<item name="skeleton decoration" chance="200" />
-			<item id="5449" chance="5000"/><!-- strong haste spell -->
+			<item id="5449" chance="2000"/><!-- strong haste spell -->
 		</item>
 	</loot>
 </monster>

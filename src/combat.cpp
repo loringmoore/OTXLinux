@@ -112,9 +112,18 @@ CombatType_t Combat::ConditionToDamageType(ConditionType_t type)
 
 		case CONDITION_BLEEDING:
 			return COMBAT_PHYSICALDAMAGE;
+		
+		case CONDITION_DROWN:
+			return COMBAT_DROWNDAMAGE;
+			
+		case CONDITION_DAZZLED:
+			return COMBAT_HOLYDAMAGE;
 
 		case CONDITION_POISON:
 			return COMBAT_EARTHDAMAGE;
+			
+		case CONDITION_CURSED:
+			return COMBAT_LIFEDRAIN;
 
 		default:
 			break;
@@ -132,11 +141,20 @@ ConditionType_t Combat::DamageToConditionType(CombatType_t type)
 		case COMBAT_ENERGYDAMAGE:
 			return CONDITION_ENERGY;
 
+		case COMBAT_DROWNDAMAGE:
+			return CONDITION_DROWN;
+		
+		case COMBAT_HOLYDAMAGE:
+			return CONDITION_DAZZLED;	
+			
 		case COMBAT_EARTHDAMAGE:
 			return CONDITION_POISON;
 
 		case COMBAT_PHYSICALDAMAGE:
 			return CONDITION_BLEEDING;
+		
+		case COMBAT_LIFEDRAIN:
+			return CONDITION_CURSED;
 
 		default:
 			return CONDITION_NONE;

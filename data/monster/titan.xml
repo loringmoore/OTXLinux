@@ -25,10 +25,10 @@
 			<attribute key="areaEffect" value="fireattack"/>
 		</attack>
 		<attack name="lifedrain" interval="500" chance="5" radius="7" min="-106" max="-220">
-			<attribute key="areaEffect" value="redfirework"/>
+			<attribute key="areaEffect" value="arcane"/>
 		</attack>
 		<attack name="drown" interval="500" chance="7" length="4" spread="3" min="-200" max="-300">
-			<attribute key="areaEffect" value="teleport"/>
+			<attribute key="areaEffect" value="bluebubble"/>
 		</attack>
 		<attack name="holy" interval="500" chance="7" length="5" spread="0" min="-290" max="-360">
 			<attribute key="areaEffect" value="holyarea"/>
@@ -38,7 +38,7 @@
 		</attack>
 	</attacks>
 	<defenses armor="112" defense="112">
-		<defense name="healing" interval="500" chance="15" min="350" max="950">
+		<defense name="healing" interval="500" chance="5" min="350" max="950">
 			<attribute key="areaEffect" value="greenshimmer" />
 		</defense>
 		<defense name="speed" interval="500" chance="15" speedchange="260" duration="5000">
@@ -71,18 +71,18 @@
 		<item name="infernal bolt" countmax="15" chance="14480"/>
 		<item name="Small Topaz" countmax="3" chance="4580"/>
 		<item name="crystalline Axe" chance="3000"/>
-		<item name="sapphire hammer" chance="2200"/>
-		<item name="Knight Armor" chance="9980"/>
+		<item name="sapphire hammer" chance="6200"/>
+		<item name="Knight Armor" chance="15980"/>
 		<item name="demon helmet" chance="250"/>
-		<item name="pair of iron fists" chance="130"/>
-		<item name="Violet Gem" chance="1060"/>
-		<item name="magic plate armor" chance="190"/>
-		<item name="Green Gem" chance="880"/>
-		<item name="Golden legs" chance="840"/>
-		<item name="Mastermind Shield" chance="620"/>
-		<item name="Heavy Mace" chance="460"/>
-		<item name="blue tome" chance="460"/>
-		<item id="2578" chance="370"/>
-		<item id="2136" chance="100"/><!-- demonbone amulet -->
+		<item name="pair of iron fists" chance="830"/>
+		<item name="Violet Gem" chance="10000"/>
+		<item name="magic plate armor" chance="990"/>
+		<item name="Green Gem" chance="8800"/>
+		<item name="Golden legs" chance="1840"/>
+		<item name="Mastermind Shield" chance="1620"/>
+		<item name="Heavy Mace" chance="1460"/>
+		<item name="blue tome" chance="1460"/>
+		<item id="2523" chance="100"/>
+		<item id="2136" chance="1000"/><!-- demonbone amulet -->
 	</loot>
 </monster>

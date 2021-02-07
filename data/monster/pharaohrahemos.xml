@@ -67,7 +67,7 @@
 		<voice sentence="I will make you believe in magic."/>
 	</voices>
 	<loot>
-		<item id="2348" chance="100000"/><!-- ancient rune -->
+		<item id="2348" chance="200"/><!-- ancient rune -->
 		<item id="2148" countmax="80" chance="70000"/><!-- gold coin -->
 		<item id="2148" countmax="85" chance="50000"/><!-- gold coin -->
 		<item id="2148" countmax="95" chance="70000"/><!-- gold coin -->

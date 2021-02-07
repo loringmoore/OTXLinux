@@ -221,26 +221,28 @@ Item* Player::getWeapon(slots_t slot, bool ignoreAmmo) const
 		const ItemType& it = Item::items[item->getID()];
 		if (it.ammoType != AMMO_NONE) {
 			Item* ammoItem = inventory[CONST_SLOT_AMMO];
-			/*quiver*/
-			if (!ammoItem)
-			{
-				return nullptr;
-			}
-				if (Container* container = ammoItem->getContainer())
+	/*edit for quiver*/
+            if (!ammoItem)
+            {
+                return nullptr;
+            }
+           
+            if (Container* container = ammoItem->getContainer())
+            {
+				if (container->getID() == 5720)
 				{
-					if (container->getID() == 5270)
-					{
-						for (ContainerIterator iter = container->iterator(); iter.hasNext(); iter.advance())
-						{
-							const ItemType& itr = Item::items[(*itr)->getID()];
-							if (itr.ammoType == it.ammoType)
-							{
-								item = (*itr);
-								return item;
-							}
+					for (ContainerIterator iter = container->iterator(); iter.hasNext(); iter.advance())
+                	{
+						const ItemType& itr = Item::items[(*iter)->getID()];
+						if (itr.ammoType == it.ammoType)
+                    	{
+							item = (*iter);
+							return item;
 						}
-					}
+                	}
 				}
+			}
+            /*end of edit*/
 			if (!ammoItem || ammoItem->getAmmoType() != it.ammoType) {
 				return nullptr;
 			}
@@ -3108,6 +3110,10 @@ void Player::onAddCombatCondition(ConditionType_t type)
 		case CONDITION_POISON:
 			sendTextMessage(MESSAGE_STATUS_SMALL, "You are poisoned.");
 			break;
+		
+		case CONDITION_DROWN:
+			sendTextMessage(MESSAGE_STATUS_DEFAULT, "You are drowning.");
+			break;
 
 		case CONDITION_PARALYZE:
 			sendTextMessage(MESSAGE_STATUS_SMALL, "You are paralyzed.");
@@ -3115,6 +3121,14 @@ void Player::onAddCombatCondition(ConditionType_t type)
 
 		case CONDITION_DRUNK:
 			sendTextMessage(MESSAGE_STATUS_SMALL, "You are drunk.");
+			break;
+			
+		case CONDITION_DAZZLED:
+			sendTextMessage(MESSAGE_STATUS_DEFAULT, "You are dazzled.");
+			break;	
+			
+		case CONDITION_CURSED:
+			sendTextMessage(MESSAGE_STATUS_DEFAULT, "You are cursed.");
 			break;
 
 		case CONDITION_BLEEDING:

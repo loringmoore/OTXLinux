@@ -43,7 +43,7 @@ local spells = {
 				[28] = {spell_name = "Disintegrate" ,price = 900, words = 'adito tera', number = 28},
 				[29] = {spell_name = "Magic Wall" ,price = 2100, words = 'adevo grav tera', number = 29},
 				[30] = {spell_name = "Wild Growth" ,price = 2000, words = 'adevo grav tera', number = 30},
-				[30] = {spell_name = "Paralyze" ,price = 1900, words = 'adana ani', number = 31},
+				[31] = {spell_name = "Paralyze" ,price = 1900, words = 'adana ani', number = 31},
 		
 				}	
 for i = 1, #spells do
@@ -62,7 +62,7 @@ for i = 1, #spells do
 				player:learnSpell(spells[i].spell_name)
 				doSendMagicEffect(getCreaturePosition(cid), 14)
 			else
-				npcHandler:say("You don\'t have enough money.", cid)
+				npcHandler:say("You don't have enough money.", cid)
 			end
 		end
 	end

@@ -5,33 +5,35 @@
 	</wand>
 	<wand id="2182" mana="2" script="snakebite rod.lua"> <!-- Snakebite Rod -->
 	</wand>
-	<wand id="2191"  mana="4" script="wand of dragonbreath.lua"> <!-- Wand of Dragonbreath -->
+	<wand id="2191"  mana="3" script="wand of dragonbreath.lua"> <!-- Wand of Dragonbreath -->
 	</wand>
-	<wand id="2186"  mana="6" script="moonlight rod.lua"> <!-- Moonlight Rod -->
+	<wand id="2186"  mana="5" script="moonlight rod.lua"> <!-- Moonlight Rod -->
 	</wand>
-	<wand id="2188"  mana="9" script="wand of plague.lua"> <!-- Wand of Plague -->
+	<wand id="2188"  mana="7" script="wand of plague.lua"> <!-- Wand of Plague -->
 	</wand>
-	<wand id="2185" mana="12" script="volcanic rod.lua"> <!-- Volcanic Rod -->
+	<wand id="2185" mana="9" script="volcanic rod.lua"> <!-- Volcanic Rod -->
 	</wand>
-	<wand id="2189"  mana="15" script="wand of cosmic energy.lua"> <!-- Wand of Cosmic Energy -->
+	<wand id="2189"  mana="11" script="wand of cosmic energy.lua"> <!-- Wand of Cosmic Energy -->
 	</wand>
-	<wand id="2181" mana="19" script="quagmire rod.lua"> <!-- Quagmire Rod -->
+	<wand id="2181" mana="13" script="quagmire rod.lua"> <!-- Quagmire Rod -->
 	</wand>
-	<wand id="2187"  mana="23" script="wand of inferno.lua"> <!-- Wand of Inferno -->
+	<wand id="2187"  mana="16" script="wand of inferno.lua"> <!-- Wand of Inferno -->
 	</wand>
-	<wand id="2183"  mana="30" script="tempest rod.lua"> <!-- Tempest Rod -->
+	<wand id="2183"  mana="20" script="tempest rod.lua"> <!-- Tempest Rod -->
 	</wand>
-	<wand id="577" mana="30" script="wand of divinity.lua"> <!-- Wand of divinity -->
+	<wand id="577" mana="20" script="wand of divinity.lua"> <!-- Wand of divinity -->
 	</wand>
-	<wand id="5231" mana="30" script="mycelium rod.lua"> <!-- Mycelium Rod -->
+	<wand id="5231" mana="20" script="mycelium rod.lua"> <!-- Mycelium Rod -->
 	</wand>
-	<wand id="5030" mana="30" script="wand of perdition.lua"> <!-- Wand of Perdition -->
+	<wand id="5030" mana="20" script="wand of perdition.lua"> <!-- Wand of Perdition -->
 	</wand>
-	<wand id="576" mana="30" script="glacial rod.lua"> <!-- Glacial Rod -->
+	<wand id="576" mana="20" script="glacial rod.lua"> <!-- Glacial Rod -->
 	</wand>
-	<wand id="5622" mana="30" script="wand of voodoo.lua"> <!-- Wand of Voodoo -->
+	<wand id="5622" mana="20" script="wand of voodoo.lua"> <!-- Wand of Voodoo -->
 	</wand>
 	<wand id="2348" mana="60" script="ancientrune.lua"> <!-- Wand of Voodoo -->
+	</wand>
+	<wand id="2453" mana="60" script="arcanestaff.lua"> <!-- Wand of Voodoo -->
 	</wand>
 	<!-- </wand> -->
 

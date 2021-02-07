@@ -15,6 +15,7 @@ local function creatureSayCallback(cid, type, msg)
 	if msgcontains(msg, "help") then
 		if player:getStorageValue(6051) < 1 then
 			npcHandler:say("Say...maybe I could use your help. Listen - if you do me a favor, I'll put in a good word for you with a demon buddy of mine who works as a master blacksmith in Gravenport.", cid)
+			npcHandler.topic[cid] = 1
 		end
 	elseif msgcontains(msg, "favor") then
 		if npcHandler.topic[cid] == 1 then
@@ -23,19 +24,19 @@ local function creatureSayCallback(cid, type, msg)
 		end
 	elseif msgcontains(msg, "demonic essences") then
 		if player:getStorageValue(6051) == 1 then
-			npcHandler:say("Did you collect 100 demonic essences for me?", cid)
+			npcHandler:say("Did you collect 10 demonic essences for me?", cid)
 			npcHandler.topic[cid] = 4
 		end
 	elseif msgcontains(msg, "yes") then
 		if npcHandler.topic[cid] == 2 then
-			npcHandler:say({"Hot dog! Let's see..100 essences should be enough. Are you still in?"}, cid)
+			npcHandler:say({"Hot dog! Let's see..10 essences should be enough. Are you still in?"}, cid)
 			npcHandler.topic[cid] = 3
 		elseif npcHandler.topic[cid] == 3 then
 			npcHandler:say("YES! What are you waiting for? Go and get me those essences!", cid)
 			player:setStorageValue(6051, 1)
 			npcHandler.topic[cid] = 0
 		elseif npcHandler.topic[cid] == 4 then
-			if player:removeItem(5032, 100) then
+			if player:removeItem(5032, 10) then
 				npcHandler:say("Ahh, yes, YES! I can almost hear the screams of tormented souls just holding them in my hand! Well, you did what I asked, I'll put in a good word with my buddy in Gravenport. Bring him rare armors and he'll compensate you handsomely!", cid)
 				player:setStorageValue(1023, 1)
 				npcHandler.topic[cid] = 0

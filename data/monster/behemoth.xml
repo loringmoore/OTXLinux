@@ -53,7 +53,7 @@
 		<item id="1987" chance="100000"><!-- bag -->
 			<item name="small amethyst" countmax="5" chance="6380" />
 			<item name="perfect behemoth fang" chance="1090" />
-			<item name="behemoth claw" chance="430" />
+			<item name="behemoth claw" chance="2500" />
 			<item id="2231" chance="14000"/><!-- big bone -->
 			<item id="2125" chance="600"/><!-- crystal necklace -->
 			<item id="2489" chance="6000"/><!-- dark armor -->

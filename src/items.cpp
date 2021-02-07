@@ -701,6 +701,10 @@ void Items::parseItemNode(const pugi::xml_node& itemNode, uint16_t id)
 			it.getAbilities().absorbPercent[combatTypeToIndex(COMBAT_LIFEDRAIN)] += pugi::cast<int16_t>(valueAttribute.value());
 		} else if (tmpStrValue == "absorbpercentmanadrain") {
 			it.getAbilities().absorbPercent[combatTypeToIndex(COMBAT_MANADRAIN)] += pugi::cast<int16_t>(valueAttribute.value());
+		} else if (tmpStrValue == "absorbpercentdrown") {
+			it.getAbilities().absorbPercent[combatTypeToIndex(COMBAT_DROWNDAMAGE)] += pugi::cast<int16_t>(valueAttribute.value());
+		} else if (tmpStrValue == "absorbpercentholy") {
+			it.getAbilities().absorbPercent[combatTypeToIndex(COMBAT_HOLYDAMAGE)] += pugi::cast<int16_t>(valueAttribute.value());
 		} else if (tmpStrValue == "absorbpercentphysical") {
 			it.getAbilities().absorbPercent[combatTypeToIndex(COMBAT_PHYSICALDAMAGE)] += pugi::cast<int16_t>(valueAttribute.value());
 		} else if (tmpStrValue == "absorbpercenthealing") {
@@ -733,6 +737,11 @@ void Items::parseItemNode(const pugi::xml_node& itemNode, uint16_t id)
 			if (valueAttribute.as_bool()) {
 				it.getAbilities().conditionSuppressions |= CONDITION_POISON;
 			}
+		} else if (tmpStrValue == "suppressdrown") {
+			if (valueAttribute.as_bool()) {
+				it.getAbilities().conditionSuppressions |= CONDITION_DROWN;
+			}
+		
 		} else if (tmpStrValue == "suppressphysical") {
 			if (valueAttribute.as_bool()) {
 				it.getAbilities().conditionSuppressions |= CONDITION_BLEEDING;
@@ -754,6 +763,9 @@ void Items::parseItemNode(const pugi::xml_node& itemNode, uint16_t id)
 			} else if (tmpStrValue == "poison") {
 				conditionDamage = new ConditionDamage(CONDITIONID_COMBAT, CONDITION_POISON);
 				combatType = COMBAT_EARTHDAMAGE;
+			} else if (tmpStrValue == "drown") {
+				conditionDamage = new ConditionDamage(CONDITIONID_COMBAT, CONDITION_DROWN);
+				combatType = COMBAT_DROWNDAMAGE;
 			} else if (tmpStrValue == "physical") {
 				conditionDamage = new ConditionDamage(CONDITIONID_COMBAT, CONDITION_BLEEDING);
 				combatType = COMBAT_PHYSICALDAMAGE;

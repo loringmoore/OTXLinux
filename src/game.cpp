@@ -3362,7 +3362,18 @@ void Game::combatGetTypeInfo(CombatType_t combatType, Creature* target, TextColo
 			effect = CONST_ME_GREEN_RINGS;
 			break;
 		}
-
+			
+		case COMBAT_DROWNDAMAGE: {
+			color = TEXTCOLOR_SKYBLUE;
+			effect = CONST_ME_LOSEENERGY;
+			break;
+		}
+			
+		case COMBAT_HOLYDAMAGE: {
+			color = TEXTCOLOR_LIGHTYELLOW;
+			effect = CONST_ME_HOLYAREA;
+			break;
+		}
 		case COMBAT_FIREDAMAGE: {
 			color = TEXTCOLOR_ORANGE;
 			effect = CONST_ME_HITBYFIRE;
@@ -3370,7 +3381,7 @@ void Game::combatGetTypeInfo(CombatType_t combatType, Creature* target, TextColo
 		}
 
 		case COMBAT_LIFEDRAIN: {
-			color = TEXTCOLOR_RED;
+			color = TEXTCOLOR_DARKRED;
 			effect = CONST_ME_MAGIC_RED;
 			break;
 		}

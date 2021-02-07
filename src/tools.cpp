@@ -462,7 +462,7 @@ using SkullNames = std::unordered_map<std::string, Skulls_t>;
 MagicEffectNames magicEffectNames = {
 	{"redspark",		CONST_ME_DRAWBLOOD},
 	{"bluebubble",		CONST_ME_LOSEENERGY},
-	{"poff",		CONST_ME_POFF},
+	{"poff",			CONST_ME_POFF},
 	{"yellowspark",		CONST_ME_BLOCKHIT},
 	{"explosionarea",	CONST_ME_EXPLOSIONAREA},
 	{"explosion",		CONST_ME_EXPLOSIONHIT},
@@ -472,20 +472,33 @@ MagicEffectNames magicEffectNames = {
 	{"blackspark",		CONST_ME_HITAREA},
 	{"teleport",		CONST_ME_TELEPORT},
 	{"energyarea",		CONST_ME_TELEPORT},
-	{"energy",		CONST_ME_ENERGYHIT},
+	{"energy",			CONST_ME_ENERGYHIT},
 	{"blueshimmer",		CONST_ME_MAGIC_BLUE},
 	{"redshimmer",		CONST_ME_MAGIC_RED},
 	{"greenshimmer",	CONST_ME_MAGIC_GREEN},
-	{"fire",		CONST_ME_HITBYFIRE},
+	{"fire",			CONST_ME_HITBYFIRE},
 	{"greenspark",		CONST_ME_HITBYPOISON},
 	{"mortarea",		CONST_ME_MORTAREA},
 	{"greennote",		CONST_ME_SOUND_GREEN},
-	{"rednote",		CONST_ME_SOUND_RED},
-	{"poison",		CONST_ME_POISONAREA},
+	{"rednote",			CONST_ME_SOUND_RED},
+	{"poison",			CONST_ME_POISONAREA},
 	{"yellownote",		CONST_ME_SOUND_YELLOW},
 	{"purplenote",		CONST_ME_SOUND_PURPLE},
 	{"bluenote",		CONST_ME_SOUND_BLUE},
 	{"whitenote",		CONST_ME_SOUND_WHITE},
+	{"yellowfirework",	CONST_ME_FIREWORK_YELLOW},
+	{"redfirework",		CONST_ME_FIREWORK_RED},
+	{"bluefirework",	CONST_ME_FIREWORK_BLUE},
+	{"groundshaker",	CONST_ME_GROUNDSHAKER},
+	{"fireattack",		CONST_ME_FIREATTACK},
+	{"holyarea",		CONST_ME_HOLYAREA},
+	{"iceattack",		CONST_ME_ICEATTACK},
+	{"icearea",			CONST_ME_ICEAREA},
+	{"yellowenergy",	CONST_ME_YELLOWENERGY},
+	{"dice",			CONST_ME_DICE},
+	{"bubbles",			CONST_ME_BUBBLES},
+	{"splash",			CONST_ME_SPLASH},
+	{"arcane",			CONST_ME_ARCANE},
 };
 
 ShootTypeNames shootTypeNames = {
@@ -505,6 +518,14 @@ ShootTypeNames shootTypeNames = {
 	{"snowball",		CONST_ANI_SNOWBALL},
 	{"powerbolt",		CONST_ANI_POWERBOLT},
 	{"poison",		CONST_ANI_POISON},
+	{"energyball",		CONST_ANI_ENERGYBALL},
+	{"infernalbolt",	CONST_ANI_INFERNALBOLT},
+	{"redstar",		CONST_ANI_REDSTAR},
+	{"crystalarrow",		CONST_ANI_CRYSTALARROW},
+	{"holy",		CONST_ANI_HOLY},
+	{"skull",		CONST_ANI_SKULL},
+	{"arcane",		CONST_ANI_ARCANE},
+	{"ice",		CONST_ANI_ICE},
 };
 
 CombatTypeNames combatTypeNames = {
@@ -516,6 +537,8 @@ CombatTypeNames combatTypeNames = {
 	{COMBAT_LIFEDRAIN, 		"lifedrain"},
 	{COMBAT_MANADRAIN, 		"manadrain"},
 	{COMBAT_HEALING, 		"healing"},
+	{COMBAT_DROWNDAMAGE, 		"drown"},
+	{COMBAT_HOLYDAMAGE, 		"holy"},
 };
 
 AmmoTypeNames ammoTypeNames = {
@@ -717,6 +740,10 @@ size_t combatTypeToIndex(CombatType_t combatType)
 			return 6;
 		case COMBAT_HEALING:
 			return 7;
+		case COMBAT_DROWNDAMAGE:
+			return 8;
+		case COMBAT_HOLYDAMAGE:
+			return 9;
 		default:
 			return 0;
 	}

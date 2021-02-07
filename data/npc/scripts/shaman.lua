@@ -13,7 +13,7 @@ local function creatureSayCallback(cid, type, msg)
 	end
 	local player = Player(cid)
 	if msgcontains(msg, "outfit") then
-		if player:getStorageValue(6025) < 1 then
+		if player:getStorageValue(6036) < 1 then
 			npcHandler:say("It seems you are drawn to the shamanic path, |PLAYERNAME|, that is good. You can become a shaman too if you desire!", cid)
 			npcHandler.topic[cid] = 1
 		end
@@ -23,17 +23,17 @@ local function creatureSayCallback(cid, type, msg)
 			npcHandler.topic[cid] = 2
 		end
 	elseif msgcontains(msg, "initiation") then
-		if player:getStorageValue(6025) == 1 then
-			npcHandler:say("Did you collect 50 hardened bones and 5 bast skirts?", cid)
+		if player:getStorageValue(6036) == 1 then
+			npcHandler:say("Did you collect 50 hardened bones, 5 bast skirts and a hydra egg?", cid)
 			npcHandler.topic[cid] = 4
 		end
 	elseif msgcontains(msg, "staff") then
-		if player:getStorageValue(6025) == 2 then
+		if player:getStorageValue(6036) == 2 then
 			npcHandler:say("Did you bring back 2 voodoo dolls and a banana staff?", cid)
 			npcHandler.topic[cid] = 5
 		end
 	elseif msgcontains(msg, "mask") then
-		if player:getStorageValue(6025) == 3 then
+		if player:getStorageValue(6036) == 3 then
 			npcHandler:say("Did you find 3 tribal masks and 10 enchanted chicken wings?", cid)
 			npcHandler.topic[cid] = 6
 		end
@@ -50,24 +50,30 @@ local function creatureSayCallback(cid, type, msg)
 			npcHandler.topic[cid] = 3
 		elseif npcHandler.topic[cid] == 3 then
 			npcHandler:say("May the Spirits guide you, |PLAYERNAME|!", cid)
-			player:setStorageValue(6025, 1)
+			player:setStorageValue(6036, 1)
 			npcHandler.topic[cid] = 0
 		elseif npcHandler.topic[cid] == 4 then
-			if player:removeItem(5247, 1) then
+			if player:removeItem(5289, 50) and player:removeItem(3963, 5) and player:removeItem(4850, 1) then
 				npcHandler:say("Well done |PLAYERNAME| - let the ritual commence! <Chants incoherently> Now, bring the materials to fashion a staff!", cid)
-				player:setStorageValue(6025, 2)
+				player:setStorageValue(6036, 2)
 				npcHandler.topic[cid] = 0
 			else
 				npcHandler:say("You did not bring what I asked!", cid)
 			end
 		elseif npcHandler.topic[cid] == 5 then
-			if player:getItemCount(5250) >= 100 and player:getItemCount(5248) >= 100 and player:getItemCount(5249) >= 100 and player:getItemCount(5294) >= 100 then
+			if player:removeItem(3955, 2) and player:removeItem(3966, 1) then
 				npcHandler:say("Aaahh, yes, yes! These dolls are full of voodoo magic and this staff is in pristine condition! Bring me the final pieces for your mask and your journey will be complete!", cid)
-				player:removeItem(5250, 100)
-				player:removeItem(5248, 100)
-				player:removeItem(5249, 100)
-				player:removeItem(5294, 100)
-				player:setStorageValue(6025, 3)
+				player:setStorageValue(6036, 3)
+				npcHandler.topic[cid] = 0
+			else
+				npcHandler:say("You did not bring what I asked!", cid)
+			end
+		elseif npcHandler.topic[cid] == 6 then
+			if player:getItemCount(3967) >= 3 and player:getItemCount(5031) >= 10 then
+				npcHandler:say("Well done, |PLAYERNAME|! You have proven yourself ready and worthy to walk the Shamanic path. May the spirits guide you!", cid)
+				player:removeItem(3967, 3)
+				player:removeItem(5031, 10)
+				player:setStorageValue(6036, 4)
 				player:getPosition():sendMagicEffect(CONST_ME_MAGIC_BLUE)
 				npcHandler.topic[cid] = 0
 			else
@@ -78,6 +84,7 @@ local function creatureSayCallback(cid, type, msg)
 			npcHandler:say("Then no.", cid)
 			npcHandler.topic[cid] = 0
 		end
+	end
 	return true
 	end
 end

@@ -38,12 +38,13 @@
 		<item id="2148" countmax="30" chance="77000" />	<!-- gold coin -->
 		<item id="2483" chance="3000" />					<!-- scale armor -->
 		<item id="2509" chance="2800" />					<!-- steel shield -->
-		<!-- <item id="5710" chance="2000" />					<!-- light shovel -->
+		<item id="5477" chance="2000" />					<!-- light shovel -->
 		<item id="5309" chance="1000" />					<!-- treasure map -->
 		<item id="5308" chance="1000" />					<!-- pirate bag -->
-		<item id="5298" chance="560" />					<!-- hook -->
-		<item id="5300" chance="500" />					<!-- peg leg -->
-		<item id="5299" chance="450" />					<!-- eye patch -->
-		<item id="5322" chance="100" />					<!-- die -->
+		<item id="5298" chance="1560" />					<!-- hook -->
+		<item id="5300" chance="1500" />					<!-- peg leg -->
+		<item id="5299" chance="1450" />					<!-- eye patch -->
+		<item id="5322" chance="700" />					<!-- die -->
+		<item id="5283" chance="1230" />
 	</loot>
 </monster>

@@ -882,6 +882,12 @@ bool WeaponWand::configureEvent(const pugi::xml_node& node)
 			params.combatType = COMBAT_EARTHDAMAGE;
 		} else if (tmpStrValue == "energy") {
 			params.combatType = COMBAT_ENERGYDAMAGE;
+		} else if (tmpStrValue == "holy") {
+			params.combatType = COMBAT_HOLYDAMAGE;
+		} else if (tmpStrValue == "lifedrain") {
+			params.combatType = COMBAT_LIFEDRAIN;
+		} else if (tmpStrValue == "drown") {
+			params.combatType = COMBAT_DROWNDAMAGE;
 		} else if (tmpStrValue == "fire") {
 			params.combatType = COMBAT_FIREDAMAGE;
 		} else {

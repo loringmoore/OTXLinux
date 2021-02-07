@@ -383,6 +383,7 @@ bool Spell::configureSpell(const pugi::xml_node& node)
 		"poison",
 		"fire",
 		"energy",
+		"drown",
 		"lifedrain",
 		"manadrain",
 		"healing",
@@ -396,6 +397,7 @@ bool Spell::configureSpell(const pugi::xml_node& node)
 		"firecondition",
 		"poisoncondition",
 		"energycondition",
+		"drowncondition",
 	};
 
 	//static size_t size = sizeof(reservedList) / sizeof(const char*);

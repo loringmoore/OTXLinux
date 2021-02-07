@@ -15,6 +15,7 @@ local function creatureSayCallback(cid, type, msg)
 	if msgcontains(msg, "outfit") then
 		if player:getStorageValue(6045) < 1 and player:getSex() == PLAYERSEX_FEMALE then
 			npcHandler:say("Oh, my winged tiara and gloves? This is traditional garb worn by Amazon who have proved themselves to be expert markswomen. The outfit is awarded after completing dangerous tasks for our clan.", cid)
+			npcHandler.topic[cid] = 1
 		else
 			npcHandler:say("Oh, my winged tiara and gloves? This is traditional garb worn by Amazon who have proved themselves to be expert markswomen. The outfit is awarded after completing dangerous tasks for our clan. Although there are no men in our society, we would award a male warrior brave enough to complete these tasks with a hooded cloak instead of a tiara.", cid)
 			npcHandler.topic[cid] = 1
@@ -31,7 +32,7 @@ local function creatureSayCallback(cid, type, msg)
 		end
 	elseif msgcontains(msg, "leather") then
 		if player:getStorageValue(6045) == 2 then
-			npcHandler:say("Did you bring me 100 pieces of minotaur leather, 100 pieces of lizard leather, 100 pieces of red dragon leather and 100 pieces of green dragon leather?", cid)
+			npcHandler:say("Did you bring me 50 pieces of minotaur leather, 50 pieces of lizard leather, 25 pieces of red dragon leather and 25 pieces of green dragon leather?", cid)
 			npcHandler.topic[cid] = 5
 		end
 	elseif msgcontains(msg, "yes") then
@@ -41,7 +42,7 @@ local function creatureSayCallback(cid, type, msg)
 				"Recently, one of our scouts was exploring the volcano to the north, and scaled it in order to survey the land. Upon reaching the summit, she paused to rest, only to be attacked by a firey creature. In her haste to escape, she left a pair of sniper gloves behind. ...",
 				"Each pair of these gloves is hand-crafted by our artisans, and the process is very time-consuming. If you could retrieve the gloves, I'll let you wear them. ...",
 				"Secondly, we need a lot of leather for new quivers. Leather can only be obtained from monsters like minotaus, lizards and dragons, and hunting them can be extremely dangerous. ...",
-				"Prove your skill with the bow by bringing back 100 pieces of minotaur leather, 100 pieces of lizard leather, 100 pieces of red dragon leather, and 100 pieces of green dragon leather. ...",
+				"Prove your skill with the bow by bringing back 50 pieces of minotaur leather, 50 pieces of lizard leather, 25 pieces of red dragon leather, and 25 pieces of green dragon leather. ...",
 				"Lastly, for our arrow heads we need a lot of steel. Best would be one piece of royal steel, one piece of draconian steel and one piece of hell steel. ...",
 				"Did you understand everything I told you and are willing to handle this task?"
 			}, cid)
@@ -59,12 +60,12 @@ local function creatureSayCallback(cid, type, msg)
 				npcHandler:say("You don't have it...", cid)
 			end
 		elseif npcHandler.topic[cid] == 5 then
-			if player:getItemCount(5250) >= 100 and player:getItemCount(5248) >= 100 and player:getItemCount(5249) >= 100 and player:getItemCount(5294) >= 100 then
+			if player:getItemCount(5250) >= 50 and player:getItemCount(5248) >= 50 and player:getItemCount(5249) >= 25 and player:getItemCount(5294) >= 25 then
 				npcHandler:say("Good work, |PLAYERNAME|! That is enough leather for a lot of sturdy quivers. Well, you certainly have proven yourself worthy, |PLAYERNAME|, and I will honor my end of the deal. Take this traditional hunter garb, and where it with pride!", cid)
-				player:removeItem(5250, 100)
-				player:removeItem(5248, 100)
-				player:removeItem(5249, 100)
-				player:removeItem(5294, 100)
+				player:removeItem(5250, 50)
+				player:removeItem(5248, 50)
+				player:removeItem(5249, 25)
+				player:removeItem(5294, 25)
 				player:setStorageValue(6045, 3)
 				player:getPosition():sendMagicEffect(CONST_ME_MAGIC_BLUE)
 				npcHandler.topic[cid] = 0

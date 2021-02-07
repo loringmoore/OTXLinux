@@ -31,7 +31,7 @@
 		</attack>
 	</attacks>
 	<defenses armor="27" defense="45">
-		<defense name="healing" interval="500" chance="15" min="200" max="400">
+		<defense name="healing" interval="500" chance="10" min="200" max="400">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
@@ -66,6 +66,7 @@
 			<item id="2475" chance="2000"/><!-- warrior helmet -->
 			<item id="5434" chance="200"/><!-- poison wave scroll -->
 			<item id="5441" chance="2000"/><!-- ultimate healing scroll -->
+			<item id="5440" chance="200"/><!-- mass healing scroll -->
 		</item>
 	</loot>
 </monster>

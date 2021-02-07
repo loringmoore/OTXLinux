@@ -8,9 +8,9 @@ local config = {
 		[2876] = {value = 25000, newItem = 5250, after = 2877}, -- minotaur guard				
 		
 		-- Low Class Lizards
-		[4259] = {value = 25000, newItem = 5253, after = 4260}, -- lizard sentinel
-		[4262] = {value = 25000, newItem = 5253, after = 4263}, -- lizard snakecharmer
-		[4256] = {value = 25000, newItem = 5253, after = 4257}, -- lizard templar
+		[4259] = {value = 25000, newItem = 5248, after = 4260}, -- lizard sentinel
+		[4262] = {value = 25000, newItem = 5248, after = 4263}, -- lizard snakecharmer
+		[4256] = {value = 25000, newItem = 5248, after = 4257}, -- lizard templar
 
 		-- Wolves
 		
@@ -23,9 +23,9 @@ local config = {
 		[2850] = {value = 25000, newItem = 5266, after = 2851},
 		
 		-- High Class Lizards
-		[5351] = {value = 25000, newItem = 5253, after = 5352}, -- lizard legionnaire 		
-		[5354] = {value = 25000, newItem = 5253, after = 5355}, -- lizard dragon priest
-		[5348] = {value = 25000, newItem = 5253, after = 5349}, -- lizard high guard	
+		[5351] = {value = 25000, newItem = 5248, after = 5352}, -- lizard legionnaire 		
+		[5354] = {value = 25000, newItem = 5248, after = 5355}, -- lizard dragon priest
+		[5348] = {value = 25000, newItem = 5248, after = 5349}, -- lizard high guard	
 
 		-- Dragons
 		[2844] = {value = 25000, newItem = 5249, after = 2845}, -- dragon
@@ -42,7 +42,7 @@ local config = {
 		[2952] = {value = 25000, newItem = 5252, after = 2953}, -- stone golem
 		--[5347] = {value = 25000, newItem = 5252, after = 2257}, -- eternal guardian
 		[3022] = {value = 25000, newItem = 5252, after = 3023}, -- gargoyle
-		[5357] = {value = 25000, newItem = 5252, after = 5357}, -- earth elemental
+		[5357] = {value = 25000, newItem = 5252, after = 5358}, -- earth elemental
 		
 		-- Beholders
 		[2908] = {value = 25000, newItem = 5268, after = 2909}, -- beholder
