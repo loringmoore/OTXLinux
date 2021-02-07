@@ -14,13 +14,13 @@ local config = {
 
 		-- Wolves
 		
-		[2827] = {value = 25000, newItem = 5267, after = 2828},
+		[2826] = {value = 25000, newItem = 5267, after = 2827},
 		[2924] = {value = 25000, newItem = 5267, after = 2925},
 		[2969] = {value = 25000, newItem = 5267, after = 2970},
 		
 		-- Bears
-		[2894] = {value = 25000, newItem = 5266, after = 2985},
-		[2850] = {value = 25000, newItem = 5266, after = 2851},
+		[2893] = {value = 25000, newItem = 5266, after = 2984},
+		[2849] = {value = 25000, newItem = 5266, after = 2850},
 		
 		-- High Class Lizards
 		[5351] = {value = 25000, newItem = 5248, after = 5352}, -- lizard legionnaire 		

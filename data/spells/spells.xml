@@ -243,23 +243,23 @@
 	</instant>
 
 <!-- Conjure Spells -->
-	<conjure group="support" name="Conjure Arrow" words="exevo con" lvl="13" mana="100" conjureId="2544" conjureCount="50" exhaustion="2000" needlearn="1" function="conjureItem">
+	<conjure group="support" name="Conjure Arrow" words="exevo con" lvl="13" mana="100" conjureId="2544" aggressive="0" conjureCount="50" exhaustion="2000" needlearn="1" function="conjureItem">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure group="support" name="Conjure Poisoned Arrow" words="exevo con pox" lvl="16" mana="130" conjureId="2545" conjureCount="30" exhaustion="2000" needlearn="1" function="conjureItem">
+	<conjure group="support" name="Conjure Poisoned Arrow" words="exevo con pox" lvl="16" mana="130" aggressive="0" conjureId="2545" conjureCount="30" exhaustion="2000" needlearn="1" function="conjureItem">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure group="support" name="Conjure Bolt" words="exevo con mort" lvl="17" mana="140" prem="0" conjureId="2543" conjureCount="20" exhaustion="2000" needlearn="1" function="conjureItem">
+	<conjure group="support" name="Conjure Bolt" words="exevo con mort" lvl="17" mana="140" prem="0" aggressive="0" conjureId="2543" conjureCount="20" exhaustion="2000" needlearn="1" function="conjureItem">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure group="support" name="Conjure Explosive Arrow" words="exevo con flam" lvl="25" mana="290" conjureId="2546" conjureCount="25" exhaustion="2000" needlearn="1" function="conjureItem">
+	<conjure group="support" name="Conjure Explosive Arrow" words="exevo con flam" lvl="25" mana="290" aggressive="0" conjureId="2546" conjureCount="25" exhaustion="2000" needlearn="1" function="conjureItem">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure group="support" name="Conjure Infernal Bolt" words="exevo con hur" lvl="73" mana="1200" soul="3" prem="0" conjureId="5422" conjureCount="5" exhaustion="2000" needlearn="1" function="conjureItem">
+	<conjure group="support" name="Conjure Infernal Bolt" words="exevo con hur" lvl="73" mana="1200" aggressive="0" soul="3" prem="0" conjureId="5422" conjureCount="5" exhaustion="2000" needlearn="1" function="conjureItem">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
@@ -274,115 +274,115 @@
 	<!-- <conjure group="support" name="Enchant Staff" words="exeta vis" lvl="41" mana="80" prem="0" conjureId="2433" reagentId="2401" exhaustion="2000" needlearn="1" function="conjureItem"> 
 		<vocation name="Master Sorcerer"/>
 	</conjure> -->
-	<conjure group="support" name="Conjure Power Bolt" words="exevo con vis" lvl="59" mana="700" soul="4" prem="0" conjureId="2547" conjureCount="10" exhaustion="2000" needlearn="1" function="conjureItem">
+	<conjure group="support" name="Conjure Power Bolt" words="exevo con vis" lvl="59" mana="700" aggressive="0" soul="4" prem="0" conjureId="2547" conjureCount="10" exhaustion="2000" needlearn="1" function="conjureItem">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure name="Poison Field" words="adevo grav pox" lvl="14" mana="200" soul="1" reagentId="2260" conjureId="2285" conjureCount="60" exhaustion="2000" needlearn="1" function="conjureRune">
+	<conjure name="Poison Field" words="adevo grav pox" lvl="14" mana="200" soul="1" reagentId="2260" aggressive="0" conjureId="2285" conjureCount="60" exhaustion="2000" needlearn="1" function="conjureRune">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure name="Light Magic Missile" words="adori" lvl="15" mana="120" soul="1" reagentId="2260" conjureId="2287" conjureCount="100" exhaustion="2000" needlearn="1" function="conjureRune">
+	<conjure name="Light Magic Missile" words="adori" lvl="15" mana="120" soul="1" reagentId="2260" aggressive="0" conjureId="2287" conjureCount="100" exhaustion="2000" needlearn="1" function="conjureRune">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure name="Fire Field" words="adevo grav flam" lvl="15" mana="240" soul="1" reagentId="2260" conjureId="2301" conjureCount="60" exhaustion="2000" needlearn="1" function="conjureRune">
+	<conjure name="Fire Field" words="adevo grav flam" lvl="15" mana="240" soul="1" reagentId="2260" aggressive="0" conjureId="2301" conjureCount="60" exhaustion="2000" needlearn="1" function="conjureRune">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure name="Fireball" words="adori flam" lvl="27" mana="460" soul="3" prem="1" reagentId="2260" conjureId="2302" conjureCount="100" exhaustion="2000" needlearn="1" function="conjureRune">
+	<conjure name="Fireball" words="adori flam" lvl="27" mana="460" soul="3" prem="1" reagentId="2260" aggressive="0" conjureId="2302" conjureCount="100" exhaustion="2000" needlearn="1" function="conjureRune">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure name="Energy Field" words="adevo grav vis" lvl="18" mana="320" soul="2" reagentId="2260" conjureId="2277" conjureCount="60" exhaustion="2000" needlearn="1" function="conjureRune">
+	<conjure name="Energy Field" words="adevo grav vis" lvl="18" mana="320" soul="2" reagentId="2260" aggressive="0" conjureId="2277" conjureCount="60" exhaustion="2000" needlearn="1" function="conjureRune">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure name="Envenom" words="adevo res pox" lvl="21" mana="400" soul="2" prem="1" reagentId="2260" conjureId="2292" conjureCount="20" exhaustion="2000" needlearn="1" function="conjureRune">
+	<conjure name="Envenom" words="adevo res pox" lvl="21" mana="400" soul="2" prem="1" reagentId="2260" aggressive="0" conjureId="2292" conjureCount="20" exhaustion="2000" needlearn="1" function="conjureRune">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure name="Great Fireball" words="adori gran flam" lvl="30" mana="530" soul="3" reagentId="2260" conjureId="2304" conjureCount="40" exhaustion="2000" needlearn="1" function="conjureRune">
+	<conjure name="Great Fireball" words="adori gran flam" lvl="30" mana="530" soul="3" reagentId="2260" aggressive="0" conjureId="2304" conjureCount="40" exhaustion="2000" needlearn="1" function="conjureRune">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure name="Thunderstorm" words="adori gran vis" lvl="30" mana="530" soul="3" reagentId="2260" conjureId="2315" conjureCount="40" exhaustion="2000" needlearn="1" function="conjureRune">
+	<conjure name="Thunderstorm" words="adori gran vis" lvl="30" mana="530" soul="3" reagentId="2260" aggressive="0" conjureId="2315" conjureCount="40" exhaustion="2000" needlearn="1" function="conjureRune">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure name="Poison Shower" words="adori gran pox" lvl="30" mana="530" soul="3" reagentId="2260" conjureId="2288" conjureCount="40" exhaustion="2000" needlearn="1" function="conjureRune">
+	<conjure name="Poison Shower" words="adori gran pox" lvl="30" mana="530" soul="3" reagentId="2260" aggressive="0" conjureId="2288" conjureCount="40" exhaustion="2000" needlearn="1" function="conjureRune">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure name="Avalanche" words="adori gran aqua" lvl="30" mana="530" soul="3" reagentId="2260" conjureId="2274" conjureCount="40" exhaustion="2000" needlearn="1" function="conjureRune">
+	<conjure name="Avalanche" words="adori gran aqua" lvl="30" mana="530" soul="3" reagentId="2260" aggressive="0" conjureId="2274" conjureCount="40" exhaustion="2000" needlearn="1" function="conjureRune">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure name="Heavy Magic Missile" words="adori gran" lvl="1" mana="350" soul="2" reagentId="2260" conjureId="2311" conjureCount="100" exhaustion="2000" needlearn="1" function="conjureRune">
+	<conjure name="Heavy Magic Missile" words="adori gran" lvl="1" mana="350" soul="2" reagentId="2260" aggressive="0" conjureId="2311" conjureCount="100" exhaustion="2000" needlearn="1" function="conjureRune">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure name="Poison Bomb" words="adevo mas pox" lvl="25" mana="520" soul="2" prem="1" reagentId="2260" conjureId="2286" conjureCount="40" exhaustion="2000" needlearn="1" function="conjureRune">
+	<conjure name="Poison Bomb" words="adevo mas pox" lvl="25" mana="520" soul="2" prem="1" reagentId="2260" aggressive="0" conjureId="2286" conjureCount="40" exhaustion="2000" needlearn="1" function="conjureRune">
 		<vocation name="Druid"/>
 		<vocation name="Elder Druid"/>
 	</conjure>
-	<conjure name="Firebomb" words="adevo mas flam" lvl="27" mana="600" soul="4" reagentId="2260" conjureId="2305" conjureCount="40" exhaustion="2000" needlearn="1" function="conjureRune">
+	<conjure name="Firebomb" words="adevo mas flam" lvl="27" mana="600" soul="4" reagentId="2260" aggressive="0" conjureId="2305" conjureCount="40" exhaustion="2000" needlearn="1" function="conjureRune">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure name="Soulfire" words="adevo res flam" lvl="27" mana="600" soul="3" prem="1" reagentId="2260" conjureId="2308" conjureCount="60" exhaustion="2000" needlearn="1" function="conjureRune">
+	<conjure name="Soulfire" words="adevo res flam" lvl="27" mana="600" soul="3" prem="1" reagentId="2260" aggressive="0" conjureId="2308" conjureCount="60" exhaustion="2000" needlearn="1" function="conjureRune">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure name="Poison Wall" words="adevo mas grav pox" lvl="29" mana="640" soul="3" reagentId="2260" conjureId="2289" conjureCount="80" exhaustion="2000" needlearn="1" function="conjureRune">
+	<conjure name="Poison Wall" words="adevo mas grav pox" lvl="29" mana="640" soul="3" reagentId="2260" aggressive="0" conjureId="2289" conjureCount="80" exhaustion="2000" needlearn="1" function="conjureRune">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure name="Explosion" words="adevo mas hur" lvl="31" mana="570" soul="4" reagentId="2260" conjureId="2313" conjureCount="60" exhaustion="2000" needlearn="1" function="conjureRune">
+	<conjure name="Explosion" words="adevo mas hur" lvl="31" mana="570" soul="4" reagentId="2260" aggressive="0" conjureId="2313" conjureCount="60" exhaustion="2000" needlearn="1" function="conjureRune">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure name="Fire Wall" words="adevo mas grav flam" lvl="33" mana="780" soul="4" reagentId="2260" conjureId="2303" conjureCount="80" exhaustion="2000" needlearn="1" function="conjureRune">
+	<conjure name="Fire Wall" words="adevo mas grav flam" lvl="33" mana="780" soul="4" reagentId="2260" aggressive="0" conjureId="2303" conjureCount="80" exhaustion="2000" needlearn="1" function="conjureRune">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure name="Energybomb" words="adevo mas vis" lvl="37" mana="880" soul="5" prem="1" reagentId="2260" conjureId="2262" conjureCount="40" exhaustion="2000" needlearn="1" function="conjureRune">
+	<conjure name="Energybomb" words="adevo mas vis" lvl="37" mana="880" soul="5" prem="1" reagentId="2260" aggressive="0" conjureId="2262" conjureCount="40" exhaustion="2000" needlearn="1" function="conjureRune">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure name="Energy Wall" words="adevo mas grav vis" lvl="41" mana="1000" soul="5" reagentId="2260" conjureId="2279" conjureCount="80" exhaustion="2000" needlearn="1" function="conjureRune">
+	<conjure name="Energy Wall" words="adevo mas grav vis" lvl="41" mana="1000" soul="5" reagentId="2260" aggressive="0" conjureId="2279" conjureCount="80" exhaustion="2000" needlearn="1" function="conjureRune">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure name="Sudden Death" words="adori vita vis" lvl="45" mana="880" soul="5" reagentId="2260" conjureId="2268" conjureCount="10" exhaustion="2000" needlearn="1" function="conjureRune">
+	<conjure name="Sudden Death" words="adori vita vis" lvl="45" mana="880" soul="5" reagentId="2260" aggressive="0" conjureId="2268" conjureCount="10" exhaustion="2000" needlearn="1" function="conjureRune">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure name="Antidote Rune" words="adana pox" lvl="15" mana="200" soul="1" reagentId="2260" conjureId="2266" conjureCount="20" exhaustion="2000" needlearn="1" function="conjureRune">
+	<conjure name="Antidote Rune" words="adana pox" lvl="15" mana="200" soul="1" reagentId="2260" aggressive="0" conjureId="2266" conjureCount="20" exhaustion="2000" needlearn="1" function="conjureRune">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure name="Intense Healing Rune" words="adura gran" lvl="15" mana="240" soul="2" reagentId="2260" conjureId="2265" conjureCount="20" exhaustion="2000" needlearn="1" function="conjureRune">
+	<conjure name="Intense Healing Rune" words="adura gran" lvl="15" mana="240" soul="2" reagentId="2260" aggressive="0" conjureId="2265" conjureCount="20" exhaustion="2000" needlearn="1" function="conjureRune">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure name="Ultimate Healing Rune" words="adura vita" lvl="24" mana="400" soul="3" reagentId="2260" conjureId="2273" conjureCount="10" exhaustion="2000" needlearn="1" function="conjureRune">
+	<conjure name="Ultimate Healing Rune" words="adura vita" lvl="24" mana="400" soul="3" reagentId="2260" aggressive="0" conjureId="2273" conjureCount="10" exhaustion="2000" needlearn="1" function="conjureRune">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure name="Convince Creature" words="adeta sio" lvl="16" mana="200" soul="3" reagentId="2260" conjureId="2290" conjureCount="20" exhaustion="2000" needlearn="1" function="conjureRune">
+	<conjure name="Convince Creature" words="adeta sio" lvl="16" mana="200" soul="3" reagentId="2260" aggressive="0" conjureId="2290" conjureCount="20" exhaustion="2000" needlearn="1" function="conjureRune">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure name="Animate Dead" words="adana mort" lvl="27" mana="600" soul="5" prem="1" reagentId="2260" conjureId="2316" conjureCount="20" exhaustion="2000" needlearn="1" function="conjureRune">
+	<conjure name="Animate Dead" words="adana mort" lvl="27" mana="600" soul="5" prem="1" reagentId="2260" aggressive="0" conjureId="2316" conjureCount="20" exhaustion="2000" needlearn="1" function="conjureRune">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure name="Chameleon" words="adevo ina" lvl="27" mana="600" soul="2" reagentId="2260" conjureId="2291" conjureCount="20" exhaustion="2000" needlearn="1" function="conjureRune">
+	<conjure name="Chameleon" words="adevo ina" lvl="27" mana="600" soul="2" reagentId="2260" conjureId="2291" aggressive="0" conjureCount="20" exhaustion="2000" needlearn="1" function="conjureRune">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure name="Destroy Field" words="adito grav" lvl="17" mana="120" soul="2" reagentId="2260" conjureId="2261" conjureCount="60" exhaustion="2000" needlearn="1" function="conjureRune">
+	<conjure name="Destroy Field" words="adito grav" lvl="17" mana="120" soul="2" reagentId="2260" conjureId="2261" aggressive="0" conjureCount="60" exhaustion="2000" needlearn="1" function="conjureRune">
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Human"/>
@@ -390,19 +390,19 @@
 		<vocation name="Elder Druid"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure name="Disintegrate" words="adito tera" lvl="21" mana="200" soul="3" prem="1" reagentId="2260" conjureId="2310" conjureCount="60" exhaustion="2000" needlearn="1" function="conjureRune">
+	<conjure name="Disintegrate" words="adito tera" lvl="21" mana="200" soul="3" prem="1" reagentId="2260" aggressive="0" conjureId="2310" conjureCount="60" exhaustion="2000" needlearn="1" function="conjureRune">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure name="Magic Wall" words="adevo grav tera" lvl="32" mana="750" soul="5" prem="1" reagentId="2260" conjureId="2293" conjureCount="60" exhaustion="2000" needlearn="1" function="conjureRune">
+	<conjure name="Magic Wall" words="adevo grav tera" lvl="32" mana="750" soul="5" prem="1" reagentId="2260" aggressive="0" conjureId="2293" conjureCount="60" exhaustion="2000" needlearn="1" function="conjureRune">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure name="Wild Growth" words="adevo grav vita" lvl="27" mana="600" soul="5" prem="1" reagentId="2260" conjureId="2269" conjureCount="40" needlearn="1" function="conjureRune">
+	<conjure name="Wild Growth" words="adevo grav vita" lvl="27" mana="600" soul="5" prem="1" reagentId="2260" aggressive="0" conjureId="2269" conjureCount="40" needlearn="1" function="conjureRune">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
-	<conjure name="Paralyze" words="adana ani" lvl="54" mana="1400" soul="3" prem="1" reagentId="2260" conjureId="2278" conjureCount="20" exhaustion="2000" needlearn="1" function="conjureRune">
+	<conjure name="Paralyze" words="adana ani" lvl="54" mana="1400" soul="3" prem="1" reagentId="2260" aggressive="0" conjureId="2278" conjureCount="20" exhaustion="2000" needlearn="1" function="conjureRune">
 		<vocation name="Human"/>
 		<vocation name="Super Human"/>
 	</conjure>
