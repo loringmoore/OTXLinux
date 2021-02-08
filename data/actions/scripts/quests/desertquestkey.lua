@@ -1,4 +1,4 @@
-function onUse(player, item, fromPosition, target, toPosition, isHotkey)
+function onUse(cid, item, fromPosition, target, toPosition, isHotkey)
 	
 	local player = Player(cid)
 	

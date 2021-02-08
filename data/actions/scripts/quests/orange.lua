@@ -1,7 +1,5 @@
 function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	
-	local player = Player(cid)
-	
 	if player:getStorageValue(6006) == 1 then
 		player:sendTextMessage(MESSAGE_INFO_DESCR, 'The orange tree is empty.')
 	else

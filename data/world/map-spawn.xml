@@ -7511,6 +7511,10 @@
 	<spawn centerx="900" centery="721" centerz="9" radius="1">
 		<monster name="Grandfather Tridian" x="0" y="0" z="9" spawntime="60" />
 	</spawn>
+	<spawn centerx="901" centery="724" centerz="9" radius="5">
+		<monster name="Emeritus of the Cult" x="2" y="-1" z="9" spawntime="60" />
+		<monster name="Emeritus of the Cult" x="-2" y="0" z="9" spawntime="60" />
+	</spawn>
 	<spawn centerx="620" centery="737" centerz="9" radius="17">
 		<monster name="skeleton" x="-5" y="-14" z="9" spawntime="60" />
 		<monster name="demon skeleton" x="-7" y="-12" z="9" spawntime="60" />

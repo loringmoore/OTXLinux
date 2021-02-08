@@ -25,8 +25,8 @@
 	<house name="Westwall 6" houseid="23" entryx="556" entryy="1035" entryz="6" rent="0" townid="6" size="10" />
 	<house name="Center Complex 1" houseid="24" entryx="568" entryy="1024" entryz="7" rent="0" townid="6" size="26" />
 	<house name="Center Complex 2" houseid="25" entryx="577" entryy="1024" entryz="7" rent="0" townid="6" size="22" />
-	<house name="Center Complex 3" houseid="26" entryx="568" entryy="1037" entryz="7" rent="0" townid="6" size="84" />
-	<house name="Center Complex 4" houseid="27" entryx="576" entryy="1037" entryz="7" rent="0" townid="6" size="92" />
+	<house name="Center Complex 3" houseid="26" entryx="568" entryy="1037" entryz="7" rent="0" townid="6" size="101" />
+	<house name="Center Complex 4" houseid="27" entryx="576" entryy="1037" entryz="7" rent="0" townid="6" size="99" />
 	<house name="Southgate 1" houseid="28" entryx="607" entryy="1053" entryz="7" rent="0" townid="6" size="18" />
 	<house name="Southgate 2" houseid="29" entryx="612" entryy="1053" entryz="7" rent="0" townid="6" size="23" />
 	<house name="Southgate 3" houseid="30" entryx="616" entryy="1057" entryz="6" rent="0" townid="6" size="41" />
