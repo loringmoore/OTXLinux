@@ -9,7 +9,7 @@ function onUse(cid, item, fromPosition, target, toPosition, isHotkey)
 		player:sendTextMessage(MESSAGE_INFO_DESCR, 'You have found a copper key.')
 		local key = player:addItem(2089, 1)
 		if key then
-			key:setActionId(3142)
+			key:setActionId(5821)
 		end
 	end
 	return true
