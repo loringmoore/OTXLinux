@@ -32,7 +32,7 @@
 		<item id="1987" chance="100000"><!-- bag -->
 			<item id="2395" chance="3000"/><!-- carlin sword -->
 			<item id="2124" chance="200"/><!-- crystal ring -->
-			<item name="iron ore" chance="1980" />
+			<item name="iron ore" chance="2000" />
 			<item id="2156" chance="100"/><!-- red gem -->
 			<item id="2483" chance="10000"/><!-- scale armor -->
 			<item id="2509" chance="14000"/><!-- steel shield -->
