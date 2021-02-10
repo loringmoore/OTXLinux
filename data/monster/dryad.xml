@@ -72,8 +72,8 @@
 			<item name="wand of plague" chance="1300" />
 			<item name="quagmire rod" chance="750" />
 			<item name="stealth ring" chance="150" />
-			<item name="venom hood" chance="100" />
-			<item name="venom boots" chance="250" />
+			<item name="venom hood" chance="500" />
+			<item name="venom boots" chance="750" />
 		</item>
 	</loot>
 </monster>

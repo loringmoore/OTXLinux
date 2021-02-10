@@ -18,6 +18,14 @@ local config = {
 		[2924] = {value = 25000, newItem = 5267, after = 2925},
 		[2969] = {value = 25000, newItem = 5267, after = 2970},
 		
+		-- Quaras
+		[5163] = {value = 25000, newItem = 5265, after = 5164},
+		[5166] = {value = 25000, newItem = 5265, after = 5167},
+		[5169] = {value = 25000, newItem = 5265, after = 5170},
+		[5172] = {value = 25000, newItem = 5265, after = 5173},
+		[5175] = {value = 25000, newItem = 5265, after = 5176},
+		[5362] = {value = 25000, newItem = 5265, after = 5363},
+		
 		-- Bears
 		[2893] = {value = 25000, newItem = 5266, after = 2984},
 		[2849] = {value = 25000, newItem = 5266, after = 2850},

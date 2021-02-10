@@ -52,8 +52,9 @@
 			<item id="2209" chance="100"/><!-- club ring -->
 			<item id="2489" chance="200"/><!-- dark armor -->
 			<item id="2394" chance="2000"/><!-- morning star -->
-			<item id="2457" chance="200"/><!-- steel helmet -->
-			<item id="2129" chance="200"/><!-- wolf tooth chain -->
+			<item id="2457" chance="300"/><!-- steel helmet -->
+			<item id="2129" chance="400"/><!-- wolf tooth chain -->
+			<item name="griffin shield" chance="200"/><!-- griffin shield -->
 			<item name="iron ore" chance="450"/>
 		</item>
 	</loot>

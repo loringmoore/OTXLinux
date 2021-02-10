@@ -72,10 +72,10 @@
 			<item name="twin axe" chance="1000"/>
 			<item id="2393" chance="4000"/><!-- giant sword -->
 			<item id="2179" chance="2200"/><!-- gold ring -->
-			<item name="demon legs" chance="800"/>
+			<item name="brocade robes" chance="800"/>
 			<item id="2418" chance="3000"/><!-- golden sickle -->
 			<item id="2396" chance="1200"/><!-- ice rapier -->
-			<item name="the robe of the ice queen" chance="100"/>
+			<item name="the robe of the ice queen" chance="1500"/>
 			<item id="2514" chance="1000"/><!-- mastermind shield -->
 			<item id="2164" chance="200"/><!-- might ring -->
 			<item id="2176" chance="6000"/><!-- orb -->
@@ -85,7 +85,7 @@
 			<item id="2165" chance="2800"/><!-- stealth ring -->
 			<item id="2151" chance="7000"/><!-- talon -->
 			<item id="5436" chance="2000"/><!-- water strike -->
-			<item name="glacial rod" chance="1350" />
+			<item name="glacial rod" chance="2350" />
 		</item>
 	</loot>
 </monster>

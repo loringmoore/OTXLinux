@@ -23,7 +23,10 @@
 	<action actionid="2017" script="quests/brightsword.lua" />
 	<action uniqueid="30015" script="quests/annihilator.lua" />
 	<action itemid="1369" script="quests/teleportdrawwell.lua" />
-
+	<action actionid="2018" script="quests/morgarothteleport.lua" />
+	<action actionid="2020" script="quests/graveyardteleport.lua" />
+	<action fromuid="2050" touid="2058" script="quests/challengelevers.lua" />
+	
 	<!-- Tools -->
 	<action itemid="2120" script="tools/rope.lua" />
 	<action itemid="2420" script="tools/machete.lua" />
