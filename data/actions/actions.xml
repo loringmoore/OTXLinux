@@ -25,7 +25,7 @@
 	<action itemid="1369" script="quests/teleportdrawwell.lua" />
 	<action actionid="2018" script="quests/morgarothteleport.lua" />
 	<!-- <action actionid="2020" script="quests/graveyardteleport.lua" /> -->
-	<action fromuid="2050" touid="2058" script="quests/challengelevers.lua" />
+	<action actionid="2022" script="quests/challengelevers.lua" />
 	
 	<!-- Tools -->
 	<action itemid="2120" script="tools/rope.lua" />
