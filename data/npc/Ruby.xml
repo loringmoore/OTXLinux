@@ -6,6 +6,6 @@
 		<parameter key="message_greet" value="Welcome, |PLAYERNAME|."/>
 		<parameter key="message_farewell" value="Good bye and come again."/>
 		<parameter key="module_shop" value="1"/>
-        <parameter key="shop_sellable" value="black pearl,2144,560;small amethyst,2150,400;small diamond,2145,600;small emerald,2149,500;small ruby,2147,500;small sapphire,2146,500;wedding ring,2121,990;white pearl,2143,320;" />
+        <parameter key="shop_sellable" value="black pearl,2144,560;small amethyst,2150,400;small diamond,2145,600;small emerald,2149,500;small ruby,2147,500;small sapphire,2146,500;wedding ring,2121,990;white pearl,2143,320;small topaz,5316,700;" />
 	</parameters>
 </npc>

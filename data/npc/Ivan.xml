@@ -7,7 +7,7 @@
 		<parameter key="message_farewell" value="Until next time, |PLAYERNAME|."/>
         <parameter key="module_keywords" value="1" />
         <parameter key="keywords" value="job;magic;name" />
-		
+		<parameter key="module_shop" value="1" />
         <parameter key="keyword_reply1" value="I'm retired now but I've dedicated my life to studying the magic arts!" />
         <parameter key="keyword_reply2" value="Just because I don't get out much anymore doesn't mean my interest in magic has waned. If you have any unwanted spell scrolls, bring them to me and I'll pay a fair price for them!" />
         <parameter key="keyword_reply3" value="My name is Ivan." />
