@@ -19,14 +19,14 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="71" attack="56"/>
-		<attack name="speed" interval="750" chance="12" range="7" radius="4" target="1" speedchange="-600" duration="15000">
+		<attack name="speed" interval="500" chance="12" range="7" radius="4" target="1" speedchange="-600" duration="15000">
 			<attribute key="shootEffect" value="poison"/>
 			<attribute key="areaEffect" value="greenbubble"/>
 		</attack>
-		<attack name="drown" interval="750" chance="11" length="8" spread="3" min="-150" max="-250">
+		<attack name="drown" interval="500" chance="11" length="8" spread="3" min="-150" max="-250">
 			<attribute key="areaEffect" value="bluebubble"/>
 		</attack>
-		<attack name="poison" interval="750" chance="13" length="8" spread="3" min="-60" max="-320">
+		<attack name="poison" interval="500" chance="13" length="8" spread="3" min="-60" max="-320">
 			<attribute key="areaEffect" value="poison"/>
 		</attack>
 	</attacks>
