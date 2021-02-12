@@ -80,6 +80,7 @@
 			<item name="haunted blade" chance="2000" />
 			<item name="giant sword" chance="1380" />
 			<item id="5429" chance="200" /><!-- fierce berserk scroll -->
+			<item name="huge chunk of crude iron" chance="1500" />
 		</item>
 	</loot>
 </monster>

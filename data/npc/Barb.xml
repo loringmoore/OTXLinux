@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Barb" script="default.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+	<look type="141" head="79" body="90" legs="52" feet="15"/>
+    <parameters> 
+        <parameter key="message_greet" value="Greetings, |PLAYERNAME|. You look hungry!"/>
+ 		<parameter key="message_farewell" value="Yeah, bye |PLAYERNAME|."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;help;rhymveil;" />
+        <parameter key="keyword_reply1" value="I'm Barb." />
+        <parameter key="keyword_reply2" value="I'm own this farm and small shop." />
+        <parameter key="keyword_reply3" value="I can sell you food, but that's about it." />
+        <parameter key="keyword_reply4" value="Rhymveil is not a place for the weak or faint of heart." />
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="bread,2689,3;ham,2671,8;meat,2666,5;brown mushroom,2789,10;" />
+        <parameter key="shop_sellable" value="bread,2689,1;carrot,2684,1;cherry,2679,1;egg,2695,1;ham,2671,4;meat,2666,2;salmon,2668,2;" />
+    </parameters>
+</npc>

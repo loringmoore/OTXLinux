@@ -80,7 +80,7 @@
 			<item name="violet gem" chance="3000" /><!-- violet crystal shard -->
 			<item name="yellow gem" chance="16000" /><!-- brown crystal splinter -->
 			<item name="red gem" chance="7600" /><!-- red crystal fragment -->
-			<item name="black skull" chance="450" /><!-- cluster of solace -->
+			<item name="huge chunk of crude iron" chance="450" />
 		</item>
 	</loot>
 </monster>

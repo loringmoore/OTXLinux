@@ -3,11 +3,13 @@ function onSay(player, words)
 	player:setExhaustion(1000, 2)
 		end
 		
-	--if player:getStorageValue(outfit storage not there) 
-		--player:sendCancelMessage("You have not earned this outfit.")
-			--position:sendMagicEffect(CONST_ME_POFF)
-			--return false
-		--end
+	local position = player:getPosition()
+	
+	if player:getStorageValue(6071) < 4 then
+		player:sendCancelMessage("You have not earned this outfit.")
+			position:sendMagicEffect(CONST_ME_POFF)
+			return false
+		end
 	
 	local outfit1 = player:getOutfit()
         outfit1.lookType = 231

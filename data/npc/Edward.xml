@@ -6,6 +6,6 @@
 		<parameter key="message_greet" value="Greetings |PLAYERNAME|. Take a look at the supplies I offer."/>
 		<parameter key="message_farewell" value="Good bye."/>
 		<parameter key="module_shop" value="1" />
-		<parameter key="shop_buyable" value="backpack,2004,20;pick,2553,10;shovel,2554,20;rope,2120,50;parcel,2595,15;letter,2597,10"/>
+		<parameter key="shop_buyable" value="golden backpack,2004,20;yellow backpack,1999,20;pick,2553,10;shovel,2554,20;rope,2120,50;parcel,2595,15;letter,2597,10"/>
 	</parameters>
 </npc>

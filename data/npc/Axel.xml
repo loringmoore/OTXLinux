@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Axel" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="160" head="115" body="127" legs="123" feet="76" />
+<voices>
+<voice text="Beds, chairs, tables, statues and everything you could imagine for decorating your home!" interval2="100" margin="1" yell="no" />
+</voices>
+<parameters>
+<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="furniture;" />
+		<parameter key="keyword_reply1" value="I have beds, chairs, containers, decoration, flowers, instruments, pillows, pottery, statues, tapestries and tables." />
+		<parameter key="message_greet" value="Hiho |PLAYERNAME|! Welcome to Hammarstrom furniture store." />
+		<parameter key="message_farewell" value="Guut bye." />
+		<parameter key="message_walkaway" value="Guut bye." />
+		<parameter key="message_sendtrade" value="Have a look. Most furniture comes in handy kits. Just use them in your house to assemble the furniture. Do you want to see only a certain type of furniture?" />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="barrel kit,3919,12;big table kit,3911,30;birdcage kit,3922,50;box,1738,10;chest,1740,10;coal basin kit,3932,25;crate,1739,10;cuckoo clock,1877,40;drawer kit,3915,18;dresser kit,3916,25;flower bowl,2102,6;globe kit,3926,50;goblin statue kit,3930,50;green cushioned chair kit,3902,40;harp kit,3934,50;knight statue kit,3928,50;locker kit,3917,30;minotaur statue kit,3929,50;pendulum clock kit,3927,75;piano kit,3933,200;picture,1852,50;picture,1854,50;picture,1853,50;red cushioned chair kit,3901,40;rocking chair kit,3904,25;rocking horse kit,3926,30;sofa chair kit,3905,55;table lamp kit,3924,35;telescope kit,3925,70;treasure chest,1746,1000;trough kit,3918,7;trunk kit,3920,10;wall mirror,1851,40;wall mirror,1848,40;wall mirror,1845,40;water pipe,2099,40;wooden chair kit,3903,15;" />
+	</parameters>
+</npc>

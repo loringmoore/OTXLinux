@@ -9949,7 +9949,7 @@
 		<attribute key="skillShield" value="5" />
 		<attribute key="skillSword" value="5" />
 	</item>
-	<item id="5230" article="a" name="shiny blade">
+	<item id="5230" article="a" name="spectraflame blade">
 		<attribute key="weight" value="4500" />
 		<attribute key="defense" value="35" />
 		<attribute key="attack" value="51" />

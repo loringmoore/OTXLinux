@@ -47,17 +47,18 @@
 		<item id="2120" chance="1510" />	<!-- Rope -->
 		<item name="health potion" countmax="3" chance="1510" />
 		<item name="poison arrow" countmax="4" chance="1210" />
-		<item name="plate armor" chance="2250" />
+		<item name="plate armor" chance="6250" />
 		<item id="2681" chance="1210" />	<!-- Grapes -->	
 		<item id="1987" chance="100000"><!-- bag -->
-			<item id="2487" chance="210" />	<!-- Crown Armor -->
-			<item id="2491" chance="310" />	<!-- Crown Helmet -->
-			<item id="2519" chance="210" />	<!-- Crown Shield -->
-			<item id="2488" chance="110" />	<!-- Crown Legs -->
-			<item id="2392" chance="310" />	<!-- Fire Sword -->
+			<item id="2487" chance="610" />	<!-- Crown Armor -->
+			<item id="2491" chance="1000" />	<!-- Crown Helmet -->
+			<item id="2519" chance="610" />	<!-- Crown Shield -->
+			<item id="2488" chance="310" />	<!-- Crown Legs -->
+			<item id="2392" chance="710" />	<!-- Fire Sword -->
 			<item id="2381" chance="1610" />	<!-- Halberd -->
 			<item id="2744" chance="510" />	<!-- Red Rose -->
 			<item id="5452" chance="500" /><!-- berserk scroll -->
+			<item name="flask of warrior's sweat" chance="1500" />
 		</item>
 	</loot>
 </monster>

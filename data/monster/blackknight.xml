@@ -59,7 +59,7 @@
 			<item id="2489" chance="4000"/><!-- dark armor -->
 			<item id="2490" chance="4000"/><!-- dark helmet -->
 			<item id="2414" chance="600"/><!-- dragon lance -->
-			<item id="5452" chance="300"/><!-- berserk scroll -->
+			<item id="5452" chance="1300"/><!-- berserk scroll -->
 			<item id="2476" chance="2000"/><!-- knight armor -->
 			<item id="2430" chance="5000"/><!-- knight axe -->
 			<item id="2477" chance="2000"/><!-- knight legs -->
@@ -67,6 +67,7 @@
 			<item id="2475" chance="10000"/><!-- warrior helmet -->
 			<item name="lightning legs" chance="950" />
 			<item name="piggy bank" chance="210" />
+			<item name="flask of warrior's sweat" chance="1500" />
 		</item>
 	</loot>
 </monster>

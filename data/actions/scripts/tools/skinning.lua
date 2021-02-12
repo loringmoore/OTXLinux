@@ -26,6 +26,11 @@ local config = {
 		[5175] = {value = 15000, newItem = 5265, after = 5176},
 		[5362] = {value = 15000, newItem = 5265, after = 5363},
 		
+		--Apes
+		[4268] = {value = 15000, newItem = 5255, after = 4269}, -- kongra		
+		[4271] = {value = 15000, newItem = 5255, after = 4272}, -- merlkin
+		[4274] = {value = 15000, newItem = 5255, after = 4275}, -- sibang
+		
 		-- Bears
 		[2893] = {value = 15000, newItem = 5266, after = 2984},
 		[2849] = {value = 15000, newItem = 5266, after = 2850},

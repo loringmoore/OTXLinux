@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Borus" script="barbarian.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100" />
+<look type="231" head="3" body="77" legs="78" feet="39" addons="1" />
+		<parameters>
+        <parameter key="message_greet" value="Hello, |PLAYERNAME|."/>
+		<parameter key="message_farewell" value="Goodbye, |PLAYERNAME|!"/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;jaarsk;barbarian" />
+        <parameter key="keyword_reply1" value="I run this small outpost." />
+        <parameter key="keyword_reply2" value="Very few call this frozen wasteland home, but I'm proud of my barbarian heritage." />
+        <parameter key="keyword_reply3" value="Barbarians are true sons and daughters of the North, fierce and strong." />
+	 </parameters>
+</npc>

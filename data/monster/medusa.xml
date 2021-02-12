@@ -67,9 +67,9 @@
 			<item name="venom mantle" chance="870" />
 			<item name="venom legs" chance="420" />
 			<item name="venom amulet" chance="4060" />
-			<item id="5433" chance="100"/><!-- poison storm scroll -->
 			<item id="5157" chance="2100"/>
 			<item name="spellbook of mind control" chance="800"/>
+			<item id="5763" chance="600"/><!-- venom sweep scroll -->
 		</item>
 	</loot>
 </monster>
