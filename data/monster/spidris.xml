@@ -61,7 +61,7 @@
 			<item name="shield of honour" chance="910" />
 			<item id="5646" chance="460" /><!-- toy spider -->
 			<item id="5434" chance="1000" /><!-- poison wave -->
-			<item name="samurai armour" chance="870" />
+			<item name="samurai armor" chance="870" />
 		</item>
 	</loot>
 </monster>

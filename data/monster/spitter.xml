@@ -55,12 +55,12 @@
 		<item id="2789" countmax="3" chance="7500" /><!-- brown mushroom -->
 		<item nmae="health potion" chance="5000" />						<!-- great health potion -->
 		<item id="2169" chance="2400" />						<!-- time ring -->							
-		<item id="2155" chance="210" />						<!-- green gem -->
+		<item id="2155" chance="910" />						<!-- green gem -->
 		<item id="1987" chance="100000"><!-- bag -->
-			<item id="2171" chance="260" />	<!-- platinum amulet -->
+			<item id="2171" chance="1260" />	<!-- platinum amulet -->
 			<item name="focus cape" chance="630" />
 			<item name="crystal sword" chance="2000" />
-			<item id="2497" chance="220" /><!-- crusader helmet -->
+			<item id="2497" chance="2200" /><!-- crusader helmet -->
 			<item name="wand of plague" chance="2500" />						
 			<item name="blue legs" chance="700" />
 			<item id="5162" chance="1800" /><!--haste scroll-->
