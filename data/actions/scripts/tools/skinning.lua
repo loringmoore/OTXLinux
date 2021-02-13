@@ -32,7 +32,7 @@ local config = {
 		[4274] = {value = 15000, newItem = 5255, after = 4275}, -- sibang
 		
 		-- Bears
-		[2893] = {value = 15000, newItem = 5266, after = 2984},
+		[2893] = {value = 15000, newItem = 5266, after = 2894},
 		[2849] = {value = 15000, newItem = 5266, after = 2850},
 		
 		-- High Class Lizards
