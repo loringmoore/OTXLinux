@@ -47,5 +47,24 @@
 	<voices interval="2000" chance="7">
 		<voice sentence="Spotz!" />
 	</voices>
-	
+	<loot>
+		<item id="2148" countmax="100" chance="90000"/>	<!-- gold coin -->
+		<item id="2148" countmax="90" chance="70000"/>
+		<item id="2152" chance="75250" />					<!-- platinum coin -->
+		<item id="2150" countmax="2" chance="8100" />		<!-- small amethyst -->
+		<item name="mana potion" chance="7800" />
+		<item id="2789" countmax="3" chance="7500" /><!-- brown mushroom -->
+		<item nmae="health potion" chance="5000" />						<!-- great health potion -->
+		<item id="2169" chance="2400" />						<!-- time ring -->							
+		<item id="2155" chance="910" />						<!-- green gem -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<item id="2171" chance="1260" />	<!-- platinum amulet -->
+			<item name="focus cape" chance="630" />
+			<item name="crystal sword" chance="2000" />
+			<item id="2497" chance="2200"/><!-- crusader helmet -->
+			<item name="wand of plague" chance="2500" />						
+			<item name="blue legs" chance="700" />
+			<item id="5162" chance="1800" /><!--haste scroll-->
+		</item>
+	</loot>
 </monster>
