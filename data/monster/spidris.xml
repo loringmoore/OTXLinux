@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Spidris" nameDescription="a spidris" race="venom" experience="2600" speed="260" manacost="0">
+	<health now="3700" max="3700" />
+	<look type="248" corpse="5734" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="0" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="75" attack="70" />
+		<attack name="poison" interval="500" chance="10" target="1" range="7" radius="3" min="-150" max="-310">
+			<attribute key="shootEffect" value="poison" />
+			<attribute key="areaEffect" value="greenbubble" />
+		</attack>
+	</attacks>
+	<defenses armor="30" defense="30">
+		<defense name="speed" interval="2000" chance="15" speedchange="450" duration="5000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity earth="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="2000" chance="7">
+		<voice sentence="Eeeeeeyyyyh!" />
+		<voice sentence="Iiiiieeeeeh!" />
+	</voices>
+	<elements>
+		<element lifedrainPercent="5" />
+		<element firePercent="5" />
+		<element holyPercent="-10" />
+		<element energyPercent="-5" />
+		<element drownPercent="-5" />
+	</elements>
+	<loot>
+		<item id="2148" countmax="100" chance="50000" /><!-- gold coin -->
+		<item id="2148" countmax="100" chance="50000" /><!-- gold coin -->
+		<item id="2152" countmax="4" chance="45000" /><!-- platinum coin -->
+		<item id="2789" countmax="3" chance="7500" />
+		<item id="2147" countmax="5" chance="11900" /><!-- small ruby -->
+		<item name="mana potion" countmax="2" chance="11500" /><!-- great mana potion -->
+		<item name="health potion" countmax="2" chance="6250" /><!-- ultimate health potion -->
+		<item id="5035" chance="2700" /><!-- death ring -->
+		<item name="black pearl" chance="7000" /><!-- giant shimmering pearl -->
+		<item id="2153" chance="770" /><!-- violet gem -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="venom amulet" chance="2500" />
+			<item name="dwarven legs" chance="3360" />
+			<item name="jade hammer" chance="1700" />
+			<item id="5227" chance="500" /><!-- mystic blade -->
+			<item name="shield of honour" chance="910" />
+			<item id="5646" chance="460" /><!-- toy spider -->
+			<item id="5434" chance="1000" /><!-- poison wave -->
+			<item name="samurai armour" chance="870" />
+		</item>
+	</loot>
+</monster>

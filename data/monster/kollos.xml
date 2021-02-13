@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Kollos" nameDescription="a kollos" race="venom" experience="2400" speed="200" manacost="0">
+	<health now="3800" max="3800" />
+	<look type="249" corpse="5737" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="0" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="80" attack="70" />
+		<attack name="physical" interval="500" chance="12" target="1" range="7" radius="3" min="0" max="-500">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="explosion" />
+		</attack>
+	</attacks>
+	<defenses armor="35" defense="35" />
+	<elements>
+		<element firePercent="30" />
+		<element energyPercent="5" />
+		<element lifedrainPercent="-5" />
+		<element drownPercent="-5" />
+	</elements>
+	<immunities>
+		<immunity earth="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="2000" chance="7">
+		<voice sentence="Zopp!" />
+		<voice sentence="Flzlzlzlzlzlz!" />
+	</voices>
+	<loot>
+		<item id="2148" countmax="100" chance="49000" /><!-- gold coin -->
+		<item id="2148" countmax="97" chance="50000" /><!-- gold coin -->
+		<item id="2152" countmax="3" chance="66000" /><!-- platinum coin -->
+		<item id="2789" countmax="3" chance="7500" />
+		<item name="power bolt" countmax="5" chance="10210" />
+		<item id="2147" countmax="2" chance="8180" /><!-- small ruby -->
+		<item name="mana potion" countmax="4" chance="8950" /><!-- great mana potion -->
+		<item name="gold nugget" chance="5160" /><!-- gold ingot -->
+		<item name="health potion" countmax="3" chance="4000" /><!-- ultimate health potion -->
+		<item id="2214" chance="3270" /><!-- ring of healing -->
+		<item name="white pearl" chance="9600" />
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="venom mantle" chance="2360" />
+			<item name="crown legs" chance="1360" />
+			<item name="royal axe" chance="700" />
+			<item id="2645" chance="130" /><!-- steel boots -->
+			<item name="tempest shield" chance="310" />
+			<item id="5570" chance="1000" /><!-- front sweep -->
+		</item>
+	</loot>
+</monster>

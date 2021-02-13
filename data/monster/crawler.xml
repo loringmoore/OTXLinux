@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Crawler" nameDescription="a crawler" race="venom" experience="1000" speed="230" manacost="0">
+	<health now="1450" max="1450" />
+	<look type="247" corpse="5731" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="0" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="0" />
+		<flag runonhealth="40" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-220" poison="40" />
+		<attack name="poison" interval="500" chance="13" range="7" min="-80" max="-150">
+			<attribute key="shootEffect" value="smallstone" />
+		</attack>
+	</attacks>
+	<defenses armor="30" defense="30">
+		<defense name="speed" interval="500" chance="15" speedchange="260" duration="3000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element lifedrainPercent="5" />
+		<element holyPercent="-5" />
+		<element firePercent="-10" />
+		<element drownPercent="-5" />
+	</elements>
+	<immunities>
+		<immunity poison="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="2000" chance="7">
+		<voice sentence="Sssschrchrsss!" />
+		<voice sentence="Chrssschrsss!" />
+	</voices>
+	<loot>
+		<item id="2148" countmax="190" chance="100000" /><!-- gold coin -->
+		<item id="2152" chance="50000" /><!-- platinum coin -->
+		<item id="2789" countmax="3" chance="7500" />
+		<item name="small topaz" countmax="2" chance="10040" /><!-- small topaz -->
+		<item name="mana potion" chance="8900" /><!-- great mana potion -->
+		<item name="health potion" chance="6100" /><!-- great health potion -->
+		<item id="2154" chance="460" />	<!-- yellow gem -->					
+		<item id="1987" chance="100000"><!-- bag -->
+			<item id="2391" chance="800" />	<!-- war hammer -->
+			<item name="quagmire rod" chance="1640" />						
+			<item name="venom legs" chance="700" />
+			<item id="5161" chance="1800" /><!--poison strike scroll-->
+		</item>
+	</loot>
+</monster>

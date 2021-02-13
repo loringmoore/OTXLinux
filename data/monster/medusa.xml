@@ -63,7 +63,7 @@
 		<item name="health potion" countmax="5" chance="9290" />
 		<item id="1987" chance="100000"><!-- bag -->
 			<item name="glorious axe" chance="1160" />
-			<item name="shiny blade" chance="250" />
+			<item name="spectraflame blade" chance="250" />
 			<item name="venom mantle" chance="870" />
 			<item name="venom legs" chance="420" />
 			<item name="venom amulet" chance="4060" />

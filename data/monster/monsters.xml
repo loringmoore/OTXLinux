@@ -39,6 +39,7 @@
 	<monster name="cobra" file="cobra.xml"/>
 	<monster name="countess sorrow" file="countesssorrow.xml"/>
 	<monster name="crab" file="crab.xml"/>
+	<monster name="crawler" file="crawler.xml"/>
 	<monster name="crocodile" file="crocodile.xml"/>
 	<monster name="crustacea gigantica" file="crustaceagigantica.xml"/>
 	<monster name="crypt shambler" file="cryptshambler.xml"/>
@@ -85,6 +86,7 @@
 	<monster name="emeritus of the cult" file="emeritusofthecult.xml"/>
 	<monster name="enlightened of the cult" file="enlightenedofthecult.xml"/>
 	<monster name="eternal guardian" file="eternalguardian.xml"/>
+	<monster name="execowtioner" file="execowtioner.xml"/>
 	<monster name="expbug" file="expbug.xml"/>
 	<monster name="fernfang" file="fernfang.xml"/>
 	<monster name="ferumbras" file="ferumbras.xml"/>
@@ -129,6 +131,7 @@
 	<monster name="infernalist" file="infernalist.xml"/>
 	<monster name="juggernaut" file="juggernaut.xml"/>
 	<monster name="jungle spider" file="junglespider.xml"/>
+	<monster name="kollos" file="kollos.xml"/>
 	<monster name="kongra" file="kongra.xml"/>
 	<monster name="larva" file="larva.xml"/>
 	<monster name="lasethra" file="lasethra.xml"/>
@@ -240,7 +243,9 @@
 	<monster name="son of verminor" file="son of verminor.xml"/>
 	<monster name="spectre" file="spectre.xml"/>
 	<monster name="spider" file="spider.xml"/>
+	<monster name="spidris" file="spidris.xml"/>
 	<monster name="spit nettle" file="spitnettle.xml"/>
+	<monster name="spitter" file="spitter.xml"/>
 	<monster name="stalker" file="stalker.xml"/>
 	<monster name="stone golem" file="stonegolem.xml"/>
 	<monster name="swamp troll" file="swamptroll.xml"/>
@@ -264,6 +269,7 @@
 	<monster name="warlock" file="warlock.xml"/>
 	<monster name="war wolf" file="warwolf.xml"/>
 	<monster name="wasp" file="wasp.xml"/>
+	<monster name="waspoid" file="waspoid.xml"/>
 	<monster name="water elemental" file="waterelemental.xml"/>
 	<monster name="werewolf" file="werewolf.xml"/>
 	<monster name="wild warrior" file="wildwarrior.xml"/>

@@ -2570,15 +2570,11 @@
 		<attribute key="transformDeEquipTo" value="2166" />
 		<attribute key="skillDist" value="1" />
 	</item>
-	<item id="2204" article="an" name="energy ring (faster regeneration)">
+	<item id="2204" article="an" name="energy ring (magic shield)">
 		<attribute key="weight" value="80" />
 		<attribute key="slotType" value="ring" />
-		<attribute key="decayTo" value="0" />
 		<attribute key="transformDeEquipTo" value="2167" />
-		<attribute key="duration" value="600" />
-		<attribute key="showduration" value="1" />
-		<attribute key="manaGain" value="8" />
-		<attribute key="manaTicks" value="6000" />
+		<attribute key="manashield" value="1" />
 		<attribute key="showattributes" value="1" />
 	</item>
 	<item id="2205" article="a" name="life ring (faster regeneration)">

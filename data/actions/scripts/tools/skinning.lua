@@ -5,7 +5,8 @@ local config = {
 		[2830] = {value = 15000, newItem = 5250, after = 2831}, -- minotaur
 		[2871] = {value = 15000, newItem = 5250, after = 2872}, -- minotaur archer		
 		[2866] = {value = 15000, newItem = 5250, after = 2867}, -- minotaur mage		
-		[2876] = {value = 15000, newItem = 5250, after = 2877}, -- minotaur guard				
+		[2876] = {value = 15000, newItem = 5250, after = 2877}, -- minotaur guard
+		[5757] = {value = 15000, newItem = 5250, after = 5758}, -- execowtioner
 		
 		-- Low Class Lizards
 		[4259] = {value = 15000, newItem = 5248, after = 4260}, -- lizard sentinel
