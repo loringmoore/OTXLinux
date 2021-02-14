@@ -30,7 +30,7 @@
 		<attack name="diabolic imp skill reducer" interval="500" chance="8" />
 	</attacks>
 	<defenses armor="15" defense="15">
-		<defense name="healing" interval="500" chance="20" min="75" max="125">
+		<defense name="healing" interval="500" chance="10" min="75" max="125">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 		<defense name="speed" interval="500" chance="16" speedchange="450" duration="40000">

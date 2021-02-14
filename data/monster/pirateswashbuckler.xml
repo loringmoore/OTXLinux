@@ -47,10 +47,10 @@
 		<item id="2513" chance="3850" />				<!-- battle shield -->
 		<item id="2463" chance="1130" />				<!-- plate armor -->
 		<item id="5309" chance="1050" />				<!-- treasure map -->
-		<item id="5300" chance="1520" />					<!-- peg leg -->
-		<item id="5298" chance="1450" />					<!-- hook -->
+		<item id="5300" chance="3000" />					<!-- peg leg -->
+		<item id="5298" chance="3000" />					<!-- hook -->
 		<item id="5307" chance="1430" />					<!-- pirate backpack -->
-		<item id="5299" chance="1410" />					<!-- eye patch -->
+		<item id="5299" chance="3000" />					<!-- eye patch -->
 		<item id="1987" chance="100000">				<!-- bag -->
 			<item id="5322" chance="550" />				<!-- die -->
 			<item id="5296" chance="1500" />				<!-- crimson sword -->

@@ -40,6 +40,7 @@
 	<movevent event="AddItem" tileitem="1" actionid="3000" script="fierceberserk.lua" />
 	<movevent event="StepIn" actionid="2019" script="morgarothteleport.lua" />
 	<movement event="StepIn" actionid="2021" script="desolationfrontdoors.lua"/>
+	<movement event="StepIn" uniqueid="2250" script="maninthecave.lua"/>
 
 	<!-- Walkback when walking on quest chest -->
 	<movevent event="StepIn" itemid="1738" script="walkback.lua" />

@@ -2170,14 +2170,14 @@
 		<attribute key="slotType" value="necklace" />
 		<attribute key="armor" value="1" />
 		<attribute key="maxHitPointsPercent" value="99"/>
-		<attribute key="maxManaPointsPercent" value="101"/>
+		<attribute key="maxManaPointsPercent" value="103"/>
 	</item>
 	<item id="2130" article="a" name="golden amulet">
 		<attribute key="description" value="Many gems glitter on the amulet." />
 		<attribute key="weight" value="830" />
 		<attribute key="slotType" value="necklace" />
 		<attribute key="armor" value="4" />
-		<attribute key="maxHitPointsPercent" value="104"/>
+		<attribute key="maxHitPointsPercent" value="108"/>
 		<attribute key="maxManaPointsPercent" value="96"/>
 	</item>
 	<item id="2131" article="a" name="star amulet">
@@ -2185,7 +2185,7 @@
 		<attribute key="slotType" value="necklace" />
 		<attribute key="armor" value="1" />
 		<attribute key="maxHitPointsPercent" value="98"/>
-		<attribute key="maxManaPointsPercent" value="102"/>
+		<attribute key="maxManaPointsPercent" value="106"/>
 	</item>
 	<item id="2132" article="a" name="silver necklace">
 		<attribute key="weight" value="480" />
@@ -2209,7 +2209,7 @@
 		<attribute key="slotType" value="necklace" />
 		<attribute key="armor" value="1" />
 		<attribute key="maxHitPointsPercent" value="97"/>
-		<attribute key="maxManaPointsPercent" value="103"/>
+		<attribute key="maxManaPointsPercent" value="109"/>
 	</item>
 	<item id="2137" name="some golden fruits">
 		<attribute key="weight" value="1070" />
@@ -2237,7 +2237,7 @@
 		<attribute key="slotType" value="necklace" />
 		<attribute key="armor" value="1" />
 		<attribute key="maxHitPointsPercent" value="96"/>
-		<attribute key="maxManaPointsPercent" value="104"/>
+		<attribute key="maxManaPointsPercent" value="112"/>
 	</item>
 	<item id="2143" article="a" name="white pearl">
 		<attribute key="weight" value="20" />
@@ -2369,7 +2369,7 @@
 		<attribute key="weight" value="600" />
 		<attribute key="armor" value="2" />
 		<attribute key="slotType" value="necklace" />
-		<attribute key="maxHitPointsPercent" value="102"/>
+		<attribute key="maxHitPointsPercent" value="104"/>
 		<attribute key="maxManaPointsPercent" value="98"/>
 	</item>
 	<item id="2172" article="a" name="bronze amulet">
@@ -2525,7 +2525,7 @@
 		<attribute key="weight" value="700" />
 		<attribute key="slotType" value="necklace" />
 		<attribute key="armor" value="3" />
-		<attribute key="maxHitPointsPercent" value="103"/>
+		<attribute key="maxHitPointsPercent" value="106"/>
 		<attribute key="maxManaPointsPercent" value="97"/>
 	</item>
 	<item id="2198" article="an" name="elven amulet">
@@ -5038,7 +5038,7 @@
 		<attribute key="weight" value="200" />
 		<attribute key="armor" value="1" />
 		<attribute key="slotType" value="necklace" />
-		<attribute key="maxHitPointsPercent" value="101"/>
+		<attribute key="maxHitPointsPercent" value="102"/>
 		<attribute key="maxManaPointsPercent" value="99"/>
 	</item>
 	<item id="2662" article="a" name="magician hat">
@@ -11230,7 +11230,7 @@
 		<attribute key="weight" value="550" />
 		<attribute key="slotType" value="necklace" />
 		<attribute key="armor" value="1" />
-		<attribute key="absorbPercentAll" value="6" />
+		<attribute key="absorbPercentPhysical" value="6" />
 		<attribute key="absorbPercentManaDrain" value="-6" />
 		<attribute key="showattributes" value="1" />
 	</item>

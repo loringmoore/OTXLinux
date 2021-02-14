@@ -43,13 +43,13 @@
 		<item id="2489" chance="1550" />					<!-- dark armor -->
 		<item id="2521" chance="1050" /><!-- dark shield-->
 		<item id="5307" chance="950" /><!-- pirate backpack -->
-		<item id="5300" chance="1590" />	<!-- peg leg -->
-		<item id="5298" chance="1570" /><!-- hook -->
-		<item id="5299" chance="1500" /><!-- eye patch -->
+		<item id="5300" chance="3000" />	<!-- peg leg -->
+		<item id="5298" chance="3000" /><!-- hook -->
+		<item id="5299" chance="3000" /><!-- eye patch -->
 		<item id="1987" chance="100000"><!-- bag -->
-			<item id="5328" chance="230" />					<!-- pirate boots -->
-			<item id="2114" chance="150" />					<!-- piggy bank -->
-			<item id="5813" chance="130" />					<!-- skull candle -->		
+			<item id="5328" chance="930" />					<!-- pirate boots -->
+			<item id="2114" chance="550" />					<!-- piggy bank -->
+			<item id="5813" chance="830" />					<!-- skull candle -->		
 		</item>
 	</loot>
 </monster>

@@ -149,6 +149,7 @@
 	<monster name="lost soul" file="lost soul.xml"/>
 	<monster name="magicthrower" file="magicthrower.xml"/>
 	<monster name="mammoth" file="mammoth.xml"/>
+	<monster name="man in the cave" file="maninthecave.xml"/>
 	<monster name="marid" file="marid.xml"/>
 	<monster name="massacre" file="massacre.xml"/>
 	<monster name="massive fire elemental" file="massivefireelemental.xml"/>

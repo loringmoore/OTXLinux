@@ -63,7 +63,7 @@
 		<voice sentence="Chill out!"/>
 	</voices>
 	<loot>
-		<item name="dragon shield" chance="8500"/> <!-- book (gemmed) -->
+		<item name="dragon shield" chance="1500"/> <!-- book (gemmed) -->
 		<item name="golden mug" chance="3000"/>
 		<item name="small sapphire" chance="5200"/>
 		<item name="gold coin" countmax="100" chance="33000"/>
@@ -82,7 +82,7 @@
 			<item name="green mushroom" chance="12000"/>
 			<item name="ice cube" chance="550"/>
 			<item name="haunted blade" chance="120"/>
-			<item id="5437" chance="300"/> <!-- water wave scroll -->
+			<item id="5437" chance="900"/> <!-- water wave scroll -->
 		</item>
 	</loot>
 </monster>

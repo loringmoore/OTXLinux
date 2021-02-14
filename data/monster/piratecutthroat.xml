@@ -41,9 +41,9 @@
 		<item id="5477" chance="2000" />					<!-- light shovel -->
 		<item id="5309" chance="1000" />					<!-- treasure map -->
 		<item id="5308" chance="1000" />					<!-- pirate bag -->
-		<item id="5298" chance="1560" />					<!-- hook -->
-		<item id="5300" chance="1500" />					<!-- peg leg -->
-		<item id="5299" chance="1450" />					<!-- eye patch -->
+		<item id="5298" chance="3000" />					<!-- hook -->
+		<item id="5300" chance="3000" />					<!-- peg leg -->
+		<item id="5299" chance="3000" />					<!-- eye patch -->
 		<item id="5322" chance="700" />					<!-- die -->
 		<item id="5283" chance="1230" />
 	</loot>
