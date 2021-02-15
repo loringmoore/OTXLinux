@@ -64,7 +64,7 @@
 			<item id="2430" chance="5000"/><!-- knight axe -->
 			<item id="2477" chance="2000"/><!-- knight legs -->
 			<item id="2133" chance="1600"/><!-- ruby necklace -->
-			<item id="2475" chance="10000"/><!-- warrior helmet -->
+			<item id="2475" chance="2000"/><!-- warrior helmet -->
 			<item name="lightning legs" chance="950" />
 			<item name="piggy bank" chance="210" />
 			<item name="flask of warrior's sweat" chance="1500" />

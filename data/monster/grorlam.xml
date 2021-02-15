@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Grorlam" nameDescription="Grorlam" race="undead" experience="11900" speed="240" manacost="590">
-	<health now="2700" max="2700"/>
+	<health now="9700" max="9700"/>
 	<look type="67" corpse="2952"/>
 	<targetchange interval="5000" chance="0"/>
 	<strategy attack="100" defense="0"/>
@@ -18,8 +18,8 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="75" attack="60"/>
-		<attack name="physical" interval="500" chance="15" range="7" min="-150" max="-200">
+		<attack name="melee" interval="2000" skill="95" attack="120"/>
+		<attack name="physical" interval="500" chance="15" range="7" min="-150" max="-400">
 			<attribute key="shootEffect" value="largerock"/>
 		</attack>
 	</attacks>

@@ -60,8 +60,8 @@ function creatureSayCallback(cid, type, msg)
 end
 
 -- Basic
-keywordHandler:addKeyword({'sail'}, StdModule.say, {npcHandler = npcHandler, text = 'Where do you want to go? To Gravenport, Madrissa, Crescent Isle, Territh or Rhymveil?'})
-keywordHandler:addKeyword({'passage'}, StdModule.say, {npcHandler = npcHandler, text = 'Where do you want to go? To Gravenport, Madrissa, Crescent Isle, Territh or Rhymveil?'})
+keywordHandler:addKeyword({'sail'}, StdModule.say, {npcHandler = npcHandler, text = 'Where do you want to go? To Gravenport, Madrissa, Crescent Isle, Territh, Clandestia or Rhymveil?'})
+keywordHandler:addKeyword({'passage'}, StdModule.say, {npcHandler = npcHandler, text = 'Where do you want to go? To Gravenport, Madrissa, Crescent Isle, Territh, Clandestia or Rhymveil?'})
 keywordHandler:addKeyword({'job'}, StdModule.say, {npcHandler = npcHandler, text = 'I am the captain of this vessel.'})
 keywordHandler:addKeyword({'here'}, StdModule.say, {npcHandler = npcHandler, text = 'This is Thunder Cove. Where do you want to go?'})
 keywordHandler:addKeyword({'thunder cove'}, StdModule.say, {npcHandler = npcHandler, text = 'We\'re already there.}'})

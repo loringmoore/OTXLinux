@@ -19,15 +19,15 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="82" attack="62"/>
-		<attack name="poison" interval="500" chance="11" range="7" min="-100" max="-300">
+		<attack name="poison" interval="500" chance="9" range="7" min="-100" max="-300">
 			<attribute key="shootEffect" value="poison"/>
 			<attribute key="areaEffect" value="greenspark"/>
 		</attack>
-		<attack name="speed" interval="500" chance="12" range="7" radius="4" target="1" speedchange="-850" duration="120000">
+		<attack name="speed" interval="500" chance="9" range="7" radius="4" target="1" speedchange="-850" duration="120000">
 			<attribute key="shootEffect" value="poison"/>
 			<attribute key="areaEffect" value="greenbubble"/>
 		</attack>
-		<attack name="lifedrain" interval="500" chance="11" length="8" spread="0" min="-150" max="-400">
+		<attack name="lifedrain" interval="500" chance="9" length="8" spread="0" min="-150" max="-400">
 			<attribute key="areaEffect" value="rednote"/>
 		</attack>
 		<attack name="poison" interval="500" chance="9" length="8" spread="3" min="-50" max="-500">
@@ -38,7 +38,7 @@
 		</attack>
 	</attacks>
 	<defenses armor="38" defense="40">
-		<defense name="healing" interval="500" chance="17" min="100" max="300">
+		<defense name="healing" interval="500" chance="7" min="100" max="300">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 		<defense name="speed" interval="500" chance="9" speedchange="320" duration="5000">
@@ -83,7 +83,7 @@
 			<item name="noble axe" chance="1750" />
 			<item id="2528" chance="800"/><!-- tower shield -->
 			<item name="red tome" chance="390" />
-			<item id="5236" chance="190"/> <!-- dragon robe -->
+			<item id="5236" chance="590"/> <!-- dragon robe -->
 		</item>
 	</loot>
 </monster>

@@ -12,8 +12,6 @@ function onStepIn(creature, item, position, fromPosition)
 		player:sendTextMessage(MESSAGE_INFO_DESCR, 'You have been roped!')
 		player:teleportTo(teleports[item.uid])
 		player:getPosition():sendMagicEffect(CONST_ME_TELEPORT)
-	else
-		return false
 	end
 	return true
 end
