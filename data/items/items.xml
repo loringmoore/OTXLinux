@@ -3415,7 +3415,7 @@
 		<attribute key="description" value="This sword has been forged by ancient giants."/>
 		<attribute key="weight" value="18000"/>
 		<attribute key="defense" value="22"/>
-		<attribute key="attack" value="46"/>
+		<attribute key="attack" value="40"/>
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
@@ -4323,22 +4323,22 @@
 		<attribute key="weight" value="4200"/>
 		<attribute key="armor" value="6"/>
 		<attribute key="slotType" value="head"/>
-		<attribute key="maxHitPointsPercent" value="109"/>
-		<attribute key="maxManaPointsPercent" value="97"/>
+		<attribute key="skillDist" value="7" />
+		<attribute key="maxManaPointsPercent" value="107"/>
 	</item>
 	<item id="2503" article="a" name="dwarven armor">
 		<attribute key="weight" value="13000"/>
 		<attribute key="armor" value="10"/>
 		<attribute key="slotType" value="body"/>
-		<attribute key="maxHitPointsPercent" value="120"/>
-		<attribute key="maxManaPointsPercent" value="93"/>
+		<attribute key="skillDist" value="5" />
+		<attribute key="maxManaPointsPercent" value="112"/>
 	</item>
 	<item id="2504" name="dwarven legs">
 		<attribute key="weight" value="4900"/>
 		<attribute key="armor" value="7"/>
 		<attribute key="slotType" value="legs"/>
-		<attribute key="maxHitPointsPercent" value="118"/>
-		<attribute key="maxManaPointsPercent" value="94"/>
+		<attribute key="maxHitPointsPercent" value="114"/>
+		<attribute key="skillDist" value="2" />
 	</item>
 	<item id="2505" article="an" name="elven mail">
 		<attribute key="weight" value="9000" />
@@ -4354,7 +4354,7 @@
 		<attribute key="slotType" value="head"/>
 		<attribute key="maxHitPointsPercent" value="115"/>
 		<attribute key="maxManaPointsPercent" value="95"/>
-		
+		<attribute key="magicPointsPercent" value="90"/>
 	</item>
 	<item id="2507" name="elven legs">
 		<attribute key="weight" value="3500"/>
@@ -11533,7 +11533,7 @@
 		<attribute key="weight" value="200" />
 	</item>
 	<item id="5762" article="a" name="spell scroll">
-		<attribute key="description" value="It contains instructions to learn the 'water sweep' spell." />
+		<attribute key="description" value="It contains instructions to learn the 'holy strike' spell." />
 		<attribute key="weight" value="200" />
 	</item>
 	<item id="5763" article="a" name="spell scroll">
