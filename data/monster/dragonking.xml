@@ -73,7 +73,7 @@
 		<item name="health potion" countmax="8" chance="24700" />
 		<item name="red dragon leather" countmax="6" chance="6650" />
 		<item name="red dragon scale" countmax="6" chance="6650" />
-		<item name="green dragon leather"countmax="6" chance="6650" />
+		<item name="green dragon leather" countmax="6" chance="6650" />
 		<item name="green dragon scale" countmax="6" chance="6650" />
 		<item id="5430" chance="5500"/><!-- fire wave scroll -->
 		<item id="5157" chance="2500"/><!-- intense healing scroll -->
