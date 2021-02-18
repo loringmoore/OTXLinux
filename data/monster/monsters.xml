@@ -162,7 +162,7 @@
 	<monster name="minotaur guard" file="minotaurguard.xml"/>
 	<monster name="minotaur mage" file="minotaurmage.xml"/>
 	<monster name="minotaur prophet" file="minotaurprophet.xml"/>
-	<monster name="mohh'tah master" file="mooh'tahmaster.xml"/>
+	<monster name="mooh'tah master" file="mooh'tahmaster.xml"/>
 	<monster name="monk" file="monk.xml"/>
 	<monster name="morgaroth" file="morgaroth.xml"/>
 	<monster name="mr. punish" file="mrpunish.xml"/>

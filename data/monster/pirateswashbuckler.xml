@@ -53,7 +53,7 @@
 		<item id="5299" chance="3000" />					<!-- eye patch -->
 		<item id="1987" chance="100000">				<!-- bag -->
 			<item id="5322" chance="550" />				<!-- die -->
-			<item id="5296" chance="1500" />				<!-- crimson sword -->
+			<item id="5296" chance="2500" />				
 			<item id="5328" chance="730" />
 		</item>
 	</loot>
