@@ -64,15 +64,17 @@
 		<item name="gold coin" countmax="76" chance="33725" />
 		<item name="platinum coin" countmax="10" chance="29840" />
 		<item name="soul orb" chance="12170" />
-		<item name="wand of dragonbreath" chance="92000" />
+		<item name="wand of inferno" chance="12000" />
 		<item name="demonic essence" chance="8920" />
 		<item name="wyvern fang" chance="15100" />
 		<item name="fire axe" chance="15020" />
 		<item name="wand of perdition" chance="200" />
 		<item name="mana potion" countmax="6" chance="29460" />
 		<item name="health potion" countmax="8" chance="24700" />
-		<item name="red dragon leather" chance="6650" />
-		<item name="red dragon scale" chance="6650" />
+		<item name="red dragon leather" countmax="6" chance="6650" />
+		<item name="red dragon scale" countmax="6" chance="6650" />
+		<item name="green dragon leather"countmax="6" chance="6650" />
+		<item name="green dragon scale" countmax="6" chance="6650" />
 		<item id="5430" chance="5500"/><!-- fire wave scroll -->
 		<item id="5157" chance="2500"/><!-- intense healing scroll -->
 		<item id="1987" chance="100000"><!-- bag -->
@@ -83,9 +85,9 @@
 			<item name="dragon scale helmet" chance="150" />
 			<item name="dragon scale boots" chance="700" />
 			<item name="dragon scale legs" chance="100" />
-			<item name="royal axe" chance="150" />
-			<item name="samurai sword" chance="100" />
-			<item name="dragon robe" chance="690" />
+			<item name="dragon lance" chance="1500" />
+			<item name="samurai sword" chance="1100" />
+			<item name="dragon robe" chance="1600" />
 			<item name="stuffed dragon" chance="50" />
 		</item>
 	</loot>
