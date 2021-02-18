@@ -9764,21 +9764,21 @@
 		<monster name="minotaur guard" x="-2" y="2" z="10" spawntime="60" />
 		<monster name="minotaur" x="0" y="2" z="10" spawntime="60" />
 	</spawn>
-	<spawn centerx="639" centery="892" centerz="10" radius="9">
-		<monster name="minotaur mage" x="0" y="-6" z="10" spawntime="60" />
-		<monster name="minotaur guard" x="-2" y="-5" z="10" spawntime="60" />
-		<monster name="minotaur guard" x="2" y="-4" z="10" spawntime="60" />
-		<monster name="minotaur" x="-1" y="-3" z="10" spawntime="60" />
-		<monster name="minotaur mage" x="6" y="-2" z="10" spawntime="60" />
-		<monster name="minotaur archer" x="-7" y="-1" z="10" spawntime="60" />
-		<monster name="minotaur archer" x="9" y="-1" z="10" spawntime="60" />
-		<monster name="minotaur" x="-9" y="0" z="10" spawntime="60" />
-		<monster name="minotaur guard" x="7" y="1" z="10" spawntime="60" />
-		<monster name="minotaur mage" x="-7" y="2" z="10" spawntime="60" />
-		<monster name="minotaur archer" x="-2" y="6" z="10" spawntime="60" />
-		<monster name="minotaur guard" x="2" y="6" z="10" spawntime="60" />
-		<monster name="minotaur mage" x="-2" y="8" z="10" spawntime="60" />
-		<monster name="minotaur" x="1" y="8" z="10" spawntime="60" />
+	<spawn centerx="639" centery="891" centerz="10" radius="9">
+		<monster name="minotaur mage" x="0" y="-5" z="10" spawntime="60" />
+		<monster name="minotaur guard" x="-2" y="-4" z="10" spawntime="60" />
+		<monster name="minotaur guard" x="2" y="-3" z="10" spawntime="60" />
+		<monster name="minotaur" x="-1" y="-2" z="10" spawntime="60" />
+		<monster name="minotaur mage" x="6" y="-1" z="10" spawntime="60" />
+		<monster name="minotaur archer" x="-7" y="0" z="10" spawntime="60" />
+		<monster name="minotaur archer" x="9" y="0" z="10" spawntime="60" />
+		<monster name="minotaur" x="-9" y="1" z="10" spawntime="60" />
+		<monster name="minotaur guard" x="7" y="2" z="10" spawntime="60" />
+		<monster name="minotaur mage" x="-7" y="3" z="10" spawntime="60" />
+		<monster name="minotaur archer" x="-2" y="7" z="10" spawntime="60" />
+		<monster name="minotaur guard" x="2" y="7" z="10" spawntime="60" />
+		<monster name="minotaur mage" x="-2" y="9" z="10" spawntime="60" />
+		<monster name="minotaur" x="1" y="9" z="10" spawntime="60" />
 	</spawn>
 	<spawn centerx="656" centery="892" centerz="10" radius="6">
 		<monster name="minotaur" x="-1" y="0" z="10" spawntime="60" />
@@ -11020,6 +11020,102 @@
 		<monster name="behemoth" x="0" y="-15" z="12" spawntime="60" />
 		<monster name="behemoth" x="1" y="6" z="12" spawntime="60" />
 	</spawn>
+	<spawn centerx="698" centery="918" centerz="12" radius="30">
+		<monster name="Minotaur Prophet" x="14" y="-26" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="-15" y="-25" z="12" spawntime="60" />
+		<monster name="Grim Reaper" x="0" y="-25" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="10" y="-25" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-16" y="-22" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="-5" y="-22" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="14" y="-22" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-11" y="-21" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-6" y="-19" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="10" y="-15" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="15" y="-14" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="4" y="-13" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="10" y="-12" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="-11" y="-11" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="10" y="-8" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="14" y="-8" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="3" y="-5" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-11" y="-4" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="10" y="-4" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-16" y="-3" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-7" y="-3" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="-5" y="6" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="10" y="7" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-11" y="8" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-5" y="9" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="4" y="9" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="10" y="10" z="12" spawntime="60" />
+		<monster name="Dark Torturer" x="-16" y="25" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="11" y="26" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="6" y="27" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="15" y="27" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-16" y="30" z="12" spawntime="60" />
+	</spawn>
+	<spawn centerx="758" centery="918" centerz="12" radius="30">
+		<monster name="Mooh'Tah Master" x="-18" y="-26" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-12" y="-26" z="12" spawntime="60" />
+		<monster name="Grim Reaper" x="11" y="-25" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="-15" y="-24" z="12" spawntime="60" />
+		<monster name="Dark Torturer" x="-7" y="-24" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="14" y="-24" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="21" y="-23" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="8" y="-22" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-18" y="-21" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-12" y="-21" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="14" y="-21" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="9" y="-16" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="20" y="-16" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="10" y="-8" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="14" y="-8" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="18" y="-7" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="-19" y="4" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-25" y="6" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-19" y="7" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-23" y="9" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-2" y="15" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="7" y="16" z="12" spawntime="60" />
+		<monster name="Grim Reaper" x="4" y="19" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="0" y="20" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="6" y="21" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="21" y="22" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="24" y="22" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-4" y="23" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="3" y="23" z="12" spawntime="60" />
+	</spawn>
+	<spawn centerx="639" centery="919" centerz="12" radius="30">
+		<monster name="Minotaur Prophet" x="-12" y="-27" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="-25" y="-26" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="8" y="-25" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-22" y="-24" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-16" y="-24" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-11" y="-24" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="10" y="-23" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="7" y="-22" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-26" y="-19" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-10" y="-19" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-22" y="-15" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-14" y="-15" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-10" y="-13" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-26" y="-11" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="17" y="2" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="21" y="3" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-5" y="5" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="18" y="5" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="21" y="6" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-27" y="12" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-25" y="14" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="-7" y="14" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-11" y="17" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-4" y="17" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-11" y="20" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-9" y="20" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-4" y="20" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-2" y="20" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="20" y="20" z="12" spawntime="60" />
+	</spawn>
 	<spawn centerx="925" centery="920" centerz="12" radius="15">
 		<monster name="Destroyer" x="-13" y="-9" z="12" spawntime="60" />
 		<monster name="behemoth" x="2" y="-7" z="12" spawntime="60" />
@@ -11030,6 +11126,155 @@
 		<monster name="behemoth" x="-9" y="-11" z="12" spawntime="60" />
 		<monster name="behemoth" x="9" y="0" z="12" spawntime="60" />
 		<monster name="behemoth" x="-6" y="7" z="12" spawntime="60" />
+	</spawn>
+	<spawn centerx="699" centery="978" centerz="12" radius="30">
+		<monster name="Minotaur Prophet" x="-8" y="-27" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-14" y="-25" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="11" y="-21" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="5" y="-19" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-11" y="-17" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="13" y="-17" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-16" y="-16" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-7" y="-16" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="-8" y="-3" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-1" y="-2" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-5" y="0" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-23" y="16" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="10" y="16" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-20" y="17" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="7" y="17" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-22" y="28" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-3" y="28" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="15" y="28" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="18" y="28" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-26" y="29" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-5" y="29" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="0" y="29" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-19" y="30" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="21" y="30" z="12" spawntime="60" />
+	</spawn>
+	<spawn centerx="758" centery="978" centerz="12" radius="30">
+		<monster name="Execowtioner" x="-27" y="-22" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-21" y="-22" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-17" y="-22" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="-12" y="-22" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-20" y="-19" z="12" spawntime="60" />
+		<monster name="Dark Torturer" x="3" y="-18" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="8" y="-18" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-26" y="-17" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="-1" y="-16" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-13" y="-14" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="4" y="-13" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="21" y="-13" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="24" y="-13" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-27" y="-11" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-20" y="-11" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="-15" y="-10" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="2" y="-9" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="7" y="-9" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="23" y="7" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="21" y="11" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-6" y="16" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-9" y="17" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-4" y="29" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="19" y="29" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-24" y="30" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="2" y="30" z="12" spawntime="60" />
+	</spawn>
+	<spawn centerx="639" centery="979" centerz="12" radius="30">
+		<monster name="Execowtioner" x="-25" y="-23" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="19" y="-23" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="14" y="-22" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="23" y="-22" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-27" y="-20" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="-8" y="-19" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-12" y="-17" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="26" y="-17" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-9" y="-15" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-4" y="-15" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="10" y="-15" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-10" y="-13" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-1" y="-12" z="12" spawntime="60" />
+		<monster name="Dark Torturer" x="11" y="-12" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="15" y="-12" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="25" y="-12" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-12" y="-11" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-7" y="-11" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-27" y="-8" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-27" y="8" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-24" y="11" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="7" y="16" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="4" y="17" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-22" y="26" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="17" y="26" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-26" y="27" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-18" y="28" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-3" y="28" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="1" y="28" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="14" y="28" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="21" y="29" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-6" y="30" z="12" spawntime="60" />
+	</spawn>
+	<spawn centerx="758" centery="1038" centerz="12" radius="30">
+		<monster name="Mooh'Tah Master" x="-19" y="-29" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="16" y="-29" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-1" y="-28" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="23" y="-28" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-23" y="-27" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-20" y="-25" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-3" y="-24" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="2" y="-24" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-24" y="-23" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-18" y="-22" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="-1" y="-21" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="-21" y="-20" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="20" y="-20" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="24" y="-19" z="12" spawntime="60" />
+		<monster name="Dark Torturer" x="-17" y="-18" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="-3" y="-18" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="3" y="-18" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="15" y="-18" z="12" spawntime="60" />
+	</spawn>
+	<spawn centerx="638" centery="1039" centerz="12" radius="30">
+		<monster name="Execowtioner" x="-21" y="-26" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="19" y="-26" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-26" y="-25" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-3" y="-25" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="0" y="-25" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="15" y="-25" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-16" y="-24" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="2" y="-24" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="22" y="-24" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="-2" y="-21" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="19" y="-21" z="12" spawntime="60" />
+		<monster name="Dark Torturer" x="-21" y="-20" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="-25" y="-19" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-17" y="-19" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-5" y="-19" z="12" spawntime="60" />
+		<monster name="Grim Reaper" x="2" y="-19" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="15" y="-19" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="21" y="-19" z="12" spawntime="60" />
+	</spawn>
+	<spawn centerx="698" centery="1039" centerz="12" radius="30">
+		<monster name="Mooh'Tah Master" x="-1" y="-30" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="18" y="-30" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-21" y="-27" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-25" y="-26" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="-18" y="-25" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="19" y="-25" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-1" y="-24" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="16" y="-23" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="22" y="-23" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-4" y="-22" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="2" y="-22" z="12" spawntime="60" />
+		<monster name="Mooh'Tah Master" x="20" y="-22" z="12" spawntime="60" />
+		<monster name="Grim Reaper" x="-23" y="-20" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="-18" y="-20" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="-1" y="-20" z="12" spawntime="60" />
+		<monster name="Execowtioner" x="-21" y="-19" z="12" spawntime="60" />
+		<monster name="Grim Reaper" x="17" y="-19" z="12" spawntime="60" />
+		<monster name="Minotaur Prophet" x="22" y="-19" z="12" spawntime="60" />
+		<monster name="Dark Torturer" x="2" y="-18" z="12" spawntime="60" />
 	</spawn>
 	<spawn centerx="723" centery="1150" centerz="12" radius="18">
 		<monster name="Hellhound" x="-5" y="-6" z="12" spawntime="60" />

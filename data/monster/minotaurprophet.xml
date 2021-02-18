@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Minotaur Prophet" nameDescription="a minotaur prophet" race="blood" experience="3500" speed="370" manacost="0">
+	<health now="3650" max="3650"/>
+	<look type="23" corpse="2866"/>
+	<targetchange interval="5000" chance="50"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="4"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="28" attack="25"/>
+		<attack name="holy" interval="500" chance="7" radius="5" target="1" range="7" min="-115" max="-245">
+			<attribute key="shootEffect" value="holy"/>
+			<attribute key="areaEffect" value="holyarea"/>
+		</attack>
+		<attack name="holy" interval="500" chance="10" range="7" radius="1" target="1" min="-135" max="-295">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="yellowenergy"/>
+		</attack>
+		<attack name="holy" interval="500" chance="7" length="8" spread="0" min="0" max="-390">
+			<attribute key="areaEffect" value="holyarea" />
+		</attack>
+	</attacks>
+	<defenses armor="38" defense="60"/>
+	<immunities>
+		<immunity invisible="1"/>
+		<immunity energy="1"/>
+		<immunity holy="1"/>
+	</immunities>
+	<elements>
+		<element firePercent="60" />
+		<element drownPercent="10" />
+		<element physicalPercent="20" />
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="I'll protect the herd!" />
+		<voice sentence="Never surrender!" />
+		<voice sentence="You won't hurt us!" />
+		<voice sentence="I will not allow your evil to continue!" />
+	</voices>
+	<loot>
+		<item name="aubergine" countmax="7" chance="20000"/><!-- carrot -->
+		<item id="2148" countmax="100" chance="80000"/><!-- gold coin -->
+		<item id="2148" countmax="100" chance="80000"/><!-- gold coin -->
+		<item id="2148" countmax="50" chance="80000"/><!-- gold coin -->
+		<item name="ice rapier" chance="1000"/>
+		<item id="2189" chance="6000"/><!-- wand of cosmic energy -->
+		<item name="blue legs" chance="2000"/>
+		<item name="mana potion" countmax="4" chance="5000"/><!-- manafluid -->
+		<item id="2050" countmax="2" chance="60000"/><!-- torch -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="ancient tiara" chance="1000"/>
+			<item name="brocade robes" chance="800"/>
+			<item name="brocade leg piece" chance="400"/>
+			<item name="bright sword" chance="1200"/><!-- combat knife -->
+			<item name="wand of divinity" chance="1000"/>
+			<item name="minotaur leather" countmax="3" chance="1000" />
+			<item id="5762" chance="2500"/><!-- holy strike scoll -->
+			<item id="5572" chance="1000"/><!-- divine explosion scoll -->
+		</item>
+	</loot>
+</monster>

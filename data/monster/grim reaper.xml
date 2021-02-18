@@ -71,20 +71,23 @@
 		<item id="2148" countmax="75" chance="43750"/><!-- gold coin -->
 		<item id="2152" countmax="4" chance="3500"/><!-- Platinum Coin -->
 		<item id="2162" chance="8150"/><!-- magic lightwand -->
-		<item name="health potion" chance="9000"/>
-		<item name="mana potion" chance="9000"/>
+		<item name="health potion" countmax="10" chance="9000"/>
+		<item name="mana potion" countmax="10" chance="9000"/>
 		<item name="demonic essence" chance="10600" />
 		<item id="2521" chance="3100"/><!-- dark shield -->
 		<item id="2550" chance="9500"/><!-- scythe -->
 		<item id="1987" chance="100000"><!-- bag -->
-			<item id="2183" chance="700"/><!-- tempest rod -->
-			<item name="glacier kilt" chance="330" />
+			<item id="2183" chance="2700"/><!-- tempest rod -->
+			<item name="wand of voodoo" chance="900" />
+			<item name="glacier kilt" chance="1330" />
 			<item id="5237" chance="250"/><!-- dark lord's cape -->
-			<item name="runed sword" chance="880" />
-			<item name="skull helmet" chance="990" />
+			<item name="runed sword" chance="1300" />
+			<item name="necromancer shield" chance="330" />
+			<item name="skull helmet" chance="1300" />
+			<item name="scarecrow amulet" chance="1300" />
 			<item id="5022" countmax="4" chance="1500"/><!-- orichalcum pearl-->
 			<item id="2214" chance="280"/><!-- ROH -->
-			<item id="5571" chance="480"/><!-- drain bomb scroll -->
+			<item id="5571" chance="1480"/><!-- drain bomb scroll -->
 		</item>
 	</loot>
 </monster>

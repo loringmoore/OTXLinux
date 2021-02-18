@@ -54,12 +54,12 @@
 		<item id="2666" chance="20000"/><!-- meat -->
 		<item id="1987" chance="100000"><!-- bag -->
 			<item id="2207" chance="4000"/><!-- sword ring -->
-			<item name="amazon armor" chance="600"/>
+			<item name="amazon armor" chance="1600"/>
 			<item name="red piece of cloth" chance="1600"/>
-			<item name="guardian shield" chance="1000"/>
-			<item name="knight legs" chance="800"/>
-			<item id="5222" chance="1000"/><!-- crystal sword -->
-			<item id="5452" chance="100"/><!-- berserk scroll -->
+			<item name="guardian shield" chance="2000"/>
+			<item name="knight legs" chance="1800"/>
+			<item id="5222" chance="3000"/><!-- crystal sword -->
+			<item id="5452" chance="900"/><!-- berserk scroll -->
 		</item>
 	</loot>
 </monster>

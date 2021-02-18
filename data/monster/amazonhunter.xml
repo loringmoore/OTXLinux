@@ -19,22 +19,22 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="20" attack="15"/>
-		<attack name="physical" interval="500" chance="10" range="7" target="1" min="-95" max="-205">
+		<attack name="physical" interval="500" chance="7" range="7" target="1" min="-95" max="-205">
 			<attribute key="shootEffect" value="spear"/>
 			<attribute key="areaEffect" value="explosionarea"/>
 		</attack>
-		<attack name="fire" interval="700" chance="12" range="7" target="1" radius="2" min="-0" max="-229">
+		<attack name="fire" interval="500" chance="8" range="7" target="1" radius="2" min="-0" max="-229">
 			<attribute key="shootEffect" value="burstarrow"/>
 			<attribute key="areaEffect" value="explosion"/>
 		</attack>
-		<attack name="physical" interval="700" chance="8" range="7" target="1" radius="3" min="-0" max="-45">
+		<attack name="physical" interval="500" chance="6" range="7" target="1" radius="3" min="-0" max="-45">
 			<attribute key="shootEffect" value="throwingknife"/>
 			<attribute key="areaEffect" value="blackspark"/>
 		</attack>
-		<attack name="hunter bleed" interval="700" chance="9"/>
+		<attack name="hunter bleed" interval="500" chance="7"/>
 	</attacks>
 	<defenses armor="32" defense="20">
-		<defense name="healing" interval="500" chance="12" min="0" max="244">
+		<defense name="healing" interval="500" chance="6" min="0" max="244">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 		<defense name="speed" interval="500" chance="5" speedchange="750" duration="4000">
@@ -64,10 +64,10 @@
 		<item id="5162" chance="400"/><!-- haste scroll -->
 		<item id="2666" chance="20000"/><!-- meat -->
 		<item id="1987" chance="100000"><!-- bag -->
-			<item name="amazon shield" chance="900"/><!-- amazon shield -->
+			<item name="amazon shield" chance="1300"/><!-- amazon shield -->
 			<item id="2156" chance="400"/><!-- red gem -->
 			<item id="5428" chance="1700"/><!-- ethereal spear scroll -->
-			<item name="amazon armor" chance="700"/><!-- amazon armor -->
+			<item name="amazon armor" chance="1000"/><!-- amazon armor -->
 			<item id="2154" chance="400"/><!-- yellow gem -->
 		</item>
 	</loot>

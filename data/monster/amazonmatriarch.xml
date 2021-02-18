@@ -19,7 +19,7 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="18" attack="15"/>
-		<attack name="energy" interval="500" chance="12" range="7" min="-1" max="-163">
+		<attack name="energy" interval="500" chance="9" range="7" min="-1" max="-163">
 			<attribute key="shootEffect" value="energy"/>
 			<attribute key="areaEffect" value="energy"/>
 		</attack>
@@ -58,7 +58,6 @@
 		<item id="2148" countmax="100" chance="80000"/><!-- gold coin -->
 		<item id="2152" countmax="3" chance="8000"/><!-- platinum coin -->
 		<item name="mana potion" countmax="3" chance="5000"/><!-- manafluid -->
-		<item name="minotaur leather" countmax="2" chance="2000" />
 		<item id="2150" countmax="2" chance="5000"/><!-- small amethyst -->
 		<item id="2147" countmax="3" chance="5000"/><!-- small ruby -->
 		<item id="2149" countmax="3" chance="5000"/><!-- small emerald -->
@@ -69,7 +68,7 @@
 			<item id="5160" chance="600"/><!-- force strike -->
 			<item id="5158" chance="500"/><!-- energy strike -->
 			<item id="2268" subtype="3" chance="800"/><!-- sudden death rune -->
-			<item id="2183" chance="1000"/><!-- tempest rod -->
+			<item id="2183" chance="1800"/><!-- tempest rod -->
 			<item name="amazon helmet" chance="600"/><!-- amazon helmet -->
 			<item name="lightning boots" chance="900"/><!-- lightning boots -->
 			<item id="2050" chance="2000"/><!-- torch -->

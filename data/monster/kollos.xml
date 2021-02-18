@@ -52,7 +52,7 @@
 		<item id="1987" chance="100000"><!-- bag -->
 			<item name="venom mantle" chance="2360" />
 			<item name="crown legs" chance="1360" />
-			<item name="royal axe" chance="700" />
+			<item name="guardian halberd" chance="700" />
 			<item id="2645" chance="130" /><!-- steel boots -->
 			<item name="tempest shield" chance="310" />
 			<item id="5570" chance="1000" /><!-- front sweep -->

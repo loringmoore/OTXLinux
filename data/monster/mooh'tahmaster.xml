@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mooh'Tah Master" nameDescription="a mooh'tah master" race="blood" experience="2900" speed="370" manacost="0">
+	<health now="4000" max="4000" />
+	<look type="29" corpse="2876"/>
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-425" poison="18" />
+		<attack name="fire" interval="500" chance="8" radius="1" target="1" min="-150" max="-290">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="firearea" />
+		</attack>
+		<attack name="physical" interval="500" chance="8" length="8" spread="3" min="0" max="-390">
+			<attribute key="areaEffect" value="firearea" />
+		</attack>
+		<attack name="physical" interval="500" chance="7" min="-80" max="-270">
+			<attribute key="shootEffect" value="suddendeath" />
+			<attribute key="areaEffect" value="mortarea" />
+		</attack>
+		<attack name="poison" interval="500" chance="8" length="8" spread="3" min="-100" max="-195">
+			<attribute key="areaEffect" value="poison" />
+		</attack>
+	</attacks>
+	<defenses armor="30" defense="33" />
+	<elements>
+		<element firePercent="60" />
+		<element holyPercent="15" />
+		<element energyPercent="25" />
+	</elements>
+	<immunities>
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="2000" chance="5">
+		<voice sentence="I will finish you!" />
+		<voice sentence="You are no match for a master of the Mooh'Tah!" />
+		<voice sentence="You will fall before me!" />
+	</voices>
+	<loot>
+		<item id="2148" countmax="100" chance="80000"/><!-- gold coin -->
+		<item id="2148" countmax="60" chance="80000"/><!-- gold coin -->
+		<item name="fire axe" chance="20000"/>
+		<item name="knight legs" chance="3000"/>
+		<item id="2666" countmax="4" chance="20000"/><!-- meat -->
+		<item name="health potion" countmax="7" chance="4000"/><!-- lifefluid -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="phoenix shield" chance="4000"/><!-- battle shield -->
+			<item name="golden armor" chance="800"/>
+			<item name="boots of haste" chance="1000"/>
+			<item name="heroic axe" chance="800"/>
+			<item name="royal helmet" chance="1000"/>
+			<item name="minotaur leather" countmax="3" chance="3000" />
+		</item>
+	</loot>
+</monster>
