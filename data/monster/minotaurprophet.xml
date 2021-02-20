@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Minotaur Prophet" nameDescription="a minotaur prophet" race="blood" experience="3500" speed="370" manacost="0">
-	<health now="3650" max="3650"/>
+	<health now="3050" max="3050"/>
 	<look type="23" corpse="2866"/>
 	<targetchange interval="5000" chance="50"/>
 	<strategy attack="100" defense="0"/>
