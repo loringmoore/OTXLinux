@@ -73,7 +73,7 @@
 		<vocation name="Human"/>
 		<vocation name="Legend"/>
 	</instant>
-	<instant group="attack" name="Energy Strike" words="exori vis" lvl="12" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="1" script="attack/energy strike.lua">
+	<instant group="attack" name="Energy Strike" words="exori vis" lvl="12" mana="20" prem="1" range="4" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="1" script="attack/energy strike.lua">
 		<vocation name="Human"/>
 		<vocation name="Legend"/>
 	</instant>
@@ -97,7 +97,7 @@
 		<vocation name="Human"/>
 		<vocation name="Legend"/>
 	</instant>
-	<instant group="attack" name="Flame Strike" words="exori flam" lvl="12" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="1" script="attack/flame strike.lua">
+	<instant group="attack" name="Flame Strike" words="exori flam" lvl="12" mana="20" prem="1" range="4" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="1" script="attack/flame strike.lua">
 		<vocation name="Human"/>
 		<vocation name="Legend"/>
 	</instant>
@@ -149,7 +149,7 @@
 		<vocation name="Human"/>
 		<vocation name="Legend"/>
 	</instant>
-	<instant group="attack" name="Holy Strike" words="exori san" lvl="12" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="1" script="attack/holy strike.lua">
+	<instant group="attack" name="Holy Strike" words="exori san" lvl="12" mana="20" prem="1" range="4" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="1" script="attack/holy strike.lua">
 		<vocation name="Human"/>
 		<vocation name="Legend"/>
 	</instant>
@@ -165,7 +165,7 @@
 		<vocation name="Human"/>
 		<vocation name="Legend"/>
 	</instant>
-	<instant group="attack" name="Drain Strike" words="exori exa" lvl="12" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="1" script="attack/lifedrain strike.lua">
+	<instant group="attack" name="Drain Strike" words="exori exa" lvl="12" mana="20" prem="1" range="4" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="1" script="attack/lifedrain strike.lua">
 		<vocation name="Human"/>
 		<vocation name="Legend"/>
 	</instant>
@@ -193,7 +193,7 @@
 		<vocation name="Human"/>
 		<vocation name="Legend"/>
 	</instant>
-	<instant group="attack" name="Poison Strike" words="exori pox" lvl="12" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="1" script="attack/poison strike.lua">
+	<instant group="attack" name="Poison Strike" words="exori pox" lvl="12" mana="20" prem="1" range="4" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="1" script="attack/poison strike.lua">
 		<vocation name="Human"/>
 		<vocation name="Legend"/>
 	</instant>
@@ -229,7 +229,7 @@
 		<vocation name="Human"/>
 		<vocation name="Legend"/>
 	</instant>
-	<instant group="attack" name="Water Strike" words="exori aqua" lvl="11" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="1" script="attack/water strike.lua">
+	<instant group="attack" name="Water Strike" words="exori aqua" lvl="11" mana="20" prem="1" range="4" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="1" script="attack/water strike.lua">
 		<vocation name="Human"/>
 		<vocation name="Legend"/>
 	</instant>
@@ -241,21 +241,25 @@
 		<vocation name="Human"/>
 		<vocation name="Legend"/>
 	</instant>
+	<instant group="attack" name="Bladestorm" words="exevo mas con" lvl="45" mana="200" prem="1" exhaustion="2000" selftarget="1" needlearn="1" script="attack/bladestorm.lua">
+		<vocation name="Human"/>
+		<vocation name="Legend"/>
+	</instant>
 
 <!-- Conjure Spells -->
-	<conjure group="support" name="Conjure Arrow" words="exevo con" lvl="13" mana="100" conjureId="2544" aggressive="0" conjureCount="50" exhaustion="2000" needlearn="1" function="conjureItem">
+	<conjure group="support" name="Conjure Arrow" words="exevo con" lvl="13" mana="100" conjureId="2544" aggressive="0" soul="3" conjureCount="50" exhaustion="2000" needlearn="1" function="conjureItem">
 		<vocation name="Human"/>
 		<vocation name="Legend"/>
 	</conjure>
-	<conjure group="support" name="Conjure Poisoned Arrow" words="exevo con pox" lvl="16" mana="130" aggressive="0" conjureId="2545" conjureCount="30" exhaustion="2000" needlearn="1" function="conjureItem">
+	<conjure group="support" name="Conjure Poisoned Arrow" words="exevo con pox" lvl="16" mana="130" aggressive="0" soul="3" conjureId="2545" conjureCount="30" exhaustion="2000" needlearn="1" function="conjureItem">
 		<vocation name="Human"/>
 		<vocation name="Legend"/>
 	</conjure>
-	<conjure group="support" name="Conjure Bolt" words="exevo con mort" lvl="17" mana="140" prem="0" aggressive="0" conjureId="2543" conjureCount="20" exhaustion="2000" needlearn="1" function="conjureItem">
+	<conjure group="support" name="Conjure Bolt" words="exevo con mort" lvl="17" mana="140" prem="0" aggressive="0" soul="3" conjureId="2543" conjureCount="20" exhaustion="2000" needlearn="1" function="conjureItem">
 		<vocation name="Human"/>
 		<vocation name="Legend"/>
 	</conjure>
-	<conjure group="support" name="Conjure Explosive Arrow" words="exevo con flam" lvl="25" mana="290" aggressive="0" conjureId="2546" conjureCount="25" exhaustion="2000" needlearn="1" function="conjureItem">
+	<conjure group="support" name="Conjure Explosive Arrow" words="exevo con flam" lvl="25" mana="290" aggressive="0" soul="3" conjureId="2546" conjureCount="25" exhaustion="2000" needlearn="1" function="conjureItem">
 		<vocation name="Human"/>
 		<vocation name="Legend"/>
 	</conjure>

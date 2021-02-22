@@ -3,6 +3,7 @@ local events = {
 	'PlayerDeath',
 	'DropLoot',
 	'BossParticipation',
+	'bossKillEvent',
 }
 
 local function onMovementRemoveProtection(cid, oldPosition, time)

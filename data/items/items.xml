@@ -9177,7 +9177,7 @@
 		<attribute key="duration" value="600" />
 		<attribute key="corpseType" value="undead" />
 	</item>
-	<item id="5216" name="remains of a phantasm">
+	<item id="5126" name="remains of a phantasm">
 		<attribute key="weight" value="8000" />
 		<attribute key="containerSize" value="10" />
 		<attribute key="decayTo" value="5127" />

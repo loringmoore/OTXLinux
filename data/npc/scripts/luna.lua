@@ -48,7 +48,7 @@ local function creatureSayCallback(cid, type, msg)
 			}, cid)
 			npcHandler.topic[cid] = 3
 		elseif npcHandler.topic[cid] == 3 then
-			npcHandler:say("Wonderful! Nature\'s blessing be upon you, |PLAYERNAME|!", cid)
+			npcHandler:say("Wonderful! Nature\'s blessing be upon you!", cid)
 			player:setStorageValue(6023, 1)
 			npcHandler.topic[cid] = 0
 		elseif npcHandler.topic[cid] == 4 then
@@ -64,8 +64,8 @@ local function creatureSayCallback(cid, type, msg)
 		elseif npcHandler.topic[cid] == 5 then
 			if player:getItemCount(5287) >= 30 and player:getItemCount(5288) >= 30 then
 				npcHandler:say("Thank you, |PLAYERNAME|! I can feel the soothing energy eminating from the petals already. The last thing I need is the Mandrake!", cid)
-				player:removeItem(5287, 100)
-				player:removeItem(5288, 100)
+				player:removeItem(5287, 30)
+				player:removeItem(5288, 30)
 				player:setStorageValue(6023, 3)
 				npcHandler.topic[cid] = 0
 			else

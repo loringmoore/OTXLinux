@@ -42,7 +42,7 @@ local function creatureSayCallback(cid, type, msg)
 			npcHandler:say({
 				"Excellent! In that case, your first mission will be to weaken their ground forces. They've amassed quite a sizeable army and I fear they may be preparing for an invasion soon. ...",
 				"Bring me back enough eye patches, hooks, and peg legs as a sign that you've delivered a signifcant blow to their numbers. I reckon 30 of each of these tokens should suffice. ...",
-				"Unfortunately, while morale is high, supplies are not. I'm afraid we don't have any uniforms to spare. If you want to dress like a pirate, snag a complete uniform while you/'re fighting the pirates on CLandestia. To be clear, this consists of a pirate hat, bandana, pirate shirt, pirate knee breeches and pirate boots. ...",
+				"Unfortunately, while morale is high, supplies are not. I'm afraid we don't have any uniforms to spare. If you want to dress like a pirate, snag a complete uniform while you/'re fighting the pirates on Clandestia. To be clear, this consists of a pirate hat, bandana, pirate shirt, pirate knee breeches and pirate boots. ...",
 				"Last but certainly not least, as your final test, I need you to track down and kill the nefarious Captain Ironblade. Bring me back his sabre as proof of his defeat. ...",
 				"Well, you have your orders, are you ready to begin?"
 			}, cid)

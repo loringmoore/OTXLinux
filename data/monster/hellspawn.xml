@@ -64,8 +64,9 @@
 		<item name="health potion" countmax="3" chance="40333" />
 		<item name="small topaz" countmax="3" chance="5882" />
 		<item id="1987" chance="100000"><!-- bag -->
-			<item name="onyx flail" chance="103" />
-			<item name="black skull" chance="151" />
+			<item name="onyx flail" chance="500" />
+			<item name="black skull" chance="150" />
+			<item name="piece of hell steel" chance="1500" />
 			<item name="warrior helmet" chance="1886" />
 			<item name="knight legs" chance="3030" />
 			<item id="5159" chance="1000"/><!-- flame strike scroll -->

@@ -29,12 +29,12 @@ local function creatureSayCallback(cid, type, msg)
 		end
 	elseif msgcontains(msg, "wig") then
 		if player:getStorageValue(6071) == 2 then
-			npcHandler:say("Were you able to pilfer a complete pirate uniform?", cid)
+			npcHandler:say("Were you able to gather the honeycombs and silks?", cid)
 			npcHandler.topic[cid] = 5
 		end
 	elseif msgcontains(msg, "axe") then
 		if player:getStorageValue(6071) == 3 then
-			npcHandler:say("Did you track down and kill Captain Ironblade?", cid)
+			npcHandler:say("Did you find 3 huge chunks of crude iron?", cid)
 			npcHandler.topic[cid] = 6
 		end
 	elseif msgcontains(msg, "yes") then

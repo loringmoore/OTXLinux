@@ -502,6 +502,8 @@
 	<movevent event="DeEquip" itemid="2507" slot="legs" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="5240" slot="legs" function="onEquipItem" /> <!--samurai -->
 	<movevent event="DeEquip" itemid="5240" slot="legs" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5247" slot="ring" function="onEquipItem" /> <!--samurai -->
+	<movevent event="DeEquip" itemid="5247" slot="ring" function="onDeEquipItem" />
 	
 	
 	<!--mage-->

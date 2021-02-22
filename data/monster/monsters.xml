@@ -80,6 +80,7 @@
 	<monster name="elder wyrm" file="elder wyrm.xml"/>
 	<monster name="elephant" file="elephant.xml"/>
 	<monster name="elf" file="elf.xml"/>
+	<monster name="elf apparition" file="elfapparition.xml"/>
 	<monster name="elf arcanist" file="elfarcanist.xml"/>
 	<monster name="elf centurion" file="elfcenturion.xml"/>
 	<monster name="elf scout" file="elfscout.xml"/>

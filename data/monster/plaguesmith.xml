@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Plaguesmith" nameDescription="a plaguesmith" race="venom" experience="4500" speed="260" manacost="0">
+<monster name="Plaguesmith" nameDescription="a plaguesmith" race="venom" experience="8500" speed="260" manacost="0">
 	<health now="8250" max="8250"/>
 	<look type="165" corpse="5135"/>
 	<targetchange interval="5000" chance="8"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<monster name="Mutated Pumpkin" nameDescription="a mutated pumpkin" race="venom" experience="4600" speed="290">
+<monster name="Mutated Pumpkin" nameDescription="a mutated pumpkin" race="venom" experience="7900" speed="290">
 	<health now="7800" max="7800"/>
 	<look type="207" corpse="5679"/>
 	<targetchange interval="4000" chance="5"/>

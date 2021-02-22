@@ -15,7 +15,7 @@
 	<event type="healthchange" name="BossParticipation" script="boss.lua" />
 	<event type="think" name="BossThink" script="boss.lua" />
 	<event type="healthchange" name="lifesteal" script="lifesteal.lua"/>
-
+	<event type="kill" name="bossKillEvent" script="morgarothreward.lua" />
 	<event type="login" name="freebless" script="freeblesslowlevel.lua"/>
 	<!-- 
 		<event type="advance" name="onadvance_reward" script="onadvance_reward.lua"/>

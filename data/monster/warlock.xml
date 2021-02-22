@@ -80,6 +80,7 @@
 			<item id="2466" chance="600"/><!-- golden armor -->
 			<item id="2178" chance="5000"/><!-- mind stone -->
 			<item name="spellbook of mind control" chance="800"/>
+			<item name="lightning robe" chance="1200"/>
 			<item id="2123" chance="200"/><!-- ring of the sky -->
 			<item id="2436" chance="14000"/><!-- skull staff -->
 			<item id="2146" chance="2800"/><!-- small sapphire -->

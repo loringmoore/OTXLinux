@@ -59,7 +59,7 @@
 		<item id="2169" chance="800" /><!-- time ring -->
 		<item name="health potion" countmax="2" chance="9500"/><!-- lifefluid -->
 		<item name="mana potion" countmax="2" chance="9500"/><!-- manafluid -->
-		<item name="stone skin amulet" chance="100" />
+		<item name="stone skin amulet" chance="500" />
 		<item name="halberd" chance="3000" />
 		<item name="plate shield" chance="10340" />
 		<item name="plate legs" chance="6500" />

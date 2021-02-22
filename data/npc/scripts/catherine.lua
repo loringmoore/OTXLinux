@@ -28,7 +28,7 @@ function creatureSayCallback(cid, type, msg)
 			npcHandler:say("You\'ve come to the right seamstress! I can tailor an outfit that is sure to turn heads - for the right price.", cid)
 			npcHandler.topic[cid] = 2
 		elseif npcHandler.topic[cid] == 3 then
-			if(doPlayerRemoveMoney(cid, 150000) and getPlayerStorageValue(cid, 6021) < 1) then
+			if(doPlayerRemoveMoney(cid, 250000) and getPlayerStorageValue(cid, 6021) < 1) then
 				npcHandler:say("Congratulations! Here is your brand-new outfit, I hope you like it.", cid)
 				npcHandler.topic[cid] = 0
 				setPlayerStorageValue(cid, 6021, 1)
@@ -37,7 +37,7 @@ function creatureSayCallback(cid, type, msg)
 
 		
 	elseif(msgcontains(msg, "price")) and (npcHandler.topic[cid] == 2) and (getPlayerStorageValue(cid, 6021) < 1) then
-		npcHandler:say("It will cost no less than 500,000 gold coins to craft such an exquisite outfit. What do you say, are you interested?", cid)
+		npcHandler:say("It will cost no less than 250,000 gold coins to craft such an exquisite outfit. What do you say, are you interested?", cid)
 		npcHandler.topic[cid] = 3
 	end
 	return true

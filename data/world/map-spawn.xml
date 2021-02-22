@@ -1255,8 +1255,8 @@
 	<spawn centerx="627" centery="619" centerz="4" radius="9">
 		<monster name="Royal Guard" x="-6" y="-6" z="4" spawntime="60" />
 		<monster name="Royal Guard" x="3" y="-6" z="4" spawntime="60" />
-		<monster name="Royal Guard" x="9" y="-2" z="4" spawntime="60" />
-		<monster name="Shadow Legionnaire" x="-2" y="4" z="4" spawntime="60" />
+		<monster name="Royal Guard" x="0" y="3" z="4" spawntime="60" />
+		<monster name="Shadow Legionnaire" x="-1" y="7" z="4" spawntime="60" />
 	</spawn>
 	<spawn centerx="907" centery="674" centerz="4" radius="6">
 		<monster name="Dark Magician" x="1" y="0" z="4" spawntime="60" />
@@ -5895,7 +5895,7 @@
 		<monster name="Novice of the Cult" x="-14" y="5" z="8" spawntime="60" />
 		<monster name="Enlightened of the Cult" x="-12" y="7" z="8" spawntime="60" />
 		<monster name="Plaguesmith" x="16" y="17" z="8" spawntime="60" />
-		<monster name="Son of Verminor" x="14" y="18" z="8" spawntime="60" />
+		<monster name="The Plasmother" x="11" y="18" z="8" spawntime="60" />
 	</spawn>
 	<spawn centerx="945" centery="719" centerz="8" radius="17">
 		<monster name="Emeritus of the Cult" x="-10" y="-13" z="8" spawntime="60" />
@@ -6008,6 +6008,7 @@
 		<monster name="Son of Verminor" x="8" y="7" z="8" spawntime="60" />
 		<monster name="Plaguesmith" x="6" y="8" z="8" spawntime="60" />
 		<monster name="Plaguesmith" x="-11" y="10" z="8" spawntime="60" />
+		<monster name="Son of Verminor" x="-2" y="11" z="8" spawntime="60" />
 		<monster name="Blightwalker" x="-13" y="12" z="8" spawntime="60" />
 		<monster name="Defiler" x="-10" y="12" z="8" spawntime="60" />
 		<monster name="Blightwalker" x="-3" y="13" z="8" spawntime="60" />
@@ -6466,9 +6467,22 @@
 		<monster name="troll" x="-2" y="2" z="8" spawntime="60" />
 		<monster name="troll" x="1" y="3" z="8" spawntime="60" />
 	</spawn>
+	<spawn centerx="957" centery="969" centerz="8" radius="22">
+		<monster name="Elf Apparition" x="6" y="-9" z="8" spawntime="60" />
+		<monster name="Elf Apparition" x="-8" y="-6" z="8" spawntime="60" />
+		<monster name="Elf Apparition" x="13" y="-1" z="8" spawntime="60" />
+		<monster name="Elf Apparition" x="-3" y="18" z="8" spawntime="60" />
+		<monster name="Elf Apparition" x="13" y="21" z="8" spawntime="60" />
+	</spawn>
 	<spawn centerx="256" centery="970" centerz="8" radius="5">
 		<monster name="troll" x="-1" y="-3" z="8" spawntime="60" />
 		<monster name="troll" x="1" y="-1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="999" centery="973" centerz="8" radius="22">
+		<monster name="Elf Apparition" x="4" y="-13" z="8" spawntime="60" />
+		<monster name="Undead Dragon" x="-18" y="-10" z="8" spawntime="60" />
+		<monster name="Elf Apparition" x="-4" y="-2" z="8" spawntime="60" />
+		<monster name="Elf Apparition" x="-9" y="9" z="8" spawntime="60" />
 	</spawn>
 	<spawn centerx="309" centery="979" centerz="8" radius="11">
 		<monster name="troll" x="4" y="-4" z="8" spawntime="60" />
@@ -6530,6 +6544,13 @@
 		<monster name="demon skeleton" x="0" y="0" z="8" spawntime="60" />
 		<monster name="demon skeleton" x="3" y="1" z="8" spawntime="60" />
 	</spawn>
+	<spawn centerx="955" centery="1006" centerz="8" radius="22">
+		<monster name="Undead Dragon" x="-1" y="-12" z="8" spawntime="60" />
+		<monster name="Elf Apparition" x="-11" y="-5" z="8" spawntime="60" />
+		<monster name="Elf Apparition" x="-3" y="7" z="8" spawntime="60" />
+		<monster name="Elf Apparition" x="14" y="7" z="8" spawntime="60" />
+		<monster name="Undead Dragon" x="6" y="14" z="8" spawntime="60" />
+	</spawn>
 	<spawn centerx="732" centery="1007" centerz="8" radius="9">
 		<monster name="skeleton" x="-3" y="-9" z="8" spawntime="60" />
 		<monster name="gazer" x="-5" y="-7" z="8" spawntime="60" />
@@ -6570,6 +6591,11 @@
 	</spawn>
 	<spawn centerx="626" centery="1016" centerz="8" radius="1">
 		<npc name="An Old Smith" x="0" y="0" z="8" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="997" centery="1017" centerz="8" radius="22">
+		<monster name="Undead Dragon" x="-2" y="-13" z="8" spawntime="60" />
+		<monster name="Elf Apparition" x="2" y="-13" z="8" spawntime="60" />
+		<monster name="Elf Apparition" x="-11" y="-3" z="8" spawntime="60" />
 	</spawn>
 	<spawn centerx="722" centery="1024" centerz="8" radius="9">
 		<monster name="gazer" x="2" y="-6" z="8" spawntime="60" />
@@ -6676,6 +6702,7 @@
 	<spawn centerx="956" centery="1130" centerz="8" radius="5">
 		<monster name="green djinn" x="-2" y="-2" z="8" spawntime="60" />
 		<monster name="efreet" x="3" y="-1" z="8" spawntime="60" />
+		<monster name="Tiquandas Revenge" x="2" y="0" z="8" spawntime="60" />
 		<monster name="efreet" x="2" y="3" z="8" spawntime="60" />
 		<monster name="green djinn" x="-2" y="4" z="8" spawntime="60" />
 	</spawn>
@@ -8266,6 +8293,14 @@
 		<monster name="minotaur guard" x="-1" y="12" z="9" spawntime="60" />
 		<monster name="minotaur archer" x="1" y="12" z="9" spawntime="60" />
 	</spawn>
+	<spawn centerx="960" centery="962" centerz="9" radius="22">
+		<monster name="Elf Apparition" x="7" y="2" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="998" centery="968" centerz="9" radius="22">
+		<monster name="Elf Apparition" x="4" y="-8" z="9" spawntime="60" />
+		<monster name="Undead Dragon" x="-6" y="3" z="9" spawntime="60" />
+		<monster name="Elf Apparition" x="-5" y="13" z="9" spawntime="60" />
+	</spawn>
 	<spawn centerx="857" centery="970" centerz="9" radius="8">
 		<monster name="Grim Reaper" x="-2" y="-1" z="9" spawntime="60" />
 		<monster name="Dark Torturer" x="2" y="-1" z="9" spawntime="60" />
@@ -8364,6 +8399,11 @@
 		<monster name="beholder" x="-4" y="2" z="9" spawntime="60" />
 		<monster name="gazer" x="1" y="2" z="9" spawntime="60" />
 	</spawn>
+	<spawn centerx="946" centery="1001" centerz="9" radius="22">
+		<monster name="Elf Apparition" x="8" y="-10" z="9" spawntime="60" />
+		<monster name="Undead Dragon" x="3" y="0" z="9" spawntime="60" />
+		<monster name="Elf Apparition" x="6" y="7" z="9" spawntime="60" />
+	</spawn>
 	<spawn centerx="910" centery="1002" centerz="9" radius="16">
 		<monster name="Dark Torturer" x="8" y="-8" z="9" spawntime="60" />
 		<monster name="Lost Soul" x="-11" y="-7" z="9" spawntime="60" />
@@ -8412,6 +8452,11 @@
 		<monster name="Dark Torturer" x="3" y="7" z="9" spawntime="60" />
 		<monster name="Hand of Cursed Fate" x="1" y="9" z="9" spawntime="60" />
 		<monster name="Grim Reaper" x="5" y="16" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="988" centery="1008" centerz="9" radius="22">
+		<monster name="Elf Apparition" x="-15" y="-20" z="9" spawntime="60" />
+		<monster name="Elf Apparition" x="10" y="-4" z="9" spawntime="60" />
+		<monster name="Elf Apparition" x="-18" y="10" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="409" centery="1009" centerz="9" radius="16">
 		<monster name="rat" x="-14" y="-11" z="9" spawntime="60" />
@@ -9716,9 +9761,11 @@
 	</spawn>
 	<spawn centerx="1029" centery="842" centerz="10" radius="18">
 		<monster name="fire elemental" x="0" y="-12" z="10" spawntime="60" />
+		<monster name="Infernalist" x="1" y="-11" z="10" spawntime="60" />
 		<monster name="Massive Fire Elemental" x="2" y="-1" z="10" spawntime="60" />
 		<monster name="fire elemental" x="1" y="1" z="10" spawntime="60" />
 		<monster name="fire elemental" x="2" y="3" z="10" spawntime="60" />
+		<monster name="Infernalist" x="-1" y="11" z="10" spawntime="60" />
 		<monster name="Massive Fire Elemental" x="-14" y="12" z="10" spawntime="60" />
 	</spawn>
 	<spawn centerx="924" centery="864" centerz="10" radius="11">
@@ -9729,6 +9776,7 @@
 		<monster name="Massive Fire Elemental" x="-3" y="-13" z="10" spawntime="60" />
 		<monster name="fire elemental" x="0" y="-12" z="10" spawntime="60" />
 		<monster name="fire elemental" x="-3" y="-11" z="10" spawntime="60" />
+		<monster name="Infernalist" x="-6" y="-2" z="10" spawntime="60" />
 		<monster name="Massive Fire Elemental" x="3" y="4" z="10" spawntime="60" />
 		<monster name="fire elemental" x="5" y="5" z="10" spawntime="60" />
 		<monster name="fire elemental" x="4" y="7" z="10" spawntime="60" />
@@ -9740,10 +9788,12 @@
 	</spawn>
 	<spawn centerx="1023" centery="878" centerz="10" radius="18">
 		<monster name="fire elemental" x="-6" y="-15" z="10" spawntime="60" />
+		<monster name="Infernalist" x="-8" y="-14" z="10" spawntime="60" />
 		<monster name="fire elemental" x="-4" y="-13" z="10" spawntime="60" />
-		<monster name="Massive Fire Elemental" x="-3" y="4" z="10" spawntime="60" />
+		<monster name="Infernalist" x="3" y="2" z="10" spawntime="60" />
 		<monster name="fire elemental" x="-5" y="7" z="10" spawntime="60" />
 		<monster name="fire elemental" x="-9" y="8" z="10" spawntime="60" />
+		<monster name="Massive Fire Elemental" x="-6" y="9" z="10" spawntime="60" />
 	</spawn>
 	<spawn centerx="625" centery="879" centerz="10" radius="6">
 		<monster name="minotaur" x="-1" y="0" z="10" spawntime="60" />
@@ -9863,6 +9913,13 @@
 		<monster name="cave rat" x="7" y="6" z="10" spawntime="60" />
 		<monster name="cave rat" x="2" y="8" z="10" spawntime="60" />
 		<monster name="cave rat" x="9" y="9" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="966" centery="1002" centerz="10" radius="22">
+		<monster name="Elf Apparition" x="-18" y="-7" z="10" spawntime="60" />
+		<monster name="Elf Apparition" x="-14" y="-4" z="10" spawntime="60" />
+		<monster name="Elf Apparition" x="-17" y="2" z="10" spawntime="60" />
+		<monster name="Elf Apparition" x="-8" y="11" z="10" spawntime="60" />
+		<monster name="Elf Apparition" x="10" y="16" z="10" spawntime="60" />
 	</spawn>
 	<spawn centerx="401" centery="1005" centerz="10" radius="16">
 		<monster name="cave rat" x="-8" y="-14" z="10" spawntime="60" />
@@ -10698,9 +10755,11 @@
 	</spawn>
 	<spawn centerx="1035" centery="831" centerz="11" radius="12">
 		<monster name="Infernalist" x="4" y="0" z="11" spawntime="60" />
+		<monster name="Infernalist" x="2" y="3" z="11" spawntime="60" />
 	</spawn>
 	<spawn centerx="1052" centery="859" centerz="11" radius="12">
 		<monster name="Infernalist" x="0" y="5" z="11" spawntime="60" />
+		<monster name="Infernalist" x="-1" y="6" z="11" spawntime="60" />
 	</spawn>
 	<spawn centerx="952" centery="877" centerz="11" radius="17">
 		<monster name="Destroyer" x="10" y="-7" z="11" spawntime="60" />
@@ -10848,7 +10907,7 @@
 		<monster name="Juggernaut" x="0" y="-1" z="11" spawntime="60" />
 	</spawn>
 	<spawn centerx="726" centery="93" centerz="12" radius="1">
-		<monster name="Ghazbaran" x="0" y="0" z="12" spawntime="60" />
+		<monster name="Massacre" x="0" y="-1" z="12" spawntime="60" />
 	</spawn>
 	<spawn centerx="709" centery="99" centerz="12" radius="5">
 		<monster name="Juggernaut" x="-3" y="-1" z="12" spawntime="60" />

@@ -19,15 +19,15 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="18" attack="15"/>
-		<attack name="energy" interval="500" chance="9" range="7" min="-1" max="-163">
+		<attack name="energy" interval="500" chance="9" range="7" min="-1" max="-124">
 			<attribute key="shootEffect" value="energy"/>
 			<attribute key="areaEffect" value="energy"/>
 		</attack>
-		<attack name="physical" interval="500" chance="11" range="7" radius="3" target="1" min="-1" max="-169">
+		<attack name="physical" interval="500" chance="11" range="7" radius="3" target="1" min="-1" max="-139">
 			<attribute key="shootEffect" value="suddendeath"/>
 			<attribute key="areaEffect" value="mortarea"/>
 		</attack>
-		<attack name="poison" interval="500" chance="10" range="7" radius="4" target="1" min="-95" max="-325">
+		<attack name="poison" interval="500" chance="10" range="7" radius="4" target="1" min="-95" max="-165">
 			<attribute key="shootEffect" value="poison"/>
 			<attribute key="areaEffect" value="greenbubble"/>
 		</attack>

@@ -32,6 +32,9 @@
 	<action actionid="2026" script="quests/challengelever5.lua" />
 	<action actionid="2027" script="quests/challengelever6.lua" />
 	<action actionid="2028" script="quests/challengelever7.lua" />
+	<action actionid="2029" script="quests/impaler.lua" />
+	<action actionid="2030" script="quests/magiclongsword.lua" />
+	<action actionid="2031" script="quests/minesgate.lua" />
 	
 	<!-- Tools -->
 	<action itemid="2120" script="tools/rope.lua" />

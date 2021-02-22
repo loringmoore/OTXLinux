@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Samurai" nameDescription="a samurai" race="blood" experience="3250" speed="440">
+	<health now="3700" max="3700" />
+	<look type="234" head="116" body="130" legs="110" feet="95" corpse="3058"/>
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-306" />
+		<attack name="physical" interval="500" chance="15" range="7" target="1" min="127" max="-260">
+			<attribute key="shootEffect" value="redstar" />
+		</attack>
+		<attack name="holy" interval="500" chance="15" range="7" target="1" min="177" max="-220">
+			<attribute key="shootEffect" value="holy" />
+			<attribute key="areaEffect" value="holyarea"/>
+		</attack>
+		<attack name="poison" interval="500" chance="10" length="3" spread="3" min="-150" max="-217">
+			<attribute key="areaEffect" value="poisonarea"/>
+		</attack>
+	</attacks>
+	<defenses armor="35" defense="35">
+		<defense name="healing" interval="2000" chance="10" min="75" max="175">
+			<attribute key="areaEffect" value="greenshimmer" />
+		</defense>
+		<defense name="speed" interval="500" chance="15" range="7" speedchange="400" duration="5000">
+			<attribute key="areaEffect" value="purplenote" />
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="5" />
+		<element firePercent="45" />
+	</elements>
+	<immunities>
+		<immunity earth="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Taste my blade!" />
+		<voice sentence="How dare you defile our sanctuary." />
+		<voice sentence="Honour in death!" />
+	</voices>
+	<loot>
+		<item name="gold coin" countmax="100" chance="62000" />
+		<item name="gold coin" countmax="100" chance="62000" />
+		<item name="gold coin" countmax="27" chance="72000" />
+		<item name="assassin star" countmax="17" chance="12000" />
+		<item name="small sapphire" countmax="4" chance="3520" />
+		<item name="small amethyst" countmax="2" chance="2001" />
+		<item name="platinum coin" countmax="4" chance="4900" />
+		<item name="bone" chance="11950" />
+		<item name="spike sword" chance="9950" />
+		<item name="soft cheese" countmax="5" chance="50000" />
+		<item name="health potion" countmax="9" chance="11000"/><!-- lifefluid -->
+		<item name="bag" chance="100000" >
+			<item name="flask of warrior's sweat" chance="1220" />
+			<item name="samurai legs" chance="320" />
+			<item name="piece of draconian steel" chance="700" />
+			<item name="dwarven helmet" chance="1100" />
+			<item name="runed sword" chance="1340" />
+			<item name="blue piece of cloth" chance="1190" />
+			<item name="red piece of cloth" chance="1150" />
+			<item id="5767" chance="1000"/><!-- conjure explosive arrow scroll -->
+		</item>
+	</loot>
+</monster>

@@ -68,6 +68,7 @@
 			<item id="2125" chance="2300"/><!-- crystal necklace -->
 			<item name="dreaded cleaver" chance="833" />
 			<item name="war hammer" chance="333" />
+			<item name="piece of draconian steel" chance="1030" />
 		</item>
 	</loot>
 </monster>

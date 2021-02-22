@@ -1,27 +1,20 @@
-local combat = createCombatObject()
-setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
-setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_HITBYFIRE)
-setCombatParam(combat, COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_ARCANE)
+local combat = Combat()
+combat:setParameter(COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
+combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_FIREWORKS_RED)
+combat:setParameter(COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_THROWINGKNIFE)
+combat:setParameter(COMBAT_PARAM_BLOCKARMOR, true)
+combat:setArea(createCombatArea(AREA_CROSS1X1))
 
-local t = {}
-for a = 1, 400 do
-	t[a] = {}
-	for b = 0, 156 do
-		t[a][b] = createConditionObject(CONDITION_BLEEDING)
-		setConditionParam(t[a][b], CONDITION_PARAM_DELAYED, true)
-		addDamageCondition(t[a][b], math.ceil(a / 3 + b / 3), 9000, -10)
-	end
+
+function onGetFormulaValues(player, skill, attack, factor)
+	local distSkill = player:getEffectiveSkillLevel(SKILL_DISTANCE)
+	local min = (player:getLevel() / 5) + distSkill * 3.3
+	local max = (player:getLevel() / 5) + distSkill * 6.2
+	return -min, -max
 end
 
-function onCastSpell(cid, var)
-	if doCombat(cid, combat, var) then
-		local target = variantToNumber(var)
-		if target == 0 then
-			target = getTopCreature(variantToPosition(var)).uid
-		end
-		if target == 0 then
-			return false
-		end
-		return doTargetCombatCondition(cid, target, t[getPlayerLevel(cid)][getPlayerMagLevel(cid)], CONST_ME_NONE)
-	end
+combat:setCallback(CALLBACK_PARAM_SKILLVALUE, "onGetFormulaValues")
+
+function onCastSpell(creature, variant)
+	return combat:execute(creature, variant)
 end

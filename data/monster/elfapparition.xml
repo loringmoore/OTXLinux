@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Elf Apparition" nameDescription="an elf apparition" race="undead" experience="8500" speed="415" manacost="530">
-	<health now="9500" max="9500"/>
+<monster name="Elf Apparition" nameDescription="an elf apparition" race="undead" experience="18500" speed="415" manacost="0">
+	<health now="15500" max="15500"/>
 	<look type="144" head="28" body="85" legs="104" feet="66" corpse="2913"/>
 	<targetchange interval="5000" chance="50"/>
 	<strategy attack="100" defense="0"/>
@@ -15,7 +15,7 @@
 		<flag canpushcreatures="0"/>
 		<flag targetdistance="4"/>
 		<flag staticattack="90"/>
-		<flag runonhealth="10"/>
+		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="38" attack="53"/>
@@ -45,17 +45,17 @@
 		<item name="gold coin" countmax="100" chance="25000"/>
 		<item name="platinum coin" countmax="22" chance="25000"/>
 		<item name="horseman helmet" chance="2000"/><!-- leather helmet -->
-		<item name="elven legs" chance="2800"/><!-- leather legs -->
+		<item name="dwarven legs" chance="2800"/><!-- leather legs -->
 		<item name="blue piece of cloth" countmax="2" chance="4000"/><!-- orange -->
 		<item name="white piece of cloth" countmax="2" chance="4000"/><!-- orange -->
 		<item name="brown mushroom" countmax="2" chance="40000"/><!-- orange -->
 		<item name="white mushroom" countmax="2" chance="22000"/><!-- roll -->
 		<item id="1987" chance="100000"><!-- bag -->
-			<item name="amazon armor" chance="1000"/><!-- brass armor -->
+			<item name="amazon armor" chance="3000"/><!-- brass armor -->
 			<item name="lightning legs" chance="2000"/><!-- brass helmet -->
 			<item id="2546" countmax="3" chance="10000"/><!-- burst arrow -->
 			<item name="paladin armor" chance="100"/><!-- dragon necklace -->
-			<item id="2147"countmax="6" chance="2000"/><!-- small ruby -->
+			<item id="2147" countmax="6" chance="2000"/><!-- small ruby -->
 			<item name="winged helmet" chance="400"/><!-- torch -->
 			<item name="sniper gloves" chance="1000" />
 			<item name="crystal arrow" chance="100"/><!-- conjure arrow scroll -->

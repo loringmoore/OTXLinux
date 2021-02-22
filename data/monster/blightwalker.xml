@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Blightwalker" nameDescription="a blightwalker" race="undead" experience="5850" speed="240" manacost="0">
+<monster name="Blightwalker" nameDescription="a blightwalker" race="undead" experience="9850" speed="240" manacost="0">
 	<health now="8900" max="8900"/>
 	<look type="164" corpse="5131"/>
 	<targetchange interval="5000" chance="8"/>
@@ -19,19 +19,19 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="88" attack="100"/>
-		<attack name="poison" interval="750" chance="10" range="7" target="1" radius="1" min="-220" max="-405">
+		<attack name="poison" interval="500" chance="10" range="7" target="1" radius="1" min="-220" max="-405">
 			<attribute key="shootEffect" value="poison" />
 		</attack>
-		<attack name="lifedrain" interval="750" chance="8" target="0" radius="4" min="-65" max="-135">
+		<attack name="lifedrain" interval="500" chance="8" target="0" radius="4" min="-65" max="-135">
 			<attribute key="areaEffect" value="greenshimmer" />
 		</attack>
-		<attack name="drunk" interval="750" chance="8" target="0" radius="3" duration="5000">
+		<attack name="drunk" interval="500" chance="8" target="0" radius="3" duration="5000">
 			<attribute key="areaEffect" value="greenspark" />
 		</attack>
-		<attack name="blightwalker curse" interval="750" chance="11" />
+		<attack name="blightwalker curse" interval="500" chance="11" />
 	</attacks>
 	<defenses armor="15" defense="15">
-		<defense name="healing" interval="750" chance="25" min="75" max="125">
+		<defense name="healing" interval="500" chance="11" min="75" max="125">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
