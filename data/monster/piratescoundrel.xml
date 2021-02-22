@@ -17,7 +17,7 @@
 		<flag runonhealth="50" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-180" />
+		<attack name="melee" interval="2000" min="0" max="-210" />
 		<attack name="physical" interval="500" chance="9" range="4" min="0" max="-120">
 			<attribute key="shootEffect" value="powerbolt" />
 		</attack>

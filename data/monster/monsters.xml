@@ -235,6 +235,7 @@
 	<monster name="serpent spawn" file="serpentspawn.xml"/>
 	<monster name="shadow legionnaire" file="shadow legionnaire.xml"/>
 	<monster name="sheep" file="sheep.xml"/>
+	<monster name="shogun" file="shogun.xml"/>
 	<monster name="shredderthrower" file="shredderthrower.xml"/>
 	<monster name="sibang" file="sibang.xml"/>
 	<monster name="skeleton" file="skeleton.xml"/>
@@ -261,6 +262,7 @@
 	<monster name="thornback tortoise" file="thornbacktortoise.xml"/>
 	<monster name="thul" file="thul.xml"/>
 	<monster name="tiger" file="tiger.xml"/>
+	<monster name="tiquandas revenge" file="tiquandasrevenge.xml"/>
 	<monster name="titan" file="titan.xml"/>
 	<monster name="toad" file="toad.xml"/>
 	<monster name="tortoise" file="tortoise.xml"/>

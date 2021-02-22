@@ -5353,10 +5353,12 @@
 	<spawn centerx="585" centery="252" centerz="8" radius="30" />
 	<spawn centerx="577" centery="399" centerz="8" radius="21">
 		<monster name="Samurai" x="-12" y="-21" z="8" spawntime="60" />
+		<monster name="Shogun" x="-19" y="-19" z="8" spawntime="60" />
 		<monster name="Samurai" x="-16" y="-19" z="8" spawntime="60" />
 		<monster name="Samurai" x="-14" y="0" z="8" spawntime="60" />
 		<monster name="Samurai" x="-17" y="2" z="8" spawntime="60" />
 		<monster name="Samurai" x="16" y="9" z="8" spawntime="60" />
+		<monster name="Shogun" x="18" y="12" z="8" spawntime="60" />
 		<monster name="Samurai" x="-7" y="13" z="8" spawntime="60" />
 		<monster name="Samurai" x="4" y="13" z="8" spawntime="60" />
 		<monster name="Samurai" x="16" y="14" z="8" spawntime="60" />
@@ -7587,7 +7589,9 @@
 		<monster name="Samurai" x="-8" y="-9" z="9" spawntime="60" />
 		<monster name="Samurai" x="8" y="-9" z="9" spawntime="60" />
 		<monster name="Samurai" x="12" y="-2" z="9" spawntime="60" />
+		<monster name="Shogun" x="15" y="-2" z="9" spawntime="60" />
 		<monster name="Samurai" x="-11" y="-1" z="9" spawntime="60" />
+		<monster name="Shogun" x="-10" y="3" z="9" spawntime="60" />
 		<monster name="Samurai" x="10" y="9" z="9" spawntime="60" />
 		<monster name="Samurai" x="-10" y="10" z="9" spawntime="60" />
 		<monster name="Samurai" x="13" y="11" z="9" spawntime="60" />
@@ -7597,13 +7601,17 @@
 		<monster name="Samurai" x="4" y="-6" z="9" spawntime="60" />
 		<monster name="Samurai" x="7" y="10" z="9" spawntime="60" />
 		<monster name="Samurai" x="11" y="11" z="9" spawntime="60" />
+		<monster name="Shogun" x="15" y="12" z="9" spawntime="60" />
+		<monster name="Shogun" x="-15" y="13" z="9" spawntime="60" />
 		<monster name="Samurai" x="10" y="14" z="9" spawntime="60" />
 		<monster name="Samurai" x="-21" y="15" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="560" centery="355" centerz="9" radius="21">
+		<monster name="Shogun" x="-16" y="-10" z="9" spawntime="60" />
 		<monster name="Samurai" x="6" y="-10" z="9" spawntime="60" />
 		<monster name="Samurai" x="-13" y="-7" z="9" spawntime="60" />
 		<monster name="Samurai" x="-2" y="-6" z="9" spawntime="60" />
+		<monster name="Shogun" x="-1" y="7" z="9" spawntime="60" />
 		<monster name="Samurai" x="9" y="9" z="9" spawntime="60" />
 		<monster name="Samurai" x="-13" y="10" z="9" spawntime="60" />
 		<monster name="Samurai" x="-5" y="10" z="9" spawntime="60" />
@@ -7612,15 +7620,18 @@
 		<monster name="Samurai" x="1" y="-5" z="9" spawntime="60" />
 		<monster name="Samurai" x="2" y="11" z="9" spawntime="60" />
 		<monster name="Samurai" x="4" y="15" z="9" spawntime="60" />
+		<monster name="Shogun" x="-3" y="20" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="618" centery="385" centerz="9" radius="21">
 		<monster name="Samurai" x="6" y="-10" z="9" spawntime="60" />
+		<monster name="Shogun" x="13" y="-8" z="9" spawntime="60" />
 		<monster name="Samurai" x="3" y="-6" z="9" spawntime="60" />
 		<monster name="Samurai" x="9" y="-5" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="574" centery="390" centerz="9" radius="21">
 		<monster name="Samurai" x="-17" y="-12" z="9" spawntime="60" />
 		<monster name="Samurai" x="-13" y="-11" z="9" spawntime="60" />
+		<monster name="Shogun" x="-15" y="-9" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="1034" centery="407" centerz="9" radius="1">
 		<monster name="rotworm" x="1" y="-1" z="9" spawntime="60" />
@@ -9274,43 +9285,56 @@
 	<spawn centerx="607" centery="366" centerz="10" radius="21">
 		<monster name="Samurai" x="-13" y="-17" z="10" spawntime="60" />
 		<monster name="Samurai" x="19" y="-17" z="10" spawntime="60" />
+		<monster name="Shogun" x="7" y="-9" z="10" spawntime="60" />
 		<monster name="Samurai" x="-13" y="-6" z="10" spawntime="60" />
 		<monster name="Samurai" x="-5" y="-6" z="10" spawntime="60" />
 		<monster name="Samurai" x="7" y="-6" z="10" spawntime="60" />
 		<monster name="Samurai" x="14" y="-6" z="10" spawntime="60" />
+		<monster name="Shogun" x="-15" y="-1" z="10" spawntime="60" />
+		<monster name="Shogun" x="13" y="5" z="10" spawntime="60" />
 		<monster name="Samurai" x="-13" y="8" z="10" spawntime="60" />
 		<monster name="Samurai" x="-8" y="8" z="10" spawntime="60" />
 		<monster name="Samurai" x="7" y="8" z="10" spawntime="60" />
 		<monster name="Samurai" x="11" y="9" z="10" spawntime="60" />
+		<monster name="Shogun" x="-7" y="12" z="10" spawntime="60" />
 		<monster name="Samurai" x="-5" y="19" z="10" spawntime="60" />
 		<monster name="Samurai" x="20" y="19" z="10" spawntime="60" />
 	</spawn>
 	<spawn centerx="646" centery="366" centerz="10" radius="21">
+		<monster name="Shogun" x="11" y="-7" z="10" spawntime="60" />
 		<monster name="Samurai" x="-12" y="-6" z="10" spawntime="60" />
 		<monster name="Samurai" x="-5" y="-6" z="10" spawntime="60" />
+		<monster name="Shogun" x="-7" y="-2" z="10" spawntime="60" />
 		<monster name="Samurai" x="13" y="-2" z="10" spawntime="60" />
 		<monster name="Samurai" x="11" y="-1" z="10" spawntime="60" />
 		<monster name="Samurai" x="11" y="2" z="10" spawntime="60" />
 		<monster name="Samurai" x="13" y="4" z="10" spawntime="60" />
+		<monster name="Shogun" x="-13" y="5" z="10" spawntime="60" />
 		<monster name="Samurai" x="-12" y="10" z="10" spawntime="60" />
+		<monster name="Shogun" x="12" y="10" z="10" spawntime="60" />
 		<monster name="Samurai" x="-6" y="11" z="10" spawntime="60" />
 	</spawn>
 	<spawn centerx="572" centery="368" centerz="10" radius="21">
 		<monster name="Samurai" x="1" y="-5" z="10" spawntime="60" />
 		<monster name="Samurai" x="4" y="-5" z="10" spawntime="60" />
+		<monster name="Shogun" x="1" y="-1" z="10" spawntime="60" />
 		<monster name="Samurai" x="6" y="6" z="10" spawntime="60" />
 		<monster name="Samurai" x="1" y="7" z="10" spawntime="60" />
 	</spawn>
 	<spawn centerx="594" centery="402" centerz="10" radius="21">
 		<monster name="Samurai" x="19" y="-8" z="10" spawntime="60" />
 		<monster name="Samurai" x="-4" y="-3" z="10" spawntime="60" />
+		<monster name="Shogun" x="3" y="-3" z="10" spawntime="60" />
 		<monster name="Samurai" x="2" y="0" z="10" spawntime="60" />
 		<monster name="Samurai" x="15" y="1" z="10" spawntime="60" />
 		<monster name="Samurai" x="-1" y="3" z="10" spawntime="60" />
+		<monster name="Shogun" x="15" y="7" z="10" spawntime="60" />
 	</spawn>
 	<spawn centerx="635" centery="402" centerz="10" radius="21">
 		<monster name="Samurai" x="-11" y="-5" z="10" spawntime="60" />
+		<monster name="Shogun" x="-10" y="-2" z="10" spawntime="60" />
 		<monster name="Samurai" x="4" y="-2" z="10" spawntime="60" />
+		<monster name="Shogun" x="4" y="1" z="10" spawntime="60" />
 		<monster name="Samurai" x="6" y="4" z="10" spawntime="60" />
 		<monster name="Samurai" x="3" y="5" z="10" spawntime="60" />
 		<monster name="Samurai" x="-18" y="9" z="10" spawntime="60" />

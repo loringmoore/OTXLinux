@@ -68,8 +68,8 @@
 			<item id="2498" chance="2000"/><!-- royal helmet -->
 			<item id="2496" chance="200"/><!-- royal helmet -->
 			<item name="golden legs" chance="1700"/><!-- royal helmet -->
-			<item name="nightmare shield" chance="200"/><!-- tempest shield -->
-			<item id="5229" chance="1500"/><!-- justice seeker -->
+			<item name="nightmare shield" chance="800"/><!-- tempest shield -->
+			<item name="spectraflame blade" chance="500"/><!-- justice seeker -->
 			<item id="5230" chance="500"/><!-- spectraflame blade -->
 		</item>
 	</loot>
