@@ -169,6 +169,14 @@
 	<action itemid="5768" script="scrolls/conjure bolt.lua" />
 	<action itemid="5769" script="scrolls/conjure power bolt.lua" />
 	<action itemid="5770" script="scrolls/conjure infernal bolt.lua" />
+	<action itemid="5776" script="scrolls/brutal strike.lua" />
+	<action itemid="5777" script="scrolls/eviscerate.lua" />
+	<action itemid="5778" script="scrolls/bladestorm.lua" />
+	<action itemid="5779" script="scrolls/great fire beam.lua" />
+	<action itemid="5780" script="scrolls/strong water strike.lua" />
+	<action itemid="5781" script="scrolls/strong flame strike.lua" />
+	<action itemid="5782" script="scrolls/strong poison strike.lua" />
+	<action itemid="5783" script="scrolls/strong energy strike.lua" />
 	
 	
 	<!-- Potions -->

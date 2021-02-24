@@ -6294,7 +6294,7 @@
 	<spawn centerx="359" centery="901" centerz="8" radius="8">
 		<monster name="dwarf soldier" x="2" y="-3" z="8" spawntime="60" />
 		<monster name="dwarf soldier" x="5" y="-3" z="8" spawntime="60" />
-		<monster name="dwarf soldier" x="4" y="-1" z="8" spawntime="60" />
+		<monster name="dwarf soldier" x="5" y="-1" z="8" spawntime="60" />
 		<monster name="dwarf soldier" x="2" y="1" z="8" spawntime="60" />
 	</spawn>
 	<spawn centerx="307" centery="912" centerz="8" radius="10">
