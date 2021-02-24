@@ -2,7 +2,7 @@ function onSay(player, words)
 	
 	local position = player:getPosition()
 	
-	if player:getStorageValue(6045) < 3 then
+	if player:getStorageValue(6045) < 4 then
 		player:sendCancelMessage("You have not earned this outfit.")
 			position:sendMagicEffect(CONST_ME_POFF)
 			return false

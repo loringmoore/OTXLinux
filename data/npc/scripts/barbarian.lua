@@ -62,7 +62,7 @@ local function creatureSayCallback(cid, type, msg)
 			end
 		elseif npcHandler.topic[cid] == 5 then
 			if player:removeItem(5271, 100) and player:removeItem(5257, 10) then
-				npcHandler:say("You faring better than I imagined! With these honeycombs and spools of yarn you will have an authentic barbarian wig.", cid)
+				npcHandler:say("You're faring better than I imagined! With these honeycombs and spools of yarn you will have an authentic barbarian wig.", cid)
 				player:setStorageValue(6071, 3)
 				npcHandler.topic[cid] = 0
 			else

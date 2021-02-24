@@ -35,6 +35,11 @@ local function creatureSayCallback(cid, type, msg)
 			npcHandler:say("Did you bring me 50 pieces of minotaur leather, 50 pieces of lizard leather, 25 pieces of red dragon leather and 25 pieces of green dragon leather?", cid)
 			npcHandler.topic[cid] = 5
 		end
+	elseif msgcontains(msg, "steel") then
+		if player:getStorageValue(6045) == 3 then
+			npcHandler:say("Did you bring me 1 piece of royal steel, 1 piece of draconian steel and 1 piece of hell steel?", cid)
+			npcHandler.topic[cid] = 6
+		end
 	elseif msgcontains(msg, "yes") then
 		if npcHandler.topic[cid] == 2 then
 			npcHandler:say({
@@ -53,7 +58,7 @@ local function creatureSayCallback(cid, type, msg)
 			npcHandler.topic[cid] = 0
 		elseif npcHandler.topic[cid] == 4 then
 			if player:removeItem(5247, 1) then
-				npcHandler:say("I\'ll admit that was much faster than I expected! Maybe I underestimated you, |PLAYERNAME|! Please bring me 100 pieces of lizard leather and 100 pieces of red dragon leather now!", cid)
+				npcHandler:say("I\'ll admit that was much faster than I expected! Maybe I underestimated you, |PLAYERNAME|! Please bring me 50 pieces of lizard and minotaur leather and 25 pieces of red and green dragon leather now!", cid)
 				player:setStorageValue(6045, 2)
 				npcHandler.topic[cid] = 0
 			else
@@ -61,16 +66,24 @@ local function creatureSayCallback(cid, type, msg)
 			end
 		elseif npcHandler.topic[cid] == 5 then
 			if player:getItemCount(5250) >= 50 and player:getItemCount(5248) >= 50 and player:getItemCount(5249) >= 25 and player:getItemCount(5294) >= 25 then
-				npcHandler:say("Good work, |PLAYERNAME|! That is enough leather for a lot of sturdy quivers. Well, you certainly have proven yourself worthy, |PLAYERNAME|, and I will honor my end of the deal. Take this traditional hunter garb, and where it with pride!", cid)
+				npcHandler:say("Good work, |PLAYERNAME|! That is enough leather for a lot of sturdy quivers.", cid)
 				player:removeItem(5250, 50)
 				player:removeItem(5248, 50)
 				player:removeItem(5249, 25)
 				player:removeItem(5294, 25)
 				player:setStorageValue(6045, 3)
+				npcHandler.topic[cid] = 0
+			else
+				npcHandler:say("You don't have them...", cid)
+			end
+		elseif npcHandler.topic[cid] == 6 then
+			if player:removeItem(5258, 1) and player:removeItem(5259, 1) and player:removeItem(5260, 1) then
+				npcHandler:say("Well, you certainly have proven yourself worthy, |PLAYERNAME|, and I will honor my end of the deal. Take this traditional hunter garb, and where it with pride!", cid)
+				player:setStorageValue(6045, 4)
 				player:getPosition():sendMagicEffect(CONST_ME_MAGIC_BLUE)
 				npcHandler.topic[cid] = 0
 			else
-				npcHandler:say("You don't have it...", cid)
+				npcHandler:say("You don't have them...", cid)
 			end
 		end
 	elseif msgcontains(msg, "no") then
