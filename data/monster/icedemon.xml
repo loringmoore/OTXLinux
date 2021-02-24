@@ -86,6 +86,7 @@
 			<item id="2151" chance="7000"/><!-- talon -->
 			<item id="5436" chance="2000"/><!-- water strike -->
 			<item id="5762" chance="1000"/><!-- water strike -->
+			<item id="5780" chance="100"/><!-- strong water strike -->
 			<item name="glacial rod" chance="2350" />
 		</item>
 	</loot>

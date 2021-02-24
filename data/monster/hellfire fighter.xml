@@ -62,6 +62,7 @@
 			<item name="magma coat" chance="470" />
 			<item id="5430" chance="2800"/><!-- fire wave scroll -->
 			<item id="5761" chance="900"/><!-- fire sweep scroll -->
+			<item id="5779" chance="100"/><!-- great fire beam scroll -->
 		</item>
 	</loot>
 </monster>

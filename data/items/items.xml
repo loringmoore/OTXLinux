@@ -3032,6 +3032,7 @@
 		<attribute key="defense" value="14" />
 		<attribute key="attack" value="24" />
 		<attribute key="weaponType" value="club" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="2322" article="a" name="voodoo doll">
 		<attribute key="description" value="It looks like a little king." />
@@ -3272,7 +3273,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2377" article="a" name="two handed sword">
 		<attribute key="weight" value="7000"/>
@@ -3281,7 +3282,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2378" article="a" name="battle axe">
 		<attribute key="weight" value="5000"/>
@@ -3298,7 +3299,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2380" article="a" name="hand axe">
 		<attribute key="weight" value="1800"/>
@@ -3322,7 +3323,7 @@
 		<attribute key="attack" value="7"/>
 		<attribute key="weaponType" value="club"/>
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="2383" article="a" name="spike sword">
 		<attribute key="weight" value="5000"/>
@@ -3331,7 +3332,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2384" article="a" name="rapier">
 		<attribute key="weight" value="1500"/>
@@ -3340,7 +3341,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2385" article="a" name="sabre">
 		<attribute key="weight" value="2500"/>
@@ -3349,7 +3350,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2386" article="an" name="axe">
 		<attribute key="weight" value="4000"/>
@@ -3391,7 +3392,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2391" article="a" name="war hammer">
 		<attribute key="weight" value="8500"/>
@@ -3399,7 +3400,7 @@
 		<attribute key="attack" value="45"/>
 		<attribute key="weaponType" value="club"/>
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="2392" article="a" name="fire sword">
 		<attribute key="description" value="The blade is a magic flame."/>
@@ -3409,17 +3410,17 @@
 		<attribute key="weaponType" value="sword"/> 
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2393" article="a" name="giant sword">
 		<attribute key="description" value="This sword has been forged by ancient giants."/>
 		<attribute key="weight" value="18000"/>
 		<attribute key="defense" value="22"/>
-		<attribute key="attack" value="40"/>
+		<attribute key="attack" value="41"/>
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2394" article="a" name="morning star">
 		<attribute key="weight" value="5400"/>
@@ -3427,7 +3428,7 @@
 		<attribute key="attack" value="25"/>
 		<attribute key="weaponType" value="club"/>
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="2395" article="a" name="carlin sword">
 		<attribute key="weight" value="4000"/>
@@ -3436,7 +3437,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2396" article="an" name="ice rapier">
 		<attribute key="description" value="A deadly but fragile weapon."/>
@@ -3447,7 +3448,7 @@
 		<attribute key="hitchance" value="95"/>
 		<attribute key="charges" value="1"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2397" article="a" name="longsword">
 		<attribute key="weight" value="4200"/>
@@ -3456,7 +3457,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2398" article="a" name="mace">
 		<attribute key="weight" value="3800"/>
@@ -3464,7 +3465,7 @@
 		<attribute key="attack" value="16"/>
 		<attribute key="weaponType" value="club"/>
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="2399" article="a" name="throwing star" plural="throwing stars">
 		<attribute key="weight" value="200"/>
@@ -3482,7 +3483,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2401" article="a" name="staff">
 		<attribute key="weight" value="3800"/>
@@ -3490,7 +3491,7 @@
 		<attribute key="attack" value="10"/>
 		<attribute key="weaponType" value="club"/>
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="2402" article="a" name="silver dagger">
 		<attribute key="weight" value="1020"/>
@@ -3499,7 +3500,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2403" article="a" name="knife">
 		<attribute key="weight" value="420"/>
@@ -3508,7 +3509,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2404" article="a" name="combat knife">
 		<attribute key="weight" value="870"/>
@@ -3517,7 +3518,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2405" article="a" name="sickle">
 		<attribute key="weight" value="1050"/>
@@ -3534,7 +3535,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2407" article="a" name="bright sword">
 		<attribute key="description" value="The blade shimmers in light blue."/>
@@ -3544,7 +3545,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2408" article="a" name="warlord sword">
 		<attribute key="description" value="Strong powers flow in this magic sword."/>
@@ -3554,7 +3555,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2409" article="a" name="serpent sword">
 		<attribute key="weight" value="4100"/>
@@ -3563,7 +3564,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2410" article="a" name="throwing knife" plural="throwing knives">
 		<attribute key="weight" value="500"/>
@@ -3580,7 +3581,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2412" article="a" name="katana">
 		<attribute key="weight" value="3100"/>
@@ -3589,7 +3590,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2413" article="a" name="broadsword">
 		<attribute key="weight" value="5250"/>
@@ -3598,7 +3599,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2414" article="a" name="dragon lance">
 		<attribute key="description" value="The extraordinary sharp blade penetrates every armor."/>
@@ -3625,7 +3626,7 @@
 		<attribute key="attack" value="5"/>
 		<attribute key="weaponType" value="club"/>
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="2417" article="a" name="battle hammer">
 		<attribute key="weight" value="6800"/>
@@ -3633,7 +3634,7 @@
 		<attribute key="attack" value="24"/>
 		<attribute key="weaponType" value="club"/>
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="2418" article="a" name="golden sickle">
 		<attribute key="weight" value="1950"/>
@@ -3650,7 +3651,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2420" article="a" name="machete">
 		<attribute key="weight" value="1650"/>
@@ -3659,7 +3660,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2421" article="a" name="thunder hammer">
 		<attribute key="description" value="It is blessed by the gods." />
@@ -3668,7 +3669,7 @@
 		<attribute key="attack" value="49"/>
 		<attribute key="weaponType" value="club"/>
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="2422" article="an" name="iron hammer">
 		<attribute key="weight" value="6600"/>
@@ -3676,7 +3677,7 @@
 		<attribute key="attack" value="18"/>
 		<attribute key="weaponType" value="club"/>
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="2423" article="a" name="clerical mace">
 		<attribute key="weight" value="5800"/>
@@ -3684,7 +3685,7 @@
 		<attribute key="attack" value="28"/>
 		<attribute key="weaponType" value="club"/>
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="2424" article="a" name="silver mace">
 		<attribute key="description" value="You feel an aura of protection."/>
@@ -3693,7 +3694,7 @@
 		<attribute key="attack" value="41"/>
 		<attribute key="weaponType" value="club"/>
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="2425" article="an" name="obsidian lance">
 		<attribute key="weight" value="8000"/>
@@ -3770,7 +3771,7 @@
 		<attribute key="hitchance" value="95"/>
 		<!-- <attribute key="decayTo" value="2401"/> -->
 		<!-- <attribute key="duration" value="60"/> -->
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="2434" article="a" name="dragon hammer">
 		<attribute key="weight" value="9700"/>
@@ -3778,7 +3779,7 @@
 		<attribute key="attack" value="32"/>
 		<attribute key="weaponType" value="club"/>
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="2435" article="a" name="dwarven axe">
 		<attribute key="weight" value="8200"/>
@@ -3795,7 +3796,7 @@
 		<attribute key="attack" value="36"/>
 		<attribute key="weaponType" value="club"/>
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="2437" article="a" name="golden mace">
 		<attribute key="weight" value="4100"/>
@@ -3803,7 +3804,7 @@
 		<attribute key="attack" value="14"/>
 		<attribute key="weaponType" value="club"/>
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="2438" article="an" name="epee">
 		<attribute key="weight" value="1450"/>
@@ -3812,7 +3813,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2439" article="a" name="daramanian mace">
 		<attribute key="weight" value="6800"/>
@@ -3820,7 +3821,7 @@
 		<attribute key="attack" value="21"/>
 		<attribute key="weaponType" value="club"/>
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="2440" article="a" name="daramanian waraxe">
 		<attribute key="weight" value="5250"/>
@@ -3845,7 +3846,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2443" article="a" name="ravager's axe">
 		<attribute key="weight" value="5250"/>
@@ -3862,7 +3863,7 @@
 		<attribute key="attack" value="48"/>
 		<attribute key="weaponType" value="club"/>
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="2445" article="a" name="crystal mace">
 		<attribute key="weight" value="8000"/>
@@ -3870,7 +3871,7 @@
 		<attribute key="attack" value="38"/>
 		<attribute key="weaponType" value="club"/>
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="2446" article="a" name="pharaoh sword">
 		<attribute key="weight" value="5200"/>
@@ -3879,7 +3880,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2447" article="a" name="twin axe">
 		<attribute key="weight" value="6400"/>
@@ -3896,7 +3897,7 @@
 		<attribute key="attack" value="9"/>
 		<attribute key="weaponType" value="club"/>
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="2449" article="a" name="bone club">
 		<attribute key="description" value="It apparently originally belonged to some lesser undead."/>
@@ -3905,7 +3906,7 @@
 		<attribute key="attack" value="12"/>
 		<attribute key="weaponType" value="club"/>
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="2450" article="a" name="bone sword">
 		<attribute key="weight" value="1900"/>
@@ -3914,7 +3915,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2451" article="a" name="djinn blade">
 		<attribute key="weight" value="2450"/>
@@ -3923,7 +3924,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="2452" article="a" name="heavy mace">
 		<attribute key="description" value="Its tip is made of extremely solid steel."/>
@@ -3932,7 +3933,7 @@
 		<attribute key="attack" value="49"/>
 		<attribute key="weaponType" value="club"/>
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="2453" article="an" name="arcane staff">
 		<attribute key="description" value="It is enchanted with ancient magic that renders a weak staff into a powerful weapon."/>
@@ -7826,7 +7827,7 @@
 		<attribute key="attack" value="40" />
 		<attribute key="weaponType" value="club" />
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="3962" article="a" name="beastslayer axe">
 		<attribute key="weight" value="6150" />
@@ -7845,7 +7846,7 @@
 		<attribute key="extradef" value="1" />
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="3964" article="a" name="ripper lance">
 		<attribute key="weight" value="8000" />
@@ -7870,7 +7871,7 @@
 		<attribute key="weaponType" value="club" />
 		<!-- <attribute key="extradef" value="2" /> -->
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="3967" article="a" name="tribal mask">
 		<attribute key="weight" value="2500" />
@@ -8827,7 +8828,7 @@
 		<attribute key="attack" value="43" />
 		<attribute key="weaponType" value="club" />
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="5028" article="a" name="hammer of prophecy">
 		<attribute key="weight" value="11000" />
@@ -8835,7 +8836,7 @@
 		<attribute key="attack" value="55" />
 		<attribute key="weaponType" value="club" />
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="5029" article="a" name="blessed sceptre">
 		<attribute key="weight" value="3900" />
@@ -8843,7 +8844,7 @@
 		<attribute key="attack" value="47" />
 		<attribute key="weaponType" value="club" />
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="5030" article="a" name="wand of perdition">
 		<attribute key="description" value="It unleashes the fiery wrath of the underworld." />
@@ -9777,7 +9778,7 @@
 		<attribute key="attack" value="31" />
 		<attribute key="weaponType" value="club" />
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="5211" article="a" name="diamond sceptre">
 		<attribute key="weight" value="1500" />
@@ -9786,7 +9787,7 @@
 		<attribute key="weaponType" value="club" />
 		<attribute key="hitchance" value="95"/>
 		<attribute key="description" value="The beautiful jewel on the top of this sceptre is sharp enough to cut through glass." />
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="5212" article="an" name="amber staff">
 		<attribute key="weight" value="3500" />
@@ -9794,7 +9795,7 @@
 		<attribute key="attack" value="43" />
 		<attribute key="weaponType" value="club" />
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="5213" article="a" name="sapphire hammer">
 		<attribute key="description" value="A beautiful gem is embedded in this weapon." />
@@ -9803,7 +9804,7 @@
 		<attribute key="attack" value="37" />
 		<attribute key="weaponType" value="club" />
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="5214" article="an" name="orcish maul">
 		<attribute key="weight" value="5400" />
@@ -9811,7 +9812,7 @@
 		<attribute key="attack" value="42" />
 		<attribute key="weaponType" value="club" />
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="5215" article="an" name="onyx flail">
 		<attribute key="weight" value="2600" />
@@ -9819,7 +9820,7 @@
 		<attribute key="attack" value="53" />
 		<attribute key="weaponType" value="club" />
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="5216" article="a" name="jade hammer">
 		<attribute key="weight" value="3200" />
@@ -9827,7 +9828,7 @@
 		<attribute key="attack" value="46" />
 		<attribute key="weaponType" value="club" />
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="5217" article="an" name="obsidian truncheon">
 		<attribute key="weight" value="6500" />
@@ -9835,7 +9836,7 @@
 		<attribute key="attack" value="50" />
 		<attribute key="weaponType" value="club" />
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="5218" article="a" name="skullcrusher">
 		<attribute key="weight" value="12000" />
@@ -9843,7 +9844,7 @@
 		<attribute key="attack" value="51" />
 		<attribute key="weaponType" value="club" />
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="5219" article="a" name="pair of iron fists">
 		<attribute key="weight" value="4500" />
@@ -9851,7 +9852,7 @@
 		<attribute key="defense" value="37" />
 		<attribute key="weaponType" value="club" />
 		<attribute key="hitchance" value="95"/>
-		<attribute key="skillShield" value="10" />
+		<attribute key="absorbPercentAll" value="6" />
 	</item>
 	<item id="5220" article="a" name="crimson sword">
 		<attribute key="weight" value="3600" />
@@ -9861,7 +9862,7 @@
 		<attribute key="extradef" value="1" />
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="5221" article="a" name="wyvern fang">
 		<attribute key="weight" value="2000" />
@@ -9871,7 +9872,7 @@
 		<attribute key="extradef" value="1" />
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="5222" article="a" name="crystal sword">
 		<attribute key="weight" value="6900" />
@@ -9880,7 +9881,7 @@
 		<attribute key="weaponType" value="sword" />
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="5223" article="a" name="thaian sword">
 		<attribute key="weight" value="6100" />
@@ -9889,7 +9890,7 @@
 		<attribute key="weaponType" value="sword" />
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="5224" article="a" name="haunted blade">
 		<attribute key="weight" value="3100" />
@@ -9898,7 +9899,7 @@
 		<attribute key="weaponType" value="sword" />
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="5225" article="a" name="relic sword">
 		<attribute key="weight" value="4800" />
@@ -9907,7 +9908,7 @@
 		<attribute key="weaponType" value="sword" />
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="5226" article="a" name="samurai sword">
 		<attribute key="weight" value="4900" />
@@ -9916,7 +9917,7 @@
 		<attribute key="weaponType" value="sword" />
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="5227" article="a" name="mystic blade">
 		<attribute key="weight" value="3500" />
@@ -9925,7 +9926,7 @@
 		<attribute key="weaponType" value="sword" />
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="5228" article="a" name="runed sword">
 		<attribute key="weight" value="4600" />
@@ -9934,7 +9935,7 @@
 		<attribute key="weaponType" value="sword" />
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="5229" name="the justice seeker">
 		<attribute key="weight" value="5000" />
@@ -9943,7 +9944,7 @@
 		<attribute key="weaponType" value="sword" />
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="5230" article="a" name="spectraflame blade">
 		<attribute key="weight" value="4500" />
@@ -9952,7 +9953,7 @@
 		<attribute key="weaponType" value="sword" />
 		<attribute key="hitchance" value="95"/>
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="5231" article="a" name="mycelium rod">
 		<attribute key="description" value="Plumes of toxic spores billow forth from beneath the cap." />
@@ -10266,7 +10267,7 @@
 		<attribute key="attack" value="12" />
 		<attribute key="weaponType" value="sword" />
 		<attribute key="skillShield" value="5" />
-		<attribute key="skillSword" value="5" />
+		<attribute key="absorbPercentAll" value="3" />
 	</item>
 	<item id="5298" article="a" name="hook">
 		<attribute key="description" value="It belonged once to a pirate." />
@@ -10773,7 +10774,7 @@
 		<attribute key="weight" value="200" />
 	</item>
 	<item id="5438" article="a" name="spell scroll">
-		<attribute key="description" value="It contains instructions to learn the 'boulder throw' spell." />
+		<attribute key="description" value="It contains instructions to learn the 'whirlwind throw' spell." />
 		<attribute key="weight" value="200" />
 	</item>
 	<item id="5439" article="a" name="spell scroll">
@@ -11598,6 +11599,40 @@
 		<attribute key="defense" value="12" />
 		<attribute key="weaponType" value="shield" />
 	</item>
+	<item id="5776" article="a" name="spell scroll">
+		<attribute key="description" value="It contains instructions to learn the 'brutal strike' spell." />
+		<attribute key="weight" value="200" />
+	</item>
+	<item id="5777" article="a" name="spell scroll">
+		<attribute key="description" value="It contains instructions to learn the 'eviscerate' spell." />
+		<attribute key="weight" value="200" />
+	</item>
+	<item id="5778" article="a" name="spell scroll">
+		<attribute key="description" value="It contains instructions to learn the 'bladestorm' spell." />
+		<attribute key="weight" value="200" />
+	</item>
+	<item id="5779" article="a" name="spell scroll">
+		<attribute key="description" value="It contains instructions to learn the 'great fire beam' spell." />
+		<attribute key="weight" value="200" />
+	</item>
+	<item id="5780" article="a" name="spell scroll">
+		<attribute key="description" value="It contains instructions to learn the 'strong water strike' spell." />
+		<attribute key="weight" value="200" />
+	</item>
+	<item id="5781" article="a" name="spell scroll">
+		<attribute key="description" value="It contains instructions to learn the 'strong flame strike' spell." />
+		<attribute key="weight" value="200" />
+	</item>
+	<item id="5782" article="a" name="spell scroll">
+		<attribute key="description" value="It contains instructions to learn the 'strong poison strike' spell." />
+		<attribute key="weight" value="200" />
+	</item>
+	<item id="5783" article="a" name="spell scroll">
+		<attribute key="description" value="It contains instructions to learn the 'strong energy strike' spell." />
+		<attribute key="weight" value="200" />
+	</item>
+	
+	
 	
 	<item id="20001" name="water" />
 	<item id="20002" name="blood" />

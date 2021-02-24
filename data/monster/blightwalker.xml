@@ -76,7 +76,7 @@
 			<item id="2173" chance="50"/><!-- amulet of loss -->
 			<item id="2436" chance="500"/><!-- skull staff -->
 			<item id="5312" chance="100"/><!--death ring-->
-			<item id="5433" chance="100"/><!--poison storm scroll-->
+			<item id="5782" chance="100"/><!--strong poison strike scroll-->
 		</item>
 	</loot>
 </monster>

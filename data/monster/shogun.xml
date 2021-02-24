@@ -70,7 +70,7 @@
 			<item name="runed sword" chance="1340" />
 			<item name="blue piece of cloth" chance="1190" />
 			<item name="red piece of cloth" chance="1150" />
-			<item id="5572" chance="1000"/><!-- divine explosion scroll -->
+			<item id="5778" chance="250"/><!-- bladestorm -->
 		</item>
 	</loot>
 </monster>

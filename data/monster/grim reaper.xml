@@ -88,6 +88,7 @@
 			<item id="5022" countmax="4" chance="1500"/><!-- orichalcum pearl-->
 			<item id="2214" chance="280"/><!-- ROH -->
 			<item id="5571" chance="1480"/><!-- drain bomb scroll -->
+			<item id="5778" chance="1500"/><!-- bladestorm scroll -->
 		</item>
 	</loot>
 </monster>

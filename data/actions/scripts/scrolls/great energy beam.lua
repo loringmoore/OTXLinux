@@ -1,4 +1,4 @@
-local spellName = "great energy beam"
+local spellName = "great fire beam"
 
 function onUse(player, item, fromPosition, target, toPosition, isHotkey)
     if player:hasLearnedSpell(spellName) then

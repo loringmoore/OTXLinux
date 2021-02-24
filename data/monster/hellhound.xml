@@ -89,9 +89,10 @@
 			<item id="2454" chance="400"/><!-- war axe -->
 			<item name="ruthless axe" chance="400" />
 			<item name="magma legs" chance="1270" />
-			<item id="5430" chance="1800"/><!-- fire wave scroll -->
+			<item id="5430" chance="2500"/><!-- fire wave scroll -->
 			<item id="5434" chance="1800"/><!-- poison wave scroll -->
 			<item name="piece of hell steel" chance="1500" />
+			<item id="5781" chance="2500"/><!-- strong fire strike scroll -->
 		</item>
 	</loot>
 </monster>

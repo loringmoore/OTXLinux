@@ -1,59 +1,32 @@
-local portalId, t = 1387,
-{
-    ["morgaroth"] = {
-        message = "Morgaroth has been defeated!",
-        config = {
-            createPos = {x = 1059, y = 437, z = 13},
-            toPos = {x = 1056, y = 435, z = 13},
-            portalTime = 1, --minutes
-            storage = 123
-        }
-    },
-}
- 
-local function removePortal(position)
-    local portal = Tile(position):getItemById(portalId)
-    if portal then
-        portal:remove()
+local teleportToPosition = Position(1056, 435, 14)
+local teleportCreatePosition = Position(1059, 437, 13)
+local bossName = "Morgaroth"
+local killMessage = "Morgaroth has been defeated! You have 60 seconds to enter the portal and claim your reward!"
+
+-- Function that will remove the teleport after a given time
+local function removeTeleport(position)
+    local teleportItem = Tile(position):getItemById(1387)
+    if teleportItem then
+        teleportItem:remove()
+        position:sendMagicEffect(CONST_ME_POFF)
     end
 end
- 
+
 function onKill(creature, target)
-    if not target:isMonster() or target:getMaster() then
+    if target:isPlayer() or target:getMaster()  or target:getName():lower() ~= bossName then
         return true
     end
-    
-    local player = Player(cid)
-    local k = t[target:getName():lower()]
-    if not k then
-        return true
-    end
-    
-    local pos, cPos = target:getPosition()
-    if type(k.config.createPos) == 'table' then
-        if next(k.config.createPos) == nil then
-            cPos = pos
-        else
-            cPos = k.config.createPos
-        end
-    end
- 
-    local item = Game.createItem(portalId, 1, cPos)
+
+    local position = target:getPosition()
+    position:sendMagicEffect(CONST_ME_TELEPORT)
+    local item = Game.createItem(1387, 1, teleportCreatePosition)
     if item:isTeleport() then
-        item:setDestination(k.config.toPos)
+        item:setDestination(teleportToPosition)
     end
- 
-    for i, damage in pairs(target:getDamageMap()) do
-        local p = Player(i)
-        if p then
-            if p.getStorageValue(k.config.storage) < 1 then
-                p:setStorageValue(k.config.storage, 1)
-            end
-        end
-    end
- 
-    local pt = k.config.portalTime
-    player:sendTextMessage(MESSAGE_INFO_DESCR, k.message .. " You have " .. pt .. " " .. (pt > 1 and "minutes" or "minute") .. " to claim your reward!")
-    addEvent(removePortal, k.config.portalTime * 60 * 1000, cPos)
+    target:say(killMessage, TALKTYPE_MONSTER_SAY, 0, 0, position)
+
+    -- Remove portal after 1 minute
+    addEvent(removeTeleport, 1 * 60 * 1000, position)
+
     return true
 end

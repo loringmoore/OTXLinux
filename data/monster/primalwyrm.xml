@@ -79,7 +79,8 @@
 			<item name="dark lord's cape" chance="90" />
 			<item name="wand of voodoo" chance="6650" />
 			<item name="ancient tiara" chance="810" />
-			<item id="5770" chance="100"/><!-- conjure infernal bolt scroll -->
+			<item id="5770" chance="200"/><!-- conjure infernal bolt scroll -->
+			<item id="5778" chance="750"/><!-- bladestorm -->
 		</item>
 	</loot>
 </monster>

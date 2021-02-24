@@ -25,7 +25,7 @@
 		<attack name="dark torturer skill reducer" interval="500" chance="7"/>
 	</attacks>
 	<defenses armor="25" defense="35">
-		<defense name="healing" interval="500" chance="20" min="75" max="125">
+		<defense name="healing" interval="500" chance="11" min="75" max="125">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
@@ -61,6 +61,7 @@
 			<item id="2645" chance="5000"/><!-- steel boots -->
 			<item id="2470" chance="100"/><!-- golden legs -->
 			<item id="5201" chance="850" />
+			<item id="5777" chance="750" /> <!--eviscerate scroll -->
 			<item name="glorious axe" chance="450" />
 		</item>
 	</loot>

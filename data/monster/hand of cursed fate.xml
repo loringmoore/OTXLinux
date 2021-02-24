@@ -77,6 +77,7 @@
 			<item id="2195" chance="300"/><!-- boots of haste -->
 			<item id="5445" chance="1800"/><!-- invisibility scroll -->
 			<item id="5449" chance="2500"/><!-- strong haste scroll -->
+			<item id="5776" chance="500"/><!-- brutal strike scroll -->
 		</item>
 	</loot>
 </monster>

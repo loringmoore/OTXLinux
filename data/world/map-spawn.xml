@@ -6469,22 +6469,9 @@
 		<monster name="troll" x="-2" y="2" z="8" spawntime="60" />
 		<monster name="troll" x="1" y="3" z="8" spawntime="60" />
 	</spawn>
-	<spawn centerx="957" centery="969" centerz="8" radius="22">
-		<monster name="Elf Apparition" x="6" y="-9" z="8" spawntime="60" />
-		<monster name="Elf Apparition" x="-8" y="-6" z="8" spawntime="60" />
-		<monster name="Elf Apparition" x="13" y="-1" z="8" spawntime="60" />
-		<monster name="Elf Apparition" x="-3" y="18" z="8" spawntime="60" />
-		<monster name="Elf Apparition" x="13" y="21" z="8" spawntime="60" />
-	</spawn>
 	<spawn centerx="256" centery="970" centerz="8" radius="5">
 		<monster name="troll" x="-1" y="-3" z="8" spawntime="60" />
 		<monster name="troll" x="1" y="-1" z="8" spawntime="60" />
-	</spawn>
-	<spawn centerx="999" centery="973" centerz="8" radius="22">
-		<monster name="Elf Apparition" x="4" y="-13" z="8" spawntime="60" />
-		<monster name="Undead Dragon" x="-18" y="-10" z="8" spawntime="60" />
-		<monster name="Elf Apparition" x="-4" y="-2" z="8" spawntime="60" />
-		<monster name="Elf Apparition" x="-9" y="9" z="8" spawntime="60" />
 	</spawn>
 	<spawn centerx="309" centery="979" centerz="8" radius="11">
 		<monster name="troll" x="4" y="-4" z="8" spawntime="60" />
@@ -6546,13 +6533,6 @@
 		<monster name="demon skeleton" x="0" y="0" z="8" spawntime="60" />
 		<monster name="demon skeleton" x="3" y="1" z="8" spawntime="60" />
 	</spawn>
-	<spawn centerx="955" centery="1006" centerz="8" radius="22">
-		<monster name="Undead Dragon" x="-1" y="-12" z="8" spawntime="60" />
-		<monster name="Elf Apparition" x="-11" y="-5" z="8" spawntime="60" />
-		<monster name="Elf Apparition" x="-3" y="7" z="8" spawntime="60" />
-		<monster name="Elf Apparition" x="14" y="7" z="8" spawntime="60" />
-		<monster name="Undead Dragon" x="6" y="14" z="8" spawntime="60" />
-	</spawn>
 	<spawn centerx="732" centery="1007" centerz="8" radius="9">
 		<monster name="skeleton" x="-3" y="-9" z="8" spawntime="60" />
 		<monster name="gazer" x="-5" y="-7" z="8" spawntime="60" />
@@ -6593,11 +6573,6 @@
 	</spawn>
 	<spawn centerx="626" centery="1016" centerz="8" radius="1">
 		<npc name="An Old Smith" x="0" y="0" z="8" spawntime="60" direction="2" />
-	</spawn>
-	<spawn centerx="997" centery="1017" centerz="8" radius="22">
-		<monster name="Undead Dragon" x="-2" y="-13" z="8" spawntime="60" />
-		<monster name="Elf Apparition" x="2" y="-13" z="8" spawntime="60" />
-		<monster name="Elf Apparition" x="-11" y="-3" z="8" spawntime="60" />
 	</spawn>
 	<spawn centerx="722" centery="1024" centerz="8" radius="9">
 		<monster name="gazer" x="2" y="-6" z="8" spawntime="60" />
@@ -8304,14 +8279,6 @@
 		<monster name="minotaur guard" x="-1" y="12" z="9" spawntime="60" />
 		<monster name="minotaur archer" x="1" y="12" z="9" spawntime="60" />
 	</spawn>
-	<spawn centerx="960" centery="962" centerz="9" radius="22">
-		<monster name="Elf Apparition" x="7" y="2" z="9" spawntime="60" />
-	</spawn>
-	<spawn centerx="998" centery="968" centerz="9" radius="22">
-		<monster name="Elf Apparition" x="4" y="-8" z="9" spawntime="60" />
-		<monster name="Undead Dragon" x="-6" y="3" z="9" spawntime="60" />
-		<monster name="Elf Apparition" x="-5" y="13" z="9" spawntime="60" />
-	</spawn>
 	<spawn centerx="857" centery="970" centerz="9" radius="8">
 		<monster name="Grim Reaper" x="-2" y="-1" z="9" spawntime="60" />
 		<monster name="Dark Torturer" x="2" y="-1" z="9" spawntime="60" />
@@ -8410,11 +8377,6 @@
 		<monster name="beholder" x="-4" y="2" z="9" spawntime="60" />
 		<monster name="gazer" x="1" y="2" z="9" spawntime="60" />
 	</spawn>
-	<spawn centerx="946" centery="1001" centerz="9" radius="22">
-		<monster name="Elf Apparition" x="8" y="-10" z="9" spawntime="60" />
-		<monster name="Undead Dragon" x="3" y="0" z="9" spawntime="60" />
-		<monster name="Elf Apparition" x="6" y="7" z="9" spawntime="60" />
-	</spawn>
 	<spawn centerx="910" centery="1002" centerz="9" radius="16">
 		<monster name="Dark Torturer" x="8" y="-8" z="9" spawntime="60" />
 		<monster name="Lost Soul" x="-11" y="-7" z="9" spawntime="60" />
@@ -8463,11 +8425,6 @@
 		<monster name="Dark Torturer" x="3" y="7" z="9" spawntime="60" />
 		<monster name="Hand of Cursed Fate" x="1" y="9" z="9" spawntime="60" />
 		<monster name="Grim Reaper" x="5" y="16" z="9" spawntime="60" />
-	</spawn>
-	<spawn centerx="988" centery="1008" centerz="9" radius="22">
-		<monster name="Elf Apparition" x="-15" y="-20" z="9" spawntime="60" />
-		<monster name="Elf Apparition" x="10" y="-4" z="9" spawntime="60" />
-		<monster name="Elf Apparition" x="-18" y="10" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="409" centery="1009" centerz="9" radius="16">
 		<monster name="rat" x="-14" y="-11" z="9" spawntime="60" />
@@ -9919,6 +9876,19 @@
 		<monster name="cave rat" x="2" y="14" z="10" spawntime="60" />
 		<monster name="cave rat" x="-2" y="15" z="10" spawntime="60" />
 	</spawn>
+	<spawn centerx="961" centery="976" centerz="10" radius="22">
+		<monster name="Elf Apparition" x="10" y="-10" z="10" spawntime="60" />
+		<monster name="Elf Apparition" x="-3" y="-4" z="10" spawntime="60" />
+		<monster name="Elf Apparition" x="11" y="0" z="10" spawntime="60" />
+		<monster name="Elf Apparition" x="2" y="16" z="10" spawntime="60" />
+		<monster name="Elf Apparition" x="18" y="21" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="1003" centery="980" centerz="10" radius="22">
+		<monster name="Elf Apparition" x="4" y="-13" z="10" spawntime="60" />
+		<monster name="Undead Dragon" x="-18" y="-10" z="10" spawntime="60" />
+		<monster name="Elf Apparition" x="-4" y="-2" z="10" spawntime="60" />
+		<monster name="Elf Apparition" x="-9" y="9" z="10" spawntime="60" />
+	</spawn>
 	<spawn centerx="716" centery="983" centerz="10" radius="16">
 		<monster name="beholder" x="-3" y="-13" z="10" spawntime="60" />
 		<monster name="beholder" x="6" y="-13" z="10" spawntime="60" />
@@ -9938,13 +9908,6 @@
 		<monster name="cave rat" x="2" y="8" z="10" spawntime="60" />
 		<monster name="cave rat" x="9" y="9" z="10" spawntime="60" />
 	</spawn>
-	<spawn centerx="966" centery="1002" centerz="10" radius="22">
-		<monster name="Elf Apparition" x="-18" y="-7" z="10" spawntime="60" />
-		<monster name="Elf Apparition" x="-14" y="-4" z="10" spawntime="60" />
-		<monster name="Elf Apparition" x="-17" y="2" z="10" spawntime="60" />
-		<monster name="Elf Apparition" x="-8" y="11" z="10" spawntime="60" />
-		<monster name="Elf Apparition" x="10" y="16" z="10" spawntime="60" />
-	</spawn>
 	<spawn centerx="401" centery="1005" centerz="10" radius="16">
 		<monster name="cave rat" x="-8" y="-14" z="10" spawntime="60" />
 		<monster name="cave rat" x="9" y="-14" z="10" spawntime="60" />
@@ -9958,6 +9921,13 @@
 		<monster name="cave rat" x="2" y="9" z="10" spawntime="60" />
 		<monster name="cave rat" x="1" y="14" z="10" spawntime="60" />
 	</spawn>
+	<spawn centerx="959" centery="1013" centerz="10" radius="22">
+		<monster name="Undead Dragon" x="-1" y="-12" z="10" spawntime="60" />
+		<monster name="Elf Apparition" x="-11" y="-5" z="10" spawntime="60" />
+		<monster name="Elf Apparition" x="-3" y="7" z="10" spawntime="60" />
+		<monster name="Elf Apparition" x="14" y="7" z="10" spawntime="60" />
+		<monster name="Undead Dragon" x="6" y="14" z="10" spawntime="60" />
+	</spawn>
 	<spawn centerx="771" centery="1022" centerz="10" radius="13">
 		<monster name="beholder" x="0" y="-8" z="10" spawntime="60" />
 		<monster name="crypt shambler" x="-3" y="-7" z="10" spawntime="60" />
@@ -9967,6 +9937,11 @@
 		<monster name="crypt shambler" x="-3" y="7" z="10" spawntime="60" />
 		<monster name="beholder" x="-8" y="10" z="10" spawntime="60" />
 		<monster name="elder beholder" x="-2" y="12" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="1001" centery="1024" centerz="10" radius="22">
+		<monster name="Undead Dragon" x="-5" y="-16" z="10" spawntime="60" />
+		<monster name="Elf Apparition" x="5" y="-15" z="10" spawntime="60" />
+		<monster name="Elf Apparition" x="-8" y="-8" z="10" spawntime="60" />
 	</spawn>
 	<spawn centerx="734" centery="1039" centerz="10" radius="13">
 		<monster name="beholder" x="-5" y="-4" z="10" spawntime="60" />

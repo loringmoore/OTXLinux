@@ -237,11 +237,39 @@
 		<vocation name="Human"/>
 		<vocation name="Legend"/>
 	</instant>
-	<instant group="attack" name="Boulder Throw" words="exori hur" lvl="15" mana="30" prem="1" range="5" needtarget="1" blockwalls="1" needweapon="1" exhaustion="2000" needlearn="1" script="attack/whirlwind throw.lua">
+	<instant group="attack" name="Whirlwind Throw" words="exori hur" lvl="15" mana="30" prem="1" range="5" needtarget="1" blockwalls="1" needweapon="1" exhaustion="2000" needlearn="1" script="attack/whirlwind throw.lua">
 		<vocation name="Human"/>
 		<vocation name="Legend"/>
 	</instant>
-	<instant group="attack" name="Bladestorm" words="exevo mas con" lvl="45" mana="200" prem="1" exhaustion="2000" selftarget="1" needlearn="1" script="attack/bladestorm.lua">
+	<instant group="attack" name="Bladestorm" words="exevo mas con" lvl="65" mana="190" prem="1" exhaustion="2000" selftarget="1" needlearn="1" script="attack/bladestorm.lua">
+		<vocation name="Human"/>
+		<vocation name="Legend"/>
+	</instant>
+	<instant group="attack" name="Eviscerate" words="exori con hur" lvl="75" mana="100" prem="1" exhaustion="2000" range="6" needtarget="1" blockwalls="1" needlearn="1" script="attack/eviscerate.lua">
+		<vocation name="Human"/>
+		<vocation name="Legend"/>
+	</instant>
+	<instant group="attack" name="Strong Water Strike" words="exori gran aqua" lvl="70" mana="90" prem="1" range="2" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="1" script="attack/strong water strike.lua">
+		<vocation name="Human"/>
+		<vocation name="Legend"/>
+	</instant>
+	<instant group="attack" name="Strong Poison Strike" words="exori gran pox" lvl="70" mana="90" prem="1" range="2" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="1" script="attack/strong pox strike.lua">
+		<vocation name="Human"/>
+		<vocation name="Legend"/>
+	</instant>
+	<instant group="attack" name="Strong Flame Strike" words="exori gran flam" lvl="70" mana="90" prem="1" range="2" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="1" script="attack/strong flame strike.lua">
+		<vocation name="Human"/>
+		<vocation name="Legend"/>
+	</instant>
+	<instant group="attack" name="Strong Energy Strike" words="exori gran vis" lvl="70" mana="90" prem="1" range="2" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="1" script="attack/strong energy strike.lua">
+		<vocation name="Human"/>
+		<vocation name="Legend"/>
+	</instant>
+	<instant group="attack" name="Brutal Strike" words="exori gran hur" lvl="95" mana="300" prem="1" range="1" needtarget="1" blockwalls="1" needweapon="1" exhaustion="2000" needlearn="1" script="attack/brutal strike.lua">
+		<vocation name="Human"/>
+		<vocation name="Legend"/>
+	</instant>
+	<instant group="attack" name="Great Fire Beam" words="exevo gran flam lux" lvl="29" mana="200" direction="1" exhaustion="2000" needlearn="1" script="attack/great fire beam.lua">
 		<vocation name="Human"/>
 		<vocation name="Legend"/>
 	</instant>

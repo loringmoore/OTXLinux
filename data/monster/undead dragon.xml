@@ -88,6 +88,7 @@
 			<item id="divine plate" chance="460"/><!-- golden armor -->
 			<item name="skull helmet" chance="1400" />
 			<item id="5236" chance="860"/><!-- dragon robe -->
+			<item id="5783" chance="750"/><!-- strong energy strike -->
 		</item>
 	</loot>
 </monster>

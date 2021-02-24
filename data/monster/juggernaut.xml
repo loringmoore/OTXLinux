@@ -71,6 +71,7 @@
 			<item name="glorious axe" chance="4000" />
 			<item name="silver mace" chance="7000" />
 			<item name="royal axe" chance="400" />
+			<item id="5776" chance="1250"/><!-- brutal strike scroll -->
 		</item>
 	</loot>
 </monster>

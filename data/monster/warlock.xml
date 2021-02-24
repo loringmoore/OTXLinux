@@ -87,6 +87,7 @@
 			<item id="2197" chance="1000"/><!-- stone skin amulet -->
 			<item id="2151" chance="2200"/><!-- talon -->
 			<item id="5159" chance="1200"/><!-- flame strike scroll -->
+			<item id="5783" chance="200"/><!-- strong energy strike scroll -->
 		</item>
 	</loot>
 </monster>
