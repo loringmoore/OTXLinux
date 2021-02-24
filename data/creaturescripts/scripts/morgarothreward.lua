@@ -42,7 +42,7 @@ function onKill(creature, target, player, cid)
         item:setDestination(k.config.toPos)
     end
  	
-	local killMessage = k.message .. " You have " .. pt .. " " .. (pt > 1 and "minutes" or "minute") .. " to enter the portal and claim your reward!"
+	local killMessage = k.message .. " You have 60 seconds to enter the portal and claim your reward!"
     target:say(killMessage, TALKTYPE_MONSTER_SAY, 0, 0, target:getPosition())
     local pt = k.config.portalTime
     addEvent(removePortal, k.config.portalTime * 60 * 1000, cPos)
