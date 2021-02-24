@@ -44,7 +44,6 @@ function onKill(creature, target, player, cid)
  	
 	local player = Player(cid)
     local pt = k.config.portalTime
-    player:sendTextMessage(MESSAGE_INFO_DESCR, k.message .. " You have " .. pt .. " " .. (pt > 1 and "minutes" or "minute") .. " to claim your reward!")
     addEvent(removePortal, k.config.portalTime * 60 * 1000, cPos)
     return true
 end
