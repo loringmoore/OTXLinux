@@ -1,9 +1,10 @@
-local destination = {x=948, y=970, z=9}    -- Change your destination here.
+local destination = {x=948, y=970, z=9}
 
-function onUse(cid, item, fromPosition, itemEx, toPosition)
+function onUse(player, item, target, toPosition, isHotkey)
+	if item:getActionId() ~= 2032 then
+		return false
+	end
 
-doTeleportThing(creature, destination, false)
-doSendMagicEffect(getPlayerPosition(creature), CONST_ME_TELEPORT)
-
-return true
+	player:teleportTo(destination)
+	return true
 end
