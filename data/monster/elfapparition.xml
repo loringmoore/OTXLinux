@@ -13,19 +13,19 @@
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
 		<flag canpushcreatures="0"/>
-		<flag targetdistance="4"/>
+		<flag targetdistance="1"/>
 		<flag staticattack="90"/>
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="38" attack="53"/>
+		<attack name="melee" interval="2000" skill="98" attack="83"/>
 		<attack name="energy" interval="500" chance="10" range="9" min="-150" max="-320">
 			<attribute key="shootEffect" value="crystalarrow"/>
 		</attack>
 		<attack name="holy" interval="500" chance="7" length="8" spread="3" min="-256" max="-422">
 			<attribute key="areaEffect" value="holyarea"/>
 		</attack>
-		<attack name="manadrain" interval="500" chance="15" range="7" radius="5" target="1" min="-145" max="-365">
+		<attack name="manadrain" interval="500" chance="11" range="7" radius="5" target="1" min="-145" max="-365">
 			<attribute key="shootEffect" value="energyball"/>
 			<attribute key="areaEffect" value="teleport"/>
 		</attack>
@@ -46,20 +46,20 @@
 		<item name="platinum coin" countmax="22" chance="25000"/>
 		<item name="horseman helmet" chance="2000"/><!-- leather helmet -->
 		<item name="dwarven legs" chance="2800"/><!-- leather legs -->
-		<item name="blue piece of cloth" countmax="2" chance="4000"/><!-- orange -->
-		<item name="white piece of cloth" countmax="2" chance="4000"/><!-- orange -->
+		<item name="blue piece of cloth" countmax="2" chance="9000"/><!-- orange -->
+		<item name="white piece of cloth" countmax="2" chance="9000"/><!-- orange -->
 		<item name="brown mushroom" countmax="2" chance="40000"/><!-- orange -->
 		<item name="white mushroom" countmax="2" chance="22000"/><!-- roll -->
 		<item id="1987" chance="100000"><!-- bag -->
 			<item name="amazon armor" chance="3000"/><!-- brass armor -->
 			<item name="lightning legs" chance="2000"/><!-- brass helmet -->
 			<item id="2546" countmax="3" chance="10000"/><!-- burst arrow -->
-			<item name="paladin armor" chance="100"/><!-- dragon necklace -->
+			<item name="paladin armor" chance="1500"/><!-- dragon necklace -->
 			<item id="2147" countmax="6" chance="2000"/><!-- small ruby -->
 			<item name="winged helmet" chance="400"/><!-- torch -->
-			<item name="sniper gloves" chance="1000" />
-			<item name="crystal arrow" chance="100"/><!-- conjure arrow scroll -->
-			<item id="5707" chance="100"/><!-- elvish bow -->
+			<item name="sniper gloves" chance="2000" />
+			<item name="crystal arrow" chance="1500"/><!-- conjure arrow scroll -->
+			<item id="5707" chance="1500"/><!-- elvish bow -->
 		</item>
 	</loot>
 </monster>

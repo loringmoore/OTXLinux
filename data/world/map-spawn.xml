@@ -560,9 +560,7 @@
 		<monster name="Ice Demon" x="-7" y="-1" z="3" spawntime="60" />
 	</spawn>
 	<spawn centerx="724" centery="479" centerz="3" radius="4">
-		<monster name="goblin" x="0" y="-2" z="3" spawntime="60" />
-		<monster name="goblin" x="-1" y="0" z="3" spawntime="60" />
-		<monster name="goblin" x="2" y="1" z="3" spawntime="60" />
+		<monster name="Gypsy" x="-1" y="-1" z="3" spawntime="60" />
 	</spawn>
 	<spawn centerx="609" centery="484" centerz="3" radius="13">
 		<monster name="warlock" x="-5" y="-2" z="3" spawntime="60" />
@@ -1059,8 +1057,7 @@
 		<monster name="Ice Witch" x="0" y="1" z="4" spawntime="60" />
 	</spawn>
 	<spawn centerx="723" centery="478" centerz="4" radius="4">
-		<monster name="goblin" x="1" y="1" z="4" spawntime="60" />
-		<monster name="goblin" x="-2" y="2" z="4" spawntime="60" />
+		<monster name="Gypsy" x="1" y="1" z="4" spawntime="60" />
 	</spawn>
 	<spawn centerx="605" centery="481" centerz="4" radius="9">
 		<monster name="Royal Guard" x="-3" y="-3" z="4" spawntime="60" />
@@ -1634,11 +1631,9 @@
 		<monster name="priestess" x="-1" y="9" z="5" spawntime="60" />
 	</spawn>
 	<spawn centerx="730" centery="490" centerz="5" radius="14">
-		<monster name="goblin" x="-8" y="-13" z="5" spawntime="60" />
-		<monster name="goblin" x="-7" y="-11" z="5" spawntime="60" />
-		<monster name="goblin" x="8" y="10" z="5" spawntime="60" />
-		<monster name="goblin" x="11" y="10" z="5" spawntime="60" />
-		<monster name="goblin" x="6" y="12" z="5" spawntime="60" />
+		<monster name="Gypsy" x="-7" y="-11" z="5" spawntime="60" />
+		<monster name="Gypsy" x="11" y="9" z="5" spawntime="60" />
+		<monster name="Gypsy" x="7" y="11" z="5" spawntime="60" />
 	</spawn>
 	<spawn centerx="663" centery="544" centerz="5" radius="12">
 		<monster name="warlock" x="7" y="-6" z="5" spawntime="60" />
@@ -2234,15 +2229,11 @@
 		<monster name="gargoyle" x="6" y="-3" z="6" spawntime="300" />
 	</spawn>
 	<spawn centerx="729" centery="490" centerz="6" radius="14">
-		<monster name="goblin" x="-5" y="-13" z="6" spawntime="60" />
-		<monster name="goblin" x="-8" y="-11" z="6" spawntime="60" />
-		<monster name="goblin" x="-6" y="-11" z="6" spawntime="60" />
-		<monster name="goblin" x="7" y="1" z="6" spawntime="60" />
-		<monster name="goblin" x="12" y="2" z="6" spawntime="60" />
-		<monster name="goblin" x="9" y="3" z="6" spawntime="60" />
-		<monster name="goblin" x="-7" y="7" z="6" spawntime="60" />
-		<monster name="goblin" x="-11" y="9" z="6" spawntime="60" />
-		<monster name="goblin" x="-8" y="9" z="6" spawntime="60" />
+		<monster name="Gypsy" x="-6" y="-11" z="6" spawntime="60" />
+		<monster name="Gypsy" x="10" y="1" z="6" spawntime="60" />
+		<monster name="Gypsy" x="-6" y="6" z="6" spawntime="60" />
+		<monster name="Gypsy" x="9" y="9" z="6" spawntime="60" />
+		<monster name="Gypsy" x="-10" y="11" z="6" spawntime="60" />
 	</spawn>
 	<spawn centerx="569" centery="502" centerz="6" radius="12">
 		<monster name="gargoyle" x="-2" y="-8" z="6" spawntime="300" />
@@ -3684,13 +3675,9 @@
 		<monster name="Crustacea Gigantica" x="-1" y="11" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="727" centery="489" centerz="7" radius="14">
-		<monster name="goblin" x="-3" y="-11" z="7" spawntime="60" />
-		<monster name="goblin" x="-4" y="-9" z="7" spawntime="60" />
-		<monster name="goblin" x="-1" y="-2" z="7" spawntime="60" />
-		<monster name="goblin" x="-5" y="-1" z="7" spawntime="60" />
-		<monster name="goblin" x="-1" y="1" z="7" spawntime="60" />
-		<monster name="goblin" x="10" y="5" z="7" spawntime="60" />
-		<monster name="goblin" x="-7" y="7" z="7" spawntime="60" />
+		<monster name="Gypsy" x="-4" y="-10" z="7" spawntime="60" />
+		<monster name="Gypsy" x="10" y="4" z="7" spawntime="60" />
+		<monster name="Gypsy" x="-7" y="7" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="1066" centery="500" centerz="7" radius="11">
 		<monster name="crab" x="3" y="6" z="7" spawntime="60" />
@@ -9878,8 +9865,10 @@
 	</spawn>
 	<spawn centerx="961" centery="976" centerz="10" radius="22">
 		<monster name="Elf Apparition" x="10" y="-10" z="10" spawntime="60" />
+		<monster name="Spectre" x="-7" y="-9" z="10" spawntime="60" />
 		<monster name="Elf Apparition" x="-3" y="-4" z="10" spawntime="60" />
 		<monster name="Elf Apparition" x="11" y="0" z="10" spawntime="60" />
+		<monster name="Phantasm" x="17" y="1" z="10" spawntime="60" />
 		<monster name="Elf Apparition" x="2" y="16" z="10" spawntime="60" />
 		<monster name="Elf Apparition" x="18" y="21" z="10" spawntime="60" />
 	</spawn>
@@ -9887,6 +9876,7 @@
 		<monster name="Elf Apparition" x="4" y="-13" z="10" spawntime="60" />
 		<monster name="Undead Dragon" x="-18" y="-10" z="10" spawntime="60" />
 		<monster name="Elf Apparition" x="-4" y="-2" z="10" spawntime="60" />
+		<monster name="Spectre" x="-13" y="-1" z="10" spawntime="60" />
 		<monster name="Elf Apparition" x="-9" y="9" z="10" spawntime="60" />
 	</spawn>
 	<spawn centerx="716" centery="983" centerz="10" radius="16">
@@ -9923,9 +9913,13 @@
 	</spawn>
 	<spawn centerx="959" centery="1013" centerz="10" radius="22">
 		<monster name="Undead Dragon" x="-1" y="-12" z="10" spawntime="60" />
+		<monster name="Phantasm" x="17" y="-11" z="10" spawntime="60" />
+		<monster name="Spectre" x="-16" y="-9" z="10" spawntime="60" />
 		<monster name="Elf Apparition" x="-11" y="-5" z="10" spawntime="60" />
+		<monster name="Spectre" x="1" y="-1" z="10" spawntime="60" />
 		<monster name="Elf Apparition" x="-3" y="7" z="10" spawntime="60" />
 		<monster name="Elf Apparition" x="14" y="7" z="10" spawntime="60" />
+		<monster name="Phantasm" x="18" y="10" z="10" spawntime="60" />
 		<monster name="Undead Dragon" x="6" y="14" z="10" spawntime="60" />
 	</spawn>
 	<spawn centerx="771" centery="1022" centerz="10" radius="13">
@@ -9942,6 +9936,8 @@
 		<monster name="Undead Dragon" x="-5" y="-16" z="10" spawntime="60" />
 		<monster name="Elf Apparition" x="5" y="-15" z="10" spawntime="60" />
 		<monster name="Elf Apparition" x="-8" y="-8" z="10" spawntime="60" />
+		<monster name="Spectre" x="5" y="-8" z="10" spawntime="60" />
+		<monster name="Phantasm" x="-16" y="-7" z="10" spawntime="60" />
 	</spawn>
 	<spawn centerx="734" centery="1039" centerz="10" radius="13">
 		<monster name="beholder" x="-5" y="-4" z="10" spawntime="60" />

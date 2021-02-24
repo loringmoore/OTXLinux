@@ -6,5 +6,7 @@ function onUse(player, item, target, toPosition, isHotkey)
 	end
 
 	player:teleportTo(destination)
+	position:sendMagicEffect(CONST_ME_TELEPORT)
+	player:getPosition():sendMagicEffect(CONST_ME_TELEPORT)
 	return true
 end
