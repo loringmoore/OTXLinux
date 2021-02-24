@@ -17,7 +17,7 @@ local function removePortal(position)
     end
 end
  
-function onKill(creature, target)
+function onKill(creature, target, player, cid)
     if not target:isMonster() or target:getMaster() then
         return true
     end
