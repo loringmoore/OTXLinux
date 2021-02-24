@@ -253,7 +253,7 @@
 		<vocation name="Human"/>
 		<vocation name="Legend"/>
 	</instant>
-	<instant group="attack" name="Strong Poison Strike" words="exori gran pox" lvl="70" mana="90" prem="1" range="2" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="1" script="attack/strong pox strike.lua">
+	<instant group="attack" name="Strong Poison Strike" words="exori gran pox" lvl="70" mana="90" prem="1" range="2" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="1" script="attack/strong poison strike.lua">
 		<vocation name="Human"/>
 		<vocation name="Legend"/>
 	</instant>
