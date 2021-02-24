@@ -23,7 +23,6 @@ function onKill(creature, target, player, cid)
     end
     
     local player = Player(cid)
-	player:sendTextMessage(MESSAGE_INFO_DESCR, k.message .. " You have " .. pt .. " " .. (pt > 1 and "minutes" or "minute") .. " to enter the portal and collect your reward!")
     local k = t[target:getName():lower()]
     if not k then
         return true
