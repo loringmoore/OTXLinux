@@ -1,6 +1,6 @@
 local combat = Combat()
 combat:setParameter(COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
-combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_FIREWORKS_RED)
+combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_FIREWORK_RED)
 combat:setParameter(COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_THROWINGKNIFE)
 combat:setParameter(COMBAT_PARAM_BLOCKARMOR, true)
 combat:setArea(createCombatArea(AREA_CROSS1X1))
