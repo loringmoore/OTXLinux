@@ -6,6 +6,6 @@ rt<?xml version="1.0" encoding="UTF-8"?>
 		<parameter key="message_greet" value="Be greeted, |PLAYERNAME|. Look no further for arrows sharper than the north wind."/>
 		<parameter key="module_shop" value="1"/>
 		<parameter key="shop_sellable" value="crossbow,2455,150;bow,2456,130"/>
-		<parameter key="shop_buyable" value="crossbow,2455,360;bow,2456,200;spear,2389,5;poison arrow,2545,18;bolt,2543,3;arrow,2544,2;small stone,1294,2;throwing knife,2410,30;throwing star,2399,40;power bolt,2457,7"/>
+		<parameter key="shop_buyable" value="power bolt,2457,7;crossbow,2455,360;bow,2456,200;spear,2389,5;poison arrow,2545,18;bolt,2543,3;arrow,2544,2;small stone,1294,2;throwing knife,2410,30;throwing star,2399,40;"/>
 	</parameters>
 </npc>

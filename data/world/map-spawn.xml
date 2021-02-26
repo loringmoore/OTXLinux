@@ -484,6 +484,12 @@
 		<monster name="Pirate Cutthroat" x="-2" y="6" z="2" spawntime="60" />
 		<monster name="Pirate Marauder" x="3" y="7" z="2" spawntime="60" />
 	</spawn>
+	<spawn centerx="778" centery="1195" centerz="2" radius="5">
+		<monster name="Pirate Swashbuckler" x="-2" y="-3" z="2" spawntime="60" />
+		<monster name="Pirate Swashbuckler" x="4" y="-2" z="2" spawntime="60" />
+		<monster name="Gypsy" x="1" y="-1" z="2" spawntime="60" />
+		<monster name="Gypsy" x="0" y="4" z="2" spawntime="60" />
+	</spawn>
 	<spawn centerx="792" centery="1195" centerz="2" radius="8">
 		<monster name="Pirate Buccaneer" x="4" y="-2" z="2" spawntime="60" />
 		<monster name="Pirate Marauder" x="0" y="-1" z="2" spawntime="60" />
@@ -1019,6 +1025,9 @@
 	</spawn>
 	<spawn centerx="1009" centery="1224" centerz="3" radius="1">
 		<npc name="Lieutenant Donovan" x="0" y="-1" z="3" spawntime="60" direction="2" />
+	</spawn>
+	<spawn centerx="1022" centery="1233" centerz="3" radius="1">
+		<npc name="Victoria" x="0" y="0" z="3" spawntime="60" direction="2" />
 	</spawn>
 	<spawn centerx="1001" centery="1351" centerz="3" radius="6">
 		<monster name="wild warrior" x="0" y="-1" z="3" spawntime="60" />
@@ -1804,12 +1813,12 @@
 		<monster name="fire devil" x="5" y="-7" z="5" spawntime="60" />
 		<monster name="fire devil" x="-5" y="-2" z="5" spawntime="60" />
 	</spawn>
-	<spawn centerx="922" centery="849" centerz="5" radius="11">
-		<monster name="cyclops" x="2" y="-8" z="5" spawntime="60" />
-		<monster name="cyclops" x="-3" y="-2" z="5" spawntime="60" />
-		<monster name="cyclops" x="-5" y="3" z="5" spawntime="60" />
-		<monster name="cyclops" x="2" y="6" z="5" spawntime="60" />
-		<monster name="cyclops" x="-4" y="9" z="5" spawntime="60" />
+	<spawn centerx="923" centery="848" centerz="5" radius="11">
+		<monster name="cyclops" x="4" y="-10" z="5" spawntime="60" />
+		<monster name="cyclops" x="-2" y="-9" z="5" spawntime="60" />
+		<monster name="cyclops" x="-6" y="4" z="5" spawntime="60" />
+		<monster name="cyclops" x="1" y="7" z="5" spawntime="60" />
+		<monster name="cyclops" x="-5" y="10" z="5" spawntime="60" />
 	</spawn>
 	<spawn centerx="1000" centery="864" centerz="5" radius="5">
 		<monster name="orc leader" x="-1" y="0" z="5" spawntime="60" />
@@ -10803,6 +10812,7 @@
 		<monster name="Hellspawn" x="-5" y="-6" z="11" spawntime="60" />
 		<monster name="Hellspawn" x="-2" y="-4" z="11" spawntime="60" />
 		<monster name="Hellspawn" x="-5" y="-3" z="11" spawntime="60" />
+		<monster name="Hellspawn" x="8" y="4" z="11" spawntime="60" />
 	</spawn>
 	<spawn centerx="836" centery="1156" centerz="11" radius="10">
 		<monster name="Hellspawn" x="3" y="-7" z="11" spawntime="60" />
@@ -10823,12 +10833,16 @@
 		<monster name="Hellspawn" x="-6" y="-1" z="11" spawntime="60" />
 		<monster name="Hellspawn" x="-9" y="0" z="11" spawntime="60" />
 		<monster name="Hellspawn" x="-8" y="3" z="11" spawntime="60" />
+		<monster name="Hellspawn" x="10" y="6" z="11" spawntime="60" />
 	</spawn>
-	<spawn centerx="806" centery="1174" centerz="11" radius="6" />
+	<spawn centerx="806" centery="1174" centerz="11" radius="6">
+		<monster name="Hellspawn" x="2" y="-3" z="11" spawntime="60" />
+	</spawn>
 	<spawn centerx="844" centery="1180" centerz="11" radius="10">
 		<monster name="Hellspawn" x="2" y="-10" z="11" spawntime="60" />
 		<monster name="Hellspawn" x="0" y="-8" z="11" spawntime="60" />
 		<monster name="Hellspawn" x="4" y="-7" z="11" spawntime="60" />
+		<monster name="Hellspawn" x="-3" y="4" z="11" spawntime="60" />
 	</spawn>
 	<spawn centerx="796" centery="1190" centerz="11" radius="10">
 		<monster name="Hellspawn" x="0" y="4" z="11" spawntime="60" />
@@ -10881,11 +10895,13 @@
 		<monster name="Hellspawn" x="7" y="5" z="11" spawntime="60" />
 	</spawn>
 	<spawn centerx="763" centery="1238" centerz="11" radius="10">
+		<monster name="Hellspawn" x="10" y="-9" z="11" spawntime="60" />
 		<monster name="Hellspawn" x="-8" y="-2" z="11" spawntime="60" />
 		<monster name="Hellspawn" x="-5" y="0" z="11" spawntime="60" />
 		<monster name="Hellspawn" x="2" y="7" z="11" spawntime="60" />
 	</spawn>
 	<spawn centerx="790" centery="1238" centerz="11" radius="10">
+		<monster name="Hellspawn" x="1" y="-3" z="11" spawntime="60" />
 		<monster name="Hellspawn" x="10" y="7" z="11" spawntime="60" />
 		<monster name="Hellspawn" x="-3" y="8" z="11" spawntime="60" />
 		<monster name="Hellspawn" x="-1" y="10" z="11" spawntime="60" />
@@ -10895,6 +10911,7 @@
 		<monster name="Hellspawn" x="0" y="5" z="11" spawntime="60" />
 	</spawn>
 	<spawn centerx="810" centery="1248" centerz="11" radius="10">
+		<monster name="Hellspawn" x="2" y="-10" z="11" spawntime="60" />
 		<monster name="Hellspawn" x="5" y="7" z="11" spawntime="60" />
 		<monster name="Hellspawn" x="3" y="9" z="11" spawntime="60" />
 	</spawn>

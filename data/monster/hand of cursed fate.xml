@@ -74,6 +74,7 @@
 			<item id="2487" chance="750"/><!-- crown armor -->
 			<item id="2153" chance="700"/><!-- violet gem -->
 			<item name="yellow gem" chance="5940" />
+			<item name="arcane staff" chance="250" />
 			<item id="2195" chance="300"/><!-- boots of haste -->
 			<item id="5445" chance="1800"/><!-- invisibility scroll -->
 			<item id="5449" chance="2500"/><!-- strong haste scroll -->

@@ -67,6 +67,7 @@
 			<item name="the robe of the ice queen" chance="90" />
 			<item name="glacial rod" chance="930" />
 			<item name="ice cube" chance="10200" />
+			<item name="giant shrimp" chance="200" />
 			<item id="5436" chance="1600"/><!-- water strike scroll -->
 			<item id="5437" chance="800"/><!-- water wave scroll -->
 		</item>

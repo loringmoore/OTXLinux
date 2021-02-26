@@ -11,7 +11,7 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		Game.createMonster("wolf", player:getPosition())
 		item:remove(1)
 	else
-		item:getPosition():sendMagicEffect(CONST_ME_SOUND_YELLOW	
+		item:getPosition():sendMagicEffect(CONST_ME_SOUND_YELLOW)	
 	return true
 	end
 end

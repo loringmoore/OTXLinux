@@ -29,12 +29,12 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element energyPercent="100"/>
 		<element firePercent="45"/>
 		<element physicalPercent="20"/>
 		<element poisonPercent="20"/>
 	</elements>
 	<immunities>
+		<immunity energy="1"/>
 		<immunity paralyze="1"/>
 		<immunity invisible="1"/>
 	</immunities>

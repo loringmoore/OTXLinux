@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Thul" nameDescription="Thul" race="blood" experience="27000" speed="520" manacost="0">
-	<health now="2950" max="2950" />
+	<health now="3950" max="3950" />
 	<look type="12" corpse="5169" />
 	<targetchange interval="5000" chance="8" />
 	<flags>
@@ -17,7 +17,7 @@
 		<flag runonhealth="40" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-285" />
+		<attack name="melee" interval="2000" min="0" max="-385" />
 		<attack name="drown" interval="500" chance="7" radius="4" target="0" min="-108" max="-137">
 			<attribute key="areaEffect" value="icearea" />
 		</attack>
@@ -29,7 +29,7 @@
 		</attack>
 	</attacks>
 	<defenses armor="25" defense="25">
-		<defense name="healing" interval="2000" chance="10" min="25" max="75">
+		<defense name="healing" interval="500" chance="10" min="25" max="75">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 	</defenses>

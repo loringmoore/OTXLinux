@@ -57,16 +57,17 @@ local function creatureSayCallback(cid, type, msg)
 			player:setStorageValue(6071, 1)
 			npcHandler.topic[cid] = 0
 		elseif npcHandler.topic[cid] == 4 then
-			if player:getItemCount(5255) >= 100 then
+			if player:getItemCount(5254) >= 50 and player:getItemCount(5286) >=50 then
 				npcHandler:say("Very good, |PLAYERNAME|. Not just anyone can kill a dragon! You are already showing signs of a warrior's spirit.", cid)
-				player:removeItem(5255, 100)
+				player:removeItem(5254, 50)
+				player:removeItem(5286, 50)
 				player:setStorageValue(6071, 2)
 				npcHandler.topic[cid] = 0
 			else
 				npcHandler:say("Get back out there and find the necessary items to complete your task.", cid)
 			end
 		elseif npcHandler.topic[cid] == 5 then
-			if player:removeItem(5271, 100) and player:removeItem(5257, 10) then
+			if player:removeItem(5256, 10) then
 				npcHandler:say("Wonderfully done, |PLAYERNAME|. Warrior's sweat is a rare and magical substance.", cid)
 				player:setStorageValue(6071, 3)
 				npcHandler.topic[cid] = 0
@@ -74,7 +75,7 @@ local function creatureSayCallback(cid, type, msg)
 				npcHandler:say("Get back out there and find the necessary items to complete your task.", cid)
 			end
 		elseif npcHandler.topic[cid] == 6 then
-			if player:removeItem(5271, 100) and player:removeItem(5257, 10) then
+			if player:removeItem(5252, 30) and player:removeItem(5259, 1) then
 				npcHandler:say("These ores will be enough to craft a fine, strong blade.", cid)
 				player:setStorageValue(6071, 3)
 				npcHandler.topic[cid] = 0
@@ -82,7 +83,7 @@ local function creatureSayCallback(cid, type, msg)
 				npcHandler:say("Get back out there and find the necessary items to complete your task.", cid)
 			end
 		elseif npcHandler.topic[cid] == 7 then
-			if player:removeItem(5262, 3) then
+			if player:removeItem(5305, 1) then
 				npcHandler:say("Truly incredible, |PLAYERNAME|! You are a true warrior in my eyes.", cid)
 				player:setStorageValue(6071, 4)
 				player:getPosition():sendMagicEffect(CONST_ME_MAGIC_BLUE)
