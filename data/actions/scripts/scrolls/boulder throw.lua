@@ -1,4 +1,4 @@
-local spellName = "boulder throw"
+local spellName = "whirlwind throw"
 
 function onUse(player, item, fromPosition, target, toPosition, isHotkey)
     if player:hasLearnedSpell(spellName) then
