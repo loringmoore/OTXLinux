@@ -65,7 +65,7 @@
 			<item name="bright sword" chance="1200"/><!-- combat knife -->
 			<item name="wand of divinity" chance="1000"/>
 			<item name="minotaur leather" countmax="3" chance="1000" />
-			<item id="5762" chance="2500"/><!-- holy strike scoll -->
+			<item id="5568" chance="2500"/><!-- holy strike scoll -->
 			<item id="5572" chance="1000"/><!-- divine explosion scoll -->
 			<item id="5783" chance="500"/><!-- strong energy strike scroll -->
 		</item>

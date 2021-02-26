@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Titan" nameDescription="a titan" race="blood" experience="9500" speed="210">
+<monster name="Titan" nameDescription="a titan" race="blood" experience="15500" speed="210">
 	<health now="16000" max="16000"/>
 	<look type="246" corpse="5714"/>
 	<targetchange interval="4000" chance="10"/>

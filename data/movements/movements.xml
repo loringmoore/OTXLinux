@@ -471,6 +471,8 @@
 	<movevent event="DeEquip" itemid="5236" slot="armor" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="5237" slot="armor" function="onEquipItem" /> <!-- dark lord-->
 	<movevent event="DeEquip" itemid="5237" slot="armor" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5706" slot="armor" function="onEquipItem" /> <!-- dark lord-->
+	<movevent event="DeEquip" itemid="5706" slot="armor" function="onDeEquipItem" />
 	
 	<!-- Legs -->
 	<!-- melee -->

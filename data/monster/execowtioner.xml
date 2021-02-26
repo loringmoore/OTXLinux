@@ -61,7 +61,7 @@
 			<item name="samurai legs" chance="2000"/>
 			<item name="butcher's axe" chance="800" />						
 			<item id="2487" chance="1900" /><!-- crown armor -->
-			<item id="5777" chance="2500"/><!-- eviscerate scroll -->
+			<item id="5777" chance="2000"/><!-- eviscerate scroll -->
 		</item>
 	</loot>
 </monster>
