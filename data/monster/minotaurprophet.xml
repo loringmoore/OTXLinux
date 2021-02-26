@@ -60,7 +60,7 @@
 		<item id="2050" countmax="2" chance="60000"/><!-- torch -->
 		<item id="1987" chance="100000"><!-- bag -->
 			<item name="ancient tiara" chance="1000"/>
-			<item name="brocade robes" chance="800"/>
+			<item name="dark lord's cape" chance="800"/>
 			<item name="brocade leg piece" chance="400"/>
 			<item name="bright sword" chance="1200"/><!-- combat knife -->
 			<item name="wand of divinity" chance="1000"/>
