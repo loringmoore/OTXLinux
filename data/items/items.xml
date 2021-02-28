@@ -10774,7 +10774,7 @@
 		<attribute key="weight" value="200" />
 	</item>
 	<item id="5438" article="a" name="spell scroll">
-		<attribute key="description" value="It contains instructions to learn the 'b throw' spell." />
+		<attribute key="description" value="It contains instructions to learn the 'whirlwind throw' spell." />
 		<attribute key="weight" value="200" />
 	</item>
 	<item id="5439" article="a" name="spell scroll">
