@@ -71,7 +71,7 @@
 		<skill id="6" multiplier="1.1" />
 	</vocation>
 	<vocation id="7" clientid="2" name="Legend" description="a legend" gaincap="25" gainhp="10" gainmana="10" gainhpticks="2" gainhpamount="15" gainmanaticks="2" gainmanaamount="15" manamultiplier="1.2" attackspeed="2000" basespeed="220" soulmax="200" gainsoulticks="15" fromvoc="3">
-		<formula meleeDamage="2.5" distDamage="1.0" defense="1.0" armor="1.0" />
+		<formula meleeDamage="2.1" distDamage="1.2" defense="1.4" armor="1.4" />
 		<skill id="0" multiplier="1.1" />
 		<skill id="1" multiplier="1.1" />
 		<skill id="2" multiplier="1.1" />
