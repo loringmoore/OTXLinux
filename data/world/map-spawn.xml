@@ -5360,6 +5360,14 @@
 		<monster name="Samurai" x="16" y="14" z="8" spawntime="60" />
 	</spawn>
 	<spawn centerx="589" centery="401" centerz="8" radius="3" />
+	<spawn centerx="702" centery="401" centerz="8" radius="30">
+		<monster name="Titan" x="0" y="-20" z="8" spawntime="67" />
+		<monster name="Titan" x="20" y="-18" z="8" spawntime="67" />
+		<monster name="Titan" x="17" y="-13" z="8" spawntime="67" />
+		<monster name="Titan" x="-4" y="-10" z="8" spawntime="67" />
+		<monster name="Titan" x="-1" y="7" z="8" spawntime="67" />
+		<monster name="Titan" x="16" y="8" z="8" spawntime="67" />
+	</spawn>
 	<spawn centerx="1025" centery="406" centerz="8" radius="1">
 		<monster name="rotworm" x="-1" y="0" z="8" spawntime="60" />
 		<monster name="rotworm" x="1" y="1" z="8" spawntime="60" />
@@ -5375,6 +5383,7 @@
 		<monster name="fire devil" x="-2" y="-1" z="8" spawntime="60" />
 		<monster name="fire devil" x="2" y="4" z="8" spawntime="60" />
 	</spawn>
+	<spawn centerx="724" centery="452" centerz="8" radius="30" />
 	<spawn centerx="559" centery="524" centerz="8" radius="18">
 		<monster name="scarab" x="8" y="-14" z="8" spawntime="60" />
 		<monster name="larva" x="11" y="-14" z="8" spawntime="60" />
@@ -7577,6 +7586,13 @@
 		<monster name="Samurai" x="10" y="14" z="9" spawntime="60" />
 		<monster name="Samurai" x="-21" y="15" z="9" spawntime="60" />
 	</spawn>
+	<spawn centerx="744" centery="354" centerz="9" radius="20">
+		<monster name="Titan" x="-11" y="2" z="9" spawntime="67" />
+		<monster name="Titan" x="1" y="4" z="9" spawntime="67" />
+		<monster name="Titan" x="17" y="12" z="9" spawntime="67" />
+		<monster name="Titan" x="0" y="17" z="9" spawntime="67" />
+		<monster name="Titan" x="-9" y="18" z="9" spawntime="67" />
+	</spawn>
 	<spawn centerx="560" centery="355" centerz="9" radius="21">
 		<monster name="Shogun" x="-16" y="-10" z="9" spawntime="60" />
 		<monster name="Samurai" x="6" y="-10" z="9" spawntime="60" />
@@ -7593,16 +7609,48 @@
 		<monster name="Samurai" x="4" y="15" z="9" spawntime="60" />
 		<monster name="Shogun" x="-3" y="20" z="9" spawntime="60" />
 	</spawn>
+	<spawn centerx="777" centery="381" centerz="9" radius="30">
+		<monster name="Titan" x="-6" y="-5" z="9" spawntime="67" />
+		<monster name="Titan" x="10" y="-2" z="9" spawntime="67" />
+		<monster name="Titan" x="24" y="1" z="9" spawntime="67" />
+		<monster name="Titan" x="-23" y="15" z="9" spawntime="67" />
+		<monster name="Titan" x="4" y="16" z="9" spawntime="67" />
+		<monster name="Titan" x="27" y="17" z="9" spawntime="67" />
+	</spawn>
 	<spawn centerx="618" centery="385" centerz="9" radius="21">
 		<monster name="Samurai" x="6" y="-10" z="9" spawntime="60" />
 		<monster name="Shogun" x="13" y="-8" z="9" spawntime="60" />
 		<monster name="Samurai" x="3" y="-6" z="9" spawntime="60" />
 		<monster name="Samurai" x="9" y="-5" z="9" spawntime="60" />
 	</spawn>
+	<spawn centerx="743" centery="387" centerz="9" radius="20">
+		<monster name="Titan" x="-3" y="-4" z="9" spawntime="67" />
+		<monster name="Titan" x="2" y="12" z="9" spawntime="67" />
+		<monster name="Titan" x="-20" y="15" z="9" spawntime="67" />
+		<monster name="Titan" x="-9" y="20" z="9" spawntime="67" />
+	</spawn>
+	<spawn centerx="703" centery="388" centerz="9" radius="30">
+		<monster name="Titan" x="7" y="-19" z="9" spawntime="67" />
+		<monster name="Titan" x="-16" y="-18" z="9" spawntime="67" />
+		<monster name="Titan" x="-5" y="-5" z="9" spawntime="67" />
+		<monster name="Titan" x="13" y="-4" z="9" spawntime="67" />
+		<monster name="Titan" x="-23" y="-2" z="9" spawntime="67" />
+		<monster name="Titan" x="-20" y="10" z="9" spawntime="67" />
+		<monster name="Titan" x="-8" y="14" z="9" spawntime="67" />
+		<monster name="Titan" x="8" y="20" z="9" spawntime="67" />
+		<monster name="Titan" x="-24" y="27" z="9" spawntime="67" />
+		<monster name="Titan" x="-7" y="28" z="9" spawntime="67" />
+		<monster name="Titan" x="20" y="28" z="9" spawntime="67" />
+	</spawn>
 	<spawn centerx="574" centery="390" centerz="9" radius="21">
 		<monster name="Samurai" x="-17" y="-12" z="9" spawntime="60" />
 		<monster name="Samurai" x="-13" y="-11" z="9" spawntime="60" />
 		<monster name="Shogun" x="-15" y="-9" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="815" centery="398" centerz="9" radius="20">
+		<monster name="Titan" x="-6" y="8" z="9" spawntime="67" />
+		<monster name="Titan" x="-17" y="20" z="9" spawntime="67" />
+		<monster name="Titan" x="-2" y="20" z="9" spawntime="67" />
 	</spawn>
 	<spawn centerx="1034" centery="407" centerz="9" radius="1">
 		<monster name="rotworm" x="1" y="-1" z="9" spawntime="60" />
@@ -7637,6 +7685,21 @@
 		<monster name="Revenant" x="2" y="1" z="9" spawntime="60" />
 		<monster name="vampire" x="5" y="7" z="9" spawntime="60" />
 	</spawn>
+	<spawn centerx="783" centery="439" centerz="9" radius="30">
+		<monster name="Titan" x="-15" y="-22" z="9" spawntime="67" />
+		<monster name="Titan" x="-27" y="-20" z="9" spawntime="67" />
+		<monster name="Titan" x="5" y="-16" z="9" spawntime="67" />
+		<monster name="Titan" x="26" y="-12" z="9" spawntime="67" />
+		<monster name="Titan" x="-14" y="-11" z="9" spawntime="67" />
+		<monster name="Titan" x="-25" y="0" z="9" spawntime="67" />
+		<monster name="Titan" x="-11" y="0" z="9" spawntime="67" />
+		<monster name="Titan" x="27" y="0" z="9" spawntime="67" />
+		<monster name="Titan" x="7" y="5" z="9" spawntime="67" />
+		<monster name="Titan" x="-28" y="11" z="9" spawntime="67" />
+		<monster name="Titan" x="-19" y="11" z="9" spawntime="67" />
+		<monster name="Titan" x="-11" y="11" z="9" spawntime="67" />
+		<monster name="Titan" x="27" y="12" z="9" spawntime="67" />
+	</spawn>
 	<spawn centerx="1106" centery="439" centerz="9" radius="11">
 		<monster name="necromancer" x="0" y="-5" z="9" spawntime="60" />
 		<monster name="warlock" x="3" y="-5" z="9" spawntime="60" />
@@ -7653,13 +7716,20 @@
 		<monster name="necromancer" x="-6" y="8" z="9" spawntime="60" />
 		<monster name="warlock" x="-9" y="10" z="9" spawntime="60" />
 	</spawn>
+	<spawn centerx="834" centery="441" centerz="9" radius="20">
+		<monster name="Titan" x="-18" y="-12" z="9" spawntime="67" />
+		<monster name="Titan" x="-18" y="-1" z="9" spawntime="67" />
+		<monster name="vampire" x="18" y="0" z="9" spawntime="60" />
+		<monster name="vampire" x="16" y="2" z="9" spawntime="60" />
+		<monster name="vampire" x="13" y="6" z="9" spawntime="60" />
+		<monster name="vampire" x="14" y="9" z="9" spawntime="60" />
+		<monster name="vampire" x="18" y="16" z="9" spawntime="60" />
+		<monster name="Revenant" x="20" y="17" z="9" spawntime="60" />
+		<monster name="vampire" x="19" y="18" z="9" spawntime="60" />
+	</spawn>
 	<spawn centerx="851" centery="444" centerz="9" radius="9">
 		<monster name="Revenant" x="4" y="-6" z="9" spawntime="60" />
 		<monster name="vampire" x="6" y="-5" z="9" spawntime="60" />
-		<monster name="vampire" x="1" y="-3" z="9" spawntime="60" />
-		<monster name="vampire" x="-1" y="-1" z="9" spawntime="60" />
-		<monster name="vampire" x="-4" y="3" z="9" spawntime="60" />
-		<monster name="vampire" x="-3" y="6" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="1085" centery="447" centerz="9" radius="11">
 		<monster name="necromancer" x="-6" y="-3" z="9" spawntime="60" />
@@ -7667,6 +7737,16 @@
 		<monster name="warlock" x="6" y="-2" z="9" spawntime="60" />
 		<monster name="warlock" x="-5" y="-1" z="9" spawntime="60" />
 		<monster name="priestess" x="-7" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="722" centery="452" centerz="9" radius="30">
+		<monster name="Titan" x="19" y="-25" z="9" spawntime="67" />
+		<monster name="Titan" x="-10" y="-24" z="9" spawntime="67" />
+		<monster name="Titan" x="11" y="-19" z="9" spawntime="67" />
+		<monster name="Titan" x="-2" y="-13" z="9" spawntime="67" />
+		<monster name="Titan" x="-9" y="-1" z="9" spawntime="67" />
+		<monster name="Titan" x="7" y="-1" z="9" spawntime="67" />
+		<monster name="Titan" x="-29" y="17" z="9" spawntime="67" />
+		<monster name="Titan" x="-28" y="28" z="9" spawntime="67" />
 	</spawn>
 	<spawn centerx="875" centery="459" centerz="9" radius="14">
 		<monster name="Revenant" x="-12" y="-12" z="9" spawntime="60" />
@@ -7680,16 +7760,16 @@
 		<monster name="Revenant" x="-5" y="7" z="9" spawntime="60" />
 		<monster name="vampire" x="-13" y="8" z="9" spawntime="256" />
 	</spawn>
-	<spawn centerx="853" centery="461" centerz="9" radius="9">
-		<monster name="vampire" x="-1" y="-4" z="9" spawntime="60" />
-		<monster name="Revenant" x="1" y="-3" z="9" spawntime="60" />
-		<monster name="vampire" x="0" y="-2" z="9" spawntime="60" />
-	</spawn>
+	<spawn centerx="853" centery="461" centerz="9" radius="9" />
 	<spawn centerx="1107" centery="461" centerz="9" radius="11">
 		<monster name="warlock" x="-3" y="1" z="9" spawntime="60" />
 		<monster name="priestess" x="1" y="1" z="9" spawntime="60" />
 		<monster name="warlock" x="3" y="2" z="9" spawntime="60" />
 		<monster name="necromancer" x="-1" y="3" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="686" centery="477" centerz="9" radius="30">
+		<monster name="Titan" x="3" y="-27" z="9" spawntime="67" />
+		<monster name="Titan" x="2" y="12" z="9" spawntime="67" />
 	</spawn>
 	<spawn centerx="480" centery="488" centerz="9" radius="15">
 		<monster name="ancient scarab" x="-3" y="-10" z="9" spawntime="60" />
@@ -9235,6 +9315,32 @@
 		<monster name="Quara Pincher" x="7" y="8" z="10" spawntime="60" />
 		<monster name="Sea Serpent" x="3" y="10" z="10" spawntime="60" />
 	</spawn>
+	<spawn centerx="733" centery="360" centerz="10" radius="20">
+		<monster name="Titan" x="-1" y="-4" z="10" spawntime="67" />
+		<monster name="Titan" x="11" y="-3" z="10" spawntime="67" />
+		<monster name="Titan" x="2" y="2" z="10" spawntime="67" />
+		<monster name="Titan" x="2" y="11" z="10" spawntime="67" />
+		<monster name="Titan" x="11" y="11" z="10" spawntime="67" />
+		<monster name="Titan" x="-7" y="16" z="10" spawntime="67" />
+		<monster name="Titan" x="-16" y="18" z="10" spawntime="67" />
+	</spawn>
+	<spawn centerx="694" centery="361" centerz="10" radius="20">
+		<monster name="Titan" x="-4" y="-2" z="10" spawntime="67" />
+		<monster name="Titan" x="-7" y="9" z="10" spawntime="67" />
+		<monster name="Titan" x="17" y="9" z="10" spawntime="67" />
+	</spawn>
+	<spawn centerx="787" centery="363" centerz="10" radius="30">
+		<monster name="Titan" x="-18" y="-12" z="10" spawntime="67" />
+		<monster name="Titan" x="16" y="-12" z="10" spawntime="67" />
+		<monster name="Titan" x="27" y="-8" z="10" spawntime="67" />
+		<monster name="Titan" x="-19" y="2" z="10" spawntime="67" />
+		<monster name="Titan" x="15" y="3" z="10" spawntime="67" />
+		<monster name="Titan" x="26" y="4" z="10" spawntime="67" />
+		<monster name="Titan" x="2" y="5" z="10" spawntime="67" />
+		<monster name="Titan" x="30" y="14" z="10" spawntime="67" />
+		<monster name="Titan" x="-23" y="19" z="10" spawntime="67" />
+		<monster name="Titan" x="7" y="20" z="10" spawntime="67" />
+	</spawn>
 	<spawn centerx="607" centery="366" centerz="10" radius="21">
 		<monster name="Samurai" x="-13" y="-17" z="10" spawntime="60" />
 		<monster name="Samurai" x="19" y="-17" z="10" spawntime="60" />
@@ -9274,6 +9380,23 @@
 		<monster name="Samurai" x="6" y="6" z="10" spawntime="60" />
 		<monster name="Samurai" x="1" y="7" z="10" spawntime="60" />
 	</spawn>
+	<spawn centerx="728" centery="398" centerz="10" radius="20">
+		<monster name="Titan" x="12" y="-17" z="10" spawntime="67" />
+		<monster name="Titan" x="-15" y="-8" z="10" spawntime="67" />
+		<monster name="Titan" x="0" y="-8" z="10" spawntime="67" />
+		<monster name="Titan" x="15" y="-7" z="10" spawntime="67" />
+		<monster name="Titan" x="13" y="4" z="10" spawntime="67" />
+		<monster name="Titan" x="-15" y="13" z="10" spawntime="67" />
+		<monster name="Titan" x="15" y="13" z="10" spawntime="67" />
+		<monster name="Titan" x="-4" y="17" z="10" spawntime="67" />
+	</spawn>
+	<spawn centerx="688" centery="399" centerz="10" radius="20">
+		<monster name="Titan" x="-10" y="-13" z="10" spawntime="67" />
+		<monster name="Titan" x="-10" y="1" z="10" spawntime="67" />
+		<monster name="Titan" x="16" y="2" z="10" spawntime="67" />
+		<monster name="Titan" x="9" y="13" z="10" spawntime="67" />
+		<monster name="Titan" x="-11" y="15" z="10" spawntime="67" />
+	</spawn>
 	<spawn centerx="594" centery="402" centerz="10" radius="21">
 		<monster name="Samurai" x="19" y="-8" z="10" spawntime="60" />
 		<monster name="Samurai" x="-4" y="-3" z="10" spawntime="60" />
@@ -9304,6 +9427,22 @@
 		<monster name="demon" x="2" y="-7" z="10" spawntime="60" />
 		<monster name="demon" x="8" y="8" z="10" spawntime="60" />
 	</spawn>
+	<spawn centerx="786" centery="424" centerz="10" radius="30">
+		<monster name="Titan" x="-28" y="-30" z="10" spawntime="67" />
+		<monster name="Titan" x="28" y="-30" z="10" spawntime="67" />
+		<monster name="Titan" x="11" y="-27" z="10" spawntime="67" />
+		<monster name="Titan" x="-28" y="-21" z="10" spawntime="67" />
+		<monster name="Titan" x="-18" y="-21" z="10" spawntime="67" />
+		<monster name="Titan" x="28" y="-18" z="10" spawntime="67" />
+		<monster name="Titan" x="-3" y="-14" z="10" spawntime="67" />
+		<monster name="Titan" x="-23" y="-7" z="10" spawntime="67" />
+		<monster name="Titan" x="27" y="-7" z="10" spawntime="67" />
+		<monster name="Titan" x="2" y="-4" z="10" spawntime="67" />
+		<monster name="Titan" x="-22" y="4" z="10" spawntime="67" />
+		<monster name="Titan" x="-23" y="15" z="10" spawntime="67" />
+		<monster name="Titan" x="4" y="19" z="10" spawntime="67" />
+		<monster name="Titan" x="-21" y="25" z="10" spawntime="67" />
+	</spawn>
 	<spawn centerx="1073" centery="426" centerz="10" radius="11">
 		<monster name="Dread Priest" x="0" y="-4" z="10" spawntime="60" />
 		<monster name="Dread Priest" x="1" y="-2" z="10" spawntime="60" />
@@ -9313,6 +9452,21 @@
 		<monster name="Dread Priest" x="9" y="10" z="10" spawntime="60" />
 	</spawn>
 	<spawn centerx="1154" centery="435" centerz="10" radius="11" />
+	<spawn centerx="684" centery="437" centerz="10" radius="20">
+		<monster name="Titan" x="17" y="-13" z="10" spawntime="256" />
+		<monster name="Titan" x="-1" y="-4" z="10" spawntime="67" />
+		<monster name="Titan" x="-14" y="-2" z="10" spawntime="67" />
+		<monster name="Titan" x="17" y="7" z="10" spawntime="67" />
+		<monster name="Titan" x="1" y="16" z="10" spawntime="67" />
+	</spawn>
+	<spawn centerx="726" centery="438" centerz="10" radius="20">
+		<monster name="Titan" x="-14" y="-9" z="10" spawntime="67" />
+		<monster name="Titan" x="16" y="-8" z="10" spawntime="67" />
+		<monster name="Titan" x="2" y="-4" z="10" spawntime="67" />
+		<monster name="Titan" x="3" y="12" z="10" spawntime="67" />
+		<monster name="Titan" x="16" y="13" z="10" spawntime="67" />
+		<monster name="Titan" x="-13" y="16" z="10" spawntime="67" />
+	</spawn>
 	<spawn centerx="1092" centery="438" centerz="10" radius="11">
 		<monster name="Dread Priest" x="-7" y="0" z="10" spawntime="60" />
 		<monster name="Dread Priest" x="-9" y="1" z="10" spawntime="60" />
@@ -9335,6 +9489,14 @@
 		<monster name="Dread Priest" x="-1" y="-1" z="10" spawntime="60" />
 		<monster name="Dread Priest" x="2" y="-1" z="10" spawntime="60" />
 	</spawn>
+	<spawn centerx="727" centery="475" centerz="10" radius="20">
+		<monster name="Titan" x="3" y="-3" z="10" spawntime="67" />
+		<monster name="Titan" x="-19" y="6" z="10" spawntime="67" />
+	</spawn>
+	<spawn centerx="687" centery="477" centerz="10" radius="20">
+		<monster name="Titan" x="-4" y="-2" z="10" spawntime="67" />
+		<monster name="Titan" x="3" y="4" z="10" spawntime="67" />
+	</spawn>
 	<spawn centerx="581" centery="509" centerz="10" radius="13">
 		<monster name="ghoul" x="-8" y="-3" z="10" spawntime="60" />
 		<monster name="crypt shambler" x="-11" y="-2" z="10" spawntime="60" />
@@ -9346,6 +9508,10 @@
 		<monster name="ghost" x="10" y="6" z="10" spawntime="60" />
 		<monster name="ghost" x="11" y="6" z="10" spawntime="512" />
 		<monster name="skeleton" x="11" y="8" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="700" centery="509" centerz="10" radius="20">
+		<monster name="Titan" x="6" y="-4" z="10" spawntime="67" />
+		<monster name="Titan" x="-8" y="-1" z="10" spawntime="67" />
 	</spawn>
 	<spawn centerx="609" centery="514" centerz="10" radius="13">
 		<monster name="ghoul" x="-4" y="-2" z="10" spawntime="60" />
@@ -10235,6 +10401,12 @@
 		<monster name="Nightmare Scion" x="21" y="16" z="11" spawntime="60" />
 		<monster name="Nightmare" x="23" y="17" z="11" spawntime="60" />
 		<monster name="Nightmare" x="21" y="19" z="11" spawntime="60" />
+	</spawn>
+	<spawn centerx="779" centery="416" centerz="11" radius="30">
+		<monster name="Titan" x="1" y="2" z="11" spawntime="67" />
+		<monster name="Titan" x="12" y="3" z="11" spawntime="67" />
+		<monster name="Titan" x="-1" y="16" z="11" spawntime="67" />
+		<monster name="Titan" x="13" y="16" z="11" spawntime="67" />
 	</spawn>
 	<spawn centerx="1209" centery="418" centerz="11" radius="11">
 		<monster name="demon" x="-3" y="-10" z="11" spawntime="60" />
