@@ -10402,7 +10402,7 @@
 		<monster name="Nightmare" x="23" y="17" z="11" spawntime="60" />
 		<monster name="Nightmare" x="21" y="19" z="11" spawntime="60" />
 	</spawn>
-	<spawn centerx="779" centery="416" centerz="11" radius="30">
+	<spawn centerx="778" centery="415" centerz="11" radius="30">
 		<monster name="Titan" x="1" y="2" z="11" spawntime="67" />
 		<monster name="Titan" x="12" y="3" z="11" spawntime="67" />
 		<monster name="Titan" x="-1" y="16" z="11" spawntime="67" />
