@@ -48,9 +48,21 @@
 	<loot>
 		<item id="2148" countmax="90" chance="33750" /><!-- gold coin -->
 		<item id="2148" countmax="60" chance="33750" /><!-- gold coin -->
-		<item name="dragon robe" chance="950" /><!-- dragon robe -->
+		<item name="plate legs" chance="5000" />
 		<item name="red dragon scale" chance="6650" /><!-- draptor scales -->
 		<item name="red dragon leather" chance="7150" /><!-- strong health potion -->
 		<item name="mana potion" countmax="4" chance="6150" /><!-- strong mana potion -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<item id="2492" chance="100"/><!-- dragon scale mail -->
+			<item id="2392" chance="600"/><!-- fire sword -->
+			<item name="infernal bolt" chance="12000"/><!-- power bolt -->
+			<item id="2498" chance="200"/><!-- royal helmet -->
+			<item name="small topaz" chance="10000"/><!-- small sapphire -->
+			<item name="wand of perdition" chance="800"/><!-- strange helmet -->
+			<item name="phoenix shield" chance="600"/><!-- tower shield -->
+			<item id="5430" chance="2000"/><!-- fire wave scroll -->
+			<item id="5157" chance="2500"/><!-- intense healing scroll -->
+			<item name="dragon robe" chance="950" /><!-- dragon robe -->
+		</item>
 	</loot>
 </monster>
