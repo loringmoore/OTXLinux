@@ -33,9 +33,9 @@
 	</areaspawn>
 	
 	<!-- Single spawns -->
-	<singlespawn delay="2000" name="Diabloic Imp" x="943" y="788" z="5" />
-	<singlespawn delay="2000" name="Diabloic Imp" x="921" y="790" z="5" />
-	<singlespawn delay="2000" name="Diabloic Imp" x="916" y="809" z="6" />
-	<singlespawn delay="2000" name="Diabloic Imp" x="951" y="794" z="6" />
+	<singlespawn delay="2000" name="Diabolic Imp" x="943" y="788" z="5" />
+	<singlespawn delay="2000" name="Diabolic Imp" x="921" y="790" z="5" />
+	<singlespawn delay="2000" name="Diabolic Imp" x="916" y="809" z="6" />
+	<singlespawn delay="2000" name="Diabolic Imp" x="951" y="794" z="6" />
 	<singlespawn delay="30000" name="Minishabaal" x="938" y="782" z="6" />
 </raid>
