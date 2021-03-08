@@ -62,6 +62,7 @@
 	<monster name="dragon" file="dragon.xml"/>
 	<monster name="dragon king" file="dragonking.xml"/>
 	<monster name="dragon lord" file="dragonlord.xml"/>
+	<monster name="draptor" file="draptor.xml"/>
 	<monster name="dread priest" file="dreadpriest.xml"/>
 	<monster name="druid" file="druid.xml"/>
 	<monster name="dryad" file="dryad.xml"/>
@@ -268,6 +269,7 @@
 	<monster name="titan" file="titan.xml"/>
 	<monster name="toad" file="toad.xml"/>
 	<monster name="tortoise" file="tortoise.xml"/>
+	<monster name="toxin" file="toxin.xml"/>
 	<monster name="trainer" file="trainer.xml"/>
 	<monster name="troll" file="troll.xml"/>
 	<monster name="tyrn" file="tyrn.xml"/>
