@@ -3,7 +3,7 @@
 	<!-- Message broadcast -->
 	<!-- Broadcast types: warning, event, default, description, smallstatus, blueconsole, redconsole -->
 	<announce delay="0" type="warning" message="Higher levels of volcanic activity reported in the caverns of Mt. Javelin!" />
-	<announce delay="2000" type="warning" message="Fiery creatures are spawning from the Volcano's core! Beware!" />
+	<announce delay="20000" type="warning" message="Fiery creatures are spawning from the Volcano's core! Beware!" />
 	<announce delay="30000" type="warning" message="Minishabaal has emerged from the depths of Hell!" />
 
 	<!-- Area spawns - you can specify raid area or use range value -->
@@ -27,6 +27,10 @@
 	</areaspawn>
 		<areaspawn delay="2000" radius="5" centerx="941" centery="796" centerz="3">
 		<monster name="Massive Fire Elemental" minamount="4" maxamount="10" /><!-- Specified amount -->
+	</areaspawn>
+	</areaspawn>
+		<areaspawn delay="2000" radius="1" centerx="938" centery="782" centerz="6">
+		<monster name="Minishabaal" minamount="1" maxamount="1" /><!-- Specified amount -->
 	</areaspawn>
 	
 	<!-- Single spawns -->
