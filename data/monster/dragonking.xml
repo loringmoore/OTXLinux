@@ -66,9 +66,8 @@
 		<item name="soul orb" chance="12170" />
 		<item name="wand of inferno" chance="12000" />
 		<item name="demonic essence" chance="8920" />
-		<item name="wyvern fang" chance="15100" />
-		<item name="fire axe" chance="15020" />
-		<item name="wand of perdition" chance="200" />
+		<item name="wyvern fang" chance="10100" />
+		<item name="fire axe" chance="10020" />
 		<item name="mana potion" countmax="6" chance="29460" />
 		<item name="health potion" countmax="8" chance="24700" />
 		<item name="red dragon leather" countmax="6" chance="6650" />
@@ -88,6 +87,7 @@
 			<item name="dragon lance" chance="1500" />
 			<item name="samurai sword" chance="1100" />
 			<item name="dragon robe" chance="1600" />
+			<item name="wand of perdition" chance="200" />
 			<item name="stuffed dragon" chance="50" />
 		</item>
 	</loot>

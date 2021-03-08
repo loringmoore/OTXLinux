@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Iron Golem" nameDescription="an iron golem" race="undead" experience="9800" speed="350" manacost="0">
 	<health now="9200" max="9200" />
-	<look type="254" corpse="5734" />
+	<look type="254" corpse="5752" />
 	<targetchange interval="4000" chance="10" />
 	<strategy attack="90" defense="10" />
 	<flags>

@@ -11474,7 +11474,7 @@
 		<attribute key="duration" value="600" />
 		<attribute key="corpseType" value="blood" />
 	</item>
-	<item id="5752" article="a" name="slain monster">
+	<item id="5752" article="a" name="slain iron golem">
 		<attribute key="weight" value="120000" />
 		<attribute key="containerSize" value="10" />
 		<attribute key="decayTo" value="5753" />
@@ -11482,7 +11482,7 @@
 		<attribute key="corpseType" value="blood" />
 		<attribute key="fluidSource" value="blood" />
 	</item>
-	<item id="5753" article="a" name="slain monster">
+	<item id="5753" article="a" name="slain iron golemr">
 		<attribute key="weight" value="120000" />
 		<attribute key="containerSize" value="10" />
 		<attribute key="decayTo" value="5754" />
@@ -11490,7 +11490,7 @@
 		<attribute key="corpseType" value="blood" />
 		<attribute key="fluidSource" value="blood" />
 	</item>
-	<item id="5754" article="a" name="slain monster">
+	<item id="5754" article="a" name="slain iron golem">
 		<attribute key="weight" value="120000" />
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="300" />
