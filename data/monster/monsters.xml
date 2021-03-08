@@ -128,6 +128,7 @@
 	<monster name="ice" file="ice.xml"/>
 	<monster name="ice demon" file="icedemon.xml"/>
 	<monster name="ice witch" file="icewitch.xml"/>
+	<monster name="iron golem" file="irongolem.xml"/>
 	<monster name="hydra" file="hydra.xml"/>
 	<monster name="infernalist" file="infernalist.xml"/>
 	<monster name="juggernaut" file="juggernaut.xml"/>
@@ -156,6 +157,7 @@
 	<monster name="massive fire elemental" file="massivefireelemental.xml"/>
 	<monster name="medusa" file="medusa.xml"/>
 	<monster name="merlkin" file="merlkin.xml"/>
+	<monster name="midnight panther" file="midnightpanther.xml"/>
 	<monster name="mimic" file="mimic.xml"/>
 	<monster name="minishabaal" file="minishabaal.xml"/>
 	<monster name="minotaur" file="minotaur.xml"/>

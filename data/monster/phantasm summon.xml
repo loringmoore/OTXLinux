@@ -32,7 +32,7 @@
 		</attack>
 	</attacks>
 	<defenses armor="25" defense="20">
-		<defense name="healing" interval="500" chance="50" min="75" max="125">
+		<defense name="healing" interval="500" chance="12" min="75" max="125">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 		<defense name="speed" interval="500" chance="10" speedchange="500" duration="6000">
@@ -44,12 +44,12 @@
 	</defenses>
 	<elements>
 		<element physicalPercent="100"/>
-		<element poisonPercent="100"/>
 		<element firePercent="-24"/>
 	</elements>
 	<immunities>
 		<immunity paralyze="1"/>
 		<immunity invisible="1"/>
+		<immunity poison="1"/>
 	</immunities>
 	<voices interval="5000" chance="10">
 		<voice sentence="Oh my, you forgot to put your pants on!"/>

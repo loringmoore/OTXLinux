@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Hand of Cursed Fate" nameDescription="a hand of cursed fate" race="blood" experience="11000" speed="250" manacost="0">
+<monster name="Hand of Cursed Fate" nameDescription="a hand of cursed fate" race="blood" experience="14000" speed="250" manacost="0">
 	<health now="10500" max="10500"/>
 	<look type="147" corpse="5101"/>
 	<targetchange interval="5000" chance="8"/>
@@ -33,7 +33,7 @@
 		<defense name="speed" interval="500" chance="7" speedchange="10000" duration="5000">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</defense>
-		<defense name="invisible" interval="500" chance="25" duration="6000">
+		<defense name="invisible" interval="500" chance="15" duration="6000">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</defense>
 		<defense name="healing" interval="500" chance="20" min="100" max="250">
@@ -74,7 +74,7 @@
 			<item id="2487" chance="750"/><!-- crown armor -->
 			<item id="2153" chance="700"/><!-- violet gem -->
 			<item name="yellow gem" chance="5940" />
-			<item name="arcane staff" chance="250" />
+			<item name="wand of voodoo" chance="950" />
 			<item id="2195" chance="300"/><!-- boots of haste -->
 			<item id="5445" chance="1800"/><!-- invisibility scroll -->
 			<item id="5449" chance="2500"/><!-- strong haste scroll -->

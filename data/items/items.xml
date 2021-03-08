@@ -2405,8 +2405,8 @@
 	<item id="2179" article="a" name="gold ring">
 		<attribute key="weight" value="100" />
 		<attribute key="slotType" value="ring" />
-		<attribute key="maxHitPointsPercent" value="106"/>
-		<attribute key="maxManaPointsPercent" value="94"/>
+		<attribute key="maxHitPointsPercent" value="102"/>
+		<attribute key="maxManaPointsPercent" value="99"/>
 	</item>
 	<item id="2180" name="the orb of nature" />
 	<item id="2181" article="a" name="quagmire rod">

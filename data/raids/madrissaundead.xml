@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+	<!-- Message broadcast -->
+	<!-- Broadcast types: warning, event, default, description, smallstatus, blueconsole, redconsole -->
+	<announce delay="0" type="warning" message="The sand beneath Madrissa begins to stir." />
+	<announce delay="2000" type="warning" message="A legion of undead has breached the desert surface and is attacking the city!" />
+
+	<!-- Area spawns - you can specify raid area or use range value -->
+	<areaspawn delay="2000" radius="45" centerx="471" centery="646" centerz="6">
+		<monster name="Lost Soul" minamount="20" maxamount="50" /><!-- Specified amount -->
+	</areaspawn>
+	<areaspawn delay="2000" radius="45" centerx="471" centery="646" centerz="6">
+		<monster name="Betrayed Wraith" minamount="20" maxamount="50" /><!-- Specified amount -->
+	</areaspawn>
+	<areaspawn delay="2000" radius="45" centerx="471" centery="646" centerz="6">
+		<monster name="Undead Dragon" minamount="20" maxamount="50" /><!-- Specified amount -->
+	</areaspawn>
+	<areaspawn delay="2000" radius="45" centerx="471" centery="646" centerz="6">
+		<monster name="Grim Reaper" minamount="20" maxamount="50" /><!-- Specified amount -->
+	</areaspawn>
+	<areaspawn delay="2000" radius="45" centerx="471" centery="646" centerz="6">
+		<monster name="Demon Skeleton" minamount="50" maxamount="90" /><!-- Specified amount -->
+	</areaspawn>
+	
+	
+	<!-- Single spawns -->
+	<singlespawn delay="2000" name="Dracola" x="426" y="571" z="6" />
+</raid>

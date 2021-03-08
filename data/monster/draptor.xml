@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Draptor" nameDescription="a draptor" race="blood" experience="3400" speed="282" manacost="0">
+	<health now="3000" max="3000" />
+	<look type="210" corpse="5707" />
+	<targetchange interval="5000" chance="8" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="350" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-1" max="-250" />
+		<attack name="energy" interval="500" chance="15" radius="3" min="-130" max="-225">
+			<attribute key="areaEffect" value="yellowenergy" />
+		</attack>
+		<attack name="energy" interval="500" chance="15" range="7" min="-200" max="-240">
+			<attribute key="shootEffect" value="energy" />
+		</attack>
+		<attack name="fire" interval="2500" chance="17" length="8" spread="3" min="-170" max="-350">
+			<attribute key="areaEffect" value="firearea" />
+		</attack>
+	</attacks>
+	<defenses armor="23" defense="37">
+		<defense name="healing" interval="500" chance="25" min="57" max="93">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+		<defense name="speed" interval="500" chance="12" speedchange="457" duration="5000">
+			<attribute key="areaEffect" value="rednote" />
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="-10" />
+		<element earthPercent="-10" />
+	</elements>
+	<immunities>
+		<immunity energy="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<loot>
+		<item id="2148" countmax="90" chance="33750" /><!-- gold coin -->
+		<item id="2148" countmax="60" chance="33750" /><!-- gold coin -->
+		<item name="dragon robe" chance="950" /><!-- dragon robe -->
+		<item name="red dragon scale" chance="6650" /><!-- draptor scales -->
+		<item name="red dreagon leather" chance="7150" /><!-- strong health potion -->
+		<item name="mana potion" countmax="4" chance="6150" /><!-- strong mana potion -->
+	</loot>
+</monster>

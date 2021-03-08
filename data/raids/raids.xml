@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <raids>
-	<!--
-		<raid name="Testraid" file="testraid.xml" interval2="30" margin="0" />
-		executed on average once every 30 minutes
-	-->
+	
+		<raid name="Minishabaal" file="volcano.xml" interval2="300" chance="5" margin="0" />
+		<!-- executed on average once every 5 hours -->
+		<raid name="Dracola" file="madrissaundead.xml" interval2="600" chance="5" margin="0" />
 </raids>

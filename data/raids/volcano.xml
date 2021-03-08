@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+	<!-- Message broadcast -->
+	<!-- Broadcast types: warning, event, default, description, smallstatus, blueconsole, redconsole -->
+	<announce delay="0" type="warning" message="Higher levels of volcanic activity reported in the caverns of Mt. Javelin!" />
+	<announce delay="2000" type="warning" message="Fiery creatures are spawning from the Volcano's core! Beware!" />
+	<announce delay="30000" type="warning" message="Minishabaal has emerged from the depths of Hell!" />
+
+	<!-- Area spawns - you can specify raid area or use range value -->
+	<areaspawn delay="2000" radius="5" centerx="943" centery="800" centerz="5">
+		<monster name="Hellfire Fighter" minamount="2" maxamount="5" /><!-- Specified amount -->
+	</areaspawn>
+	<areaspawn delay="2000" radius="5" centerx="923" centery="791" centerz="5">
+		<monster name="Hellfire Fighter" minamount="2" maxamount="5" /><!-- Specified amount -->
+	</areaspawn>
+	<areaspawn delay="2000" radius="5" centerx="922" centery="804" centerz="5">
+		<monster name="Hellfire Fighter" minamount="2" maxamount="5" /><!-- Specified amount -->
+	</areaspawn>
+	<areaspawn delay="2000" radius="5" centerx="918" centery="797" centerz="6">
+		<monster name="Hellfire Fighter" minamount="2" maxamount="5" /><!-- Specified amount -->
+	</areaspawn>
+	<areaspawn delay="2000" radius="5" centerx="931" centery="812" centerz="6">
+		<monster name="Hellfire Fighter" minamount="2" maxamount="5" /><!-- Specified amount -->
+	</areaspawn>
+	<areaspawn delay="2000" radius="5" centerx="931" centery="796" centerz="4">
+		<monster name="Massive Fire Elemental" minamount="4" maxamount="10" /><!-- Specified amount -->
+	</areaspawn>
+		<areaspawn delay="2000" radius="5" centerx="941" centery="796" centerz="3">
+		<monster name="Massive Fire Elemental" minamount="4" maxamount="10" /><!-- Specified amount -->
+	</areaspawn>
+	
+	<!-- Single spawns -->
+	<singlespawn delay="2000" name="Diabloic Imp" x="943" y="788" z="5" />
+	<singlespawn delay="2000" name="Diabloic Imp" x="921" y="790" z="5" />
+	<singlespawn delay="2000" name="Diabloic Imp" x="916" y="809" z="6" />
+	<singlespawn delay="2000" name="Diabloic Imp" x="951" y="794" z="6" />
+	<singlespawn delay="30000" name="Minishabaal" x="938" y="782" z="6" />
+</raid>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Toxin" nameDescription="a toxin" race="venom" experience="15000" speed="380" manacost="0">
+	<health now="12000" max="12000" />
+	<look type="184" head="0" body="83" legs="102" feet="94" corpse="5360" />
+	<targetchange interval="5000" chance="20" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="100" attack="110" />
+		<attack name="lifedrain" interval="500" chance="8" radius="5" target="0" min="-190" max="-290">
+			<attribute key="areaEffect" value="mortarea" />
+		</attack>
+		<attack name="speed" interval="1000" chance="12" radius="6" target="0" speedchange="-850" duration="60000">
+			<attribute key="areaEffect" value="poison" />
+		</attack>
+		<attack name="strength" interval="1000" chance="10" radius="5" target="0" min="-600" max="-1450">
+			<attribute key="areaEffect" value="blackspark" />
+		</attack>
+		<attack name="poison" interval="3000" chance="13" range="7" radius="3" target="1" min="-300" max="-800">
+			<attribute key="shootEffect" value="spear" />
+			<attribute key="areaEffect" value="poison" />
+		</attack>
+		<attack name="manadrain" interval="3000" chance="8" radius="10" target="0" min="-600" max="-700">
+			<attribute key="areaEffect" value="energyarea" />
+		</attack>
+		<attack name="energy" interval="2000" chance="9" length="8" spread="0" min="-400" max="-800">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+		<attack name="poisoncondition" interval="5000" chance="18" length="0" spread="0" min="-800" max="-1000">
+			<attribute key="areaEffect" value="greenspark" />
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="6" radius="14" target="0" min="-600" max="-1200">
+			<attribute key="areaEffect" value="greenshimmer" />
+		</attack>
+	</attacks>
+	<defenses armor="188" defense="145">
+		<defense name="healing" interval="1000" chance="15" min="1000" max="3000">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+		<defense name="speed" interval="2000" chance="8" speedchange="480" duration="6000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity physical="0" />
+		<immunity energy="1" />
+		<immunity fire="1" />
+		<immunity poison="1" />
+		<immunity lifedrain="1" />
+		<immunity paralyze="1" />
+		<immunity drunk="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="2000" chance="7">
+		<voice sentence="BOW TO THE POWER OF THE RUTHLESS SEVEN!" yell="1" />
+		<voice sentence="DESTRUCTION!" />
+		<voice sentence="Have a taste of my medicine!" yell="1" />
+		<voice sentence="DEATH TO ALL!" yell="1" />
+	</voices>
+	<loot>
+		<item id="2148" countmax="100" chance="15000"/><!-- gold coin -->
+		<item id="2148" countmax="100" chance="15000"/><!-- gold coin -->
+		<item id="2148" countmax="67" chance="15000"/><!-- gold coin -->
+		<item id="2152" countmax="9" chance="9000"/><!-- platinum coin -->
+		<item id="2146" countmax="4" chance="3000"/><!-- small sapphires -->
+		<item name="health potion" countmax="4" chance="7000"/><!-- manafluid -->
+		<item name="mana potion" countmax="4" chance="7000"/><!-- lifefluid -->
+		<item name="soul orb" chance="1111" />
+		<item id="5312" chance="3000"/>
+		<item name="demonic essence" countmax="4" chance="12000" />
+		<item id="2654" chance="35000"/><!-- cape -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<item id="2178" chance="5000"/><!-- mind stone -->
+			<item id="2127" chance="6000"/><!-- emerald bangle -->
+			<item id="2171" chance="2350"/><!-- platinum amulet-->
+			<item name="wand of plague" chance="9900"/><!-- wand of inferno -->
+			<item name="venom mantle" chance="2200"/><!-- knight armor -->
+			<item name="platinum amulet" chance="1005" />
+			<item name="lich staff" chance="2000"/><!-- skull staff -->
+			<item name="green gem" chance="5000"/><!-- blessed sceptre -->
+			<item name="venom hood" chance="3750"/><!-- crown armor -->
+			<item name="arcane staff" chance="250" />
+			<item name="steel boots" chance="1000"/><!-- boots of haste -->
+			<item id="5445" chance="1800"/><!-- invisibility scroll -->
+			<item id="5782" chance="750"/><!-- strong poison strike scroll -->
+			<item id="5763" chance="1500"/><!-- venom sweep scroll -->
+		</item>
+	</loot>
+</monster>

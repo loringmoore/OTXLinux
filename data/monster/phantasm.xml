@@ -59,7 +59,7 @@
 		<voice sentence="Dream a little dream with me!"/>
 	</voices>
 	<summons maxSummons="2">
-		<summon name="Phantasm Summon" interval="0" chance="20" max="2"/>
+		<summon name="Phantasm Summon" interval="500" chance="10" max="2"/>
 	</summons>
 	<loot>
 		<item id="2148" countmax="96" chance="58000"/><!-- gold coin -->
