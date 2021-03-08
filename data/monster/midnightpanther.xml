@@ -47,8 +47,15 @@
 		<item id="2148" countmax="57" chance="80000" /><!-- gp -->
 		<item id="2148" countmax="87" chance="70000" /><!-- gp -->
 		<item id="2666" countmax="4" chance="25000" /><!-- meat -->
-		<item name="tempest rod" chance="1500" /><!-- panther head -->
-		<item id="2168" chance="12500" /><!-- Life Ring -->
-		<item id="13027" chance="100000" /><!-- panther paw -->
+		<item id="2168" chance="2500" /><!-- Life Ring -->
+		<item name="blue robe" chance="1000" /><!-- panther paw -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="lightning pendant" chance="1350"/>
+			<item name="tempest rod" chance="1500" />
+			<item name="epee" chance="2000"/>
+			<item name="lightning boots" chance="1000"/><!-- boots of haste -->
+			<item id="5445" chance="800"/><!-- invisibility scroll -->
+			<item id="5158" chance="1500"/><!-- venom sweep scroll -->
+		</item>
 	</loot>
 </monster>

@@ -13,8 +13,8 @@ local function creatureSayCallback(cid, type, msg)
 	end
 	local player = Player(cid)
 	if msgcontains(msg, "outfit") then
-		if player:getStorageValue(6071) < 1 then
-			npcHandler:say("My outfit is quite special, it is proof of my abilities in combat.", cid)
+		if player:getStorageValue(6072) < 1 then
+			npcHandler:say("My outfit is quite special, it is proof of my abilities in years of combat.", cid)
 			npcHandler.topic[cid] = 1
 		end
 	elseif msgcontains(msg, "combat") then
@@ -23,22 +23,22 @@ local function creatureSayCallback(cid, type, msg)
 			npcHandler.topic[cid] = 2
 		end
 	elseif msgcontains(msg, "scales") then
-		if player:getStorageValue(6071) == 1 then
+		if player:getStorageValue(6072) == 1 then
 			npcHandler:say("Did you slay enough dragons to collect 50 green and 50 red dragon scales?", cid)
 			npcHandler.topic[cid] = 4
 		end
 	elseif msgcontains(msg, "sweat") then
-		if player:getStorageValue(6071) == 2 then
+		if player:getStorageValue(6072) == 2 then
 			npcHandler:say("Did you collect 10 flasks of warrior's sweat?", cid)
 			npcHandler.topic[cid] = 5
 		end
 	elseif msgcontains(msg, "sword") then
-		if player:getStorageValue(6071) == 3 then
+		if player:getStorageValue(6072) == 3 then
 			npcHandler:say("Did you collect 30 iron ores and a piece of hell steel?", cid)
 			npcHandler.topic[cid] = 6
 		end
 	elseif msgcontains(msg, "ultimate test") then
-		if player:getStorageValue(6071) == 4 then
+		if player:getStorageValue(6072) == 4 then
 			npcHandler:say("Did you slay Massacre in combat and bring back a piece of his shell?", cid)
 			npcHandler.topic[cid] = 7
 		end
@@ -54,14 +54,14 @@ local function creatureSayCallback(cid, type, msg)
 			npcHandler.topic[cid] = 3
 		elseif npcHandler.topic[cid] == 3 then
 			npcHandler:say("Then go forth, |PLAYERNAME|, and come back when you have finished your task.", cid)
-			player:setStorageValue(6071, 1)
+			player:setStorageValue(6072, 1)
 			npcHandler.topic[cid] = 0
 		elseif npcHandler.topic[cid] == 4 then
 			if player:getItemCount(5254) >= 50 and player:getItemCount(5286) >=50 then
 				npcHandler:say("Very good, |PLAYERNAME|. Not just anyone can kill a dragon! You are already showing signs of a warrior's spirit.", cid)
 				player:removeItem(5254, 50)
 				player:removeItem(5286, 50)
-				player:setStorageValue(6071, 2)
+				player:setStorageValue(6072, 2)
 				npcHandler.topic[cid] = 0
 			else
 				npcHandler:say("Get back out there and find the necessary items to complete your task.", cid)
@@ -69,7 +69,7 @@ local function creatureSayCallback(cid, type, msg)
 		elseif npcHandler.topic[cid] == 5 then
 			if player:removeItem(5256, 10) then
 				npcHandler:say("Wonderfully done, |PLAYERNAME|. Warrior's sweat is a rare and magical substance.", cid)
-				player:setStorageValue(6071, 3)
+				player:setStorageValue(6072, 3)
 				npcHandler.topic[cid] = 0
 			else
 				npcHandler:say("Get back out there and find the necessary items to complete your task.", cid)
@@ -77,7 +77,7 @@ local function creatureSayCallback(cid, type, msg)
 		elseif npcHandler.topic[cid] == 6 then
 			if player:removeItem(5252, 30) and player:removeItem(5259, 1) then
 				npcHandler:say("These ores will be enough to craft a fine, strong blade.", cid)
-				player:setStorageValue(6071, 3)
+				player:setStorageValue(6072, 3)
 				npcHandler.topic[cid] = 0
 			else
 				npcHandler:say("Get back out there and find the necessary items to complete your task.", cid)
@@ -85,7 +85,7 @@ local function creatureSayCallback(cid, type, msg)
 		elseif npcHandler.topic[cid] == 7 then
 			if player:removeItem(5305, 1) then
 				npcHandler:say("Truly incredible, |PLAYERNAME|! You are a true warrior in my eyes.", cid)
-				player:setStorageValue(6071, 4)
+				player:setStorageValue(6072, 4)
 				player:getPosition():sendMagicEffect(CONST_ME_MAGIC_BLUE)
 				npcHandler.topic[cid] = 0
 			else
