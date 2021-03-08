@@ -17,25 +17,25 @@
 		<flag runonhealth="0" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="100" attack="110" />
+		<attack name="melee" interval="2000" skill="70" attack="90" />
 		<attack name="lifedrain" interval="500" chance="8" radius="5" target="0" min="-190" max="-290">
 			<attribute key="areaEffect" value="mortarea" />
 		</attack>
-		<attack name="speed" interval="1000" chance="12" radius="6" target="0" speedchange="-850" duration="60000">
+		<attack name="speed" interval="500" chance="6" radius="6" target="0" speedchange="-850" duration="60000">
 			<attribute key="areaEffect" value="poison" />
 		</attack>
-		<attack name="poison" interval="3000" chance="13" range="7" radius="3" target="1" min="-104" max="-283">
+		<attack name="poison" interval="500" chance="8" range="7" radius="3" target="1" min="-104" max="-283">
 			<attribute key="shootEffect" value="spear" />
 			<attribute key="areaEffect" value="yellowbubble" />
 		</attack>
-		<attack name="manadrain" interval="3000" chance="8" radius="4" target="0" min="-60" max="-170">
+		<attack name="manadrain" interval="500" chance="8" radius="4" target="0" min="-60" max="-170">
 			<attribute key="areaEffect" value="greenbubble" />
 		</attack>
-		<attack name="poisoncondition" interval="5000" chance="18" radius="10" min="-800" max="-1000">
+		<attack name="poisoncondition" interval="500" chance="8" radius="10" min="-800" max="-1000">
 			<attribute key="areaEffect" value="greenspark" />
 		</attack>
 	</attacks>
-	<defenses armor="188" defense="145">
+	<defenses armor="88" defense="45">
 		<defense name="healing" interval="500" chance="5" min="100" max="300">
 			<attribute key="areaEffect" value="holyarea" />
 		</defense>

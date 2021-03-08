@@ -28,8 +28,7 @@
 		<areaspawn delay="2000" radius="5" centerx="941" centery="796" centerz="3">
 		<monster name="Massive Fire Elemental" minamount="4" maxamount="10" /><!-- Specified amount -->
 	</areaspawn>
-	</areaspawn>
-		<areaspawn delay="2000" radius="1" centerx="938" centery="782" centerz="6"/>
+	<areaspawn delay="2000" radius="1" centerx="938" centery="782" centerz="6">
 		<monster name="Minishabaal" minamount="1" maxamount="1" /><!-- Specified amount -->
 	</areaspawn>
 	
