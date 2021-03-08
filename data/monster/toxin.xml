@@ -24,38 +24,26 @@
 		<attack name="speed" interval="1000" chance="12" radius="6" target="0" speedchange="-850" duration="60000">
 			<attribute key="areaEffect" value="poison" />
 		</attack>
-		<attack name="strength" interval="1000" chance="10" radius="5" target="0" min="-600" max="-1450">
-			<attribute key="areaEffect" value="blackspark" />
-		</attack>
-		<attack name="poison" interval="3000" chance="13" range="7" radius="3" target="1" min="-300" max="-800">
+		<attack name="poison" interval="3000" chance="13" range="7" radius="3" target="1" min="-104" max="-283">
 			<attribute key="shootEffect" value="spear" />
-			<attribute key="areaEffect" value="poison" />
+			<attribute key="areaEffect" value="yellowbubble" />
 		</attack>
-		<attack name="manadrain" interval="3000" chance="8" radius="10" target="0" min="-600" max="-700">
-			<attribute key="areaEffect" value="energyarea" />
+		<attack name="manadrain" interval="3000" chance="8" radius="4" target="0" min="-60" max="-170">
+			<attribute key="areaEffect" value="greenbubble" />
 		</attack>
-		<attack name="energy" interval="2000" chance="9" length="8" spread="0" min="-400" max="-800">
-			<attribute key="areaEffect" value="redshimmer" />
-		</attack>
-		<attack name="poisoncondition" interval="5000" chance="18" length="0" spread="0" min="-800" max="-1000">
+		<attack name="poisoncondition" interval="5000" chance="18" radius="10" min="-800" max="-1000">
 			<attribute key="areaEffect" value="greenspark" />
-		</attack>
-		<attack name="lifedrain" interval="2000" chance="6" radius="14" target="0" min="-600" max="-1200">
-			<attribute key="areaEffect" value="greenshimmer" />
 		</attack>
 	</attacks>
 	<defenses armor="188" defense="145">
-		<defense name="healing" interval="1000" chance="15" min="1000" max="3000">
-			<attribute key="areaEffect" value="blueshimmer" />
+		<defense name="healing" interval="500" chance="5" min="100" max="300">
+			<attribute key="areaEffect" value="holyarea" />
 		</defense>
 		<defense name="speed" interval="2000" chance="8" speedchange="480" duration="6000">
-			<attribute key="areaEffect" value="redshimmer" />
+			<attribute key="areaEffect" value="greenshimmer" />
 		</defense>
 	</defenses>
 	<immunities>
-		<immunity physical="0" />
-		<immunity energy="1" />
-		<immunity fire="1" />
 		<immunity poison="1" />
 		<immunity lifedrain="1" />
 		<immunity paralyze="1" />
@@ -63,10 +51,9 @@
 		<immunity invisible="1" />
 	</immunities>
 	<voices interval="2000" chance="7">
-		<voice sentence="BOW TO THE POWER OF THE RUTHLESS SEVEN!" yell="1" />
 		<voice sentence="DESTRUCTION!" />
-		<voice sentence="Have a taste of my medicine!" yell="1" />
-		<voice sentence="DEATH TO ALL!" yell="1" />
+		<voice sentence="Have a taste of my medicine!"/>
+		<voice sentence="<cough cough>!"/>
 	</voices>
 	<loot>
 		<item id="2148" countmax="100" chance="15000"/><!-- gold coin -->
