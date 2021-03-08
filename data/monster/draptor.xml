@@ -50,7 +50,7 @@
 		<item id="2148" countmax="60" chance="33750" /><!-- gold coin -->
 		<item name="dragon robe" chance="950" /><!-- dragon robe -->
 		<item name="red dragon scale" chance="6650" /><!-- draptor scales -->
-		<item name="red dreagon leather" chance="7150" /><!-- strong health potion -->
+		<item name="red dragon leather" chance="7150" /><!-- strong health potion -->
 		<item name="mana potion" countmax="4" chance="6150" /><!-- strong mana potion -->
 	</loot>
 </monster>
