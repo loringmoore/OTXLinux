@@ -11696,7 +11696,10 @@
 		<attribute key="duration" value="600"/>
 		<attribute key="corpseType" value="blood"/>
 	</item>
-	<item id="5791" article="a" name="prismatic helmet">
+	<item id="5791" article="a" name="gobbler doll">
+		<attribute key="weight" value="850" />
+	</item>
+	<item id="5792" article="a" name="prismatic helmet">
 		<attribute key="weight" value="5600" />
 		<attribute key="armor" value="13" />
 		<attribute key="slotType" value="head" />
@@ -11704,7 +11707,7 @@
 		<attribute key="maxManaPointsPercent" value="93"/>
 		<attribute key="magicPointsPercent" value="90"/>
 	</item>
-	<item id="5792" article="a" name="colossus armor">
+	<item id="5793" article="a" name="colossus armor">
 		<attribute key="weight" value="12000" />
 		<attribute key="armor" value="19" />
 		<attribute key="maxHitPointsPercent" value="138"/>
@@ -11712,7 +11715,7 @@
 		<attribute key="magicPointsPercent" value="80"/>
 		<attribute key="slotType" value="body" />
 	</item>
-	<item id="5793" article="an" name="elite gladiator mail">
+	<item id="5794" article="an" name="elite gladiator mail">
 		<attribute key="weight" value="12000" />
 		<attribute key="armor" value="18" />
 		<attribute key="maxHitPointsPercent" value="136"/>
@@ -11720,20 +11723,20 @@
 		<attribute key="magicPointsPercent" value="80"/>
 		<attribute key="slotType" value="body" />
 	</item>
-	<item id="5794" article="a" name="shield of corruption">
+	<item id="5795" article="a" name="shield of corruption">
 		<attribute key="weight" value="4900" />
 		<attribute key="defense" value="41" />
 		<attribute key="weaponType" value="shield" />
 		<attribute key="absorbPercentAll" value="12" />
 	</item>
-		<item id="5795" name="aboriginal legs">
+		<item id="5796" name="aboriginal legs">
 		<attribute key="weight" value="7200" />
 		<attribute key="armor" value="9" />a
 		<attribute key="slotType" value="legs" />
 		<attribute key="skillDist" value="5" />
 		<attribute key="maxManaPointsPercent" value="120"/>
 	</item>
-	<item id="5796" article="a" name="tourmaline legs">
+	<item id="5797" article="a" name="tourmaline legs">
 		<attribute key="weight" value="8200" />
 		<attribute key="armor" value="9" />
 		<attribute key="slotType" value="legs" />
@@ -11741,14 +11744,14 @@
 		<attribute key="maxHitPointsPercent" value="88"/>
 		<attribute key="maxManaPointsPercent" value="140"/>
 	</item>
-	<item id="5897" article="a" name="master archer's armor">
+	<item id="5798" article="a" name="master archer's armor">
 		<attribute key="armor" value="17" />
 		<attribute key="slotType" value="body" />
 		<attribute key="weight" value="6900" />
 		<attribute key="skillDist" value="9" />
 		<attribute key="maxManaPointsPercent" value="122"/>
 	</item>
-	<item id="8890" article="a" name="robe of the underworld">
+	<item id="5799" article="a" name="robe of the underworld">
 		<attribute key="weight" value="3100" />
 		<attribute key="armor" value="17" />
 		<attribute key="slotType" value="body" />

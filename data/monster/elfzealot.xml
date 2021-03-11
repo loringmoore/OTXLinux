@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Elf Centurion" namedescription="an elf centurion" race="blood" experience="325" speed="280" manacost="250">
-	<health now="330" max="330"/>
-	<look type="144" head="3" body="86" legs="87" feet="76" corpse="5623"/>
+<monster name="Elf Zealot" namedescription="an elf zealot" race="blood" experience="23250" speed="280" manacost="0">
+	<health now="18630" max="18630"/>
+	<look type="259" head="3" body="94" legs="113" feet="95" corpse="5787"/>
 	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
-		<flag summonable="1"/>
+		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
 		<flag illusionable="1"/>
-		<flag convinceable="1"/>
+		<flag convinceable="0"/>
 		<flag pushable="1"/>
-		<flag canpushitems="0"/>
-		<flag canpushcreatures="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
 		<flag targetdistance="1"/>
 		<flag staticattack="90"/>
-		<flag runonhealth="3"/>
+		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="56" attack="50"/>
-		<attack name="physical" interval="500" chance="10" range="7" min="-45" max="-93">
-			<attribute key="shootEffect" value="crystalarrow"/>
-			<attribute key="areaEffect" value="bluefirework"/>
+		<attack name="melee" interval="2000" skill="106" attack="110"/>
+		<attack name="fire" interval="500" chance="10" range="7" min="-245" max="-393">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="redfirework"/>
 		</attack>
-		<attack name="physical" interval="500" chance="10" range="7" min="-40" max="-77">
-			<attribute key="shootEffect" value="throwingknife"/>
-			<attribute key="areaEffect" value="blackspark"/>
+		<attack name="holy" interval="500" chance="10" range="7" min="-240" max="-377">
+			<attribute key="shootEffect" value="holy"/>
+			<attribute key="areaEffect" value="yellowspark"/>
 		</attack>
 	</attacks>
 	<defenses armor="1" defense="6"/>
@@ -48,8 +48,8 @@
 			<item name="small sapphire" chance="1400" />
 			<item name="spike sword" chance="1000" />
 			<item name="elven mail" chance="450" />
-			<item name="elven legs" chance="400" />
-			<item name="guardian shield" chance="100" />
+			<item name="aboriginal legs" chance="400" />
+			<item name="blessed shield" chance="100" />
 		</item>
 	</loot>
 </monster>

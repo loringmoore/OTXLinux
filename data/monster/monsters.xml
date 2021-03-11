@@ -85,6 +85,7 @@
 	<monster name="elf arcanist" file="elfarcanist.xml"/>
 	<monster name="elf centurion" file="elfcenturion.xml"/>
 	<monster name="elf scout" file="elfscout.xml"/>
+	<monster name="elf zealot" file="elfzealot.xml"/>
 	<monster name="emeritus of the cult" file="emeritusofthecult.xml"/>
 	<monster name="enlightened of the cult" file="enlightenedofthecult.xml"/>
 	<monster name="eternal guardian" file="eternalguardian.xml"/>
@@ -129,6 +130,7 @@
 	<monster name="ice" file="ice.xml"/>
 	<monster name="ice demon" file="icedemon.xml"/>
 	<monster name="ice witch" file="icewitch.xml"/>
+	<monster name="ichthyoid" file="ichthyoid.xml"/>
 	<monster name="iron golem" file="irongolem.xml"/>
 	<monster name="hydra" file="hydra.xml"/>
 	<monster name="infernalist" file="infernalist.xml"/>
