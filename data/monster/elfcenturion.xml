@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Elf Centurion" namedescription="an elf centurion" race="blood" experience="325" speed="280" manacost="250">
 	<health now="330" max="330"/>
-	<look type="144" head="3" body="86" legs="87" feet="76" corpse="5623"/>
+	<look type="259" head="3" body="86" legs="87" feet="76" corpse="5623"/>
 	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>
 	<flags>

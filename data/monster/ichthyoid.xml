@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Jaul" nameDescription="Jaul" race="blood" experience="13000" speed="360" manacost="0">
+	<health now="10000" max="10000" />
+	<look type="258" corpse="5784" />
+	<targetchange interval="2000" chance="5" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="0" />
+		<flag runonhealth="60" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-640" poison="870" />
+		<attack name="drown" interval="500" chance="7" radius="3" target="0" min="0" max="-300">
+			<attribute key="areaEffect" value="iceattack" />
+		</attack>
+		<attack name="drown" interval="500" chance="6" range="7" radius="1" target="1" min="-204" max="-283">
+			<attribute key="shootEffect" value="spear" />
+			<attribute key="areaEffect" value="bubbles" />
+		</attack>
+		<attack name="drown" interval="500" chance="6" length="8" spread="3" min="-237" max="-570">
+			<attribute key="areaEffect" value="bluebubble" />
+		</attack>
+		<attack name="drown" interval="500" chance="5" length="8" spread="0" min="-402" max="-918">
+			<attribute key="areaEffect" value="icearea" />
+		</attack>
+		<attack name="drown" interval="500" chance="10" length="8" spread="3" min="-301" max="-520">
+			<attribute key="areaEffect" value="splash" />
+		</attack>
+	</attacks>
+	<defenses armor="40" defense="40">
+		<defense name="healing" interval="500" chance="5" min="200" max="500">
+			<attribute key="areaEffect" value="bubbles" />
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity drown="1" />
+		<immunity paralyze="1" />/>
+		<immunity fire="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="3000" chance="200">
+		<voice sentence="QJELL AFAR GOU JEY!!" />
+		<voice sentence="DIE!! KENH!!" />
+	</voices>
+	<elements>
+		<element lifedrainPercent="-1" />
+	</elements>
+	<loot>
+		<item name="gold coin" countmax="100" chance="38000" />
+		<item name="gold coin" countmax="100" chance="30000" />
+		<item name="gold coin" countmax="36" chance="30000" />
+		<item name="platinum coin" countmax="3" chance="25000" />
+		<item name="ice rapier" chance="4200" />
+		<item name="glacier kilt" chance="7150" />
+		<item name="shrimp" countmax="52" chance="60000" />
+		<item name="ice cube" chance="10200" />
+		<item name="glacial shoes" chance="2930" />
+		<item name="glacier amulet" chance="2880" />
+		<item name="mana potion" countmax="7" chance="6000"/><!-- manafluid -->
+		<item name="health potion" countmax="10" chance="6000"/><!-- lifefluid -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="ring of the sky" chance="900" />
+			<item name="ring of healing" chance="1100" />				
+			<item name="blue gem" chance="2900" />
+			<item name="thunder hammer" chance="370" />
+			<item name="the robe of the ice queen" chance="990" />
+			<item name="glacial rod" chance="2930" />
+			<item name="giant shrimp" chance="200" />
+			<item name="boots of haste" chance="1930" />
+			<item name="golden boots" chance="150" />
+			<item id="5436" chance="3600"/><!-- water strike scroll -->
+			<item id="5780" chance="1000"/><!-- water strike scroll -->
+			<item id="5437" chance="1800"/><!-- water wave scroll -->
+		</item>
+	</loot>
+</monster>
