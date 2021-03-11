@@ -41,7 +41,7 @@
 	</defenses>
 	<immunities>
 		<immunity drown="1" />
-		<immunity paralyze="1" />/>
+		<immunity paralyze="1" />
 		<immunity fire="1" />
 		<immunity invisible="1" />
 	</immunities>
@@ -61,7 +61,7 @@
 		<item name="glacier kilt" chance="7150" />
 		<item name="shrimp" countmax="52" chance="60000" />
 		<item name="ice cube" chance="10200" />
-		<item name="glacial shoes" chance="2930" />
+		<item name="glacier shoes" chance="2930" />
 		<item name="glacier amulet" chance="2880" />
 		<item name="mana potion" countmax="7" chance="6000"/><!-- manafluid -->
 		<item name="health potion" countmax="10" chance="6000"/><!-- lifefluid -->
