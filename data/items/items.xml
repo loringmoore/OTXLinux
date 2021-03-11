@@ -218,7 +218,7 @@
 	<item fromid="578" toid="581" name="dragon statue" />
 	<item id="582" name="magic plate legs">
 		<attribute key="weight" value="4800"/>
-		<attribute key="armor" value="9"/>
+		<attribute key="armor" value="11"/>
 		<attribute key="slotType" value="legs"/>
 		<attribute key="maxHitPointsPercent" value="127"/>
 		<attribute key="maxManaPointsPercent" value="91"/>
@@ -235,7 +235,7 @@
 		<attribute key="manaTicks" value="1000" />
 		<attribute key="range" value="2" />
 	</item>
-	<item fromid="582" toid="589" name="grass" />
+	<item fromid="585" toid="589" name="grass" />
 	<item fromid="590" toid="597" name="sand" />
 	<item fromid="598" toid="601" name="lava">
 		<attribute key="type" value="trashholder" />
@@ -4370,7 +4370,7 @@
 	<item id="2506" article="a" name="dragon scale helmet">
 		<attribute key="description" value="It is made of dragon scales."/>
 		<attribute key="weight" value="6000"/>
-		<attribute key="armor" value="9"/>
+		<attribute key="armor" value="10"/>
 		<attribute key="slotType" value="head"/>
 		<attribute key="maxHitPointsPercent" value="115"/>
 		<attribute key="maxManaPointsPercent" value="95"/>

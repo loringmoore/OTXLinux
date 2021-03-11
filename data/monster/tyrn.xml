@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Tyrn" nameDescription="Tyrn" race="blood" experience="21000" speed="260" manacost="0">
+<monster name="Tyrn" nameDescription="Tyrn" race="blood" experience="31000" speed="260" manacost="0">
 	<health now="12000" max="12000"/>
 	<look type="192" corpse="5377"/>
 	<targetchange interval="4000" chance="15"/>
