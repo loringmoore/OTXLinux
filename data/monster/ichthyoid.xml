@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Jaul" nameDescription="Jaul" race="blood" experience="13000" speed="360" manacost="0">
+<monster name="Ichthyoid" nameDescription="an ichthyoid" race="blood" experience="13000" speed="360" manacost="0">
 	<health now="10000" max="10000" />
 	<look type="258" corpse="5784" />
 	<targetchange interval="2000" chance="5" />
