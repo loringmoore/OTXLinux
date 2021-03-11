@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Ichthyoid" nameDescription="an ichthyoid" race="blood" experience="13000" speed="360" manacost="0">
 	<health now="10000" max="10000" />
-	<look type="258" corpse="5784" />
+	<look type="258" corpse="5796" />
 	<targetchange interval="2000" chance="5" />
 	<flags>
 		<flag summonable="0" />

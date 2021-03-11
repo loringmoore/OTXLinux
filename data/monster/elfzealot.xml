@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Elf Zealot" namedescription="an elf zealot" race="blood" experience="23250" speed="280" manacost="0">
 	<health now="18630" max="18630"/>
-	<look type="259" head="3" body="94" legs="113" feet="95" corpse="5787"/>
+	<look type="259" head="3" body="94" legs="113" feet="95" corpse="5799"/>
 	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
