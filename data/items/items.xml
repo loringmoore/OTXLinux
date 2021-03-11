@@ -11649,57 +11649,57 @@
 		<attribute key="description" value="It contains instructions to learn the 'strong energy strike' spell." />
 		<attribute key="weight" value="200" />
 	</item>
-	<item id="5784" article="a" name="dead ichthyoid">
+	<item id="5796" article="a" name="dead ichthyoid">
 		<attribute key="containerSize" value="50" />
-		<attribute key="decayTo" value="5785" />
+		<attribute key="decayTo" value="5797" />
 		<attribute key="duration" value="600" />
 		<attribute key="corpseType" value="blood" />
 		<attribute key="fluidSource" value="blood" />
 	</item>
-	<item id="5785" article="a" name="dead ichthyoid">
+	<item id="5797" article="a" name="dead ichthyoid">
 		<attribute key="containerSize" value="50" />
-		<attribute key="decayTo" value="5786" />
+		<attribute key="decayTo" value="5798" />
 		<attribute key="duration" value="300" />
 		<attribute key="corpseType" value="blood" />
 		<attribute key="fluidSource" value="blood" />
 	</item>
-	<item id="5786" article="a" name="dead ichthyoid">
+	<item id="5798" article="a" name="dead ichthyoid">
 		<attribute key="containerSize" value="50" />
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="300" />
 		<attribute key="corpseType" value="blood" />
 		<attribute key="fluidSource" value="blood" />
 	</item>
-	<item id="5787" article="a" name="dead elf">
+	<item id="5799" article="a" name="dead elf">
 		<attribute key="containerSize" value="10"/>
-		<attribute key="decayTo" value="5788"/>
+		<attribute key="decayTo" value="5800"/>
 		<attribute key="duration" value="900"/>
 		<attribute key="corpseType" value="blood"/>
 		<attribute key="fluidSource" value="blood"/>
 	</item>
-	<item id="5788" article="a" name="dead elf">
+	<item id="5800" article="a" name="dead elf">
 		<attribute key="containerSize" value="10"/>
 		<attribute key="decayTo" value="2947"/>
 		<attribute key="duration" value="600"/>
 		<attribute key="corpseType" value="blood"/>
 	</item>
-	<item id="5789" article="a" name="dead dwarf">
+	<item id="5801" article="a" name="dead dwarf">
 		<attribute key="containerSize" value="10"/>
-		<attribute key="decayTo" value="5790"/>
+		<attribute key="decayTo" value="5802"/>
 		<attribute key="duration" value="900"/>
 		<attribute key="corpseType" value="blood"/>
 		<attribute key="fluidSource" value="blood"/>
 	</item>
-	<item id="5790" article="a" name="dead dwarf">
+	<item id="5802" article="a" name="dead dwarf">
 		<attribute key="containerSize" value="10"/>
 		<attribute key="decayTo" value="2962"/>
 		<attribute key="duration" value="600"/>
 		<attribute key="corpseType" value="blood"/>
 	</item>
-	<item id="5791" article="a" name="gobbler doll">
+	<item id="5803" article="a" name="gobbler doll">
 		<attribute key="weight" value="850" />
 	</item>
-	<item id="5792" article="a" name="prismatic helmet">
+	<item id="5804" article="a" name="prismatic helmet">
 		<attribute key="weight" value="5600" />
 		<attribute key="armor" value="13" />
 		<attribute key="slotType" value="head" />
@@ -11707,7 +11707,7 @@
 		<attribute key="maxManaPointsPercent" value="93"/>
 		<attribute key="magicPointsPercent" value="90"/>
 	</item>
-	<item id="5793" article="a" name="colossus armor">
+	<item id="5805" article="a" name="colossus armor">
 		<attribute key="weight" value="12000" />
 		<attribute key="armor" value="19" />
 		<attribute key="maxHitPointsPercent" value="138"/>
@@ -11715,7 +11715,7 @@
 		<attribute key="magicPointsPercent" value="80"/>
 		<attribute key="slotType" value="body" />
 	</item>
-	<item id="5794" article="an" name="elite gladiator mail">
+	<item id="5806" article="an" name="elite gladiator mail">
 		<attribute key="weight" value="12000" />
 		<attribute key="armor" value="18" />
 		<attribute key="maxHitPointsPercent" value="136"/>
@@ -11723,20 +11723,20 @@
 		<attribute key="magicPointsPercent" value="80"/>
 		<attribute key="slotType" value="body" />
 	</item>
-	<item id="5795" article="a" name="shield of corruption">
+	<item id="5807" article="a" name="shield of corruption">
 		<attribute key="weight" value="4900" />
 		<attribute key="defense" value="41" />
 		<attribute key="weaponType" value="shield" />
 		<attribute key="absorbPercentAll" value="12" />
 	</item>
-		<item id="5796" name="aboriginal legs">
+		<item id="5808" name="aboriginal legs">
 		<attribute key="weight" value="7200" />
 		<attribute key="armor" value="9" />a
 		<attribute key="slotType" value="legs" />
 		<attribute key="skillDist" value="5" />
 		<attribute key="maxManaPointsPercent" value="120"/>
 	</item>
-	<item id="5797" article="a" name="tourmaline legs">
+	<item id="5809" article="a" name="tourmaline legs">
 		<attribute key="weight" value="8200" />
 		<attribute key="armor" value="9" />
 		<attribute key="slotType" value="legs" />
@@ -11744,14 +11744,14 @@
 		<attribute key="maxHitPointsPercent" value="88"/>
 		<attribute key="maxManaPointsPercent" value="140"/>
 	</item>
-	<item id="5798" article="a" name="master archer's armor">
+	<item id="5810" article="a" name="master archer's armor">
 		<attribute key="armor" value="17" />
 		<attribute key="slotType" value="body" />
 		<attribute key="weight" value="6900" />
 		<attribute key="skillDist" value="9" />
 		<attribute key="maxManaPointsPercent" value="122"/>
 	</item>
-	<item id="5799" article="a" name="robe of the underworld">
+	<item id="5811" article="a" name="robe of the underworld">
 		<attribute key="weight" value="3100" />
 		<attribute key="armor" value="17" />
 		<attribute key="slotType" value="body" />
