@@ -81,6 +81,7 @@
 			<item name="yellow gem" chance="16000" /><!-- brown crystal splinter -->
 			<item name="red gem" chance="7600" /><!-- red crystal fragment -->
 			<item name="huge chunk of crude iron" chance="450" />
+			<item name="gobbler doll" chance="250" />
 		</item>
 	</loot>
 </monster>
