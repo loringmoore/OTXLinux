@@ -8011,25 +8011,33 @@
 	</spawn>
 	<spawn centerx="1172" centery="685" centerz="9" radius="30">
 		<monster name="ghoul" x="-16" y="-28" z="9" spawntime="60" />
-		<monster name="mummy" x="-14" y="-26" z="9" spawntime="60" />
+		<monster name="bonebeast" x="-14" y="-27" z="9" spawntime="67" />
+		<monster name="bonebeast" x="-16" y="-26" z="9" spawntime="67" />
 		<monster name="crypt shambler" x="4" y="-26" z="9" spawntime="60" />
 		<monster name="ghoul" x="-16" y="-25" z="9" spawntime="60" />
-		<monster name="mummy" x="1" y="-24" z="9" spawntime="60" />
-		<monster name="ghoul" x="4" y="-24" z="9" spawntime="60" />
+		<monster name="bonebeast" x="1" y="-25" z="9" spawntime="67" />
+		<monster name="bonebeast" x="8" y="-25" z="9" spawntime="67" />
+		<monster name="bonebeast" x="-13" y="-24" z="9" spawntime="67" />
 		<monster name="ghoul" x="-13" y="-23" z="9" spawntime="60" />
+		<monster name="bonebeast" x="4" y="-23" z="9" spawntime="67" />
 		<monster name="ghoul" x="8" y="-23" z="9" spawntime="60" />
 		<monster name="ghoul" x="-25" y="-16" z="9" spawntime="60" />
 		<monster name="ghoul" x="-2" y="-16" z="9" spawntime="60" />
-		<monster name="crypt shambler" x="-26" y="-14" z="9" spawntime="60" />
 		<monster name="ghoul" x="-24" y="-14" z="9" spawntime="60" />
+		<monster name="bonebeast" x="-6" y="-14" z="9" spawntime="67" />
+		<monster name="bonebeast" x="-1" y="-14" z="9" spawntime="67" />
+		<monster name="bonebeast" x="-27" y="-13" z="9" spawntime="67" />
 		<monster name="ghoul" x="17" y="-13" z="9" spawntime="60" />
 		<monster name="ghoul" x="1" y="-12" z="9" spawntime="60" />
+		<monster name="bonebeast" x="16" y="-12" z="9" spawntime="67" />
 		<monster name="mummy" x="-26" y="-11" z="9" spawntime="60" />
 		<monster name="ghoul" x="-5" y="-11" z="9" spawntime="60" />
 		<monster name="ghoul" x="14" y="-11" z="9" spawntime="60" />
-		<monster name="mummy" x="17" y="-11" z="9" spawntime="60" />
-		<monster name="mummy" x="-3" y="-9" z="9" spawntime="60" />
-		<monster name="crypt shambler" x="14" y="-9" z="9" spawntime="60" />
+		<monster name="bonebeast" x="-23" y="-10" z="9" spawntime="67" />
+		<monster name="bonebeast" x="12" y="-10" z="9" spawntime="67" />
+		<monster name="bonebeast" x="-3" y="-9" z="9" spawntime="67" />
+		<monster name="bonebeast" x="18" y="-9" z="9" spawntime="67" />
+		<monster name="bonebeast" x="-25" y="-8" z="9" spawntime="67" />
 		<monster name="ghoul" x="-15" y="-5" z="9" spawntime="60" />
 		<monster name="crypt shambler" x="-18" y="-3" z="9" spawntime="60" />
 		<monster name="ghoul" x="-14" y="-3" z="9" spawntime="60" />
@@ -8037,24 +8045,34 @@
 		<monster name="ghoul" x="2" y="-1" z="9" spawntime="60" />
 		<monster name="mummy" x="15" y="-1" z="9" spawntime="60" />
 		<monster name="ghoul" x="-17" y="0" z="9" spawntime="60" />
-		<monster name="ghoul" x="16" y="0" z="9" spawntime="60" />
+		<monster name="bonebeast" x="-15" y="0" z="9" spawntime="67" />
+		<monster name="bonebeast" x="4" y="0" z="9" spawntime="67" />
+		<monster name="bonebeast" x="13" y="1" z="9" spawntime="67" />
+		<monster name="bonebeast" x="-19" y="2" z="9" spawntime="67" />
 		<monster name="crypt shambler" x="2" y="2" z="9" spawntime="60" />
 		<monster name="ghoul" x="4" y="2" z="9" spawntime="60" />
-		<monster name="crypt shambler" x="13" y="2" z="9" spawntime="60" />
+		<monster name="bonebeast" x="15" y="2" z="9" spawntime="67" />
+		<monster name="bonebeast" x="-1" y="4" z="9" spawntime="67" />
 		<monster name="ghoul" x="-4" y="6" z="9" spawntime="60" />
 		<monster name="mummy" x="8" y="9" z="9" spawntime="60" />
 		<monster name="crypt shambler" x="-15" y="10" z="9" spawntime="60" />
 		<monster name="ghoul" x="8" y="12" z="9" spawntime="60" />
 		<monster name="mummy" x="-16" y="13" z="9" spawntime="60" />
+		<monster name="bonebeast" x="10" y="13" z="9" spawntime="67" />
 		<monster name="ghoul" x="12" y="13" z="9" spawntime="60" />
+		<monster name="bonebeast" x="-18" y="14" z="9" spawntime="67" />
 		<monster name="ghoul" x="9" y="14" z="9" spawntime="60" />
+		<monster name="bonebeast" x="-15" y="16" z="9" spawntime="67" />
+		<monster name="bonebeast" x="-1" y="17" z="9" spawntime="67" />
 		<monster name="ghoul" x="-7" y="18" z="9" spawntime="60" />
+		<monster name="bonebeast" x="-5" y="18" z="9" spawntime="67" />
 		<monster name="ghoul" x="-3" y="18" z="9" spawntime="60" />
-		<monster name="mummy" x="-4" y="19" z="9" spawntime="60" />
+		<monster name="bonebeast" x="-8" y="21" z="9" spawntime="67" />
 		<monster name="ghoul" x="-7" y="22" z="9" spawntime="60" />
 		<monster name="ghoul" x="11" y="23" z="9" spawntime="60" />
-		<monster name="mummy" x="13" y="23" z="9" spawntime="60" />
-		<monster name="crypt shambler" x="11" y="25" z="9" spawntime="60" />
+		<monster name="bonebeast" x="11" y="25" z="9" spawntime="67" />
+		<monster name="bonebeast" x="9" y="26" z="9" spawntime="67" />
+		<monster name="bonebeast" x="13" y="26" z="9" spawntime="67" />
 		<monster name="ghoul" x="11" y="27" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="1083" centery="686" centerz="9" radius="18">

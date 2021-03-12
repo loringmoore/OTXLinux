@@ -34,10 +34,6 @@
 		<attack name="effect" interval="500" chance="5" radius="5" target="0" min="-200" max="-600">
 			<attribute key="areaEffect" value="blackspark"/>
 		</attack>
-		<attack name="firecondition" interval="500" chance="4" range="7" radius="7" target="1" min="-200" max="-800">
-			<attribute key="shootEffect" value="fire"/>
-			<attribute key="areaEffect" value="firearea"/>
-		</attack>
 		<attack name="lifedrain" interval="500" chance="6" length="8" spread="0" min="-50" max="-250">
 			<attribute key="areaEffect" value="greenspark"/>
 		</attack>
@@ -64,7 +60,7 @@
 		<immunity invisible="1"/>
 	</immunities>
 	<summons maxSummons="3">
-		<summon name="Demon" interval="500" chance="2" max="3"/>
+		<summon name="Demon" interval="5000" chance="2" max="3"/>
 	</summons>
 	<voices interval="5000" chance="20">
 		<voice sentence="NOONE WILL STOP ME THIS TIME!" yell="1"/>

@@ -77,7 +77,7 @@ local function creatureSayCallback(cid, type, msg)
 		elseif npcHandler.topic[cid] == 6 then
 			if player:removeItem(5252, 30) and player:removeItem(5259, 1) then
 				npcHandler:say("These ores will be enough to craft a fine, strong blade.", cid)
-				player:setStorageValue(6072, 3)
+				player:setStorageValue(6072, 4)
 				npcHandler.topic[cid] = 0
 			else
 				npcHandler:say("Get back out there and find the necessary items to complete your task.", cid)
@@ -85,7 +85,7 @@ local function creatureSayCallback(cid, type, msg)
 		elseif npcHandler.topic[cid] == 7 then
 			if player:removeItem(5305, 1) then
 				npcHandler:say("Truly incredible, |PLAYERNAME|! You are a true warrior in my eyes.", cid)
-				player:setStorageValue(6072, 4)
+				player:setStorageValue(6072, 5)
 				player:getPosition():sendMagicEffect(CONST_ME_MAGIC_BLUE)
 				npcHandler.topic[cid] = 0
 			else
