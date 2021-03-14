@@ -13,7 +13,7 @@
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
 		<flag canpushcreatures="1"/>
-		<flag targetdistance="2"/>
+		<flag targetdistance="1"/>
 		<flag staticattack="90"/>
 		<flag runonhealth="2500"/>
 	</flags>
@@ -38,7 +38,7 @@
 			<attribute key="areaEffect" value="greenspark"/>
 		</attack>
 	</attacks>
-	<defenses armor="100" defense="120">
+	<defenses armor="50" defense="60">
 		<defense name="healing" interval="500" chance="3" min="200" max="500">
 			<attribute key="areaEffect" value="greenshimmer"/>
 		</defense>
@@ -59,7 +59,7 @@
 		<immunity drunk="1"/>
 		<immunity invisible="1"/>
 	</immunities>
-	<summons maxSummons="3">
+	<summons maxSummons="1">
 		<summon name="Demon" interval="5000" chance="2" max="1"/>
 	</summons>
 	<voices interval="5000" chance="20">
