@@ -8813,6 +8813,7 @@
 	<spawn centerx="859" centery="1124" centerz="9" radius="9">
 		<monster name="hydra" x="1" y="-3" z="9" spawntime="60" />
 		<monster name="hydra" x="5" y="-1" z="9" spawntime="60" />
+		<monster name="serpent spawn" x="-3" y="7" z="9" spawntime="67" />
 	</spawn>
 	<spawn centerx="636" centery="1125" centerz="9" radius="26">
 		<monster name="rotworm" x="-1" y="-14" z="9" spawntime="60" />
@@ -8873,6 +8874,7 @@
 	</spawn>
 	<spawn centerx="898" centery="1132" centerz="9" radius="9">
 		<monster name="hydra" x="6" y="0" z="9" spawntime="60" />
+		<monster name="serpent spawn" x="-3" y="1" z="9" spawntime="67" />
 		<monster name="hydra" x="3" y="1" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="953" centery="1136" centerz="9" radius="10">
@@ -8894,6 +8896,7 @@
 		<monster name="Gobbler" x="9" y="6" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="882" centery="1143" centerz="9" radius="9">
+		<monster name="serpent spawn" x="5" y="-2" z="9" spawntime="67" />
 		<monster name="hydra" x="-3" y="2" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="1055" centery="1143" centerz="9" radius="10">
@@ -8906,6 +8909,7 @@
 	<spawn centerx="853" centery="1144" centerz="9" radius="9">
 		<monster name="hydra" x="3" y="-1" z="9" spawntime="60" />
 		<monster name="hydra" x="-4" y="1" z="9" spawntime="60" />
+		<monster name="serpent spawn" x="9" y="2" z="9" spawntime="67" />
 	</spawn>
 	<spawn centerx="974" centery="1147" centerz="9" radius="10">
 		<monster name="Gobbler" x="-2" y="0" z="9" spawntime="60" />

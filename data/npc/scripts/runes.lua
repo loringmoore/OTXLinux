@@ -42,7 +42,7 @@ local spells = {
 				[27] = {spell_name = "Destroy Field" ,price = 700, words = 'adito grav', number = 27},
 				[28] = {spell_name = "Disintegrate" ,price = 900, words = 'adito tera', number = 28},
 				[29] = {spell_name = "Magic Wall" ,price = 2100, words = 'adevo grav tera', number = 29},
-				[30] = {spell_name = "Wild Growth" ,price = 2000, words = 'adevo grav tera', number = 30},
+				[30] = {spell_name = "Wild Growth" ,price = 2000, words = 'adevo grav vita', number = 30},
 				[31] = {spell_name = "Paralyze" ,price = 1900, words = 'adana ani', number = 31},
 		
 				}	

@@ -3139,7 +3139,7 @@
 	<item id="2343" article="a" name="helmet of the ancients">
 		<attribute key="description" value="The gem is glowing with power." />
 		<attribute key="weight" value="2760" />
-		<attribute key="armor" value="10" />
+		<attribute key="armor" value="13" />
 		<attribute key="slotType" value="head" />
 		<!-- <attribute key="duration" value="1800" /> -->
 		<!-- <attribute key="decayTo" value="2342" /> -->
@@ -10184,7 +10184,7 @@
 	<item id="5272" name="Ferumbras' hat">
 		<attribute key="description" value="It is the proof that Ferumbras has fallen. For now." />
 		<attribute key="weight" value="850" />
-		<attribute key="armor" value="1" />
+		<attribute key="armor" value="10" />
 		<attribute key="slotType" value="head" />
 	</item>
 	<item id="5273" article="a" name="magic sulphur">
@@ -10751,7 +10751,7 @@
 		<attribute key="weight" value="200" />
 	</item>
 	<item id="5428" article="a" name="spell scroll">
-		<attribute key="description" value="It contains instructions to learn the 'espear' spell." />
+		<attribute key="description" value="It contains instructions to learn the 'ethereal spear' spell." />
 		<attribute key="weight" value="200" />
 	</item>
 	<item id="5429" article="a" name="spell scroll">
@@ -11731,7 +11731,7 @@
 	</item>
 		<item id="5808" name="aboriginal legs">
 		<attribute key="weight" value="7200" />
-		<attribute key="armor" value="9" />a
+		<attribute key="armor" value="9" />
 		<attribute key="slotType" value="legs" />
 		<attribute key="skillDist" value="5" />
 		<attribute key="maxManaPointsPercent" value="120"/>

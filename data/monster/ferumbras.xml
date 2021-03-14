@@ -19,27 +19,27 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="-100" max="-350"/>
-		<attack name="manadrain" interval="500" chance="5" range="7" min="-300" max="-700">
+		<attack name="manadrain" interval="500" chance="5" range="7" min="-100" max="-300">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</attack>
-		<attack name="poison" interval="500" chance="7" radius="6" target="0" min="-250" max="-550">
+		<attack name="poison" interval="500" chance="7" radius="6" target="0" min="-250" max="-350">
 			<attribute key="areaEffect" value="poison"/>
 		</attack>
-		<attack name="energy" interval="500" chance="4" radius="6" target="0" min="-200" max="-400">
+		<attack name="energy" interval="500" chance="4" radius="6" target="0" min="-100" max="-300">
 			<attribute key="areaEffect" value="energy"/>
 		</attack>
-		<attack name="lifedrain" interval="500" chance="5" radius="6" target="0" min="-200" max="-450">
+		<attack name="lifedrain" interval="500" chance="5" radius="6" target="0" min="-200" max="-350">
 			<attribute key="areaEffect" value="poff"/>
 		</attack>
-		<attack name="effect" interval="500" chance="5" radius="5" target="0" min="-200" max="-600">
+		<attack name="effect" interval="500" chance="5" radius="5" target="0" min="-100" max="-300">
 			<attribute key="areaEffect" value="blackspark"/>
 		</attack>
-		<attack name="lifedrain" interval="500" chance="6" length="8" spread="0" min="-50" max="-250">
+		<attack name="lifedrain" interval="500" chance="6" length="8" spread="0" min="-250" max="-550">
 			<attribute key="areaEffect" value="greenspark"/>
 		</attack>
 	</attacks>
 	<defenses armor="100" defense="120">
-		<defense name="healing" interval="500" chance="3" min="900" max="1500">
+		<defense name="healing" interval="500" chance="3" min="200" max="500">
 			<attribute key="areaEffect" value="greenshimmer"/>
 		</defense>
 		<defense name="speed" interval="500" chance="5" speedchange="360" duration="7000">
@@ -60,7 +60,7 @@
 		<immunity invisible="1"/>
 	</immunities>
 	<summons maxSummons="3">
-		<summon name="Demon" interval="5000" chance="2" max="3"/>
+		<summon name="Demon" interval="5000" chance="2" max="1"/>
 	</summons>
 	<voices interval="5000" chance="20">
 		<voice sentence="NOONE WILL STOP ME THIS TIME!" yell="1"/>
