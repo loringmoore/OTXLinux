@@ -30,3 +30,5 @@ function onAddItem(creature, moveitem, tileitem, position)
 	position:sendMagicEffect(CONST_ME_FIREATTACK)
 	return true
 end
+
+
