@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <monster name="Ferumbras" nameDescription="Ferumbras" race="venom" experience="92000" speed="320" manacost="0">
 	<health now="35000" max="35000"/>
-	<look type="146" corpse="3058"/>
+	<look type="146" corpse="5565"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
