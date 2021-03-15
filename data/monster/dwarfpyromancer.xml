@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dwarf Pyromancer" nameDescription="a dwarf pyromancer" race="blood" experience="24500" speed="300" manacost="0">
+	<health now="18000" max="18000"/>
+	<look type="257" corpse="2987"/>
+	<targetchange interval="5000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="4"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="150"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="50" attack="30"/>
+		<attack name="fire" interval="500" chance="10" range="7" min="-255" max="-505">
+			<attribute key="shootEffect" value="fire"/>
+		</attack>
+		<attack name="fire" interval="500" chance="15" range="7" radius="4" target="1" min="-245" max="-365">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="fireattack"/>
+		</attack>
+		<attack name="fire" interval="500" chance="8" length="8" spread="0" min="-490" max="-950">
+			<attribute key="areaEffect" value="redfirework"/>
+		</attack>
+	</attacks>
+	<defenses armor="15" defense="35">
+		<defense name="healing" interval="500" chance="15" min="125" max="330">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity invisible="1"/>
+		<immunity fire="1"/>
+		<immunity poison="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Hail Durin!"/>
+		<voice sentence="Fire is the strongest element."/>
+		<voice sentence="Fight fire with fire!"/>
+	</voices>
+	<loot>
+		<item id="2260" chance="20000"/><!-- blank rune -->
+		<item id="2148" countmax="100" chance="90000"/><!-- gold coin -->
+		<item id="2148" countmax="100" chance="90000"/><!-- gold coin -->
+		<item id="2152" countmax="10" chance="70000"/><!-- platinum coin -->
+		<item name="magma boots" chance="2100"/>
+		<item id="2162" chance="24000"/><!-- magic light wand -->
+		<item name="jalapeño pepper" countmax="9" chance="36000"/><!-- pear -->
+		<item name="magma monocle" chance="3000"/><!-- soldier helmet -->
+		<item name="magma legs" chance="2300"/><!-- studded legs -->
+		<item name="mana potion" countmax="12" chance="3000"/><!-- manafluid -->
+		<item id="2787" countmax="5" chance="60000"/><!-- white mushroom -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="blessed sceptre" chance="2000"/><!-- clerical mace -->
+			<item id="2213" chance="600"/><!-- dwarven ring -->
+			<item id="2146" chance="100"/><!-- small sapphire -->
+			<item name="spellbook of lost souls" chance="800"/><!-- spellbook -->
+			<item name="magic sulphur" countmax="3" chance="2100" />
+			<item id="5781" chance="350"/><!-- strong fire strike -->
+			<item id="5779" chance="900"/><!-- great fire beam scroll -->
+			<item name="iron ore" countmax="3" chance="3700" />
+			<item name="wand of perdition" chance="1500" />
+		</item>
+	</loot>
+</monster>

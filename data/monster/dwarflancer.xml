@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dwarf Lancer" nameDescription="a dwarf lancer" race="blood" experience="21200" speed="270" manacost="0">
+	<health now="20135" max="20135"/>
+	<look type="160" head="57" body="121" legs="68" feet="116" corpse="5801"/>
+	<targetchange interval="5000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="92" attack="91"/>
+		<attack name="physical" interval="500" chance="15" range="7" min="-250" max="-540">
+			<attribute key="shootEffect" value="spear"/>
+		</attack>
+		<attack name="poison" interval="500" chance="12" radius="3" target="0" min="-140" max="-330">
+			<attribute key="areaEffect" value="poff"/>
+		</attack>
+	</attacks>
+	<defenses armor="39" defense="40"/>
+	<immunities>
+		<immunity poison="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Hail Durin!"/>
+	</voices>
+	<loot>
+		<item name="spear" countmax="14" chance="80000"/>
+		<item name="dwarven armor" chance="2000"/>
+		<item id="2148" countmax="100" chance="90000"/><!-- gold coin -->
+		<item id="2148" countmax="100" chance="90000"/><!-- gold coin -->
+		<item id="2152" countmax="11" chance="70000"/><!-- gold coin -->
+		<item name="dwarven helmet" chance="4000"/>
+		<item name="dwarven legs" chance="2000"/>
+		<item id="2787" countmax="6" chance="80000"/><!-- white mushroom -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="diamond sceptre" chance="2100"/>
+			<item name="iron ore" countmax="4" chance="2300" />
+			<item name="ravenwing" chance="1500"/><!-- battle axe -->
+			<item id="2455" chance="8000"/><!-- crossbow -->
+			<item id="5428" chance="2500"/><!-- conjure bolt scroll -->
+			<item name="eagle shield" chance="1000"/>
+			<item name="master archer's armor" chance="500"/>
+		</item>
+	</loot>
+</monster>

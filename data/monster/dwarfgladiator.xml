@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dwarf Gladiator" nameDescription="a dwarf gladiator" race="blood" experience="29650" speed="340" manacost="0">
+	<health now="24500" max="24500"/>
+	<look type="255" head="114" body="94" legs="79" feet="114" corpse="2983"/>
+	<targetchange interval="5000" chance="5"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="95" attack="109"/>
+		<attack name="physical" interval="500" chance="12" radius="3" target="0" min="-240" max="-530">
+			<attribute key="areaEffect" value="groundshaker"/>
+		</attack>
+		<attack name="physical" interval="500" chance="15" range="7" min="-250" max="-440">
+			<attribute key="shootEffect" value="skull"/>
+		</attack>
+	</attacks>
+	<defenses armor="75" defense="67"/>
+	<immunities>
+		<immunity invisible="1"/>
+		<immunity poison="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Hail Durin!"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="100" chance="90000"/><!-- gold coin -->
+		<item id="2148" countmax="100" chance="90000"/><!-- gold coin -->
+		<item id="2152" countmax="11" chance="70000"/><!-- gold coin -->
+		<item name="platinum amulet" chance="3500" />
+		<item name="health potion" countmax="19" chance="6400"/><!-- lifefluid -->
+		<item name="crown armor" chance="2000"/>
+		<item id="2787" countmax="2" chance="55000"/><!-- white mushroom -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="steel boots" chance="1800"/>
+			<item name="golden boots" chance="600"/>
+			<item name="golden helmet" chance="500"/>
+			<item name="mastermind shield" chance="1000"/>
+			<item name="thunder hammer" chance="800"/>
+			<item name="elite gladiator mail" chance="800"/>
+			<item name="magic plate legs" chance="100"/>
+			<item name="stonecutter axe" chance="250"/>
+			<item name="violet gem" chance="2100"/>
+			<item name="amulet of loss" chance="400"/>
+			<item name="iron ore" countmax="10" chance="2510" />
+		</item>
+	</loot>
+</monster>

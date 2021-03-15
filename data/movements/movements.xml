@@ -38,6 +38,7 @@
 	<!-- teleport -->
 	<movevent event="AddItem" tileitem="1" itemid="1485" script="tombCoalBasin.lua" />
 	<movevent event="AddItem" tileitem="1" actionid="3000" script="fierceberserk.lua" />
+	<movevent event="AddItem" tileitem="1" actionid="3001" script="fierceberserk.lua" />
 	<movevent event="StepIn" actionid="2019" script="morgarothteleport.lua" />
 	<movement event="StepIn" actionid="2021" script="desolationfrontdoors.lua"/>
 	<movement event="StepIn" uniqueid="2250" script="maninthecave.lua"/>
@@ -433,6 +434,10 @@
 	<movevent event="DeEquip" itemid="2494" slot="armor" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="2472" slot="armor" function="onEquipItem" /> <!-- magic plate -->
 	<movevent event="DeEquip" itemid="2472" slot="armor" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5806" slot="armor" function="onEquipItem" /> <!-- EGM -->
+	<movevent event="DeEquip" itemid="5806" slot="armor" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5805" slot="armor" function="onEquipItem" /> <!-- Colossus Armor -->
+	<movevent event="DeEquip" itemid="5805" slot="armor" function="onDeEquipItem" />
 	
 	<!--distance -->
 	<movevent event="Equip" itemid="3968" slot="armor" function="onEquipItem" /> <!-- leopard -->
@@ -449,6 +454,8 @@
 	<movevent event="DeEquip" itemid="5239" slot="armor" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="5709" slot="armor" function="onEquipItem" /> <!-- divine plate -->
 	<movevent event="DeEquip" itemid="5709" slot="armor" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5810" slot="armor" function="onEquipItem" /> <!-- MAA -->
+	<movevent event="DeEquip" itemid="5810" slot="armor" function="onDeEquipItem" />
 	
 	<!--mage -->
 	<movevent event="Equip" itemid="5233" slot="armor" function="onEquipItem" /> <!-- spirit cloak -->
@@ -473,6 +480,8 @@
 	<movevent event="DeEquip" itemid="5237" slot="armor" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="5706" slot="armor" function="onEquipItem" /> <!-- dark lord-->
 	<movevent event="DeEquip" itemid="5706" slot="armor" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5811" slot="armor" function="onEquipItem" /> <!-- robe of the underworld -->
+	<movevent event="DeEquip" itemid="5811" slot="armor" function="onDeEquipItem" />
 	
 	<!-- Legs -->
 	<!-- melee -->
@@ -498,6 +507,8 @@
 	<movevent event="DeEquip" itemid="2495" slot="legs" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="2469" slot="legs" function="onEquipItem" /> <!--DS -->
 	<movevent event="DeEquip" itemid="2469" slot="legs" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="582" slot="legs" function="onEquipItem" /> <!--MPL -->
+	<movevent event="DeEquip" itemid="582" slot="legs" function="onDeEquipItem" /> 
 	
 	<!--distance-->
 	<movevent event="Equip" itemid="2507" slot="legs" function="onEquipItem" /> <!--elven -->
@@ -523,6 +534,8 @@
 	<movevent event="DeEquip" itemid="5026" slot="legs" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="5705" slot="legs" function="onEquipItem" /> <!--brocade -->
 	<movevent event="DeEquip" itemid="5705" slot="legs" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5809" slot="legs" function="onEquipItem" /> <!--tourmaline -->
+	<movevent event="DeEquip" itemid="5809" slot="legs" function="onDeEquipItem" />
 	
 	<!-- Shields -->
 	
@@ -616,6 +629,8 @@
 	<movevent event="DeEquip" itemid="5620" slot="hand" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="5708" slot="hand" function="onEquipItem" /> 
 	<movevent event="DeEquip" itemid="5708" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5807" slot="hand" function="onEquipItem" /> 
+	<movevent event="DeEquip" itemid="5807" slot="hand" function="onDeEquipItem" />
 	
 
 	
@@ -680,6 +695,10 @@
 	<movevent event="DeEquip" itemid="5622" slot="hand" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="2348" slot="hand" function="onEquipItem" /> <!--ancient rune -->
 	<movevent event="DeEquip" itemid="2348" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="584" slot="hand" function="onEquipItem" /> <!--lunar staff -->
+	<movevent event="DeEquip" itemid="584" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2453" slot="hand" function="onEquipItem" /> <!--arcane staff -->
+	<movevent event="DeEquip" itemid="2453" slot="hand" function="onDeEquipItem" />
 	
 	<!-- club -->
 	

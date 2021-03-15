@@ -49,12 +49,13 @@
 	<loot>
 		<item id="2148" countmax="100" chance="80000"/><!-- gold coin -->
 		<item id="2148" countmax="60" chance="80000"/><!-- gold coin -->
-		<item name="fire axe" chance="20000"/>
+		<item id="2152" countmax="6" chance="40000"/><!-- gold coin -->
+		<item name="fire axe" chance="2000"/>
 		<item name="knight legs" chance="3000"/>
 		<item id="2666" countmax="4" chance="20000"/><!-- meat -->
 		<item name="health potion" countmax="7" chance="4000"/><!-- lifefluid -->
 		<item id="1987" chance="100000"><!-- bag -->
-			<item name="phoenix shield" chance="4000"/><!-- battle shield -->
+			<item name="phoenix shield" chance="1800"/><!-- battle shield -->
 			<item name="golden armor" chance="800"/>
 			<item name="boots of haste" chance="1000"/>
 			<item name="heroic axe" chance="800"/>

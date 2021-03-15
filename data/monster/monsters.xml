@@ -68,7 +68,10 @@
 	<monster name="dryad" file="dryad.xml"/>
 	<monster name="dwarf" file="dwarf.xml"/>
 	<monster name="dwarf geomancer" file="dwarfgeomancer.xml"/>
+	<monster name="dwarf gladiator" file="dwarfgladiator.xml"/>
 	<monster name="dwarf guard" file="dwarfguard.xml"/>
+	<monster name="dwarf lancer" file="dwarflancer.xml"/>
+	<monster name="dwarf pyromancer" file="dwarfpyromancer.xml"/>
 	<monster name="dwarf soldier" file="dwarfsoldier.xml"/>
 	<monster name="dwarven ghost" file="dwarvenghost.xml"/>
 	<monster name="dworc fleshhunter" file="dworcfleshhunter.xml"/>

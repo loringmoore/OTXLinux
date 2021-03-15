@@ -218,10 +218,10 @@
 	<item fromid="578" toid="581" name="dragon statue" />
 	<item id="582" name="magic plate legs">
 		<attribute key="weight" value="4800"/>
-		<attribute key="armor" value="11"/>
+		<attribute key="armor" value="12"/>
 		<attribute key="slotType" value="legs"/>
-		<attribute key="maxHitPointsPercent" value="127"/>
-		<attribute key="maxManaPointsPercent" value="91"/>
+		<attribute key="maxHitPointsPercent" value="129"/>
+		<attribute key="maxManaPointsPercent" value="90"/>
 		<attribute key="magicPointsPercent" value="80"/>
 	</item>
 	<item id="583" article="a" name="trapped lightning">
@@ -4286,10 +4286,10 @@
 	</item>
 	<item id="2495" name="demon legs">
 		<attribute key="weight" value="7000"/>
-		<attribute key="armor" value="9"/>
+		<attribute key="armor" value="11"/>
 		<attribute key="slotType" value="legs"/>
-		<attribute key="maxHitPointsPercent" value="123"/>
-		<attribute key="maxManaPointsPercent" value="92"/>
+		<attribute key="maxHitPointsPercent" value="127"/>
+		<attribute key="maxManaPointsPercent" value="91"/>
 		<attribute key="magicPointsPercent" value="80"/>
 	</item>
 	<item id="2496" article="a" name="horned helmet">
@@ -4622,7 +4622,6 @@
 		<attribute key="defense" value="36"/>
 		<attribute key="weaponType" value="shield"/>
 		<attribute key="skillDist" value="3" />
-		
 	</item>
 	<item id="2539" article="a" name="phoenix shield">
 		<attribute key="description" value="This shield feels warm to the touch."/>
@@ -8908,9 +8907,9 @@
 		<attribute key="slotType" value="feet" />
 		<attribute key="decayTo" value="5612" />
 		<attribute key="duration" value="14400" />
-		<attribute key="healthGain" value="4" />
+		<attribute key="healthGain" value="12" />
 		<attribute key="healthTicks" value="1000" />
-		<attribute key="manaGain" value="8" />
+		<attribute key="manaGain" value="10" />
 		<attribute key="manaTicks" value="1000" />
 		<attribute key="transformDeEquipTo" value="2640" />
 		<attribute key="showduration" value="1" />
@@ -11725,9 +11724,9 @@
 	</item>
 	<item id="5807" article="a" name="shield of corruption">
 		<attribute key="weight" value="4900" />
-		<attribute key="defense" value="41" />
+		<attribute key="defense" value="38" />
 		<attribute key="weaponType" value="shield" />
-		<attribute key="absorbPercentAll" value="12" />
+		<attribute key="skillDist" value="3" />
 	</item>
 		<item id="5808" name="aboriginal legs">
 		<attribute key="weight" value="7200" />

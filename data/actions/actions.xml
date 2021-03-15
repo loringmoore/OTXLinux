@@ -36,6 +36,7 @@
 	<action actionid="2030" script="quests/magiclongsword.lua" />
 	<action actionid="2031" script="quests/minesgate.lua" />
 	<action actionid="2032" script="quests/elvenhell.lua" />
+	<action actionid="2033" script="quests/softbootsmirror.lua" />
 	
 	<!-- Tools -->
 	<action itemid="2120" script="tools/rope.lua" />
