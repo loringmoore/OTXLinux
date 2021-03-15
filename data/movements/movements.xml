@@ -38,7 +38,7 @@
 	<!-- teleport -->
 	<movevent event="AddItem" tileitem="1" itemid="1485" script="tombCoalBasin.lua" />
 	<movevent event="AddItem" tileitem="1" actionid="3000" script="fierceberserk.lua" />
-	<movevent event="AddItem" tileitem="1" actionid="3001" script="fierceberserk.lua" />
+	<movevent event="AddItem" tileitem="1" actionid="3001" script="wizard.lua" />
 	<movevent event="StepIn" actionid="2019" script="morgarothteleport.lua" />
 	<movement event="StepIn" actionid="2021" script="desolationfrontdoors.lua"/>
 	<movement event="StepIn" uniqueid="2250" script="maninthecave.lua"/>
