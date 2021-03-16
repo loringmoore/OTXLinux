@@ -27,7 +27,7 @@ local function creatureSayCallback(cid, type, msg)
 			npcHandler:say("Did you find a crystal wand?", cid)
 			npcHandler.topic[cid] = 4
 		end
-	elseif msgcontains(msg, "ferumbra's hat") then
+	elseif msgcontains(msg, "ferumbras' hat") then
 		if player:getStorageValue(6075) == 2 then
 			npcHandler:say("Did you slay Ferumbras and bring back his hat?", cid)
 			npcHandler.topic[cid] = 5

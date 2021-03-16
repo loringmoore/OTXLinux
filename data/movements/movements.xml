@@ -515,8 +515,10 @@
 	<movevent event="DeEquip" itemid="2507" slot="legs" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="5240" slot="legs" function="onEquipItem" /> <!--samurai -->
 	<movevent event="DeEquip" itemid="5240" slot="legs" function="onDeEquipItem" />
-	<movevent event="Equip" itemid="5247" slot="ring" function="onEquipItem" /> <!--samurai -->
+	<movevent event="Equip" itemid="5247" slot="ring" function="onEquipItem" /> <!--sniper gloves -->
 	<movevent event="DeEquip" itemid="5247" slot="ring" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="5808" slot="legs" function="onEquipItem" /> <!--aboriginal -->
+	<movevent event="DeEquip" itemid="5808" slot="legs" function="onDeEquipItem" />
 	
 	
 	<!--mage-->

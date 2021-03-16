@@ -3259,8 +3259,9 @@
 	</spawn>
 	<spawn centerx="999" centery="1353" centerz="6" radius="6">
 		<monster name="monk" x="2" y="-4" z="6" spawntime="60" />
-		<monster name="monk" x="-1" y="1" z="6" spawntime="60" />
-		<monster name="monk" x="-3" y="3" z="6" spawntime="60" />
+		<monster name="monk" x="-1" y="0" z="6" spawntime="60" />
+		<monster name="Fernfang" x="-2" y="2" z="6" spawntime="67" />
+		<monster name="monk" x="-1" y="3" z="6" spawntime="60" />
 	</spawn>
 	<spawn centerx="727" centery="1354" centerz="6" radius="9">
 		<monster name="lizard snakecharmer" x="-1" y="-1" z="6" spawntime="60" />
@@ -4022,6 +4023,7 @@
 		<monster name="crab" x="4" y="-4" z="7" spawntime="60" />
 		<monster name="Blood Crab" x="-5" y="-2" z="7" spawntime="60" />
 		<monster name="crab" x="6" y="-2" z="7" spawntime="60" />
+		<npc name="Vespio" x="2" y="18" z="7" spawntime="67" direction="2" />
 	</spawn>
 	<spawn centerx="407" centery="788" centerz="7" radius="19">
 		<monster name="Blood Crab" x="9" y="-5" z="7" spawntime="60" />

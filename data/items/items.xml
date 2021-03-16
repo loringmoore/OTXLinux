@@ -10183,7 +10183,7 @@
 	<item id="5272" name="Ferumbras' hat">
 		<attribute key="description" value="It is the proof that Ferumbras has fallen. For now." />
 		<attribute key="weight" value="850" />
-		<attribute key="armor" value="10" />
+		<attribute key="armor" value="1" />
 		<attribute key="slotType" value="head" />
 	</item>
 	<item id="5273" article="a" name="magic sulphur">
@@ -11646,6 +11646,10 @@
 	</item>
 	<item id="5783" article="a" name="spell scroll">
 		<attribute key="description" value="It contains instructions to learn the 'strong energy strike' spell." />
+		<attribute key="weight" value="200" />
+	</item>
+	<item id="5784" article="a" name="magic scroll">
+		<attribute key="description" value="The essence of a powerful wizard is sealed within this scroll." />
 		<attribute key="weight" value="200" />
 	</item>
 	<item id="5796" article="a" name="dead ichthyoid">

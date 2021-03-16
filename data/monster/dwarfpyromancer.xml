@@ -30,7 +30,7 @@
 			<attribute key="areaEffect" value="redfirework"/>
 		</attack>
 	</attacks>
-	<defenses armor="15" defense="35">
+	<defenses armor="35" defense="55">
 		<defense name="healing" interval="500" chance="15" min="125" max="330">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</defense>
@@ -60,7 +60,7 @@
 		<item id="1987" chance="100000"><!-- bag -->
 			<item name="blessed sceptre" chance="2000"/><!-- clerical mace -->
 			<item id="2213" chance="600"/><!-- dwarven ring -->
-			<item id="2146" chance="100"/><!-- small sapphire -->
+			<item id="5270" chance="1000"/><!-- dwarven beard-->
 			<item name="spellbook of lost souls" chance="800"/><!-- spellbook -->
 			<item name="magic sulphur" countmax="3" chance="2100" />
 			<item id="5781" chance="350"/><!-- strong fire strike -->

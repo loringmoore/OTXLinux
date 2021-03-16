@@ -4,6 +4,12 @@ rt<?xml version="1.0" encoding="UTF-8"?>
 <look type="243" head="79" body="66" legs="9" feet="116"/>
 	<parameters>
 		<parameter key="message_greet" value="Be greeted, |PLAYERNAME|. Look no further for arrows sharper than the north wind."/>
+		<parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;shop;name;outfit;" />
+		<parameter key="keyword_reply1" value="I am an arms dealer." />
+        <parameter key="keyword_reply2" value="I sell and buy ammunition." />
+        <parameter key="keyword_reply3" value="My name is Sonja." />
+		 <parameter key="keyword_reply4" value="My clothing is a symbol of my commitment to the Assassin Clan. I can't tell you much else, but if you can find the clan leader, Vespio, and prove you have what it takes to be a stealthy assassin, he might give you more information." />
 		<parameter key="module_shop" value="1"/>
 		<parameter key="shop_sellable" value="crossbow,2455,150;bow,2456,130"/>
 		<parameter key="shop_buyable" value="power bolt,2457,7;crossbow,2455,360;bow,2456,200;spear,2389,5;poison arrow,2545,18;bolt,2543,3;arrow,2544,2;small stone,1294,2;throwing knife,2410,30;throwing star,2399,40;"/>

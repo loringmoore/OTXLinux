@@ -1,23 +1,6 @@
 local helmetIds = {5034, 2178, 5292, 2123, 5317}
 
-function onAddItem(creature, moveitem, tileitem, position)
-	local player = creature:getPlayer()
-		if player == nil then
-			return false
-		end
-	
-	if moveitem.itemid == 2363 then
-		local tile = Tile(position):getItemById(1948)
-		if not tile then
-			return true
-		end
-
-		tile:transform(5429)
-		tile:decay()
-		position:sendMagicEffect(CONST_ME_FIREAREA)
-		Item(moveitem.uid):remove(1)
-		return true
-	end
+function onAddItem(moveitem, tileitem, position)
 
 	if not isInArray(helmetIds, moveitem.itemid) then
 		return true
@@ -38,7 +21,8 @@ function onAddItem(creature, moveitem, tileitem, position)
 		helmetItems[i]:remove()
 	end
 
-	player:setStorageValue(6077, 1)
+	
+	Game.createItem(5784, 1, position)
 	position:sendMagicEffect(CONST_ME_FIREATTACK)
 	return true
 end
