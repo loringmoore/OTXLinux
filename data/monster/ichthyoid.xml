@@ -45,7 +45,7 @@
 		<immunity fire="1" />
 		<immunity invisible="1" />
 	</immunities>
-	<voices interval="3000" chance="200">
+	<voices interval="500" chance="10">
 		<voice sentence="QJELL AFAR GOU JEY!!" />
 		<voice sentence="DIE!! KENH!!" />
 	</voices>
@@ -69,8 +69,8 @@
 			<item name="ring of the sky" chance="900" />
 			<item name="ring of healing" chance="1100" />				
 			<item name="blue gem" chance="2900" />
-			<item name="thunder hammer" chance="370" />
-			<item name="the robe of the ice queen" chance="990" />
+			<item name="the justice seeker" chance="1370" />
+			<item name="the robe of the ice queen" chance="1290" />
 			<item name="glacial rod" chance="2930" />
 			<item name="giant shrimp" chance="200" />
 			<item name="boots of haste" chance="1930" />

@@ -41,6 +41,9 @@
 		<item name="platinum amulet" chance="3500" />
 		<item name="health potion" countmax="19" chance="6400"/><!-- lifefluid -->
 		<item name="crown armor" chance="2000"/>
+		<item name="crown legs" chance="2000"/>
+		<item name="crown helmet" chance="2000"/>
+		<item name="thaian sword" chance="1500"/>
 		<item id="2787" countmax="2" chance="55000"/><!-- white mushroom -->
 		<item id="1987" chance="100000"><!-- bag -->
 			<item name="steel boots" chance="1800"/>

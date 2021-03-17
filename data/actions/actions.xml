@@ -179,6 +179,9 @@
 	<action itemid="5782" script="scrolls/strong poison strike.lua" />
 	<action itemid="5783" script="scrolls/strong energy strike.lua" />
 	
+	<!-- outfits -->
+	<action itemid="5784" script="quests/wizard.lua" />
+	
 	
 	<!-- Potions -->
 	<action itemid="5424" script="other/healthpotion.lua" />
@@ -246,7 +249,7 @@
 	<action itemid="2364" script="other/music.lua" />
 	<action fromid="2367" toid="2368" script="other/music.lua" />
 	<action fromid="2370" toid="2373" script="other/music.lua" />
-	<!-- <action itemid="5243" script="other/woodenwhistle.lua"
+	<action itemid="5243" script="other/woodenwhistle.lua"
 
 	<!-- Teleports -->
 	<action itemid="430" script="other/teleport.lua" />

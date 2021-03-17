@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Fernfang" nameDescription="Fernfang" race="blood" experience="16000" speed="240" manacost="0">
-	<health now="400" max="400"/>
-	<look type="206" corpse="3058"/>
+	<health now="10400" max="10400"/>
+	<look type="57" corpse="3058"/>
 	<targetchange interval="5000" chance="7"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
@@ -18,16 +18,16 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="50" attack="40"/>
-		<attack name="manadrain" interval="500" chance="25" range="7" min="-25" max="-45">
-			<attribute key="areaEffect" value="redshimmer"/>
+		<attack name="melee" interval="2000" skill="60" attack="90"/>
+		<attack name="manadrain" interval="500" chance="25" range="7" radius="4" target="1" min="-125" max="-245">
+			<attribute key="areaEffect" value="holyarea"/>
 		</attack>
-		<attack name="energy" interval="500" chance="13" range="7" min="-70" max="-90">
+		<attack name="energy" interval="500" chance="13" range="7" min="-170" max="-390">
 			<attribute key="shootEffect" value="energy"/>
 			<attribute key="areaEffect" value="energy"/>
 		</attack>
-		<attack name="physical" interval="500" chance="10" range="7" min="-140" max="-180">
-			<attribute key="shootEffect" value="suddendeath"/>
+		<attack name="holy" interval="500" chance="10" range="7" min="-140" max="-380">
+			<attribute key="shootEffect" value="holy"/>
 		</attack>
 	</attacks>
 	<defenses armor="25" defense="50">

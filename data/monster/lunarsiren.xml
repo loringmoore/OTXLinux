@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Lunar Siren" nameDescription="a lunar siren" race="blood" experience="24500" speed="420">
+	<health now="15500" max="15500" />
+	<look type="223" head="0" body="12" legs="13" feet="0" corpse="3065" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="4" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-208" />
+		<attack name="energy" interval="500" chance="5" range="7" min="-145" max="-305">
+			<attribute key="shootEffect" value="energy" />
+		</attack>
+		<attack name="holy" interval="500" chance="5" range="7" target="1" min="-130" max="-270">
+			<attribute key="shootEffect" value="holy" />
+		</attack>
+		<attack name="holy" interval="500" chance="5" range="7" radius="7" target="-101" min="-180">
+			<attribute key="areaEffect" value="holyarea" />
+		</attack>
+		<attack name="energy" interval="500" chance="9" length="8" spread="0" min="-300" max="-400">
+			<attribute key="areaEffect" value="yellowenergy"/>
+		</attack>
+	</attacks>
+	<defenses armor="15" defense="15">
+		<defense name="healing" interval="500" chance="9" min="180" max="295">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element drownPercent="-10" />
+	</elements>
+	<immunities>
+		<immunity holy="1" />
+		<immunity paralyze="1" />
+		<immunity lifedrain="1" />
+		<immunity drunk="1" />
+		<immunity drown="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="By the light of the Moon we fight!" />
+		<voice sentence="Let the ritual begin!" />
+	</voices>
+	<loot>
+		<item name="gold coin" countmax="100" chance="88000" />
+		<item name="gold coin" countmax="95" chance="80000" />
+		<item name="platinum coin" countmax="4" chance="60000" />
+		<item name="soft cheese" countmax="6" chance="6300" />
+		<item name="gold nugget" chance="2950" />
+		<item name="wand of cosmic energy" chance="2300" />
+		<item name="power bolt" countmax="13" chance="5600" />
+		<item name="health potion" countmax="9" chance="9560" />
+		<item name="mana potion" countmax="9" chance="9560" />
+		<item name="small diamond" countmax="3" chance="3000" />
+		<item id="1987" chance="100000"><!-- bag -->
+			<item name="spellbook of lost souls" chance="300" />
+			<item name="tempest rod" chance="1750" />
+			<item name="wand of divinity" chance="1750" />
+			<item name="frozen starlight" chance="250" />
+			<item name="moon backpack" chance="500" />
+			<item name="lunar staff" chance="750" />
+			<item id="5568" chance="3000" /> <!--holy strike-->
+			<item id="5783" chance="1000" /> <!--strong energy strike-->
+			<item id="5572" chance="2000" /> <!--divine explosion-->
+		</item>
+	</loot>
+</monster>

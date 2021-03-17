@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+	<!-- Message broadcast -->
+	<!-- Broadcast types: warning, event, default, description, smallstatus, blueconsole, redconsole -->
+	<announce delay="0" type="warning" message="Tyrn has returned to his lair deep under the mountains east of Madrissa!" />
+
+	<!-- Area spawns - you can specify raid area or use range value -->
+	<areaspawn delay="2000" radius="5" centerx="681" centery="689" centerz="11">
+		<monster name="Wyrm" minamount="3" maxamount="5" /><!-- Specified amount -->
+	</areaspawn>
+	<areaspawn delay="2000" radius="5" centerx="681" centery="687" centerz="11">
+		<monster name="Elder Wyrm" minamount="2" maxamount="4" /><!-- Specified amount -->
+	</areaspawn>
+	<areaspawn delay="2000" radius="1" centerx="682" centery="692" centerz="11">
+		<monster name="Tyrn" minamount="1" maxamount="1" /><!-- Specified amount -->
+	</areaspawn>
+</raid>

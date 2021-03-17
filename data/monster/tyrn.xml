@@ -83,9 +83,9 @@
 			<item name="lightning boots" chance="4100" />
 			<item name="lightning legs" chance="3950" />
 			<item name="lightning robe" chance="3500" />
-			<item name="wand of perdition" chance="3500" />
+			<item name="arcane staff" chance="500" />
 			<item name="tempest rod" chance="7500" />
-			<item name="frozen starlight" chance="500" />
+			<item name="trapped lightning" chance="1500" />
 		</item>
 	</loot>
 </monster>

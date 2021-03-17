@@ -155,6 +155,7 @@
 	<monster name="lizard snakecharmer" file="lizardsnakecharmer.xml"/>
 	<monster name="lizard templar" file="lizardtemplar.xml"/>
 	<monster name="lost soul" file="lost soul.xml"/>
+	<monster name="lunar siren" file="lunarsiren.xml"/>
 	<monster name="magicthrower" file="magicthrower.xml"/>
 	<monster name="mammoth" file="mammoth.xml"/>
 	<monster name="man in the cave" file="maninthecave.xml"/>

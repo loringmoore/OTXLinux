@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <raids>
 	
-		<raid name="Minishabaal" file="volcano.xml" interval2="3000" chance="5" margin="0" />
+		<raid name="Minishabaal" file="volcano.xml" interval2="6000" chance="5" margin="0" />
 		<!-- executed on average once every 5 hours -->
 		<raid name="Dracola" file="madrissaundead.xml" interval2="6000" chance="5" margin="0" />
+		<raid name="Tyrn" file="tyrn.xml" interval2="3000" chance="5" margin="0" />
+		<raid name="Lunar" file="lunar.xml" interval2="3000" chance="5" margin="0" />
 </raids>

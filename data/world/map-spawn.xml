@@ -542,6 +542,9 @@
 		<monster name="Pirate Swashbuckler" x="1" y="-4" z="2" spawntime="60" />
 		<monster name="Pirate Marauder" x="-2" y="-3" z="2" spawntime="60" />
 	</spawn>
+	<spawn centerx="959" centery="1220" centerz="2" radius="1">
+		<npc name="Milo" x="0" y="0" z="2" spawntime="67" direction="2" />
+	</spawn>
 	<spawn centerx="1001" centery="1352" centerz="2" radius="6">
 		<monster name="hunter" x="-2" y="-2" z="2" spawntime="60" />
 		<monster name="hunter" x="3" y="-1" z="2" spawntime="60" />
@@ -3260,7 +3263,6 @@
 	<spawn centerx="999" centery="1353" centerz="6" radius="6">
 		<monster name="monk" x="2" y="-4" z="6" spawntime="60" />
 		<monster name="monk" x="-1" y="0" z="6" spawntime="60" />
-		<monster name="Fernfang" x="-2" y="2" z="6" spawntime="67" />
 		<monster name="monk" x="-1" y="3" z="6" spawntime="60" />
 	</spawn>
 	<spawn centerx="727" centery="1354" centerz="6" radius="9">
@@ -5230,6 +5232,9 @@
 		<monster name="crab" x="2" y="6" z="7" spawntime="60" />
 		<monster name="Thornback Tortoise" x="-1" y="9" z="7" spawntime="60" />
 	</spawn>
+	<spawn centerx="999" centery="1353" centerz="7" radius="6">
+		<monster name="Fernfang" x="-2" y="1" z="7" spawntime="67" />
+	</spawn>
 	<spawn centerx="1051" centery="1367" centerz="7" radius="10">
 		<monster name="crab" x="0" y="-9" z="7" spawntime="60" />
 		<monster name="Tortoise" x="1" y="-6" z="7" spawntime="60" />
@@ -5413,8 +5418,12 @@
 	<spawn centerx="589" centery="401" centerz="8" radius="3" />
 	<spawn centerx="702" centery="401" centerz="8" radius="30">
 		<monster name="Defiler" x="0" y="-17" z="8" spawntime="67" />
+		<monster name="Plaguesmith" x="-27" y="-15" z="8" spawntime="67" />
+		<monster name="Plaguesmith" x="15" y="-12" z="8" spawntime="67" />
 		<monster name="Iron Golem" x="24" y="-12" z="8" spawntime="67" />
+		<monster name="Plaguesmith" x="-3" y="-11" z="8" spawntime="67" />
 		<monster name="Defiler" x="8" y="6" z="8" spawntime="67" />
+		<monster name="Plaguesmith" x="0" y="11" z="8" spawntime="67" />
 		<monster name="Iron Golem" x="16" y="11" z="8" spawntime="67" />
 		<monster name="Defiler" x="27" y="27" z="8" spawntime="256" />
 	</spawn>
@@ -5435,7 +5444,10 @@
 	</spawn>
 	<spawn centerx="724" centery="452" centerz="8" radius="30">
 		<monster name="Iron Golem" x="18" y="-21" z="8" spawntime="67" />
+		<monster name="Plaguesmith" x="5" y="-12" z="8" spawntime="67" />
 		<monster name="Defiler" x="-4" y="-10" z="8" spawntime="67" />
+		<monster name="Plaguesmith" x="-10" y="5" z="8" spawntime="67" />
+		<monster name="Plaguesmith" x="-3" y="22" z="8" spawntime="67" />
 		<monster name="Defiler" x="-7" y="25" z="8" spawntime="67" />
 	</spawn>
 	<spawn centerx="559" centery="524" centerz="8" radius="18">
@@ -7687,7 +7699,6 @@
 	<spawn centerx="744" centery="354" centerz="9" radius="20">
 		<monster name="Iron Golem" x="-11" y="3" z="9" spawntime="67" />
 		<monster name="Titan" x="1" y="4" z="9" spawntime="67" />
-		<monster name="Titan" x="17" y="12" z="9" spawntime="67" />
 		<monster name="Son of Verminor" x="-9" y="16" z="9" spawntime="67" />
 		<monster name="Iron Golem" x="1" y="18" z="9" spawntime="67" />
 	</spawn>
@@ -7717,13 +7728,13 @@
 		<monster name="Defiler" x="-5" y="-4" z="9" spawntime="67" />
 		<monster name="Iron Golem" x="0" y="0" z="9" spawntime="67" />
 		<monster name="Defiler" x="11" y="0" z="9" spawntime="67" />
-		<monster name="Titan" x="24" y="1" z="9" spawntime="67" />
+		<monster name="Toxin" x="23" y="2" z="9" spawntime="67" />
 		<monster name="Son of Verminor" x="-13" y="12" z="9" spawntime="67" />
-		<monster name="Titan" x="-23" y="15" z="9" spawntime="67" />
-		<monster name="Titan" x="27" y="17" z="9" spawntime="67" />
-		<monster name="Iron Golem" x="-14" y="19" z="9" spawntime="67" />
+		<monster name="Toxin" x="5" y="13" z="9" spawntime="67" />
+		<monster name="Defiler" x="-7" y="18" z="9" spawntime="67" />
+		<monster name="Toxin" x="22" y="18" z="9" spawntime="67" />
+		<monster name="Iron Golem" x="-21" y="19" z="9" spawntime="67" />
 		<monster name="Son of Verminor" x="4" y="19" z="9" spawntime="67" />
-		<monster name="Defiler" x="-3" y="20" z="9" spawntime="67" />
 	</spawn>
 	<spawn centerx="618" centery="385" centerz="9" radius="21">
 		<monster name="Samurai" x="6" y="-10" z="9" spawntime="60" />
@@ -7733,31 +7744,30 @@
 	</spawn>
 	<spawn centerx="743" centery="387" centerz="9" radius="20">
 		<monster name="Son of Verminor" x="-15" y="-7" z="9" spawntime="67" />
-		<monster name="Titan" x="-3" y="-4" z="9" spawntime="67" />
-		<monster name="Titan" x="2" y="12" z="9" spawntime="67" />
-		<monster name="Titan" x="-20" y="15" z="9" spawntime="67" />
-		<monster name="Titan" x="-9" y="20" z="9" spawntime="67" />
+		<monster name="Plaguesmith" x="-3" y="-4" z="9" spawntime="67" />
+		<monster name="Plaguesmith" x="-20" y="-2" z="9" spawntime="67" />
+		<monster name="Plaguesmith" x="2" y="12" z="9" spawntime="67" />
+		<monster name="Plaguesmith" x="-20" y="15" z="9" spawntime="67" />
+		<monster name="Plaguesmith" x="-9" y="20" z="9" spawntime="67" />
 	</spawn>
 	<spawn centerx="703" centery="388" centerz="9" radius="30">
-		<monster name="Titan" x="7" y="-19" z="9" spawntime="67" />
-		<monster name="Titan" x="-16" y="-18" z="9" spawntime="67" />
+		<monster name="Plaguesmith" x="-1" y="-21" z="9" spawntime="67" />
+		<monster name="Plaguesmith" x="-16" y="-19" z="9" spawntime="67" />
 		<monster name="Iron Golem" x="19" y="-11" z="9" spawntime="67" />
 		<monster name="Defiler" x="1" y="-8" z="9" spawntime="67" />
 		<monster name="Son of Verminor" x="-5" y="-6" z="9" spawntime="67" />
-		<monster name="Titan" x="13" y="-4" z="9" spawntime="67" />
 		<monster name="Defiler" x="8" y="-3" z="9" spawntime="67" />
-		<monster name="Titan" x="-23" y="-2" z="9" spawntime="67" />
 		<monster name="Iron Golem" x="-2" y="3" z="9" spawntime="67" />
 		<monster name="Son of Verminor" x="-18" y="10" z="9" spawntime="67" />
 		<monster name="Defiler" x="-28" y="11" z="9" spawntime="67" />
 		<monster name="Son of Verminor" x="8" y="14" z="9" spawntime="67" />
 		<monster name="Iron Golem" x="-7" y="15" z="9" spawntime="67" />
+		<monster name="Plaguesmith" x="9" y="20" z="9" spawntime="67" />
 		<monster name="Son of Verminor" x="-24" y="21" z="9" spawntime="256" />
 		<monster name="Iron Golem" x="6" y="25" z="9" spawntime="67" />
 		<monster name="Iron Golem" x="-24" y="28" z="9" spawntime="67" />
-		<monster name="Titan" x="-7" y="28" z="9" spawntime="67" />
+		<monster name="Plaguesmith" x="-7" y="28" z="9" spawntime="67" />
 		<monster name="Son of Verminor" x="11" y="28" z="9" spawntime="67" />
-		<monster name="Titan" x="20" y="28" z="9" spawntime="67" />
 	</spawn>
 	<spawn centerx="574" centery="390" centerz="9" radius="21">
 		<monster name="Samurai" x="-17" y="-12" z="9" spawntime="60" />
@@ -7765,8 +7775,8 @@
 		<monster name="Shogun" x="-15" y="-9" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="815" centery="398" centerz="9" radius="20">
-		<monster name="Son of Verminor" x="-5" y="1" z="9" spawntime="67" />
-		<monster name="Titan" x="-6" y="8" z="9" spawntime="67" />
+		<monster name="Son of Verminor" x="-3" y="0" z="9" spawntime="67" />
+		<monster name="Toxin" x="-17" y="19" z="9" spawntime="67" />
 		<monster name="Son of Verminor" x="-5" y="20" z="9" spawntime="67" />
 		<monster name="Iron Golem" x="-1" y="20" z="9" spawntime="67" />
 	</spawn>
@@ -7804,23 +7814,22 @@
 		<monster name="vampire" x="5" y="7" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="783" centery="439" centerz="9" radius="30">
-		<monster name="Hand of Cursed Fate" x="-15" y="-22" z="9" spawntime="67" />
+		<monster name="Toxin" x="-14" y="-22" z="9" spawntime="67" />
 		<monster name="Son of Verminor" x="0" y="-22" z="9" spawntime="67" />
-		<monster name="Titan" x="-27" y="-20" z="9" spawntime="67" />
-		<monster name="Son of Verminor" x="15" y="-16" z="9" spawntime="67" />
+		<monster name="Plaguesmith" x="-27" y="-21" z="9" spawntime="67" />
 		<monster name="Defiler" x="-13" y="-12" z="9" spawntime="67" />
 		<monster name="Iron Golem" x="2" y="-11" z="9" spawntime="67" />
 		<monster name="Defiler" x="25" y="-11" z="9" spawntime="67" />
-		<monster name="Hand of Cursed Fate" x="14" y="-9" z="9" spawntime="67" />
+		<monster name="Son of Verminor" x="15" y="-10" z="9" spawntime="67" />
 		<monster name="Iron Golem" x="-29" y="-8" z="9" spawntime="67" />
-		<monster name="Titan" x="-11" y="0" z="9" spawntime="67" />
 		<monster name="Iron Golem" x="-21" y="2" z="9" spawntime="67" />
-		<monster name="Hand of Cursed Fate" x="-2" y="2" z="9" spawntime="67" />
 		<monster name="Defiler" x="27" y="2" z="9" spawntime="67" />
-		<monster name="Defiler" x="6" y="6" z="9" spawntime="67" />
-		<monster name="Titan" x="-28" y="11" z="9" spawntime="67" />
-		<monster name="Titan" x="-11" y="11" z="9" spawntime="67" />
-		<monster name="Titan" x="27" y="12" z="9" spawntime="67" />
+		<monster name="Defiler" x="13" y="3" z="9" spawntime="67" />
+		<monster name="Plaguesmith" x="-28" y="11" z="9" spawntime="67" />
+		<monster name="Plaguesmith" x="-20" y="11" z="9" spawntime="67" />
+		<monster name="Plaguesmith" x="1" y="11" z="9" spawntime="67" />
+		<monster name="Toxin" x="11" y="11" z="9" spawntime="67" />
+		<monster name="Plaguesmith" x="29" y="12" z="9" spawntime="67" />
 	</spawn>
 	<spawn centerx="1106" centery="439" centerz="9" radius="11">
 		<monster name="necromancer" x="0" y="-5" z="9" spawntime="60" />
@@ -7842,8 +7851,8 @@
 		<monster name="Iron Golem" x="0" y="0" z="9" spawntime="67" />
 	</spawn>
 	<spawn centerx="834" centery="441" centerz="9" radius="20">
-		<monster name="Titan" x="-18" y="-12" z="9" spawntime="67" />
-		<monster name="Hand of Cursed Fate" x="-18" y="-1" z="9" spawntime="67" />
+		<monster name="Plaguesmith" x="-18" y="-12" z="9" spawntime="67" />
+		<monster name="Plaguesmith" x="-18" y="0" z="9" spawntime="67" />
 		<monster name="vampire" x="18" y="0" z="9" spawntime="60" />
 		<monster name="vampire" x="16" y="2" z="9" spawntime="60" />
 		<monster name="vampire" x="13" y="6" z="9" spawntime="60" />
@@ -7864,12 +7873,13 @@
 		<monster name="priestess" x="-7" y="0" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="722" centery="452" centerz="9" radius="30">
-		<monster name="Hand of Cursed Fate" x="3" y="-25" z="9" spawntime="67" />
+		<monster name="Iron Golem" x="3" y="-25" z="9" spawntime="67" />
 		<monster name="Son of Verminor" x="12" y="-25" z="9" spawntime="67" />
-		<monster name="Titan" x="-10" y="-24" z="9" spawntime="67" />
+		<monster name="Plaguesmith" x="-10" y="-24" z="9" spawntime="67" />
 		<monster name="Defiler" x="13" y="-19" z="9" spawntime="67" />
 		<monster name="Son of Verminor" x="5" y="-14" z="9" spawntime="67" />
-		<monster name="Titan" x="-2" y="-13" z="9" spawntime="67" />
+		<monster name="Plaguesmith" x="-2" y="-13" z="9" spawntime="67" />
+		<monster name="Plaguesmith" x="28" y="-13" z="9" spawntime="67" />
 		<monster name="Iron Golem" x="5" y="-10" z="9" spawntime="67" />
 		<monster name="Defiler" x="-8" y="1" z="9" spawntime="67" />
 		<monster name="Iron Golem" x="-1" y="1" z="9" spawntime="67" />
@@ -7903,11 +7913,11 @@
 	</spawn>
 	<spawn centerx="686" centery="477" centerz="9" radius="30">
 		<monster name="Son of Verminor" x="1" y="-28" z="9" spawntime="67" />
-		<monster name="Titan" x="3" y="-27" z="9" spawntime="67" />
+		<monster name="Plaguesmith" x="0" y="-21" z="9" spawntime="67" />
 		<monster name="Iron Golem" x="-1" y="0" z="9" spawntime="67" />
 		<monster name="Defiler" x="7" y="6" z="9" spawntime="67" />
 		<monster name="Son of Verminor" x="20" y="10" z="9" spawntime="67" />
-		<monster name="Titan" x="2" y="12" z="9" spawntime="67" />
+		<monster name="Plaguesmith" x="2" y="12" z="9" spawntime="67" />
 	</spawn>
 	<spawn centerx="480" centery="488" centerz="9" radius="15">
 		<monster name="ancient scarab" x="-3" y="-10" z="9" spawntime="60" />
@@ -9517,52 +9527,49 @@
 	</spawn>
 	<spawn centerx="733" centery="360" centerz="10" radius="20">
 		<monster name="Iron Golem" x="0" y="-4" z="10" spawntime="67" />
-		<monster name="Titan" x="11" y="-3" z="10" spawntime="67" />
-		<monster name="Titan" x="2" y="2" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="11" y="-3" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="-20" y="0" z="10" spawntime="67" />
 		<monster name="Toxin" x="-5" y="5" z="10" spawntime="67" />
-		<monster name="Titan" x="2" y="11" z="10" spawntime="67" />
-		<monster name="Titan" x="11" y="11" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="2" y="11" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="11" y="11" z="10" spawntime="67" />
 		<monster name="Defiler" x="-5" y="13" z="10" spawntime="67" />
-		<monster name="Titan" x="-7" y="16" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="-7" y="16" z="10" spawntime="256" />
 		<monster name="Son of Verminor" x="-19" y="18" z="10" spawntime="67" />
-		<monster name="Titan" x="-16" y="18" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="-16" y="18" z="10" spawntime="67" />
 	</spawn>
 	<spawn centerx="694" centery="361" centerz="10" radius="20">
 		<monster name="Iron Golem" x="10" y="-13" z="10" spawntime="67" />
 		<monster name="Toxin" x="-4" y="-12" z="10" spawntime="67" />
 		<monster name="Defiler" x="9" y="-3" z="10" spawntime="67" />
-		<monster name="Titan" x="-4" y="-2" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="-4" y="-2" z="10" spawntime="67" />
 		<monster name="Defiler" x="-9" y="4" z="10" spawntime="67" />
 		<monster name="Iron Golem" x="18" y="8" z="10" spawntime="67" />
-		<monster name="Titan" x="-7" y="9" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="-7" y="10" z="10" spawntime="67" />
 		<monster name="Defiler" x="5" y="19" z="10" spawntime="67" />
 	</spawn>
 	<spawn centerx="787" centery="363" centerz="10" radius="30">
 		<monster name="Son of Verminor" x="25" y="-27" z="10" spawntime="67" />
-		<monster name="Hand of Cursed Fate" x="-11" y="-26" z="10" spawntime="67" />
-		<monster name="Son of Verminor" x="-19" y="-16" z="10" spawntime="67" />
-		<monster name="Iron Golem" x="-15" y="-15" z="10" spawntime="67" />
+		<monster name="Iron Golem" x="-19" y="-26" z="10" spawntime="67" />
+		<monster name="Toxin" x="9" y="-26" z="10" spawntime="67" />
 		<monster name="Defiler" x="-4" y="-12" z="10" spawntime="67" />
 		<monster name="Toxin" x="5" y="-12" z="10" spawntime="67" />
-		<monster name="Titan" x="16" y="-12" z="10" spawntime="67" />
 		<monster name="Defiler" x="26" y="-11" z="10" spawntime="67" />
-		<monster name="Hand of Cursed Fate" x="-21" y="-10" z="10" spawntime="67" />
-		<monster name="Hand of Cursed Fate" x="29" y="-10" z="10" spawntime="67" />
+		<monster name="Toxin" x="-20" y="-10" z="10" spawntime="67" />
 		<monster name="Defiler" x="-26" y="-9" z="10" spawntime="67" />
-		<monster name="Son of Verminor" x="27" y="-7" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="27" y="-7" z="10" spawntime="67" />
 		<monster name="Iron Golem" x="18" y="-6" z="10" spawntime="67" />
-		<monster name="Titan" x="-19" y="2" z="10" spawntime="67" />
-		<monster name="Titan" x="15" y="3" z="10" spawntime="67" />
+		<monster name="Son of Verminor" x="-23" y="0" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="-19" y="2" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="15" y="3" z="10" spawntime="67" />
+		<monster name="Toxin" x="26" y="4" z="10" spawntime="67" />
 		<monster name="Defiler" x="-22" y="5" z="10" spawntime="67" />
 		<monster name="Defiler" x="-3" y="5" z="10" spawntime="67" />
-		<monster name="Titan" x="2" y="5" z="10" spawntime="67" />
-		<monster name="Defiler" x="26" y="5" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="2" y="5" z="10" spawntime="67" />
 		<monster name="Defiler" x="27" y="13" z="10" spawntime="67" />
 		<monster name="Iron Golem" x="21" y="14" z="10" spawntime="67" />
-		<monster name="Titan" x="30" y="14" z="10" spawntime="67" />
 		<monster name="Iron Golem" x="-25" y="20" z="10" spawntime="67" />
-		<monster name="Hand of Cursed Fate" x="-10" y="20" z="10" spawntime="67" />
-		<monster name="Titan" x="7" y="20" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="-10" y="20" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="7" y="20" z="10" spawntime="67" />
 		<monster name="Hand of Cursed Fate" x="0" y="29" z="10" spawntime="67" />
 		<monster name="Iron Golem" x="-10" y="30" z="10" spawntime="67" />
 		<monster name="Toxin" x="19" y="30" z="10" spawntime="67" />
@@ -9608,27 +9615,28 @@
 	</spawn>
 	<spawn centerx="728" centery="398" centerz="10" radius="20">
 		<monster name="Iron Golem" x="0" y="-17" z="10" spawntime="67" />
-		<monster name="Titan" x="12" y="-17" z="10" spawntime="67" />
-		<monster name="Titan" x="-15" y="-8" z="10" spawntime="67" />
-		<monster name="Titan" x="0" y="-8" z="10" spawntime="67" />
-		<monster name="Titan" x="15" y="-7" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="12" y="-17" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="-15" y="-8" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="0" y="-8" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="15" y="-7" z="10" spawntime="67" />
 		<monster name="Iron Golem" x="15" y="-2" z="10" spawntime="67" />
 		<monster name="Toxin" x="12" y="4" z="10" spawntime="67" />
 		<monster name="Iron Golem" x="-10" y="5" z="10" spawntime="67" />
-		<monster name="Titan" x="-15" y="13" z="10" spawntime="67" />
-		<monster name="Titan" x="15" y="13" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="-15" y="13" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="15" y="13" z="10" spawntime="67" />
 		<monster name="Son of Verminor" x="6" y="14" z="10" spawntime="67" />
-		<monster name="Titan" x="-4" y="17" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="-4" y="17" z="10" spawntime="67" />
 	</spawn>
 	<spawn centerx="688" centery="399" centerz="10" radius="20">
-		<monster name="Titan" x="-10" y="-13" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="-10" y="-13" z="10" spawntime="67" />
 		<monster name="Toxin" x="11" y="-13" z="10" spawntime="67" />
-		<monster name="Hand of Cursed Fate" x="-2" y="-8" z="10" spawntime="67" />
+		<monster name="Iron Golem" x="-2" y="-8" z="10" spawntime="67" />
 		<monster name="Iron Golem" x="-8" y="-2" z="10" spawntime="67" />
-		<monster name="Titan" x="-10" y="1" z="10" spawntime="67" />
-		<monster name="Titan" x="16" y="2" z="10" spawntime="67" />
-		<monster name="Titan" x="9" y="13" z="10" spawntime="67" />
-		<monster name="Titan" x="-11" y="15" z="10" spawntime="67" />
+		<monster name="Iron Golem" x="7" y="-1" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="-10" y="1" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="16" y="2" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="9" y="13" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="-11" y="15" z="10" spawntime="67" />
 	</spawn>
 	<spawn centerx="594" centery="402" centerz="10" radius="21">
 		<monster name="Samurai" x="19" y="-8" z="10" spawntime="60" />
@@ -9662,40 +9670,34 @@
 		<monster name="demon" x="8" y="8" z="10" spawntime="60" />
 	</spawn>
 	<spawn centerx="786" centery="424" centerz="10" radius="30">
-		<monster name="Titan" x="-28" y="-30" z="10" spawntime="67" />
-		<monster name="Titan" x="28" y="-30" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="-28" y="-30" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="28" y="-30" z="10" spawntime="67" />
 		<monster name="Son of Verminor" x="-19" y="-29" z="10" spawntime="67" />
 		<monster name="Son of Verminor" x="-4" y="-28" z="10" spawntime="67" />
-		<monster name="Titan" x="11" y="-27" z="10" spawntime="67" />
-		<monster name="Hand of Cursed Fate" x="29" y="-23" z="10" spawntime="67" />
 		<monster name="Defiler" x="13" y="-22" z="10" spawntime="67" />
 		<monster name="Defiler" x="27" y="-22" z="10" spawntime="67" />
 		<monster name="Hand of Cursed Fate" x="-29" y="-21" z="10" spawntime="67" />
-		<monster name="Titan" x="-18" y="-21" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="-18" y="-21" z="10" spawntime="67" />
 		<monster name="Defiler" x="-26" y="-18" z="10" spawntime="67" />
 		<monster name="Iron Golem" x="28" y="-17" z="10" spawntime="67" />
 		<monster name="Son of Verminor" x="23" y="-15" z="10" spawntime="67" />
-		<monster name="Titan" x="-3" y="-14" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="-3" y="-14" z="10" spawntime="67" />
 		<monster name="Iron Golem" x="-28" y="-13" z="10" spawntime="67" />
-		<monster name="Hand of Cursed Fate" x="12" y="-13" z="10" spawntime="67" />
-		<monster name="Hand of Cursed Fate" x="-29" y="-7" z="10" spawntime="67" />
-		<monster name="Titan" x="-23" y="-7" z="10" spawntime="67" />
-		<monster name="Son of Verminor" x="-18" y="-7" z="10" spawntime="256" />
-		<monster name="Titan" x="27" y="-7" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="-23" y="-7" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="27" y="-7" z="10" spawntime="67" />
 		<monster name="Son of Verminor" x="-18" y="-6" z="10" spawntime="67" />
 		<monster name="Iron Golem" x="8" y="-6" z="10" spawntime="67" />
-		<monster name="Titan" x="2" y="-4" z="10" spawntime="67" />
-		<monster name="Hand of Cursed Fate" x="8" y="2" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="2" y="-4" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="-22" y="3" z="10" spawntime="67" />
 		<monster name="Defiler" x="4" y="3" z="10" spawntime="67" />
-		<monster name="Titan" x="-22" y="4" z="10" spawntime="67" />
 		<monster name="Iron Golem" x="-28" y="5" z="10" spawntime="67" />
-		<monster name="Titan" x="-23" y="15" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="-17" y="15" z="10" spawntime="67" />
 		<monster name="Son of Verminor" x="9" y="15" z="10" spawntime="67" />
 		<monster name="Defiler" x="-29" y="16" z="10" spawntime="67" />
-		<monster name="Titan" x="4" y="19" z="10" spawntime="67" />
-		<monster name="Hand of Cursed Fate" x="-2" y="23" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="4" y="19" z="10" spawntime="67" />
 		<monster name="Toxin" x="13" y="23" z="10" spawntime="67" />
-		<monster name="Titan" x="-21" y="25" z="10" spawntime="67" />
+		<monster name="Toxin" x="-27" y="25" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="-21" y="25" z="10" spawntime="67" />
 	</spawn>
 	<spawn centerx="1073" centery="426" centerz="10" radius="11">
 		<monster name="Dread Priest" x="0" y="-4" z="10" spawntime="60" />
@@ -9711,27 +9713,26 @@
 		<monster name="Hand of Cursed Fate" x="-16" y="-15" z="10" spawntime="67" />
 		<monster name="Son of Verminor" x="-10" y="-14" z="10" spawntime="67" />
 		<monster name="Iron Golem" x="0" y="-13" z="10" spawntime="67" />
-		<monster name="Titan" x="17" y="-13" z="10" spawntime="256" />
-		<monster name="Titan" x="-1" y="-4" z="10" spawntime="67" />
-		<monster name="Titan" x="-14" y="-2" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="17" y="-13" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="-1" y="-4" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="-14" y="-2" z="10" spawntime="67" />
 		<monster name="Son of Verminor" x="14" y="2" z="10" spawntime="67" />
-		<monster name="Hand of Cursed Fate" x="6" y="6" z="10" spawntime="67" />
-		<monster name="Titan" x="17" y="7" z="10" spawntime="67" />
-		<monster name="Titan" x="1" y="16" z="10" spawntime="67" />
+		<monster name="Iron Golem" x="6" y="6" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="17" y="7" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="1" y="16" z="10" spawntime="67" />
 	</spawn>
 	<spawn centerx="726" centery="438" centerz="10" radius="20">
 		<monster name="Defiler" x="6" y="-10" z="10" spawntime="67" />
-		<monster name="Titan" x="-14" y="-9" z="10" spawntime="67" />
-		<monster name="Titan" x="16" y="-8" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="-14" y="-9" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="16" y="-8" z="10" spawntime="67" />
 		<monster name="Iron Golem" x="-6" y="-4" z="10" spawntime="67" />
-		<monster name="Titan" x="2" y="-4" z="10" spawntime="67" />
-		<monster name="Hand of Cursed Fate" x="-8" y="0" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="2" y="-4" z="10" spawntime="67" />
 		<monster name="Defiler" x="18" y="0" z="10" spawntime="67" />
 		<monster name="Iron Golem" x="-10" y="6" z="10" spawntime="67" />
 		<monster name="Defiler" x="-3" y="10" z="10" spawntime="67" />
 		<monster name="Toxin" x="3" y="13" z="10" spawntime="67" />
-		<monster name="Titan" x="16" y="13" z="10" spawntime="67" />
-		<monster name="Titan" x="-13" y="16" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="16" y="13" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="-13" y="16" z="10" spawntime="67" />
 	</spawn>
 	<spawn centerx="1092" centery="438" centerz="10" radius="11">
 		<monster name="Dread Priest" x="-7" y="-1" z="10" spawntime="60" />
@@ -9758,19 +9759,20 @@
 		<monster name="Dread Priest" x="2" y="-1" z="10" spawntime="60" />
 	</spawn>
 	<spawn centerx="727" centery="475" centerz="10" radius="20">
+		<monster name="Plaguesmith" x="16" y="-8" z="10" spawntime="67" />
 		<monster name="Son of Verminor" x="-4" y="-3" z="10" spawntime="67" />
-		<monster name="Titan" x="3" y="-3" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="3" y="-3" z="10" spawntime="67" />
 		<monster name="Iron Golem" x="-9" y="1" z="10" spawntime="67" />
 		<monster name="Defiler" x="5" y="3" z="10" spawntime="67" />
 		<monster name="Toxin" x="15" y="3" z="10" spawntime="67" />
-		<monster name="Titan" x="-19" y="6" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="-19" y="6" z="10" spawntime="67" />
 		<monster name="Hand of Cursed Fate" x="-16" y="16" z="10" spawntime="67" />
 	</spawn>
 	<spawn centerx="687" centery="477" centerz="10" radius="20">
 		<monster name="Son of Verminor" x="-1" y="-9" z="10" spawntime="67" />
 		<monster name="Hand of Cursed Fate" x="6" y="-9" z="10" spawntime="67" />
-		<monster name="Titan" x="-4" y="-2" z="10" spawntime="67" />
-		<monster name="Titan" x="3" y="4" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="-4" y="-2" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="3" y="4" z="10" spawntime="67" />
 		<monster name="Iron Golem" x="-3" y="15" z="10" spawntime="67" />
 		<monster name="Son of Verminor" x="12" y="18" z="10" spawntime="67" />
 		<monster name="Defiler" x="2" y="19" z="10" spawntime="67" />
@@ -9788,8 +9790,8 @@
 		<monster name="skeleton" x="11" y="8" z="10" spawntime="60" />
 	</spawn>
 	<spawn centerx="700" centery="509" centerz="10" radius="20">
-		<monster name="Titan" x="6" y="-4" z="10" spawntime="67" />
-		<monster name="Titan" x="-8" y="-1" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="6" y="-4" z="10" spawntime="67" />
+		<monster name="Plaguesmith" x="-8" y="-1" z="10" spawntime="67" />
 		<monster name="Toxin" x="3" y="1" z="10" spawntime="67" />
 	</spawn>
 	<spawn centerx="609" centery="514" centerz="10" radius="13">
@@ -10149,9 +10151,12 @@
 		<monster name="skeleton" x="1" y="3" z="10" spawntime="60" />
 	</spawn>
 	<spawn centerx="511" centery="817" centerz="10" radius="30">
-		<monster name="Ichthyoid" x="2" y="-18" z="10" spawntime="67" />
-		<monster name="Ichthyoid" x="-23" y="-10" z="10" spawntime="67" />
-		<monster name="Ichthyoid" x="5" y="3" z="10" spawntime="67" />
+		<monster name="Ichthyoid" x="-6" y="-25" z="10" spawntime="67" />
+		<monster name="Ichthyoid" x="-24" y="-17" z="10" spawntime="67" />
+		<monster name="Ichthyoid" x="4" y="-14" z="10" spawntime="67" />
+		<monster name="Ichthyoid" x="-14" y="-9" z="10" spawntime="67" />
+		<monster name="Ichthyoid" x="0" y="-2" z="10" spawntime="67" />
+		<monster name="Ichthyoid" x="5" y="11" z="10" spawntime="67" />
 		<monster name="Ichthyoid" x="-14" y="12" z="10" spawntime="67" />
 		<monster name="Ichthyoid" x="28" y="20" z="10" spawntime="67" />
 		<monster name="Sea Serpent" x="19" y="29" z="10" spawntime="67" />
@@ -10236,11 +10241,13 @@
 		<monster name="minotaur" x="3" y="4" z="10" spawntime="60" />
 	</spawn>
 	<spawn centerx="521" centery="880" centerz="10" radius="30">
-		<monster name="Ichthyoid" x="-21" y="-30" z="10" spawntime="67" />
 		<monster name="Ichthyoid" x="2" y="-30" z="10" spawntime="67" />
+		<monster name="Sea Serpent" x="-24" y="-29" z="10" spawntime="67" />
+		<monster name="Ichthyoid" x="-20" y="-29" z="10" spawntime="67" />
 		<monster name="Ichthyoid" x="-26" y="-26" z="10" spawntime="67" />
-		<monster name="Ichthyoid" x="-15" y="-25" z="10" spawntime="67" />
+		<monster name="Sea Serpent" x="-19" y="-25" z="10" spawntime="67" />
 		<monster name="Sea Serpent" x="0" y="-24" z="10" spawntime="67" />
+		<monster name="Sea Serpent" x="-25" y="-20" z="10" spawntime="67" />
 		<monster name="Sea Serpent" x="16" y="-20" z="10" spawntime="67" />
 		<monster name="Ichthyoid" x="-21" y="-19" z="10" spawntime="67" />
 		<monster name="Ichthyoid" x="12" y="-16" z="10" spawntime="67" />
@@ -10714,13 +10721,14 @@
 		<monster name="Nightmare" x="21" y="19" z="11" spawntime="60" />
 	</spawn>
 	<spawn centerx="778" centery="415" centerz="11" radius="30">
-		<monster name="Titan" x="1" y="2" z="11" spawntime="67" />
-		<monster name="Titan" x="12" y="3" z="11" spawntime="67" />
-		<monster name="Hand of Cursed Fate" x="6" y="4" z="11" spawntime="67" />
-		<monster name="Hand of Cursed Fate" x="-1" y="9" z="11" spawntime="67" />
-		<monster name="Hand of Cursed Fate" x="6" y="15" z="11" spawntime="67" />
-		<monster name="Titan" x="-1" y="16" z="11" spawntime="67" />
-		<monster name="Titan" x="13" y="16" z="11" spawntime="67" />
+		<monster name="Plaguesmith" x="1" y="2" z="11" spawntime="67" />
+		<monster name="Plaguesmith" x="12" y="3" z="11" spawntime="67" />
+		<monster name="Iron Golem" x="6" y="4" z="11" spawntime="67" />
+		<monster name="Iron Golem" x="-1" y="9" z="11" spawntime="67" />
+		<monster name="Toxin" x="13" y="10" z="11" spawntime="67" />
+		<monster name="Iron Golem" x="6" y="15" z="11" spawntime="67" />
+		<monster name="Plaguesmith" x="-1" y="16" z="11" spawntime="67" />
+		<monster name="Plaguesmith" x="13" y="16" z="11" spawntime="67" />
 	</spawn>
 	<spawn centerx="1209" centery="418" centerz="11" radius="11">
 		<monster name="demon" x="-3" y="-10" z="11" spawntime="60" />
@@ -11054,10 +11062,6 @@
 		<monster name="tarantula" x="-2" y="1" z="11" spawntime="512" />
 		<monster name="centipede" x="-3" y="3" z="11" spawntime="60" />
 	</spawn>
-	<spawn centerx="682" centery="691" centerz="11" radius="4">
-		<monster name="Wyrm" x="-2" y="-3" z="11" spawntime="60" />
-		<monster name="Tyrn" x="0" y="1" z="11" spawntime="60" />
-	</spawn>
 	<spawn centerx="1159" centery="696" centerz="11" radius="11">
 		<monster name="centipede" x="-1" y="-3" z="11" spawntime="60" />
 		<monster name="tarantula" x="1" y="-3" z="11" spawntime="60" />
@@ -11287,7 +11291,9 @@
 	<spawn centerx="957" centery="906" centerz="11" radius="5">
 		<monster name="behemoth" x="1" y="1" z="11" spawntime="60" />
 	</spawn>
-	<spawn centerx="639" centery="911" centerz="11" radius="1" />
+	<spawn centerx="639" centery="911" centerz="11" radius="1">
+		<monster name="The Horned Fox" x="0" y="0" z="11" spawntime="67" />
+	</spawn>
 	<spawn centerx="375" centery="964" centerz="11" radius="5">
 		<monster name="Munster" x="0" y="-4" z="11" spawntime="60" />
 		<monster name="cave rat" x="-4" y="-1" z="11" spawntime="60" />

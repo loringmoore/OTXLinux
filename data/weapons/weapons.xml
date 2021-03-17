@@ -31,9 +31,11 @@
 	</wand>
 	<wand id="5622" mana="20" script="wand of voodoo.lua"> <!-- Wand of Voodoo -->
 	</wand>
-	<wand id="2348" mana="60" script="ancientrune.lua"> <!-- Wand of Voodoo -->
+	<wand id="2348" mana="60" script="ancientrune.lua"> <!-- ancient rune -->
 	</wand>
-	<wand id="2453" mana="60" script="arcanestaff.lua"> <!-- Wand of Voodoo -->
+	<wand id="2453" mana="60" script="arcanestaff.lua"> <!-- arcane staff -->
+	</wand>
+	<wand id="584" mana="60" script="lunarstaff.lua"> <!-- lunar staff -->
 	</wand>
 	<!-- </wand> -->
 

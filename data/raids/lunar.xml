@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+	<!-- Message broadcast -->
+	<!-- Broadcast types: warning, event, default, description, smallstatus, blueconsole, redconsole -->
+	<announce delay="0" type="warning" message="The Moon is full! The Lunar Sirens have descended to perfrom their sacred ritual atop the Twin Peaks!" />
+
+	<!-- Area spawns - you can specify raid area or use range value -->
+	<areaspawn delay="2000" radius="15" centerx="546" centery="312" centerz="4">
+		<monster name="Lunar Siren" minamount="13" maxamount="35" /><!-- Specified amount -->
+	</areaspawn>
+	<areaspawn delay="2000" radius="15" centerx="558" centery="357" centerz="4">
+		<monster name="Lunar Siren" minamount="13" maxamount="35" /><!-- Specified amount -->
+	</areaspawn>
+	<areaspawn delay="60000" radius="15" centerx="546" centery="312" centerz="4">
+		<monster name="Lunar Siren" minamount="13" maxamount="35" /><!-- Specified amount -->
+	</areaspawn>
+	<areaspawn delay="60000" radius="15" centerx="558" centery="357" centerz="4">
+		<monster name="Lunar Siren" minamount="13" maxamount="35" /><!-- Specified amount -->
+	</areaspawn>
+	<areaspawn delay="120000" radius="15" centerx="546" centery="312" centerz="4">
+		<monster name="Lunar Siren" minamount="13" maxamount="35" /><!-- Specified amount -->
+	</areaspawn>
+	<areaspawn delay="120000" radius="15" centerx="558" centery="357" centerz="4">
+		<monster name="Lunar Siren" minamount="13" maxamount="35" /><!-- Specified amount -->
+	</areaspawn>
+</raid>
