@@ -38,16 +38,7 @@ local function creatureSayCallback(cid, type, msg)
 			npcHandler.topic[cid] = 6
 		end
 	elseif msgcontains(msg, "yes") then
-		if npcHandler.topic[cid] == 2 and player:getSex() == PLAYERSEX_FEMALE then
-			npcHandler:say({
-				"Alright if that's what you really want. ...",
-				"First, you'll need a staff. Something sturdy, like an amber staff. ...",
-				"I can't imagine you'd want a beard like mine, but I could use a new one. Bring me a dwarven beard. ...",
-				"Next, I need you to do me a favor. I once lost a valuable necklace deep in spider's cave under the mountain. I'm too lazy to retrieve it, so I'll ask that you do it for me. ...",
-				"Finally, I'll need some material to work with. Bring me...say...100 brown pieces of cloth. ...",
-				"You still want to work with me, |PLAYERNAME|?"
-			}, cid)
-			else
+		if npcHandler.topic[cid] == 2 then
 			npcHandler:say({
 				"Alright if that's what you really want. ...",
 				"First, you'll need a staff. Something sturdy, like an amber staff. ...",
