@@ -50,17 +50,19 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element firePercent="90"/>
+		<element holyPercent="-5"/>
 	</elements>
 	<immunities>
 		<immunity lifedrain="1"/>
+		<immunity fire="1"/>
+		<immunity energy="1"/>
 		<immunity paralyze="1"/>
 		<immunity outfit="1"/>
 		<immunity drunk="1"/>
 		<immunity invisible="1"/>
 	</immunities>
 	<summons maxSummons="1">
-		<summon name="Demon" interval="3000" chance="5" max="1"/>
+		<summon name="Demon" interval="500" chance="15" max="1"/>
 	</summons>
 	<voices interval="5000" chance="20">
 		<voice sentence="NOONE WILL STOP ME THIS TIME!" yell="1"/>

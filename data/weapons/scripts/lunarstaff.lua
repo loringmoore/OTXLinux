@@ -1,7 +1,7 @@
 local combat = createCombatObject()
 setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_HOLYDAMAGE)
-setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_HOLY)
-setCombatParam(combat, COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_HOLYAREA)
+setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_HOLYAREA)
+setCombatParam(combat, COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_HOLY)
 
 function onGetFormulaValues(cid, level, maglevel)
 	min = -((level / 6) + (maglevel * 0.16) + 30)

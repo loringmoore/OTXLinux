@@ -19,7 +19,7 @@ shopModule:addBuyableItem({'spear'}, 2389, 9, 'spear')
 
 local function greetCallback(cid)
 	if Player(cid):getCondition(CONDITION_INVISIBLE) then
-		npcHandler:setMessage(MESSAGE_GREET, 'Ahh, finally! Another master of stealth and shadow. Why are you here, |PLAYERNMAE|?')
+		npcHandler:setMessage(MESSAGE_GREET, 'Ahh, finally! Another master of stealth and shadow. Why are you here, |PLAYERNAME|?')
 	else
 		return false
 	end
@@ -59,7 +59,7 @@ local function creatureSayCallback(cid, type, msg)
 	elseif msgcontains(msg, "yes") then
 		if npcHandler.topic[cid] == 2 then
 			npcHandler:say({
-				"As you wish, |PLAYERNAME|. ...",
+				"As you wish. ...",
 				"First, I need you to prove your ability to infiltrate enemy territory and remove a target with surgical precision. ...",
 				"I need you to find and kill various leaders of other clans that pose a threat to our existence. ...",
 				"The Horned Fox, the leader of the minotaurs. Demodras, who rules over the brood of dragons who reside in the mountains east of Madrissa. ...",

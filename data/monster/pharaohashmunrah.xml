@@ -72,8 +72,8 @@
 		<item id="2148" countmax="95" chance="70000"/><!-- gold coin -->
 		<item id="1987" chance="100000"><!-- bag -->
 			<item id="2487" chance="1000"/><!-- crown armor -->
-			<item id="2444" chance="100"/><!-- hammer of wrath -->
-			<item id="2140" chance="100"/><!-- holy scarab -->
+			<item id="2444" chance="1000"/><!-- hammer of wrath -->
+			<item id="2140" chance="1000"/><!-- holy scarab -->
 			<item id="2164" chance="10000"/><!-- might ring -->
 			<item id="2134" chance="8000"/><!-- silver brooch -->
 		</item>

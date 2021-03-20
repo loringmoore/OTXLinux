@@ -48,7 +48,7 @@
 		<immunity paralyze="1"/>
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="I'll skin you alive!'" />
+		<voice sentence="I'll skin you alive!" />
 		<voice sentence="Let the bloodbath begin!" />
 		<voice sentence="Taste my blades!" />
 	</voices>

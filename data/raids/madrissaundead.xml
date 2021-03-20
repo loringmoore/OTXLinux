@@ -27,7 +27,7 @@
 	<areaspawn delay="2000" radius="45" centerx="471" centery="646" centerz="6">
 		<monster name="Mummy" minamount="50" maxamount="90" /><!-- Specified amount -->
 	</areaspawn>
-	<areaspawn delay="2000" radius="45" centerx="426" centery="571" centerz="6">
+	<areaspawn delay="2000" radius="1" centerx="426" centery="571" centerz="6">
 		<monster name="Dracola" minamount="1" maxamount="1" /><!-- Specified amount -->
 	</areaspawn>
 </raid>

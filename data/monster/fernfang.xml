@@ -69,7 +69,6 @@
 		<item id="2044" chance="20000"/><!-- lamp -->
 		<item id="2642" chance="18000"/><!-- sandals -->
 		<item id="2401" chance="22000"/><!-- staff -->
-		<item id="2401" chance="22000"/><!-- staff -->
 		<item id="2800" chance="18000"/><!-- star herb -->
 		<item id="2129" chance="20000"/><!-- wolf tooth chain -->
 		<item id="1987" chance="100000"><!-- bag -->
@@ -78,6 +77,7 @@
 			<item id="2166" chance="1000"/><!-- power ring -->
 			<item id="2802" chance="14000"/><!-- sling herb -->
 			<item id="2154" chance="800"/><!-- yellow gem -->
+			<item name="wooden whistle" chance="100000"/><!-- staff -->
 		</item>
 	</loot>
 </monster>

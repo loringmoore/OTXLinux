@@ -10897,13 +10897,13 @@
 	</item>
 	<item id="5565" name="the remains of ferumbras">
 		<attribute key="containerSize" value="10" />
-		<attribute key="decayTo" value="5932" />
+		<attribute key="decayTo" value="5566" />
 		<attribute key="duration" value="900" />
 		<attribute key="corpseType" value="venom" />
 	</item>
 	<item id="5566" name="the remains of ferumbras">
 		<attribute key="containerSize" value="10" />
-		<attribute key="decayTo" value="5933" />
+		<attribute key="decayTo" value="5567" />
 		<attribute key="duration" value="600" />
 		<attribute key="corpseType" value="venom" />
 	</item>
