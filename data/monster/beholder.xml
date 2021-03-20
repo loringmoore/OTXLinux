@@ -61,7 +61,7 @@
 		<item name="mana potion" chance="900" />
 		<item id="2397" chance="18000"/><!-- longsword -->
 		<item id="1987" chance="100000"><!-- bag -->
-			<item id="2518" chance="100"/><!-- bonelord shield -->
+			<item id="2518" chance="500"/><!-- bonelord shield -->
 			<item id="2394" chance="14000"/><!-- morning star -->
 			<item id="2181" chance="1000"/><!-- quagmire rod -->
 			<item id="2175" chance="10000"/><!-- spellbook -->
@@ -70,6 +70,7 @@
 			<item id="2512" chance="6000"/><!-- wooden shield -->
 			<item id="5159" chance="700"/><!-- flame strike scroll -->
 			<item name="beholder eye" chance="940" />
+			<item name="beholder helmet" chance="250" />
 		</item>
 	</loot>
 </monster>
