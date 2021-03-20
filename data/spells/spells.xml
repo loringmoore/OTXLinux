@@ -241,11 +241,11 @@
 		<vocation name="Human"/>
 		<vocation name="Legend"/>
 	</instant>
-	<instant group="attack" name="Bladestorm" words="exevo mas con" lvl="65" mana="190" prem="1" exhaustion="2000" selftarget="1" needlearn="1" script="attack/bladestorm.lua">
+	<instant group="attack" name="Bladestorm" words="exevo mas con" lvl="65" mana="240" prem="1" exhaustion="2000" selftarget="1" needlearn="1" script="attack/bladestorm.lua">
 		<vocation name="Human"/>
 		<vocation name="Legend"/>
 	</instant>
-	<instant group="attack" name="Eviscerate" words="exori con hur" lvl="75" mana="100" prem="1" exhaustion="2000" range="6" needtarget="1" blockwalls="1" needlearn="1" script="attack/eviscerate.lua">
+	<instant group="attack" name="Eviscerate" words="exori con hur" lvl="75" mana="170" prem="1" exhaustion="2000" range="6" needtarget="1" blockwalls="1" needlearn="1" script="attack/eviscerate.lua">
 		<vocation name="Human"/>
 		<vocation name="Legend"/>
 	</instant>
