@@ -29,6 +29,8 @@
 	<defenses armor="39" defense="40"/>
 	<immunities>
 		<immunity poison="1"/>
+		<immunity invisible="1"/>
+		<immunity fire="1"/>
 	</immunities>
 	<voices interval="5000" chance="10">
 		<voice sentence="Hail Durin!"/>
