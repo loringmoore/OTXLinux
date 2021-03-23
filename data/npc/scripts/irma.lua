@@ -63,7 +63,6 @@ function creatureSayCallback(cid, type, msg)
 		elseif(msgcontains(msg, "green tunic")) then
 			npcHandler:say("Have you found 20 Green Tunics for me?", cid)
 			npcHandler.topic[cid] = 7
-		end
 		elseif msgcontains(msg, "outfit") then
 			if player:getStorageValue(6081) == 4 then
 				npcHandler:say("Let's see...It looks like everything is here. Enjoy!", cid)

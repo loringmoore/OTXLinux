@@ -1,6 +1,6 @@
 function onSay(player, words)
 	
-	if player:getStorageValue(6080) < 4 then
+	if player:getStorageValue(6080) < 5 then
 		player:sendCancelMessage("You have not earned this outfit.")
 			position:sendMagicEffect(CONST_ME_POFF)
 			return false
