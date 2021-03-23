@@ -35,6 +35,12 @@
 			<attribute key="areaEffect" value="bluefirework"/>
 		</defense>
 	</defenses>
+	<immunities>
+		<immunity lifedrain="1" />
+		<immunity poison="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
 	<voices interval="5000" chance="10">
 		<voice sentence="Begone from this sacred realm!"/>
 	</voices>

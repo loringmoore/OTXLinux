@@ -44,8 +44,8 @@
 		<item name="plate armor" chance="2350" />
 		<item name="white pearl" chance="2500" />
 		<item name="small ruby" countmax="2" chance="3040" />
-		<item name="green piece of cloth" chance="270" />
-		<item name="white piece of cloth" chance="270" />
+		<item name="green piece of cloth" chance="970" />
+		<item name="white piece of cloth" chance="970" />
 		<item name="health potion" countmax="2" chance="7100" />
 		<item name="mana potion"  countmax="2" chance="8180" />
 		<item id="1987" chance="100000"><!-- bag -->

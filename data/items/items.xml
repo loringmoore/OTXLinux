@@ -3175,8 +3175,8 @@
 	<item id="2349" article="a" name="blue note">
 		<attribute key="description" value="The blue crystal is softly humming a ghostly melody. It seems to be rotting rapidly." />
 		<attribute key="weight" value="250" />
-		<attribute key="decayTo" value="0" />
-		<attribute key="duration" value="86400" />
+		<!--<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="86400" />-->
 	</item>
 	<item id="2350" article="a" name="sword hilt">
 		<attribute key="description" value="It was once part of a formidable two handed weapon." />
@@ -4953,6 +4953,7 @@
 	</item>
 	<item id="2644" name="bunnyslippers">
 		<attribute key="weight" value="600" />
+		<attribute key="armor" value="1" />
 		<attribute key="slotType" value="feet" />
 		<attribute key="magiclevelpoints" value="1" />
 		<attribute key="maxManaPointsPercent" value="104"/>

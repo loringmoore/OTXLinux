@@ -477,4 +477,5 @@
 	<instant name="fury skill reducer" words="###37"  aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="monster/fury skill reducer.lua"/>
 	<instant name="hellspawn soulfire" words="###38"  aggressive="1" blockwalls="1" needtarget="1" needlearn="1" script="monster/hellspawn soulfire.lua"/>
 	<instant name="primal wyrm curse" words="###39"  aggressive="1" blockwalls="1" needtarget="1" needlearn="1" script="monster/primal wyrm curse.lua"/>
+	<instant name="morgaroth summon" words="###40"  aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="monster/morgaroth summon.lua"/>
 </spells>

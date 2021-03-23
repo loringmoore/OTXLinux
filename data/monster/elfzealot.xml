@@ -29,6 +29,12 @@
 		</attack>
 	</attacks>
 	<defenses armor="1" defense="6"/>
+	<immunities>
+		<immunity lifedrain="1" />
+		<immunity poison="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
 	<voices interval="5000" chance="10">
 		<voice sentence="Your blood will quench the soil's thirst!"/>
 		<voice sentence="I will cut you down!"/>

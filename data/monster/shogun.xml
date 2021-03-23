@@ -68,8 +68,8 @@
 			<item name="piece of draconian steel" chance="700" />
 			<item name="dwarven helmet" chance="1100" />
 			<item name="runed sword" chance="1340" />
-			<item name="blue piece of cloth" chance="1190" />
-			<item name="red piece of cloth" chance="1150" />
+			<item name="blue piece of cloth" chance="2190" />
+			<item name="red piece of cloth" chance="1650" />
 			<item id="5778" chance="250"/><!-- bladestorm -->
 		</item>
 	</loot>

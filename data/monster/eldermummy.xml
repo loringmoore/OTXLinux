@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Elder Mummy" nameDescription="an elder mummy" race="undead" experience="920" speed="320" manacost="0">
+<monster name="Elder Mummy" nameDescription="an elder mummy" race="undead" experience="1320" speed="320" manacost="0">
 	<health now="1140" max="1140"/>
-	<look type="65" corpse="2949"/>
+	<look type="84" corpse="3016"/>
 	<targetchange interval="5000" chance="0"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
@@ -63,7 +63,7 @@
 			<item id="5569" chance="300"/><!-- drain strike scroll -->
 			<item id="red gem" chance="2000"/>
 			<item id="wand of plague" chance="1500"/>
-			<item name="yellow piece of cloth" countmax="3" chance="900" />
+			<item name="yellow piece of cloth" countmax="3" chance="1900" />
 		</item>
 	</loot>
 </monster>

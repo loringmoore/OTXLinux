@@ -5,5 +5,8 @@
     <parameters>
 		<parameter key="keywords" value="name" />
 		<parameter key="keyword_reply1" value="I'm captain Seaweed, only I can navigate these icy waters." />
+		<parameter key="module_shop" value="1"/>
+        <parameter key="shop_sellable" value="helmet of the deep,5421,10000;" />
+		<parameter key="shop_buyable" value="helmet of the deep,5421,10000;" />
     </parameters>
 </npc>

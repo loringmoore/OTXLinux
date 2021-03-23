@@ -64,6 +64,16 @@ function creatureSayCallback(cid, type, msg)
 			npcHandler:say("Have you found 20 Green Tunics for me?", cid)
 			npcHandler.topic[cid] = 7
 		end
+		elseif msgcontains(msg, "outfit") then
+			if player:getStorageValue(6081) == 4 then
+				npcHandler:say("Let's see...It looks like everything is here. Enjoy!", cid)
+				player:setStorageValue(6081, 5)
+				player:getPosition():sendMagicEffect(CONST_ME_MAGIC_BLUE)
+				npcHandler.topic[cid] = 0
+			else
+				npcHandler:say('Sorry, I can\'t help you with that.', cid)
+			end
+		end
 	return true
 	end
 end
