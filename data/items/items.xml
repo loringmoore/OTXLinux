@@ -4954,7 +4954,6 @@
 		<attribute key="skillDist" value="1" />
 		<attribute key="speed" value="5" />
 	</item>
-	</item>
 	<item id="2643" name="leather boots">
 		<attribute key="weight" value="900" />
 		<attribute key="armor" value="1" />
