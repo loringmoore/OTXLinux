@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tar Blob" nameDescription="a tar blob" race="undead" experience="8300" speed="280" manacost="0">
+	<health now="6320" max="6320" />
+	<look type="264" corpse="5186" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="85" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="500" skill="30" attack="50" />
+		<attack name="fire" interval="500" chance="15" range="3" radius="4" target="0" min="-235" max="-360">
+			<attribute key="areaEffect" value="poff" />
+		</attack>
+		<attack name="fire" interval="500" chance="15" range="7" min="-277" max="-412">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+	</attacks>
+	<defenses armor="15" defense="15">
+		<defense name="healing" interval="500" chance="5" min="120" max="230">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="30" />
+		<element drownPercent="10" />
+		<element holyPercent="-10" />
+		<element energyPercent="-10" />
+	</elements>
+	<immunities>
+		<immunity lifedrain="1" />
+		<immunity fire="1" />
+		<immunity earth="1" />
+	</immunities>
+	<summons maxSummons="3">
+		<summon name="Death Blob" interval="2000" chance="10" />
+	</summons>
+	<loot>
+		<item id="9968" chance="14285" /><!-- glob of tar -->
+	</loot>
+</monster>

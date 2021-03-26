@@ -123,6 +123,7 @@
 	<monster name="gypsy" file="gypsy.xml"/>
 	<monster name="the halloween hare" file="halloweenhare.xml"/>
 	<monster name="hand of cursed fate" file="hand of cursed fate.xml"/>
+	<monster name="haunted treeling" file="hauntedtreeling.xml"/>
 	<monster name="hellfire fighter" file="hellfire fighter.xml"/>
 	<monster name="hellhound" file="hellhound.xml"/>
 	<monster name="hellspawn" file="hellspawn.xml"/>
@@ -264,6 +265,7 @@
 	<monster name="stone golem" file="stonegolem.xml"/>
 	<monster name="swamp troll" file="swamptroll.xml"/>
 	<monster name="tarantula" file="tarantula.xml"/>
+	<monster name="tar blob" file="tarblob.xml"/>
 	<monster name="terror bird" file="terrorbird.xml"/>
 	<monster name="the handmaiden" file="thehandmaiden.xml"/>
 	<monster name="the imperor" file="theimperor.xml"/>
