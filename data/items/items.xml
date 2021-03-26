@@ -11805,7 +11805,7 @@
 		<attribute key="slotType" value="body" />
 		<attribute key="magiclevelpoints" value="8" />
 	</item>
-	<item id="5815" name="samurai cuthurnus">
+	<item id="5815" name="samurai cothurnus">
 		<attribute key="weight" value="900" />
 		<attribute key="armor" value="3" />
 		<attribute key="speed" value="20" />

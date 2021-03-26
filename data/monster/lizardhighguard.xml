@@ -49,7 +49,7 @@
 		<item name="health potion" countmax="2" chance="11925" />
 		<item id="1987" chance="100000"><!-- bag -->
 			<item name="samurai armor" chance="80" />
-			<item name="samurai boots" chance="700" />
+			<item name="samurai cothurnus" chance="700" />
 			<item name="samurai legs" chance="720" />
 			<item name="tower shield" chance="1040" />
 		</item>
