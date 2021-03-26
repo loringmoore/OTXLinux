@@ -40,7 +40,8 @@
 			<item id="2387" chance="1200"/><!-- double axe -->
 			<item id="2150" chance="100"/><!-- small amethyst -->
 			<item id="2457" chance="4000"/><!-- steel helmet -->
-			<item name="iron ore" chance="510" />
+			<item name="iron ore" chance="1510" />
+			<item name="dwarven boots" chance="510" />
 		</item>
 	</loot>
 </monster>

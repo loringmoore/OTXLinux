@@ -74,6 +74,7 @@
 			<item name="stealth ring" chance="150" />
 			<item name="venom hood" chance="500" />
 			<item name="venom boots" chance="750" />
+			<item name="patched boots" chance="500" />
 		</item>
 	</loot>
 </monster>

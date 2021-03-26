@@ -58,8 +58,9 @@
 			<item id="5182" chance="100"/><!-- venom boots -->
 			<item id="5438" chance="350"/><!-- boulder throw scroll -->
 			<item id="5157" chance="900"/><!-- intense healing scroll -->
-			<item name="iron ore" chance="700" />
+			<item name="iron ore" chance="1700" />
 			<item name="wand of plague" chance="500" />
+			<item name="dwarven boots" chance="1250" />
 		</item>
 	</loot>
 </monster>

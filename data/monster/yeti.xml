@@ -45,7 +45,7 @@
 		<item id="2186" chance="1000"/><!-- moonlight rod -->
 		<item id="1987" chance="100000"><!-- bag -->
 			<item id="1985" chance="250"/><!-- grey tome -->
-			<item id="2644" chance="100"/><!-- bunnyslippers -->
+			<item id="2644" chance="1000"/><!-- bunnyslippers -->
 			<item id="5192" chance="650"/><!-- glacier amulet -->
 			<item id="5436" chance="12000"/><!-- water strike scroll -->
 		</item>

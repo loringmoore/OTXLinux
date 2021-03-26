@@ -81,6 +81,7 @@
 			<item name="lich staff" chance="550" />
 			<item name="brown book" chance="950" />
 			<item name="lightning boots" chance="200" />
+			<item name="patched boots" chance="1600" />
 		</item>
 	</loot>
 </monster>

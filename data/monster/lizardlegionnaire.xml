@@ -44,7 +44,7 @@
 		<item id="5428" chance="120" /> <!--etheral spear-->
 		<item id="1987" chance="100000"><!-- bag -->
 			<item name="samurai armor" chance="70" />
-			<item name="samurai boots" chance="460" />
+			<item name="samurai cothurnus" chance="460" />
 			<item name="dragon lance" chance="710" />
 			<item name="halberd" chance="960" />
 			<item id="5428" chance="1000"/><!-- ethereal spear -->

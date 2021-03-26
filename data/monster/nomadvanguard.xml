@@ -53,7 +53,7 @@
 			<item name="diamond sceptre" chance="540" />
 			<item name="guardian shield" chance="340" />
 			<item name="grey tome" chance="700" />
-			<item name="venom boots" chance="900" />
+			<item name="patched boots" chance="1100" />
 			<item name="crown helmet" chance="1650" />
 			<item id="5569" chance="900"/><!-- drain strike -->
 		</item>

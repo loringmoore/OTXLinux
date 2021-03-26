@@ -65,6 +65,7 @@
 			<item name="yellow piece of cloth" chance="1390" />
 			<item id="5568" chance="900" /><!-- holy strike -->
 			<item name="green tome" chance="600" />
+			<item name="patched boots" chance="1600" />
 			<item name="wand of divinity" chance="350" />
 		</item>
 	</loot>

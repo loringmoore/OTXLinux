@@ -71,7 +71,7 @@
 		<item id="1987" chance="100000"><!-- bag -->
 			<item name="samurai armor" chance="870" />
 			<item name="samurai helmet" chance="150" />
-			<item name="samurai boots" chance="870" />
+			<item name="samurai cothurnus" chance="870" />
 			<item name="samurai legs" chance="1400" />
 			<item name="dragon lance" chance="470" />
 			<item name="samurai sword" chance="100" />

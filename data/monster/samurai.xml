@@ -64,7 +64,7 @@
 		<item name="health potion" countmax="3" chance="11000"/><!-- lifefluid -->
 		<item name="bag" chance="100000" >
 			<item name="flask of warrior's sweat" chance="620" />
-			<item name="samurai boots" chance="700" />
+			<item name="samurai cothurnus" chance="700" />
 			<item name="spool of yarn" chance="70" />
 			<item name="phoenix shield" chance="100" />
 			<item name="samurai sword" chance="340" />

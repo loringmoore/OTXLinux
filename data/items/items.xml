@@ -235,7 +235,18 @@
 		<attribute key="manaTicks" value="1000" />
 		<attribute key="range" value="2" />
 	</item>
-	<item fromid="585" toid="589" name="grass" />
+	<item id="585" name="firewalker boots">
+		<attribute key="description" value="Wearing these boots prevents the damage gotten from fiery ground." />
+		<attribute key="weight" value="950" />
+		<attribute key="armor" value="3" />
+		<attribute key="slotType" value="feet" />
+		<attribute key="suppressFire" value="1" />
+		<attribute key="showattributes" value="1" />
+		<attribute key="magiclevelpoints" value="5" />
+		<attribute key="maxManaPointsPercent" value="112"/>
+		<attribute key="maxHitPointsPercent" value="94" />
+	</item>
+	<item fromid="586" toid="589" name="grass" />
 	<item fromid="590" toid="597" name="sand" />
 	<item fromid="598" toid="601" name="lava">
 		<attribute key="type" value="trashholder" />
@@ -4931,18 +4942,18 @@
 		<attribute key="showduration" value="1" />
 		<attribute key="showattributes" value="1" />
 	</item>
-	<item id="2641" name="samurai boots">
-		<attribute key="weight" value="1000" />
-		<attribute key="armor" value="3" />
-		<attribute key="speed" value="20" />
-		<attribute key="skillDist" value="5" />
-		<attribute key="slotType" value="feet" />
+	<item id="2641" name="patched boots">
+		<attribute key="magiclevelpoints" value="3" />
+		<attribute key="maxManaPointsPercent" value="108"/>
+		<attribute key="maxHitPointsPercent" value="96" />
 	</item>
 	<item id="2642" name="sandals">
 		<attribute key="armor" value="1" />
 		<attribute key="weight" value="600" />
 		<attribute key="slotType" value="feet" />
 		<attribute key="skillDist" value="1" />
+		<attribute key="speed" value="5" />
+	</item>
 	</item>
 	<item id="2643" name="leather boots">
 		<attribute key="weight" value="900" />
@@ -4957,6 +4968,7 @@
 		<attribute key="slotType" value="feet" />
 		<attribute key="magiclevelpoints" value="1" />
 		<attribute key="maxManaPointsPercent" value="104"/>
+		<attribute key="maxHitPointsPercent" value="98" />
 	</item>
 	<item id="2645" name="steel boots">
 		<attribute key="weight" value="2900" />
@@ -10387,10 +10399,12 @@
 		<attribute key="weight" value="200" />
 	</item>
 	<item id="5328" name="pirate boots">
-		<attribute key="weight" value="800" />
+		<attribute key="weight" value="800" />		
 		<attribute key="armor" value="2" />
 		<attribute key="slotType" value="feet" />
-		<attribute key="skillDist" value="3" />
+		<attribute key="maxHitPointsPercent" value="103"/>
+		<attribute key="maxManaPointsPercent" value="99"/>
+		<attribute key="magicPointsPercent" value="95"/>
 	</item>
 	<item id="5329" article="a" name="stuffed toad">
 		<attribute key="weight" value="450" />
@@ -11768,6 +11782,36 @@
 		<attribute key="maxManaPointsPercent" value="140"/>
 		<attribute key="slotType" value="body" />
 		<attribute key="magiclevelpoints" value="8" />
+	</item>
+	<item id="5812" name="dwarven boots">
+		<attribute key="weight" value="3700" />
+		<attribute key="armor" value="2" />
+		<attribute key="slotType" value="feet" />
+		<attribute key="skillDist" value="3" />
+		<attribute key="speed" value="10" />
+	</item>
+	<item id="5813" name="master archer's boots">
+		<attribute key="skillDist" value="4" />
+		<attribute key="armor" value="4" />
+		<attribute key="speed" value="30" />
+		<attribute key="weight" value="2500" />
+		<attribute key="slotType" value="feet" />
+	</item>
+	<item id="5814" article="a" name="bear skin">
+		<attribute key="weight" value="4400" />
+		<attribute key="armor" value="17" />
+		<attribute key="slotType" value="body" />
+		<attribute key="maxHitPointsPercent" value="88"/>
+		<attribute key="maxManaPointsPercent" value="140"/>
+		<attribute key="slotType" value="body" />
+		<attribute key="magiclevelpoints" value="8" />
+	</item>
+	<item id="5815" name="samurai cuthurnus">
+		<attribute key="weight" value="900" />
+		<attribute key="armor" value="3" />
+		<attribute key="speed" value="20" />
+		<attribute key="skillDist" value="5" />
+		<attribute key="slotType" value="feet" />
 	</item>
 	
 	<item id="20001" name="water" />

@@ -69,15 +69,16 @@
 		<item name="small amethyst" countmax="2" chance="1428" />
 		<item name="demonic essence" countmax="2" chance="1000" />
 		<item id="1987" chance="100000"><!-- bag -->
-			<item name="fire axe" chance="1600" />
+			<item name="fire axe" chance="3600" />
 			<item name="demon legs" chance="880" />
+			<item name="firewalker boots" chance="500" />
 			<item name="crown legs" chance="8000" />
 			<item name="nightmare shield" chance="1333" />
 			<item name="demon shield" chance="2000" />
 			<item name="tempest shield" chance="5000" />
 			<item name="demon helmet" chance="7000" />
-			<item name="soul orb" chance="909" />
-			<item name="wand of perdition" chance="1900" />
+			<item name="soul orb" chance="9500" />
+			<item name="wand of perdition" chance="5900" />
 			<item id="2136" chance="9000" /><!-- demonbone amulet -->
 			<item id="5312" chance="9000" /><!-- death ring -->
 		</item>
