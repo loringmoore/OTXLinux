@@ -11812,30 +11812,30 @@
 		<attribute key="skillDist" value="5" />
 		<attribute key="slotType" value="feet" />
 	</item>
-	<item id="5186" article="a" name="glob of tar">
+	<item id="5816" article="a" name="glob of tar">
 		<attribute key="containerSize" value="10" />
 		<attribute key="decayTo" value="5187" />
 		<attribute key="duration" value="900" />
 	</item>
-	<item id="5187" article="a" name="glob of tar">
+	<item id="5817" article="a" name="glob of tar">
 		<attribute key="containerSize" value="10" />
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="600" />
 	</item>
-	<item id="5188" article="a" name="dead haunted treeling">
+	<item id="5818" article="a" name="dead haunted treeling">
 		<attribute key="containerSize" value="10" />
 		<attribute key="decayTo" value="5189" />
 		<attribute key="duration" value="900" />
 		<attribute key="corpseType" value="venom" />
 		<attribute key="fluidSource" value="slime" />
 	</item>
-	<item id="5189" article="a" name="dead haunted treeling">
+	<item id="5819" article="a" name="dead haunted treeling">
 		<attribute key="containerSize" value="10" />
 		<attribute key="decayTo" value="5190" />
 		<attribute key="duration" value="600" />
 		<attribute key="corpseType" value="venom" />
 	</item>
-	<item id="5190" article="a" name="dead haunted treeling">
+	<item id="5820" article="a" name="dead haunted treeling">
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="600" />
 	</item>
