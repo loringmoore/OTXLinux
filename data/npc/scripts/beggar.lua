@@ -17,7 +17,7 @@ local function creatureSayCallback(cid, type, msg)
 			npcHandler:say("These rags? Are you seriously interested in dressing like me?", cid)
 			npcHandler.topic[cid] = 1
 		end
-	elseif msgcontains(msg, "yes") then
+	elseif msgcontains(msg, "rags") then
 		if npcHandler.topic[cid] == 1 then
 			npcHandler:say("I guess I must be out of touch with the world of fashion of this is what's 'in' right now. Very well, if you are willing to collect some things for me, I can give you an outfit just like mine. What do you say?", cid)
 			npcHandler.topic[cid] = 2
