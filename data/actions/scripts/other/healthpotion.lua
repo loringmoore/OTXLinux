@@ -5,7 +5,7 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 
     local health, magiclevel = player:getMaxHealth(), player:getMagicLevel()
     local min = (health * 0.12) * (magiclevel * 0.1)
-    local max = (health * 0.115) * (magiclevel * 0.15)
+    local max = (health * 0.15) * (magiclevel * 0.15)
 
     local health = math.random(min, max)
 	
