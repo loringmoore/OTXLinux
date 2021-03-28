@@ -4974,15 +4974,15 @@
 		<attribute key="armor" value="3" />
 		<attribute key="slotType" value="feet" />
 		<attribute key="maxHitPointsPercent" value="105" />
-		<attribute key="maxManaPointsPercent" value="92"/>
+		<attribute key="maxManaPointsPercent" value="97"/>
 		<attribute key="magicPointsPercent" value="95"/>
 	</item>
 	<item id="2646" name="golden boots">
 		<attribute key="weight" value="3100" />
-		<attribute key="armor" value="4" />
+		<attribute key="armor" value="5" />
 		<attribute key="slotType" value="feet" />
-		<attribute key="maxHitPointsPercent" value="106" />
-		<attribute key="maxManaPointsPercent" value="97"/>
+		<attribute key="maxHitPointsPercent" value="109" />
+		<attribute key="maxManaPointsPercent" value="91"/>
 		<attribute key="magicPointsPercent" value="95"/>
 	</item>
 	<item id="2647" name="plate legs">
@@ -7982,10 +7982,10 @@
 	</item>
 	<item id="3982" name="dragon scale boots">
 		<attribute key="weight" value="900" />
-		<attribute key="armor" value="2" />
+		<attribute key="armor" value="4" />
 		<attribute key="slotType" value="feet" />
-		<attribute key="maxHitPointsPercent" value="103"/>
-		<attribute key="maxManaPointsPercent" value="99"/>
+		<attribute key="maxHitPointsPercent" value="107"/>
+		<attribute key="maxManaPointsPercent" value="93"/>
 		<attribute key="magicPointsPercent" value="95"/>
 	</item>
 	<item id="3983" article="a" name="bast skirt">

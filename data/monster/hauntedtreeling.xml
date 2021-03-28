@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Haunted Treeling" nameDescription="a haunted treeling" experience="7310" speed="220" race="venom" manacost="0">
 	<health now="6450" max="6450" />
-	<look type="263" corpse="5188" />
+	<look type="263" corpse="5818" />
 	<targetchange interval="4000" chance="10" />
 	<flags>
 		<flag summonable="0" />

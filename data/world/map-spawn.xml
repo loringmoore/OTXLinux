@@ -11889,31 +11889,43 @@
 	<spawn centerx="723" centery="1150" centerz="12" radius="18">
 		<monster name="Hellhound" x="-5" y="-6" z="12" spawntime="60" />
 		<monster name="Fury" x="-4" y="-4" z="12" spawntime="60" />
+		<monster name="Massive Fire Elemental" x="-3" y="0" z="12" spawntime="67" />
+		<monster name="Massive Fire Elemental" x="9" y="7" z="12" spawntime="67" />
 		<monster name="Fury" x="-4" y="9" z="12" spawntime="60" />
 		<monster name="Hellhound" x="-2" y="11" z="12" spawntime="60" />
 	</spawn>
 	<spawn centerx="733" centery="1175" centerz="12" radius="18">
 		<monster name="Fury" x="-5" y="0" z="12" spawntime="60" />
+		<monster name="Massive Fire Elemental" x="4" y="1" z="12" spawntime="67" />
 		<monster name="Hellhound" x="-3" y="2" z="12" spawntime="60" />
+		<monster name="Massive Fire Elemental" x="-1" y="13" z="12" spawntime="67" />
 		<monster name="Fury" x="13" y="18" z="12" spawntime="60" />
 	</spawn>
 	<spawn centerx="700" centery="1179" centerz="12" radius="18">
+		<monster name="Massive Fire Elemental" x="14" y="-7" z="12" spawntime="67" />
 		<monster name="Fury" x="8" y="-1" z="12" spawntime="60" />
 		<monster name="Fury" x="5" y="2" z="12" spawntime="60" />
+		<monster name="Massive Fire Elemental" x="10" y="4" z="12" spawntime="67" />
 		<monster name="Fury" x="-5" y="8" z="12" spawntime="60" />
 		<monster name="Hellhound" x="-4" y="11" z="12" spawntime="60" />
+		<monster name="Massive Fire Elemental" x="-7" y="12" z="12" spawntime="67" />
 	</spawn>
 	<spawn centerx="744" centery="1202" centerz="12" radius="18">
 		<monster name="Hellhound" x="5" y="-8" z="12" spawntime="60" />
+		<monster name="Massive Fire Elemental" x="-1" y="-6" z="12" spawntime="67" />
+		<monster name="Massive Fire Elemental" x="6" y="4" z="12" spawntime="67" />
 		<monster name="Hellhound" x="3" y="7" z="12" spawntime="60" />
 		<monster name="Fury" x="6" y="8" z="12" spawntime="60" />
 		<monster name="Hellhound" x="-18" y="9" z="12" spawntime="60" />
 	</spawn>
 	<spawn centerx="708" centery="1213" centerz="12" radius="18">
+		<monster name="Massive Fire Elemental" x="-9" y="-10" z="12" spawntime="67" />
 		<monster name="Fury" x="16" y="-6" z="12" spawntime="60" />
 		<monster name="Fury" x="-13" y="-5" z="12" spawntime="60" />
 		<monster name="Fury" x="5" y="-4" z="12" spawntime="60" />
 		<monster name="Hellhound" x="-9" y="-3" z="12" spawntime="60" />
+		<monster name="Massive Fire Elemental" x="1" y="-3" z="12" spawntime="67" />
+		<monster name="Massive Fire Elemental" x="15" y="6" z="12" spawntime="67" />
 	</spawn>
 	<spawn centerx="1157" centery="408" centerz="13" radius="1" />
 	<spawn centerx="1178" centery="413" centerz="13" radius="11">

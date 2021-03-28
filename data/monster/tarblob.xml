@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Tar Blob" nameDescription="a tar blob" race="undead" experience="8300" speed="280" manacost="0">
 	<health now="6320" max="6320" />
-	<look type="264" corpse="5186" />
+	<look type="264" corpse="5816" />
 	<targetchange interval="5000" chance="0" />
 	<flags>
 		<flag summonable="0" />
