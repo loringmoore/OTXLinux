@@ -54,7 +54,7 @@ local function creatureSayCallback(cid, type, msg)
 			}, cid)
 			npcHandler.topic[cid] = 3
 		elseif npcHandler.topic[cid] == 3 then
-			npcHandler:say("Good luck, |PLAYERNAME|!", cid)
+			npcHandler:say("Good luck!", cid)
 			player:setStorageValue(6080, 1)
 			npcHandler.topic[cid] = 0
 		elseif npcHandler.topic[cid] == 4 then

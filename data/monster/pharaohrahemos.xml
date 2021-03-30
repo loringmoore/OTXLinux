@@ -73,7 +73,7 @@
 		<item id="2148" countmax="95" chance="70000"/><!-- gold coin -->
 		<item id="2150" countmax="3" chance="20000"/><!-- small amethyst -->
 		<item id="1987" chance="100000"><!-- bag -->
-			<item id="2184" chance="2500"/><!-- crystal wand -->
+			<item id="2184" chance="7500"/><!-- crystal wand -->
 			<item id="2662" chance="4000"/><!-- magician hat -->
 			<item id="2176" chance="1000"/><!-- orb -->
 			<item id="2214" chance="10000"/><!-- ring of healing -->
